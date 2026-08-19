@@ -93,6 +93,14 @@ export function GrantsTable(props: {
 
   const sourceOptions = props.sources.map((source) => ({ value: source.id, label: source.name }))
 
+  const years = useMemo(() => {
+    const set = new Set<number>()
+    for (const grant of props.grants) {
+      if (grant.date) set.add(Number(grant.date.slice(0, 4)))
+    }
+    return Array.from(set).sort((a, b) => b - a)
+  }, [props.grants])
+
   const rows = useMemo(() => applyFilters(props.grants, filters), [props.grants, filters])
   const totalUsd = useMemo(() => rows.reduce((sum, row) => sum + (row.amountUsd ?? 0), 0), [rows])
 
@@ -148,20 +156,30 @@ export function GrantsTable(props: {
             </option>
           ))}
         </select>
-        <input
-          type="number"
-          placeholder="From"
+        <select
           value={filters.yearMin ?? ''}
           onChange={(e) => update({ yearMin: e.target.value ? Number(e.target.value) : null })}
-          className="w-20 rounded border border-rule bg-paper px-2 py-1 text-sm"
-        />
-        <input
-          type="number"
-          placeholder="To"
+          className="rounded border border-rule bg-paper-alt px-2 py-1 text-sm"
+        >
+          <option value="">From: start</option>
+          {years.map((year) => (
+            <option key={year} value={year}>
+              From {year}
+            </option>
+          ))}
+        </select>
+        <select
           value={filters.yearMax ?? ''}
           onChange={(e) => update({ yearMax: e.target.value ? Number(e.target.value) : null })}
-          className="w-20 rounded border border-rule bg-paper px-2 py-1 text-sm"
-        />
+          className="rounded border border-rule bg-paper-alt px-2 py-1 text-sm"
+        >
+          <option value="">To: present</option>
+          {years.map((year) => (
+            <option key={year} value={year}>
+              To {year}
+            </option>
+          ))}
+        </select>
         <a href={csvHref} className="ml-auto text-sm">
           CSV
         </a>
@@ -196,11 +214,6 @@ export function GrantsTable(props: {
                 </td>
                 <td>
                   <a href={`/orgs/${row.recipientSlug}`}>{row.recipientName}</a>
-                  {row.sponsorName && (
-                    <span className="block text-xs text-ink-muted">
-                      via <a href={`/orgs/${row.sponsorSlug}`}>{row.sponsorName}</a>
-                    </span>
-                  )}
                 </td>
                 <td className="gb-num whitespace-nowrap">{formatMoney(row.amountUsd)}</td>
                 <td className="whitespace-nowrap">

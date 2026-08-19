@@ -149,6 +149,25 @@ export async function listSources(): Promise<SourceInfo[]> {
   return data ?? []
 }
 
+export async function grantYearRange(): Promise<{ min: number; max: number }> {
+  const fallback = { min: 2012, max: new Date().getFullYear() }
+  if (!dbConfigured()) return fallback
+  const supabase = createPublicSupabaseClient()
+  const edge = async (ascending: boolean) => {
+    const { data } = await supabase
+      .from('grants')
+      .select('grant_date')
+      .eq('status', 'approved')
+      .not('grant_date', 'is', null)
+      .order('grant_date', { ascending })
+      .limit(1)
+      .throwOnError()
+    return data?.[0]?.grant_date ? Number(data[0].grant_date.slice(0, 4)) : null
+  }
+  const [min, max] = await Promise.all([edge(true), edge(false)])
+  return { min: min ?? fallback.min, max: max ?? fallback.max }
+}
+
 export async function listCauseAreas() {
   if (!dbConfigured()) return []
   const supabase = createPublicSupabaseClient()

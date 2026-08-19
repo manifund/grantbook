@@ -1,4 +1,4 @@
-import { listCauseAreas } from '@/db/grant'
+import { grantYearRange, listCauseAreas } from '@/db/grant'
 import { listOrgAggregates } from '@/db/org'
 import { formatMoney } from '@/utils/format'
 
@@ -13,11 +13,14 @@ export async function OrgIndex(props: {
   const cause = props.searchParams.cause ?? 'ai-safety'
   const yearMin = Number(props.searchParams.yearMin) || null
   const yearMax = Number(props.searchParams.yearMax) || null
-  const [rows, causeAreas] = await Promise.all([
+  const [rows, causeAreas, yearRange] = await Promise.all([
     listOrgAggregates(props.side, { cause, yearMin, yearMax }),
     listCauseAreas(),
+    grantYearRange(),
   ])
   const totalUsd = rows.reduce((sum, row) => sum + row.totalUsd, 0)
+  const years: number[] = []
+  for (let year = yearRange.max; year >= yearRange.min; year--) years.push(year)
 
   return (
     <div>
@@ -34,20 +37,30 @@ export async function OrgIndex(props: {
             </option>
           ))}
         </select>
-        <input
-          type="number"
+        <select
           name="yearMin"
-          placeholder="From"
           defaultValue={yearMin ?? ''}
-          className="w-20 rounded border border-rule bg-paper px-2 py-1"
-        />
-        <input
-          type="number"
+          className="rounded border border-rule bg-paper-alt px-2 py-1"
+        >
+          <option value="">From: start</option>
+          {years.map((year) => (
+            <option key={year} value={year}>
+              From {year}
+            </option>
+          ))}
+        </select>
+        <select
           name="yearMax"
-          placeholder="To"
           defaultValue={yearMax ?? ''}
-          className="w-20 rounded border border-rule bg-paper px-2 py-1"
-        />
+          className="rounded border border-rule bg-paper-alt px-2 py-1"
+        >
+          <option value="">To: present</option>
+          {years.map((year) => (
+            <option key={year} value={year}>
+              To {year}
+            </option>
+          ))}
+        </select>
         <button type="submit" className="rounded border border-rule bg-paper-alt px-3 py-1">
           Apply
         </button>

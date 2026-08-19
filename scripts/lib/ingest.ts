@@ -210,6 +210,10 @@ export async function runIngest(
       ...(OVERRIDES[`${sourceId}:${p.key}`] ?? {}),
     }
 
+    // "Sponsored by itself" (name-variant noise in the source) is not
+    // information — drop it.
+    if (base.fiscal_sponsor_org_id === base.recipient_org_id) base.fiscal_sponsor_org_id = null
+
     const grantId = link?.grantId ?? crypto.randomUUID()
     grantCauses.set(grantId, p.parsed.causeSlugs)
     if (link) {
