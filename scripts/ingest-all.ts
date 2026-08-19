@@ -5,5 +5,6 @@ export {}
 await import('./ingest-ea-funds')
 await import('./ingest-sff')
 await import('./ingest-vipul')
+await import('./ingest-coefficient')
 await import('./ingest-manifund')
 await import('./dedup')
