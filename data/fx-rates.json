@@ -1,0 +1,25 @@
+{
+  "_comment": "Annual-average USD per unit of currency, used at ingest to fill amount_usd. Approximate (IRS/x-rates annual averages); good enough for aggregate views. Extend as sources in new currencies appear.",
+  "GBP": {
+    "2018": 1.335,
+    "2019": 1.277,
+    "2020": 1.284,
+    "2021": 1.375,
+    "2022": 1.237,
+    "2023": 1.244,
+    "2024": 1.278,
+    "2025": 1.298,
+    "2026": 1.31
+  },
+  "EUR": {
+    "2018": 1.181,
+    "2019": 1.12,
+    "2020": 1.142,
+    "2021": 1.183,
+    "2022": 1.053,
+    "2023": 1.081,
+    "2024": 1.082,
+    "2025": 1.093,
+    "2026": 1.12
+  }
+}

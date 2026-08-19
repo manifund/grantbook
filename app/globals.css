@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Prussian & Ochre: cool, institutional, research-desk register.
+   UI pairs audited in impact-exchange/design/palettes.py. */
+:root {
+  --paper: #f7f6f2;
+  --paper-alt: #efede6;
+  --ink: #1c2733;
+  --ink-muted: #5c6773;
+  --rule: #d8d4c9;
+  --accent: #1f4f6e;
+  --accent-soft: rgba(31, 79, 110, 0.08);
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-feature-settings: 'tnum';
+}
+
+/* Table discipline (design/README-restyle.md): 11.5px uppercase muted headers,
+   34px rows, hairline separators, right-aligned numbers, zebra stripes,
+   no shadows, radii <= 4px. */
+.gb-table {
+  @apply w-full border-collapse text-sm;
+}
+.gb-table thead th {
+  background: var(--paper-alt);
+  color: var(--ink-muted);
+  font-size: 11.5px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--rule);
+  white-space: nowrap;
+}
+.gb-table tbody td {
+  height: 34px;
+  padding: 5px 10px;
+  border-bottom: 1px solid var(--rule);
+  vertical-align: top;
+}
+.gb-table tbody tr:nth-child(even) {
+  background: rgba(0, 0, 0, 0.018);
+}
+.gb-num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+.gb-table thead th.gb-num {
+  text-align: right;
+}
+
+a {
+  color: var(--accent);
+}
+a:hover {
+  text-decoration: underline;
+}

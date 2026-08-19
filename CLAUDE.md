@@ -1,0 +1,71 @@
+# Grantbook
+
+Database of AI safety grants aggregated from public sources. Next.js + Supabase, read-only site; all writes happen through ingestion scripts.
+
+## Quick Commands
+
+```bash
+bun run dev              # Dev server
+bun run build            # Production build (the CI gate)
+bun run format           # oxfmt
+bun test                 # Parser/normalize unit tests only
+bun run seed             # Seed cause areas, sources, curated orgs; applies alias merges
+bun run ingest           # All tier-1 ingesters, then dedup report
+bun run report-unmatched # needs_review orgs ranked by $ affected
+bun run dedup            # Cross-source dup candidates; --apply executes resolutions
+bun run verify           # Totals vs data/expected-totals.json
+bun run gen-types        # Regenerate db/database.types.ts from Supabase
+```
+
+## Tech Stack
+
+- Next.js 16 (App Router only), TypeScript strict, React 19
+- Supabase (Postgres), no ORM — direct supabase-js; types in `db/database.types.ts`
+- Tailwind CSS; Bun; Vercel
+- No auth in v1. Scripts use the service-role key from `.env.local`.
+
+## Project Structure
+
+```
+app/              # Pages: / (grants table), /orgs/[slug], /funders, /about, /grants.csv
+components/       # grants-table.tsx (client filters/sort/pagination)
+db/               # Supabase clients, query layer (grant.ts, org.ts), generated types
+scripts/          # Ingestion + curation, run with bun
+  lib/            # ingest core, org resolver, parsers (tested)
+data/             # Checked-in curation files — the git-audited crosswalk
+supabase/         # Migrations (RLS policies live HERE, unlike manifund)
+utils/            # format, parse, grant-filters (shared by table + CSV route)
+```
+
+## Key Patterns
+
+- **Provenance backbone:** every source row is stored verbatim in `source_records`; canonical `grants` are derived and linked via `grant_sources` (one `is_primary` record per grant). Re-running any ingester is always safe: unchanged rows are skipped by content hash, vanished rows are tombstoned and their grants become `rejected`.
+- **Entity resolution:** exact match on normalized names (`scripts/lib/normalize.ts`) + `data/aliases.json`. Unknown names auto-create `needs_review` orgs. Curation loop: `report-unmatched` → edit `aliases.json` → `bun run seed` (merges provisional orgs into canonical ones).
+- **Renames** (Open Philanthropy → Coefficient Giving, LTFF → TAIF, ...) are date-ranged rows in `org_names`, seeded from `data/orgs-seed.json`.
+- **Fiscal sponsorship:** `grants.fiscal_sponsor_org_id` (SFF's Receiving Charity). Recipient is who the money is for.
+- **Dedup:** `dedup.ts` proposes cross-source pairs; decisions live in `data/dedup-resolutions.json` (keyed by provenance keys, so they survive DB rebuilds); `--apply` merges, losers become `superseded`.
+- **Grant status:** public pages only see `approved`. `pending` is reserved for future community submissions.
+- Field fixes go in `data/overrides.json` (keyed `source:record_key`), never by editing the DB by hand.
+
+## Code Style
+
+Same as manifund: oxfmt (no semicolons, single quotes, 2-space), kebab-case files, PascalCase components, `@/` alias.
+
+## Site copy
+
+Keep on-site text minimal — data tables, not prose. No generated descriptions or filler; Caroline writes any copy herself.
+
+## Database Migrations
+
+Hand-written SQL in `supabase/migrations/`, applied to the hosted project (no local Docker flow), then `bun run gen-types`. RLS policies are checked into the migrations — keep it that way. `db/database.types.ts` was hand-written to match the initial migration; regenerate once the project exists.
+
+## Environment
+
+`.env.local` (see `.env.example`): `NEXT_PUBLIC_SUPABASE_URL`, `NEXT_PUBLIC_SUPABASE_ANON_KEY`, `SUPABASE_SERVICE_ROLE_KEY` (scripts only), optional `MANIFUND_SUPABASE_URL`/`MANIFUND_SUPABASE_ANON_KEY` for `ingest-manifund --direct`.
+
+## Ingester notes
+
+- **EA Funds**: one CSV GET; Airtable rec ids are stable keys. Rounds are "2026 Q2" (newer) or "Q1 2022" (older).
+- **SFF**: single index page has all rounds as a real `<table>`; amount cells may carry "+$X‡" speculation top-ups (both count). Bracketed `[Project]` suffixes are stripped from org names. Parse guard: fails if <400 rows.
+- **Vipul**: parses raw MySQL INSERT files from GitHub pinned to a SHA (`bun run ingest:vipul [sha]`); v1 keeps only the x-risk/EA cluster (KEEP regex in the script).
+- **Manifund**: public API returns only ~100 recent projects (pagination bug upstream); `--direct` reads their Supabase for full history and is the only mode that tombstones.

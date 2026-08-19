@@ -1,0 +1,228 @@
+// Seeds cause areas, the source registry, and the curated org registry.
+// Idempotent: re-run after editing data/orgs-seed.json or data/aliases.json.
+// When an alias now points at a canonical org but ingestion already
+// auto-created a provisional (needs_review) org under that name, the
+// provisional org's grants are repointed and the org is deleted.
+import aliasesFile from '@/data/aliases.json'
+import orgsSeed from '@/data/orgs-seed.json'
+import { createAdminClient } from '@/db/supabase-admin'
+import { normalizeName } from './lib/normalize'
+
+const db = createAdminClient()
+
+const CAUSE_AREAS = [
+  { slug: 'ai-safety', name: 'AI safety' },
+  { slug: 'biosecurity', name: 'Biosecurity' },
+  { slug: 'x-risk-other', name: 'Other existential risk' },
+  { slug: 'ea-infrastructure', name: 'EA infrastructure' },
+  { slug: 'animal-welfare', name: 'Animal welfare' },
+  { slug: 'global-health-development', name: 'Global health and development' },
+  { slug: 'other', name: 'Other' },
+]
+
+const SOURCES = [
+  {
+    id: 'ea_funds',
+    name: 'EA Funds',
+    url: 'https://funds.effectivealtruism.org/grants',
+    license: 'unstated',
+    tier: 1,
+  },
+  {
+    id: 'sff',
+    name: 'Survival and Flourishing Fund',
+    url: 'https://survivalandflourishing.fund/recommendations',
+    license: 'unstated',
+    tier: 1,
+  },
+  { id: 'manifund', name: 'Manifund', url: 'https://manifund.org/', license: 'unstated', tier: 1 },
+  {
+    id: 'vipul_donations',
+    name: 'Donations List Website',
+    url: 'https://github.com/vipulnaik/donations',
+    license: 'CC0-1.0',
+    tier: 1,
+  },
+  {
+    id: 'coefficient_giving',
+    name: 'Coefficient Giving',
+    url: 'https://coefficientgiving.org/grants/',
+    tier: 2,
+  },
+  { id: 'openbook', name: 'OpenBook', url: 'https://openbook.fyi/', tier: 2 },
+  { id: 'acx_grants', name: 'ACX Grants', url: 'https://www.astralcodexten.com/', tier: 2 },
+  { id: 'fli', name: 'Future of Life Institute', url: 'https://futureoflife.org/', tier: 2 },
+  {
+    id: 'lightcone_commons',
+    name: 'Lightcone Commons',
+    url: 'https://www.lightconecommons.com/',
+    tier: 2,
+  },
+  { id: 'foresight', name: 'Foresight Institute', url: 'https://foresight.org/', tier: 2 },
+  { id: 'jefftk', name: 'Jeff Kaufman', url: 'https://www.jefftk.com/donations', tier: 3 },
+  {
+    id: 'propublica_990',
+    name: 'IRS Form 990',
+    url: 'https://projects.propublica.org/nonprofits/',
+    tier: 3,
+  },
+  { id: 'nsf', name: 'NSF Awards', url: 'https://api.nsf.gov/', tier: 3 },
+  { id: 'uk_aisi', name: 'UK AISI', url: 'https://www.aisi.gov.uk/', tier: 3 },
+]
+
+type SeedOrg = {
+  slug: string
+  name: string
+  org_type: 'organization' | 'fund' | 'foundation' | 'individual' | 'government' | 'project'
+  website?: string
+  aliases: { name: string; kind?: string; valid_from?: string; valid_to?: string; note?: string }[]
+}
+
+async function mergeOrg(fromId: string, toId: string, name: string) {
+  await db.from('grants').update({ funder_org_id: toId }).eq('funder_org_id', fromId).throwOnError()
+  await db
+    .from('grants')
+    .update({ recipient_org_id: toId })
+    .eq('recipient_org_id', fromId)
+    .throwOnError()
+  await db
+    .from('grants')
+    .update({ fiscal_sponsor_org_id: toId })
+    .eq('fiscal_sponsor_org_id', fromId)
+    .throwOnError()
+  const { data: names } = await db
+    .from('org_names')
+    .select('name, normalized')
+    .eq('org_id', fromId)
+    .throwOnError()
+  for (const row of names ?? []) {
+    await db
+      .from('org_names')
+      .upsert(
+        { org_id: toId, name: row.name, normalized: row.normalized, kind: 'alias' },
+        { onConflict: 'org_id,normalized', ignoreDuplicates: true }
+      )
+      .throwOnError()
+  }
+  await db.from('org_names').delete().eq('org_id', fromId).throwOnError()
+  await db.from('orgs').delete().eq('id', fromId).throwOnError()
+  console.log(`Merged provisional org "${name}" into ${toId}`)
+}
+
+// Point `normalized` at org `toId`; merge away a provisional org holding it.
+async function claimName(
+  normalized: string,
+  displayName: string,
+  toId: string,
+  kind: string,
+  extra: { valid_from?: string; valid_to?: string; note?: string } = {}
+) {
+  const { data } = await db
+    .from('org_names')
+    .select('org_id, orgs!inner(needs_review, name)')
+    .eq('normalized', normalized)
+    .neq('org_id', toId)
+    .maybeSingle()
+    .throwOnError()
+  const holder = data as never as {
+    org_id: string
+    orgs: { needs_review: boolean; name: string }
+  } | null
+  if (holder) {
+    const org = holder.orgs
+    if (org.needs_review) {
+      await mergeOrg(holder.org_id, toId, org.name)
+    } else {
+      console.warn(
+        `CONFLICT: "${displayName}" already belongs to curated org "${org.name}" — resolve by hand`
+      )
+      return
+    }
+  }
+  await db
+    .from('org_names')
+    .upsert(
+      {
+        org_id: toId,
+        name: displayName,
+        normalized,
+        kind: kind as never,
+        valid_from: extra.valid_from ?? null,
+        valid_to: extra.valid_to ?? null,
+        note: extra.note ?? null,
+      },
+      { onConflict: 'org_id,normalized' }
+    )
+    .throwOnError()
+}
+
+async function main() {
+  await db
+    .from('cause_areas')
+    .upsert(CAUSE_AREAS, { onConflict: 'slug', ignoreDuplicates: true })
+    .throwOnError()
+  await db.from('sources').upsert(SOURCES, { onConflict: 'id' }).throwOnError()
+
+  const orgs = (orgsSeed as never as { orgs: SeedOrg[] }).orgs
+  for (const seed of orgs) {
+    const { data: existing } = await db
+      .from('orgs')
+      .select('id')
+      .eq('slug', seed.slug)
+      .maybeSingle()
+      .throwOnError()
+    let orgId: string
+    if (existing) {
+      orgId = existing.id
+      await db
+        .from('orgs')
+        .update({
+          name: seed.name,
+          org_type: seed.org_type,
+          website: seed.website ?? null,
+          needs_review: false,
+        })
+        .eq('id', orgId)
+        .throwOnError()
+    } else {
+      const { data: created } = await db
+        .from('orgs')
+        .insert({
+          slug: seed.slug,
+          name: seed.name,
+          org_type: seed.org_type,
+          website: seed.website ?? null,
+        })
+        .select('id')
+        .single()
+        .throwOnError()
+      orgId = created!.id
+    }
+    await claimName(normalizeName(seed.name), seed.name, orgId, 'canonical')
+    for (const alias of seed.aliases) {
+      await claimName(normalizeName(alias.name), alias.name, orgId, alias.kind ?? 'alias', alias)
+    }
+  }
+
+  // aliases.json: raw source-data names -> canonical slugs.
+  const aliases = (aliasesFile as never as { aliases: Record<string, string> }).aliases
+  for (const [raw, slug] of Object.entries(aliases)) {
+    const { data: target } = await db
+      .from('orgs')
+      .select('id')
+      .eq('slug', slug)
+      .maybeSingle()
+      .throwOnError()
+    if (!target) {
+      console.warn(`aliases.json: unknown slug "${slug}" for "${raw}"`)
+      continue
+    }
+    await claimName(normalizeName(raw), raw, target.id, 'alias')
+  }
+
+  console.log(
+    `Seeded ${CAUSE_AREAS.length} cause areas, ${SOURCES.length} sources, ${orgs.length} orgs`
+  )
+}
+
+await main()

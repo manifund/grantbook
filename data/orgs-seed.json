@@ -1,0 +1,207 @@
+{
+  "_comment": "Canonical org registry seeded before ingestion. Aliases here are the curated crosswalk for renames and fiscal-sponsor patterns; ingesters auto-create any org not matched, flagged needs_review. Sources: manifund/app/ais-funder-bulletin, aisafety.com/funding, project research (2026-08).",
+  "orgs": [
+    {
+      "slug": "coefficient-giving",
+      "name": "Coefficient Giving",
+      "org_type": "foundation",
+      "website": "https://coefficientgiving.org/",
+      "aliases": [
+        {
+          "name": "Open Philanthropy",
+          "kind": "former_name",
+          "valid_to": "2025-11-01",
+          "note": "renamed Nov 2025"
+        },
+        { "name": "Open Philanthropy Project", "kind": "former_name" },
+        { "name": "Open Phil", "kind": "abbreviation" }
+      ]
+    },
+    {
+      "slug": "taif",
+      "name": "Transformative AI Fund",
+      "org_type": "fund",
+      "website": "https://funds.effectivealtruism.org/",
+      "aliases": [
+        {
+          "name": "Long-Term Future Fund",
+          "kind": "former_name",
+          "note": "LTFF closed and replaced by TAIF"
+        },
+        { "name": "Long Term Future Fund", "kind": "former_name" },
+        { "name": "LTFF", "kind": "abbreviation" },
+        { "name": "TAIF", "kind": "abbreviation" }
+      ]
+    },
+    {
+      "slug": "ea-infrastructure-fund",
+      "name": "EA Infrastructure Fund",
+      "org_type": "fund",
+      "website": "https://funds.effectivealtruism.org/",
+      "aliases": [
+        { "name": "EA Meta Fund", "kind": "former_name" },
+        { "name": "EAIF", "kind": "abbreviation" },
+        { "name": "Effective Altruism Infrastructure Fund", "kind": "alias" }
+      ]
+    },
+    {
+      "slug": "sff",
+      "name": "Survival and Flourishing Fund",
+      "org_type": "fund",
+      "website": "https://survivalandflourishing.fund/",
+      "aliases": [{ "name": "SFF", "kind": "abbreviation" }]
+    },
+    {
+      "slug": "lightcone-commons",
+      "name": "Lightcone Commons",
+      "org_type": "fund",
+      "website": "https://www.lightconecommons.com/",
+      "aliases": [
+        {
+          "name": "Lightspeed Grants",
+          "kind": "former_name",
+          "note": "Lightspeed Grants superseded by Lightcone Commons, 2026"
+        }
+      ]
+    },
+    {
+      "slug": "lightcone-infrastructure",
+      "name": "Lightcone Infrastructure",
+      "org_type": "organization",
+      "website": "https://www.lightconeinfrastructure.com/",
+      "aliases": [{ "name": "LessWrong", "kind": "alias" }]
+    },
+    {
+      "slug": "manifund",
+      "name": "Manifund",
+      "org_type": "fund",
+      "website": "https://manifund.org/",
+      "aliases": []
+    },
+    {
+      "slug": "longview-philanthropy",
+      "name": "Longview Philanthropy",
+      "org_type": "foundation",
+      "website": "https://www.longview.org/",
+      "aliases": [{ "name": "Longview", "kind": "abbreviation" }]
+    },
+    {
+      "slug": "openai-foundation",
+      "name": "OpenAI Foundation",
+      "org_type": "foundation",
+      "website": "https://openaifoundation.org/",
+      "aliases": []
+    },
+    {
+      "slug": "macroscopic",
+      "name": "Macroscopic",
+      "org_type": "foundation",
+      "website": "https://macroscopic.org/",
+      "aliases": []
+    },
+    {
+      "slug": "schmidt-sciences",
+      "name": "Schmidt Sciences",
+      "org_type": "foundation",
+      "website": "https://www.schmidtsciences.org/",
+      "aliases": []
+    },
+    {
+      "slug": "aistof",
+      "name": "AI Safety Tactical Opportunities Fund",
+      "org_type": "fund",
+      "aliases": [{ "name": "AISTOF", "kind": "abbreviation" }]
+    },
+    {
+      "slug": "bluedot-impact",
+      "name": "BlueDot Impact",
+      "org_type": "organization",
+      "website": "https://bluedot.org/",
+      "aliases": [{ "name": "BlueDot", "kind": "abbreviation" }]
+    },
+    {
+      "slug": "jaan-tallinn",
+      "name": "Jaan Tallinn",
+      "org_type": "individual",
+      "website": "https://jaan.info/",
+      "aliases": []
+    },
+    {
+      "slug": "fli",
+      "name": "Future of Life Institute",
+      "org_type": "organization",
+      "website": "https://futureoflife.org/",
+      "aliases": [{ "name": "FLI", "kind": "abbreviation" }]
+    },
+    {
+      "slug": "acx-grants",
+      "name": "ACX Grants",
+      "org_type": "fund",
+      "website": "https://www.astralcodexten.com/",
+      "aliases": [{ "name": "Astral Codex Ten Grants", "kind": "alias" }]
+    },
+    {
+      "slug": "foresight-institute",
+      "name": "Foresight Institute",
+      "org_type": "organization",
+      "website": "https://foresight.org/",
+      "aliases": []
+    },
+    {
+      "slug": "cooperative-ai-foundation",
+      "name": "Cooperative AI Foundation",
+      "org_type": "foundation",
+      "website": "https://www.cooperativeai.com/",
+      "aliases": [{ "name": "CAIF", "kind": "abbreviation" }]
+    },
+    {
+      "slug": "uk-aisi",
+      "name": "UK AI Security Institute",
+      "org_type": "government",
+      "website": "https://www.aisi.gov.uk/",
+      "aliases": [
+        { "name": "UK AI Safety Institute", "kind": "former_name" },
+        { "name": "AI Safety Institute", "kind": "former_name" },
+        { "name": "AISI", "kind": "abbreviation" }
+      ]
+    },
+    {
+      "slug": "founders-pledge",
+      "name": "Founders Pledge",
+      "org_type": "foundation",
+      "website": "https://www.founderspledge.com/",
+      "aliases": []
+    },
+    {
+      "slug": "beri",
+      "name": "Berkeley Existential Risk Initiative",
+      "org_type": "organization",
+      "website": "https://existence.org/",
+      "aliases": [{ "name": "BERI", "kind": "abbreviation" }]
+    },
+    {
+      "slug": "casey-and-family-foundation",
+      "name": "Casey and Family Foundation",
+      "org_type": "foundation",
+      "aliases": [{ "name": "The Casey and Family Foundation", "kind": "alias" }]
+    },
+    {
+      "slug": "robert-and-virginia-shiller-foundation",
+      "name": "Robert and Virginia Shiller Foundation",
+      "org_type": "foundation",
+      "aliases": [{ "name": "Shiller Foundation", "kind": "abbreviation" }]
+    },
+    {
+      "slug": "jed-mccaleb",
+      "name": "Jed McCaleb",
+      "org_type": "individual",
+      "aliases": []
+    },
+    {
+      "slug": "eric-rogstad",
+      "name": "Eric Rogstad",
+      "org_type": "individual",
+      "aliases": []
+    }
+  ]
+}

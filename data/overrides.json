@@ -1,0 +1,4 @@
+{
+  "_comment": "Manual field overrides applied after every ingest run, keyed by 'source_id:source_record_key'. Values are partial grant fields, e.g. {\"amount\": 100000, \"description\": \"...\"}. Keep a note explaining each override.",
+  "overrides": {}
+}

@@ -1,0 +1,20 @@
+{
+  "_comment": "Published figures used by scripts/verify-totals.ts to cross-check ingestion. tolerance is fractional (0.005 = 0.5%). Fill in more anchors as sources are ingested.",
+  "checks": [
+    {
+      "id": "sff-2025-total",
+      "description": "SFF-2025 rows on survivalandflourishing.fund/recommendations, amount incl. speculation top-ups (parsed 2026-08-19)",
+      "source_id": "sff",
+      "round_contains": "2025",
+      "expected_usd": 34334950,
+      "tolerance": 0.005
+    },
+    {
+      "id": "sff-all-rounds-total",
+      "description": "All SFF rounds 2019-2025 on the index page (parsed 2026-08-19)",
+      "source_id": "sff",
+      "expected_usd": 150950706,
+      "tolerance": 0.01
+    }
+  ]
+}

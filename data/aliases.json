@@ -1,0 +1,12 @@
+{
+  "_comment": "Curation crosswalk: raw name (as it appears in source data, pre-normalization) -> canonical org slug. Grows over time via `bun run report-unmatched`. Names here are matched after normalization, so case/punctuation variants are already covered.",
+  "aliases": {
+    "Survival and Flourishing Fund (SFF)": "sff",
+    "Survival & Flourishing Fund": "sff",
+    "The Survival and Flourishing Fund": "sff",
+    "EA Funds: Long-Term Future Fund": "taif",
+    "Effective Altruism Funds: Long-Term Future Fund": "taif",
+    "Future of Life Institute (FLI)": "fli",
+    "Berkeley Existential Risk Initiative (BERI)": "beri"
+  }
+}

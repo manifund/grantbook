@@ -1,0 +1,4 @@
+{
+  "_comment": "Human dedup decisions, keyed by the two grants' provenance keys sorted alphabetically and joined with ' || ' (each key is 'source_id:source_record_key'). Value: 'merged' or 'distinct'. Populated while reviewing `bun run dedup` output; survives full DB rebuilds.",
+  "resolutions": {}
+}
