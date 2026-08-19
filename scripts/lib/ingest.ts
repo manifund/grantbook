@@ -222,7 +222,11 @@ export async function runIngest(
     const grantId = link?.grantId ?? crypto.randomUUID()
     // Manual tags are authoritative: they replace the classifier's output
     // (closed over ancestors), so they can also correct false positives.
-    const manualTags = MANUAL_TAGS[`${sourceId}:${p.key}`]
+    // Keys with a suffix (manifund's "projectId:donor") also match their
+    // prefix, so one entry can cover every donor to a project.
+    const manualTags =
+      MANUAL_TAGS[`${sourceId}:${p.key}`] ??
+      MANUAL_TAGS[`${sourceId}:${p.key.split(':')[0]}`]
     grantCauses.set(grantId, manualTags ? withAncestors(manualTags) : p.parsed.causeSlugs)
     if (link) {
       updatedGrants.push({ ...base, id: grantId })

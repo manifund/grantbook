@@ -1101,6 +1101,25 @@
     ],
     "ea_funds:rec82GY1068u3kRx9": [
       "local-groups"
+    ],
+    "manifund:cf57c3d7-b90f-015b-2f6d-c9b4f8c84475": [
+      "local-groups"
+    ],
+    "manifund:7bc9a0c8-b747-e95b-5064-1e6a59ca2775": [
+      "local-groups"
+    ],
+    "manifund:83226d2f-13f2-ee24-4085-500db25b9579": [
+      "local-groups"
+    ],
+    "manifund:925ac095-db73-eb7b-0ec3-f3c91f14c236": [
+      "ai-advocacy"
+    ],
+    "manifund:e2b98b52-cff4-c6f7-2527-c6762a79b054": [
+      "ai-adjacent",
+      "animal-welfare"
+    ],
+    "manifund:517519bb-5827-9877-f9f3-3ff56c50934e": [
+      "training-pipelines"
     ]
   }
 }
