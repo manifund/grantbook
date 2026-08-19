@@ -61,7 +61,9 @@ async function main() {
     const { date, precision } = parseRound(round)
 
     records.push({
-      key: await sha256([round, source, organization, amountCell, receivingCharity].join('|')),
+      key: await sha256(
+        [round, source, organization, amountCell, receivingCharity, purpose].join('|')
+      ),
       raw: { round, source, organization, amount: amountCell, receivingCharity, purpose },
       parsed: {
         funderName: source,
