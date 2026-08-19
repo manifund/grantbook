@@ -1,0 +1,1106 @@
+{
+  "_comment": "Hand/agent-reviewed cause tags, keyed by 'source_id:source_record_key'. Authoritative: replaces the keyword classifier's output for that grant (ancestors added automatically), so entries can also correct false positives. Reviewed by Claude 2026-08-19 over grants the keyword pass left at bare ai-safety.",
+  "tags": {
+    "coefficient_giving:37058": [
+      "ai-control"
+    ],
+    "coefficient_giving:11418": [
+      "ai-control"
+    ],
+    "coefficient_giving:8214": [
+      "ai-control"
+    ],
+    "coefficient_giving:15567": [
+      "ai-control"
+    ],
+    "coefficient_giving:2657": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:26440": [
+      "training-pipelines"
+    ],
+    "coefficient_giving:24218": [
+      "research-hubs"
+    ],
+    "coefficient_giving:24221": [
+      "research-hubs"
+    ],
+    "coefficient_giving:8571": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:24626": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:18680": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:1248": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:1210": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:2880": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:1662": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:39947": [
+      "interp",
+      "ai-theory"
+    ],
+    "coefficient_giving:25406": [
+      "interp",
+      "ai-theory"
+    ],
+    "coefficient_giving:36029": [
+      "interp",
+      "ai-theory"
+    ],
+    "coefficient_giving:16535": [
+      "ai-policy"
+    ],
+    "coefficient_giving:22933": [
+      "ai-policy"
+    ],
+    "coefficient_giving:26422": [
+      "ai-policy"
+    ],
+    "coefficient_giving:38271": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:14470": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:26088": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:10681": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:39615": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:14147": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:26086": [
+      "evals"
+    ],
+    "coefficient_giving:1537": [
+      "ai-theory"
+    ],
+    "coefficient_giving:2410": [
+      "ai-theory"
+    ],
+    "coefficient_giving:1958": [
+      "ai-theory"
+    ],
+    "coefficient_giving:2807": [
+      "ai-theory"
+    ],
+    "coefficient_giving:38108": [
+      "ai-fieldbuilding"
+    ],
+    "coefficient_giving:40085": [
+      "ai-law"
+    ],
+    "coefficient_giving:37054": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:16108": [
+      "evals"
+    ],
+    "coefficient_giving:39547": [
+      "training-pipelines"
+    ],
+    "coefficient_giving:22220": [
+      "training-pipelines"
+    ],
+    "coefficient_giving:12940": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:15417": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:23700": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:22465": [
+      "ai-policy"
+    ],
+    "coefficient_giving:14438": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:2376": [
+      "other"
+    ],
+    "coefficient_giving:12718": [
+      "other"
+    ],
+    "coefficient_giving:1826": [
+      "other"
+    ],
+    "coefficient_giving:23085": [
+      "domestic-policy",
+      "ai-advocacy"
+    ],
+    "coefficient_giving:23276": [
+      "ai-policy"
+    ],
+    "coefficient_giving:19283": [
+      "evals",
+      "ai-bio"
+    ],
+    "coefficient_giving:29017": [
+      "ai-advocacy"
+    ],
+    "coefficient_giving:20427": [
+      "evals"
+    ],
+    "coefficient_giving:15565": [
+      "evals"
+    ],
+    "coefficient_giving:39715": [
+      "evals"
+    ],
+    "coefficient_giving:25895": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:13374": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:15554": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:28728": [
+      "evals"
+    ],
+    "coefficient_giving:21464": [
+      "evals"
+    ],
+    "coefficient_giving:35973": [
+      "interp"
+    ],
+    "coefficient_giving:2804": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:39529": [
+      "ai-theory"
+    ],
+    "coefficient_giving:28782": [
+      "evals",
+      "robustness-security"
+    ],
+    "coefficient_giving:39746": [
+      "domestic-policy"
+    ],
+    "coefficient_giving:25907": [
+      "domestic-policy"
+    ],
+    "coefficient_giving:38612": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:39946": [
+      "evals"
+    ],
+    "coefficient_giving:25890": [
+      "research-hubs"
+    ],
+    "coefficient_giving:14336": [
+      "research-hubs"
+    ],
+    "coefficient_giving:23196": [
+      "evals"
+    ],
+    "coefficient_giving:25920": [
+      "ai-theory"
+    ],
+    "coefficient_giving:25909": [
+      "research-hubs"
+    ],
+    "coefficient_giving:23713": [
+      "research-hubs"
+    ],
+    "coefficient_giving:18495": [
+      "research-hubs"
+    ],
+    "coefficient_giving:18702": [
+      "research-hubs"
+    ],
+    "coefficient_giving:1574": [
+      "alignment-methods"
+    ],
+    "coefficient_giving:1643": [
+      "alignment-methods"
+    ],
+    "coefficient_giving:2359": [
+      "alignment-methods"
+    ],
+    "coefficient_giving:39719": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:23110": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:2537": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:2529": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:19965": [
+      "international-policy"
+    ],
+    "coefficient_giving:2977": [
+      "ai-advocacy"
+    ],
+    "coefficient_giving:39154": [
+      "robustness-security"
+    ],
+    "coefficient_giving:9507": [
+      "org-incubation"
+    ],
+    "coefficient_giving:19392": [
+      "org-incubation"
+    ],
+    "coefficient_giving:1655": [
+      "org-incubation"
+    ],
+    "coefficient_giving:2484": [
+      "org-incubation"
+    ],
+    "coefficient_giving:1988": [
+      "org-incubation"
+    ],
+    "coefficient_giving:9475": [
+      "org-incubation"
+    ],
+    "coefficient_giving:16791": [
+      "org-incubation"
+    ],
+    "coefficient_giving:12027": [
+      "org-incubation"
+    ],
+    "coefficient_giving:1558": [
+      "org-incubation"
+    ],
+    "coefficient_giving:9503": [
+      "evals"
+    ],
+    "coefficient_giving:24730": [
+      "alignment-methods"
+    ],
+    "coefficient_giving:24719": [
+      "alignment-methods"
+    ],
+    "coefficient_giving:23198": [
+      "evals"
+    ],
+    "coefficient_giving:20671": [
+      "evals"
+    ],
+    "coefficient_giving:22760": [
+      "evals"
+    ],
+    "coefficient_giving:35948": [
+      "ai-theory"
+    ],
+    "coefficient_giving:35839": [
+      "robustness-security"
+    ],
+    "coefficient_giving:19470": [
+      "other"
+    ],
+    "coefficient_giving:39102": [
+      "evals"
+    ],
+    "coefficient_giving:39106": [
+      "gradual-disempowerment"
+    ],
+    "coefficient_giving:20434": [
+      "evals"
+    ],
+    "coefficient_giving:37355": [
+      "alignment-methods"
+    ],
+    "coefficient_giving:39749": [
+      "training-pipelines"
+    ],
+    "coefficient_giving:23222": [
+      "evals"
+    ],
+    "coefficient_giving:19319": [
+      "evals",
+      "ai-cyber"
+    ],
+    "coefficient_giving:28969": [
+      "evals",
+      "ai-cyber"
+    ],
+    "coefficient_giving:38122": [
+      "career-transition"
+    ],
+    "coefficient_giving:21056": [
+      "evals"
+    ],
+    "coefficient_giving:22328": [
+      "evals"
+    ],
+    "coefficient_giving:37982": [
+      "ai-theory"
+    ],
+    "coefficient_giving:25648": [
+      "evals"
+    ],
+    "coefficient_giving:19282": [
+      "corporate-governance"
+    ],
+    "coefficient_giving:39164": [
+      "ai-control"
+    ],
+    "coefficient_giving:35977": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:1075": [
+      "animal-welfare"
+    ],
+    "coefficient_giving:35849": [
+      "ai-control"
+    ],
+    "coefficient_giving:37990": [
+      "ai-control"
+    ],
+    "coefficient_giving:22549": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:16695": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:10659": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:2171": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:1241": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:2714": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:15548": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:26018": [
+      "evals",
+      "technical-governance"
+    ],
+    "coefficient_giving:23988": [
+      "local-groups"
+    ],
+    "coefficient_giving:29009": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:37060": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:35711": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:36552": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:28959": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:20215": [
+      "epistemic-infrastructure"
+    ],
+    "coefficient_giving:19639": [
+      "evals"
+    ],
+    "coefficient_giving:1532": [
+      "ai-policy"
+    ],
+    "coefficient_giving:37308": [
+      "robustness-security"
+    ],
+    "coefficient_giving:37888": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:35981": [
+      "ai-theory"
+    ],
+    "coefficient_giving:1140": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:21956": [
+      "evals"
+    ],
+    "coefficient_giving:38279": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:25264": [
+      "training-pipelines"
+    ],
+    "coefficient_giving:37986": [
+      "technical-ai-safety",
+      "ai-fieldbuilding"
+    ],
+    "coefficient_giving:28732": [
+      "evals"
+    ],
+    "coefficient_giving:37071": [
+      "interp"
+    ],
+    "coefficient_giving:35987": [
+      "ai-theory"
+    ],
+    "coefficient_giving:14425": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:37884": [
+      "robustness-security"
+    ],
+    "coefficient_giving:35975": [
+      "interp"
+    ],
+    "coefficient_giving:2137": [
+      "international-policy"
+    ],
+    "coefficient_giving:2467": [
+      "international-policy"
+    ],
+    "coefficient_giving:37322": [
+      "interp"
+    ],
+    "coefficient_giving:18845": [
+      "evals"
+    ],
+    "coefficient_giving:38124": [
+      "ai-law",
+      "ai-fieldbuilding"
+    ],
+    "coefficient_giving:37076": [
+      "interp"
+    ],
+    "coefficient_giving:35979": [
+      "ai-control"
+    ],
+    "coefficient_giving:38275": [
+      "evals",
+      "ai-cyber"
+    ],
+    "coefficient_giving:37328": [
+      "evals"
+    ],
+    "coefficient_giving:16543": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:37881": [
+      "evals"
+    ],
+    "coefficient_giving:39498": [
+      "ai-control"
+    ],
+    "coefficient_giving:39156": [
+      "interp"
+    ],
+    "coefficient_giving:38000": [
+      "interp"
+    ],
+    "coefficient_giving:37316": [
+      "ai-control"
+    ],
+    "coefficient_giving:35963": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:12624": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:37079": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:35935": [
+      "ai-law"
+    ],
+    "coefficient_giving:39199": [
+      "gradual-disempowerment"
+    ],
+    "coefficient_giving:37330": [
+      "interp"
+    ],
+    "coefficient_giving:38006": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:35950": [
+      "ai-theory"
+    ],
+    "coefficient_giving:16473": [
+      "ai-advocacy"
+    ],
+    "coefficient_giving:37310": [
+      "interp"
+    ],
+    "coefficient_giving:35837": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:2886": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:38012": [
+      "ai-control"
+    ],
+    "coefficient_giving:20125": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:35843": [
+      "ai-control"
+    ],
+    "coefficient_giving:37332": [
+      "interp"
+    ],
+    "coefficient_giving:25646": [
+      "research-hubs"
+    ],
+    "coefficient_giving:15408": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:11530": [
+      "local-groups"
+    ],
+    "coefficient_giving:1099": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:28813": [
+      "ai-control"
+    ],
+    "coefficient_giving:38126": [
+      "local-groups"
+    ],
+    "coefficient_giving:8561": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:9495": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:37345": [
+      "interp"
+    ],
+    "coefficient_giving:28807": [
+      "org-incubation"
+    ],
+    "coefficient_giving:39166": [
+      "robustness-security"
+    ],
+    "coefficient_giving:37998": [
+      "interp"
+    ],
+    "coefficient_giving:16826": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:19337": [
+      "evals"
+    ],
+    "coefficient_giving:28825": [
+      "ai-control"
+    ],
+    "coefficient_giving:35967": [
+      "ai-control"
+    ],
+    "coefficient_giving:9698": [
+      "technical-governance"
+    ],
+    "coefficient_giving:37312": [
+      "robustness-security"
+    ],
+    "coefficient_giving:38541": [
+      "interp"
+    ],
+    "coefficient_giving:11794": [
+      "ai-fieldbuilding"
+    ],
+    "coefficient_giving:13177": [
+      "training-pipelines"
+    ],
+    "coefficient_giving:35957": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:2729": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:36031": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:28776": [
+      "local-groups"
+    ],
+    "coefficient_giving:38497": [
+      "local-groups"
+    ],
+    "coefficient_giving:39620": [
+      "evals"
+    ],
+    "coefficient_giving:37084": [
+      "evals"
+    ],
+    "coefficient_giving:37073": [
+      "evals"
+    ],
+    "coefficient_giving:39525": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:19909": [
+      "evals"
+    ],
+    "coefficient_giving:13066": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:35722": [
+      "ai-control"
+    ],
+    "coefficient_giving:26232": [
+      "training-pipelines"
+    ],
+    "coefficient_giving:38524": [
+      "international-policy"
+    ],
+    "coefficient_giving:2162": [
+      "career-transition"
+    ],
+    "coefficient_giving:38254": [
+      "career-transition"
+    ],
+    "coefficient_giving:16829": [
+      "ai-fieldbuilding"
+    ],
+    "coefficient_giving:21083": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:37353": [
+      "interp",
+      "research-infrastructure"
+    ],
+    "coefficient_giving:18758": [
+      "ai-advocacy"
+    ],
+    "coefficient_giving:39104": [
+      "ai-control"
+    ],
+    "coefficient_giving:37807": [
+      "local-groups"
+    ],
+    "coefficient_giving:1309": [
+      "ai-policy"
+    ],
+    "coefficient_giving:20150": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:9891": [
+      "career-transition"
+    ],
+    "coefficient_giving:38526": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:28957": [
+      "ai-theory"
+    ],
+    "coefficient_giving:13563": [
+      "epistemic-infrastructure"
+    ],
+    "coefficient_giving:37988": [
+      "ai-control"
+    ],
+    "coefficient_giving:20334": [
+      "ai-advocacy"
+    ],
+    "coefficient_giving:35955": [
+      "ai-theory"
+    ],
+    "coefficient_giving:12198": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:21076": [
+      "evals"
+    ],
+    "coefficient_giving:21738": [
+      "evals"
+    ],
+    "coefficient_giving:37596": [
+      "other"
+    ],
+    "coefficient_giving:24914": [
+      "local-groups"
+    ],
+    "coefficient_giving:37819": [
+      "local-groups"
+    ],
+    "coefficient_giving:26098": [
+      "ai-bio",
+      "evals"
+    ],
+    "coefficient_giving:26096": [
+      "ai-bio",
+      "evals"
+    ],
+    "coefficient_giving:35724": [
+      "robustness-security"
+    ],
+    "coefficient_giving:1479": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:22117": [
+      "gradual-disempowerment"
+    ],
+    "coefficient_giving:24010": [
+      "evals"
+    ],
+    "coefficient_giving:38317": [
+      "epistemic-infrastructure"
+    ],
+    "coefficient_giving:10487": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:38265": [
+      "epistemic-infrastructure"
+    ],
+    "coefficient_giving:15563": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:15652": [
+      "ai-theory"
+    ],
+    "coefficient_giving:1581": [
+      "ai-policy"
+    ],
+    "coefficient_giving:14842": [
+      "local-groups"
+    ],
+    "coefficient_giving:18353": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:13663": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:1303": [
+      "ai-policy"
+    ],
+    "coefficient_giving:12437": [
+      "ai-strategy"
+    ],
+    "coefficient_giving:13309": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:12879": [
+      "technical-ai-safety"
+    ],
+    "coefficient_giving:1505": [
+      "ai-fieldbuilding"
+    ],
+    "coefficient_giving:12567": [
+      "local-groups"
+    ],
+    "coefficient_giving:1556": [
+      "ai-advocacy"
+    ],
+    "coefficient_giving:14474": [
+      "career-transition"
+    ],
+    "coefficient_giving:24598": [
+      "local-groups"
+    ],
+    "coefficient_giving:28792": [
+      "robustness-security"
+    ],
+    "coefficient_giving:22608": [
+      "ais-events"
+    ],
+    "sff:88e1d1e24239fe8af190a6ef0824cb8bc8cc783ae012ac6d2089408ced39b0eb": [
+      "ai-policy"
+    ],
+    "sff:44a70daadeeef4052a129a46b7c2746b8b90c957a9335872b42e52d404cec4fc": [
+      "ai-policy"
+    ],
+    "sff:eb7d95e98fc811598f4618cdc7f775488a5b9613cf9e355e076907a82611a5e7": [
+      "ai-policy"
+    ],
+    "sff:71dc13167ab251a13151595dcb880e8a20559c250dfb9b4b13ffb8b9b8668b51": [
+      "ai-policy"
+    ],
+    "sff:397fe4d58c93423184f3f96d9b8d03cf12798cb7690aff1db84fbe3980c175be": [
+      "technical-ai-safety"
+    ],
+    "sff:187b7fbba09eeb598effa608a83667bb9d679ddc9c7316c5b6d6597522f1c393": [
+      "technical-ai-safety"
+    ],
+    "sff:e3ba27916f215466b028606044be1b918f54722596b2019bbb7205f807588961": [
+      "technical-ai-safety"
+    ],
+    "sff:e2d27dc1c37cc302308b299ee59dfe9ad30d0c5bd3487fbbb15633d86879b468": [
+      "technical-ai-safety"
+    ],
+    "sff:0f196eb026cb2da037b02cc9801bd5abc00b6054c4af17eaa495fdbad03593a2": [
+      "technical-ai-safety"
+    ],
+    "sff:c296f0e1bebc2ba2334dfa1f4f340749b3ef0a30abe5cc45de2005d539fdaee3": [
+      "technical-ai-safety"
+    ],
+    "sff:1da92b122c5c62b8123b8d17105225eac41968a5a25c9fa88a075377f0c1a394": [
+      "funding-infrastructure"
+    ],
+    "sff:5ac50e7030e78ea540fa8f34b5b8b678088fabd382be27500b0753eddc12850c": [
+      "funding-infrastructure"
+    ],
+    "sff:4ea228ceebc053374c0b872d399656ce40ea7f1bb6a0c19eadfed04406c6a6e9": [
+      "international-policy"
+    ],
+    "sff:a06ec3fc11ae0dbbb91bdad522e8cf9fb54d3f608677b5267fe411ba2e90a84d": [
+      "gradual-disempowerment"
+    ],
+    "sff:45911bb70838250d39327a61ddcff663f583ed91dbc831d2b4eff60cbfbe8f86": [
+      "local-groups"
+    ],
+    "sff:39fe139c10d05f8d441a518a1bd0fac3194154348249e8af7293dbc96f20ef3a": [
+      "ai-theory"
+    ],
+    "sff:64c8c3997c54b5b7d1f20821befe144c31382abe22a838b9532a562f8523cc31": [
+      "ai-law"
+    ],
+    "sff:375273f22f5e3b90e7819a0c616d0a2f4fda3877c1b579ba249c8f9a4c228a79": [
+      "technical-ai-safety"
+    ],
+    "sff:0735f696c577e76d800ee02fa29b15211e5c550ceae09c851fe25a99db4a99b2": [
+      "ai-fieldbuilding"
+    ],
+    "sff:b90e90273e22aec7cd140af90ab0cbf28683635e9c1a9426f60544790a289b20": [
+      "epistemic-infrastructure"
+    ],
+    "sff:617dc1dc088feb1050b4cb911d57e568cb203a8920ad22f1b9c64e0f9157a56a": [
+      "ai-advocacy"
+    ],
+    "manifund:4b37a962-5734-bece-caf5-840ffc21c705:hendrycks": [
+      "ai-advocacy"
+    ],
+    "manifund:6a9222ed-8caf-44b6-6436-6978ada27b9d:braydenm": [
+      "ai-policy"
+    ],
+    "manifund:6a9222ed-8caf-44b6-6436-6978ada27b9d:acx-grants": [
+      "ai-policy"
+    ],
+    "manifund:6a9222ed-8caf-44b6-6436-6978ada27b9d:PipFoweraker": [
+      "ai-policy"
+    ],
+    "manifund:a9338380-8687-5a55-1d04-adc8328bf2c7:acx-grants": [
+      "other"
+    ],
+    "manifund:313977af-6547-4861-8b97-bdddb44957bd:acx-grants": [
+      "other"
+    ],
+    "manifund:671204d7-1bed-1d29-30ee-10badf4f0c8f:RyanKidd": [
+      "epistemic-infrastructure"
+    ],
+    "manifund:671204d7-1bed-1d29-30ee-10badf4f0c8f:Loppukilpailija": [
+      "epistemic-infrastructure"
+    ],
+    "manifund:671204d7-1bed-1d29-30ee-10badf4f0c8f:Adrian-Regenfuss": [
+      "epistemic-infrastructure"
+    ],
+    "manifund:671204d7-1bed-1d29-30ee-10badf4f0c8f:Jord": [
+      "epistemic-infrastructure"
+    ],
+    "manifund:5264b9c4-7bb2-7259-18d4-85119734d8ec:cfalls": [
+      "epistemic-infrastructure"
+    ],
+    "manifund:5264b9c4-7bb2-7259-18d4-85119734d8ec:NeelNanda": [
+      "epistemic-infrastructure"
+    ],
+    "manifund:5264b9c4-7bb2-7259-18d4-85119734d8ec:RyanKidd": [
+      "epistemic-infrastructure"
+    ],
+    "manifund:5264b9c4-7bb2-7259-18d4-85119734d8ec:AntonMakiievskyi": [
+      "epistemic-infrastructure"
+    ],
+    "manifund:5264b9c4-7bb2-7259-18d4-85119734d8ec:Elizabeth": [
+      "epistemic-infrastructure"
+    ],
+    "manifund:5264b9c4-7bb2-7259-18d4-85119734d8ec:nickolai": [
+      "epistemic-infrastructure"
+    ],
+    "manifund:5264b9c4-7bb2-7259-18d4-85119734d8ec:zeshen": [
+      "epistemic-infrastructure"
+    ],
+    "manifund:5264b9c4-7bb2-7259-18d4-85119734d8ec:ampdot": [
+      "epistemic-infrastructure"
+    ],
+    "manifund:61127e0a-1f9f-b974-beaf-14723f1f55cd:NeelNanda": [
+      "ai-fieldbuilding"
+    ],
+    "manifund:61127e0a-1f9f-b974-beaf-14723f1f55cd:Romain_D": [
+      "ai-fieldbuilding"
+    ],
+    "manifund:61127e0a-1f9f-b974-beaf-14723f1f55cd:aec07e60-5f94-44a0-9aec-3c80a096c99f": [
+      "ai-fieldbuilding"
+    ],
+    "manifund:2c8eb0e8-9a49-f20a-c868-35270088dd81:eb": [
+      "evals"
+    ],
+    "manifund:92c3a9eb-8698-4499-ed27-f332923f8497:RyanKidd": [
+      "local-groups"
+    ],
+    "manifund:5f6663c8-55b5-0b17-83a0-54b471e77ecc:JueYan": [
+      "ais-events"
+    ],
+    "ea_funds:recW58HsNAd2Wcucs": [
+      "ai-control"
+    ],
+    "ea_funds:recZo7M27kQb5DLrK": [
+      "local-groups"
+    ],
+    "ea_funds:recmSRhcqXMe8qUbO": [
+      "ai-fieldbuilding"
+    ],
+    "ea_funds:recRr7PEHdXU6JG0G": [
+      "interp"
+    ],
+    "ea_funds:recAMvodQl55FwGC3": [
+      "career-transition"
+    ],
+    "ea_funds:reco96ANJv6IMmYrp": [
+      "local-groups"
+    ],
+    "ea_funds:recrNaXUZAfxmMVnH": [
+      "ai-strategy"
+    ],
+    "ea_funds:recyycT96gmF8uT8F": [
+      "career-transition"
+    ],
+    "ea_funds:recQZqO6dwLFt5FCl": [
+      "ai-advocacy"
+    ],
+    "ea_funds:recpp4bA2MV1LJeaU": [
+      "evals"
+    ],
+    "ea_funds:recTNBK2VKIRGQqAm": [
+      "evals"
+    ],
+    "ea_funds:recjEaxPrcPLRQSH8": [
+      "career-transition"
+    ],
+    "ea_funds:rec5Q0Uh1eGf2BOgn": [
+      "evals"
+    ],
+    "ea_funds:recXQXwx8Eg33lpTQ": [
+      "career-transition"
+    ],
+    "ea_funds:rec9f3h7bQxYe2KXP": [
+      "ai-advocacy"
+    ],
+    "ea_funds:recULZxhqu6GFyN6A": [
+      "epistemic-infrastructure"
+    ],
+    "ea_funds:recpnEeAqwjsVaSEq": [
+      "career-transition"
+    ],
+    "ea_funds:rec8SzEMk5HpiW7AP": [
+      "career-transition"
+    ],
+    "ea_funds:recz35LnMZ6aFa76u": [
+      "technical-ai-safety"
+    ],
+    "ea_funds:recarWnt5uDwS6EuU": [
+      "interp"
+    ],
+    "ea_funds:recqzyy173gI1uKwF": [
+      "technical-ai-safety"
+    ],
+    "ea_funds:recM0JTa5DZoZEBg6": [
+      "interp"
+    ],
+    "ea_funds:recBdZOElTNBTU79G": [
+      "technical-ai-safety"
+    ],
+    "ea_funds:recz3q3oT0H3V1UEF": [
+      "technical-ai-safety"
+    ],
+    "ea_funds:reczhqHwcDaHO4Jrx": [
+      "career-transition"
+    ],
+    "ea_funds:rec5JTsVxyeYjo5dT": [
+      "technical-ai-safety"
+    ],
+    "ea_funds:rectm3pK1gnVrsKqw": [
+      "ai-fieldbuilding"
+    ],
+    "ea_funds:recgUZ58wyRHPKV1u": [
+      "ai-advocacy"
+    ],
+    "ea_funds:recyKsbHAi1q8kVrs": [
+      "career-transition"
+    ],
+    "ea_funds:recGz7ykTFjuwHD5r": [
+      "alignment-methods"
+    ],
+    "ea_funds:recg2A6egfROG67tS": [
+      "ai-law"
+    ],
+    "ea_funds:recOrzXfukvo065Gs": [
+      "career-transition"
+    ],
+    "ea_funds:recVx9my8xr5XAW5r": [
+      "ai-strategy"
+    ],
+    "ea_funds:rec0UukJaAEJkyBjl": [
+      "career-transition"
+    ],
+    "ea_funds:rechL4TOxgHxrpvg2": [
+      "career-transition"
+    ],
+    "ea_funds:recsb5uTW2an547Nm": [
+      "career-transition"
+    ],
+    "ea_funds:recKQ9AZmntB6XDB5": [
+      "career-transition"
+    ],
+    "ea_funds:recQfhJv7nhI1B6Hb": [
+      "research-infrastructure"
+    ],
+    "ea_funds:recufIzxWlyjMGaWt": [
+      "ais-events"
+    ],
+    "ea_funds:recH5kuyYolczSbZg": [
+      "ais-events"
+    ],
+    "ea_funds:recaHW1D1gamomX61": [
+      "research-hubs"
+    ],
+    "ea_funds:recCSOyQZhm2hIVg5": [
+      "ais-events"
+    ],
+    "ea_funds:recOoh2c0AzGa9kPj": [
+      "career-transition"
+    ],
+    "ea_funds:rec6d0UtZ1mZZvjhp": [
+      "ai-fieldbuilding"
+    ],
+    "ea_funds:recDdAXqrEztCkMon": [
+      "career-transition"
+    ],
+    "ea_funds:recTYRWKUWrnKnRfD": [
+      "ai-advocacy"
+    ],
+    "ea_funds:recfXB0vo72KrLG6d": [
+      "ai-theory"
+    ],
+    "ea_funds:recYLDVcvOga9tfMS": [
+      "career-transition"
+    ],
+    "ea_funds:rechl9fBTVE2Avxxu": [
+      "international-policy"
+    ],
+    "ea_funds:rec82GY1068u3kRx9": [
+      "local-groups"
+    ]
+  }
+}

@@ -62,7 +62,7 @@ async function main() {
         url: grant.slug ? `https://coefficientgiving.org/grants/${grant.slug}` : null,
         causeSlugs: classifyCauses({
           labels: grant.areas,
-          text: `${grant.title ?? ''} ${grant.areas.join(' ')}`,
+          text: `${recipient} ${grant.title ?? ''} ${grant.areas.join(' ')}`,
         }),
       },
     })

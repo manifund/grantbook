@@ -107,7 +107,10 @@
         "jailbreak",
         "model internals",
         "honeypot",
-        "weight security"
+        "weight security",
+        "security",
+        "safety team",
+        "ai safety research"
       ],
       "ai-policy": [
         "policy",
@@ -150,7 +153,11 @@
         "scholarship",
         "upskilling",
         "phd",
-        "conference"
+        "conference",
+        "local group",
+        "ai safety camp",
+        "meetup",
+        "chapter"
       ],
       "ai-ecosystem": [
         "regrant",
@@ -234,7 +241,9 @@
         "weight security",
         "infosec",
         "information security",
-        "model security"
+        "model security",
+        "security",
+        "infosecurity"
       ],
       "ai-theory": [
         "agent foundations",
@@ -320,14 +329,6 @@
         "mentorship",
         "research program"
       ],
-      "university-groups": [
-        "university group",
-        "student group",
-        "course",
-        "curriculum",
-        "class",
-        "teaching"
-      ],
       "career-transition": [
         "career transition",
         "career advising",
@@ -336,7 +337,13 @@
         "salary bridge",
         "career exploration"
       ],
-      "ais-events": ["conference", "workshop", "retreat", "hackathon", "event"],
+      "ais-events": [
+        "conference",
+        "workshop",
+        "retreat",
+        "hackathon",
+        "event"
+      ],
       "research-hubs": [
         "constellation",
         "lisa",
@@ -345,7 +352,23 @@
         "lighthaven",
         "coworking",
         "office space",
-        "research hub"
+        "research hub",
+        "research space",
+        "campus",
+        "venue",
+        "coworking"
+      ],
+      "local-groups": [
+        "local group",
+        "university group",
+        "student group",
+        "meetup",
+        "national",
+        "community",
+        "course",
+        "curriculum",
+        "teaching",
+        "chapter"
       ]
     },
     "ai-ecosystem": {
@@ -385,11 +408,24 @@
         "blog",
         "epistemic"
       ],
-      "org-incubation": ["incubat", "ops support", "operations", "founding", "fiscal sponsorship"]
+      "org-incubation": [
+        "incubat",
+        "ops support",
+        "operations",
+        "founding",
+        "fiscal sponsorship"
+      ]
     },
     "ai-adjacent": {
-      "ai-bio": ["biosecurity", "biorisk", "pandemic", "biological"],
-      "ai-cyber": ["cyber"],
+      "ai-bio": [
+        "biosecurity",
+        "biorisk",
+        "pandemic",
+        "biological"
+      ],
+      "ai-cyber": [
+        "cyber"
+      ],
       "digital-minds": [
         "digital minds",
         "ai welfare",
@@ -397,8 +433,16 @@
         "moral patient",
         "consciousness"
       ],
-      "s-risk": ["s-risk", "suffering risk"],
-      "gradual-disempowerment": ["disempowerment", "labor market", "economic disruption", "wage"]
+      "s-risk": [
+        "s-risk",
+        "suffering risk"
+      ],
+      "gradual-disempowerment": [
+        "disempowerment",
+        "labor market",
+        "economic disruption",
+        "wage"
+      ]
     }
   },
   "keywords": {

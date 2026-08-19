@@ -77,7 +77,7 @@ async function main() {
     const causeSlugs = (project.causes ?? []).map((cause) => cause.slug)
     const causes = classifyCauses({
       labels: causeSlugs,
-      text: `${project.title} ${project.blurb ?? ''}`,
+      text: `${recipient} ${project.title} ${project.blurb ?? ''}`,
     })
     const url = `https://manifund.org/projects/${project.slug}`
     const shared = { title: project.title, slug: project.slug, stage: project.stage }

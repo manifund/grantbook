@@ -72,7 +72,7 @@ async function main() {
       for (const row of rows) {
         const str = (v: SqlValue) => (v === null || v === undefined ? '' : String(v))
         const causeArea = str(row.cause_area)
-        const searchable = `${causeArea} ${str(row.notes)} ${str(row.intended_use_of_funds)}`
+        const searchable = `${str(row.donee)} ${causeArea} ${str(row.notes)} ${str(row.intended_use_of_funds)}`
         if (!KEEP.test(searchable)) continue
         const donor = str(row.donor)
         const donee = str(row.donee)

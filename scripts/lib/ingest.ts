@@ -1,6 +1,8 @@
 import type { SupabaseClient } from '@supabase/supabase-js'
 import type { Database, Json } from '@/db/database.types'
+import causeTagsFile from '@/data/cause-tags.json'
 import overridesFile from '@/data/overrides.json'
+import { withAncestors } from './causes'
 import { createAdminClient } from '@/db/supabase-admin'
 import { toUsd } from './fx'
 import { sha256 } from './normalize'
@@ -13,6 +15,9 @@ type OrgType = Database['public']['Tables']['orgs']['Row']['org_type']
 const OVERRIDES: Record<string, Partial<GrantInsert>> = (
   overridesFile as never as { overrides: Record<string, Partial<GrantInsert>> }
 ).overrides
+const MANUAL_TAGS: Record<string, string[]> = (
+  causeTagsFile as never as { tags: Record<string, string[]> }
+).tags
 
 const CHUNK = 500
 
@@ -215,7 +220,10 @@ export async function runIngest(
     if (base.fiscal_sponsor_org_id === base.recipient_org_id) base.fiscal_sponsor_org_id = null
 
     const grantId = link?.grantId ?? crypto.randomUUID()
-    grantCauses.set(grantId, p.parsed.causeSlugs)
+    // Manual tags are authoritative: they replace the classifier's output
+    // (closed over ancestors), so they can also correct false positives.
+    const manualTags = MANUAL_TAGS[`${sourceId}:${p.key}`]
+    grantCauses.set(grantId, manualTags ? withAncestors(manualTags) : p.parsed.causeSlugs)
     if (link) {
       updatedGrants.push({ ...base, id: grantId })
       updated++

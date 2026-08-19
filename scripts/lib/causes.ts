@@ -67,6 +67,19 @@ function refine(slugs: string[], text: string): string[] {
   return Array.from(out)
 }
 
+// Close a tag set over its ancestors (exported for the manual-tags merge).
+export function withAncestors(slugs: string[]): string[] {
+  const out = new Set(slugs)
+  for (const slug of slugs) {
+    let parent = CAUSE_PARENTS[slug]
+    while (parent) {
+      out.add(parent)
+      parent = CAUSE_PARENTS[parent]
+    }
+  }
+  return Array.from(out)
+}
+
 // Resolve cause slugs for a grant. Precedence: explicit source labels, then
 // the fund's default, then keyword classification of the description, then
 // 'other'. A fund default of 'keyword' forces classification. The result is
