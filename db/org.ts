@@ -49,7 +49,7 @@ export async function listOrgAggregates(
   if (!dbConfigured()) return []
   const supabase = createPublicSupabaseClient()
   const fkey = side === 'funder' ? 'grants_funder_org_id_fkey' : 'grants_recipient_org_id_fkey'
-  const causeFilter = filters.cause && filters.cause !== 'all'
+  const causeFilter = filters.cause && filters.cause !== 'all' ? filters.cause : null
   const causeEmbed = causeFilter ? ', grant_cause_areas!inner(cause_areas!inner(slug))' : ''
   const byOrg = new Map<string, OrgAggregate>()
   for (let from = 0; ; from += 1000) {
@@ -58,7 +58,7 @@ export async function listOrgAggregates(
       .select(`amount_usd, grant_date, org:orgs!${fkey}(slug, name)${causeEmbed}`)
       .eq('status', 'approved')
       .range(from, from + 999)
-    if (causeFilter) query = query.eq('grant_cause_areas.cause_areas.slug', filters.cause)
+    if (causeFilter) query = query.eq('grant_cause_areas.cause_areas.slug', causeFilter)
     if (filters.yearMin) query = query.gte('grant_date', `${filters.yearMin}-01-01`)
     if (filters.yearMax) query = query.lte('grant_date', `${filters.yearMax}-12-31`)
 
