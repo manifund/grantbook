@@ -21,10 +21,12 @@
   "labels": {
     "Navigating Transformative AI": "ai-safety",
     "Potential Risks from Advanced AI": "ai-safety",
-    "Technical AI Safety": "ai-safety",
-    "AI Governance & Policy": "ai-safety",
+    "Technical AI Safety": "technical-ai-safety",
+    "AI Governance & Policy": "ai-policy",
+    "AI Governance and Policy (US)": "ai-policy",
+    "Capacity-Building Grants for AI Risk": "ai-fieldbuilding",
     "Potential Risks from Advanced Artificial Intelligence": "ai-safety",
-    "AI Governance and Policy": "ai-safety",
+    "AI Governance and Policy": "ai-policy",
     "Global Catastrophic Risks Capacity Building": "x-risk-other",
     "Global Catastrophic Risks": "x-risk-other",
     "Effective Altruism Community Growth (Longtermism)": "ea-infrastructure",
@@ -53,8 +55,8 @@
     "AI risk": "ai-safety",
     "AI alignment": "ai-safety",
     "Artificial intelligence": "ai-safety",
-    "tais": "ai-safety",
-    "ai-governance": "ai-safety",
+    "tais": "technical-ai-safety",
+    "ai-governance": "ai-policy",
     "gcr": "x-risk-other",
     "bio": "biosecurity",
     "pandemics": "biosecurity",
@@ -81,6 +83,323 @@
     "Criminal justice reform": "other",
     "Scientific research": "other",
     "science": "other"
+  },
+  "subcauses": {
+    "ai-safety": {
+      "technical-ai-safety": [
+        "alignment",
+        "interpretability",
+        "mechanistic",
+        "eval",
+        "red team",
+        "red-team",
+        "robustness",
+        "adversarial",
+        "ai control",
+        "scalable oversight",
+        "rlhf",
+        "model organisms",
+        "deception",
+        "formal verification",
+        "agent foundations",
+        "technical ai safety",
+        "safety research",
+        "jailbreak",
+        "model internals",
+        "honeypot",
+        "weight security"
+      ],
+      "ai-policy": [
+        "policy",
+        "governance",
+        "advocacy",
+        "regulat",
+        "legislat",
+        "ai act",
+        "government",
+        "summit",
+        "standards",
+        "treaty",
+        "think tank",
+        "lobbying",
+        "public awareness",
+        "campaign",
+        "whistleblower",
+        "liability",
+        "litigation",
+        "journalism"
+      ],
+      "ai-fieldbuilding": [
+        "fieldbuilding",
+        "field building",
+        "field-building",
+        "fellowship",
+        "mats",
+        "arena",
+        "bootcamp",
+        "course",
+        "curriculum",
+        "mentorship",
+        "career transition",
+        "talent",
+        "student",
+        "university group",
+        "workshop",
+        "retreat",
+        "hackathon",
+        "scholarship",
+        "upskilling",
+        "phd",
+        "conference"
+      ],
+      "ai-ecosystem": [
+        "regrant",
+        "impact market",
+        "prize",
+        "compute for",
+        "model access",
+        "forecast",
+        "takeoff",
+        "threat model",
+        "newsletter",
+        "wiki",
+        "distillation",
+        "lesswrong",
+        "alignment forum",
+        "incubat",
+        "ops support",
+        "epistemic"
+      ],
+      "ai-adjacent": [
+        "ai-bio",
+        "biosecurity",
+        "biorisk",
+        "cyber",
+        "digital minds",
+        "ai welfare",
+        "sentience",
+        "s-risk",
+        "suffering risk",
+        "disempowerment",
+        "labor market",
+        "economic disruption"
+      ]
+    },
+    "technical-ai-safety": {
+      "interp": [
+        "interpretability",
+        "mech interp",
+        "mechanistic",
+        "probe",
+        "model internals",
+        "sparse autoencoder",
+        "circuits",
+        "developmental interp",
+        "activation"
+      ],
+      "alignment-methods": [
+        "scalable oversight",
+        "debate",
+        "weak-to-strong",
+        "rlhf",
+        "constitutional",
+        "reward model",
+        "persona training",
+        "character training"
+      ],
+      "ai-control": [
+        "ai control",
+        "containment",
+        "runtime oversight",
+        "honeypot",
+        "monitoring",
+        "shutdown",
+        "control agenda",
+        "control protocol"
+      ],
+      "evals": [
+        "eval",
+        "benchmark",
+        "dangerous capabilit",
+        "propensity",
+        "audit",
+        "red team",
+        "red-team",
+        "capability elicitation"
+      ],
+      "robustness-security": [
+        "robustness",
+        "adversarial",
+        "jailbreak",
+        "weight security",
+        "infosec",
+        "information security",
+        "model security"
+      ],
+      "ai-theory": [
+        "agent foundations",
+        "formal verification",
+        "singular learning theory",
+        "guaranteed safe",
+        "decision theory",
+        "embedded agency",
+        "theoretical"
+      ]
+    },
+    "ai-policy": {
+      "technical-governance": [
+        "compute governance",
+        "verification mechanism",
+        "hardware-enabled",
+        "flexheg",
+        "standards",
+        "chip",
+        "export control"
+      ],
+      "domestic-policy": [
+        "federal",
+        "state legislat",
+        "congress",
+        "white house",
+        "uk government",
+        "eu ai act",
+        "ai act",
+        "ostp",
+        "nist",
+        "parliament",
+        "state policy"
+      ],
+      "international-policy": [
+        "international",
+        "us-china",
+        "china",
+        "treaty",
+        "multilateral",
+        "united nations",
+        "bilateral",
+        "global governance"
+      ],
+      "corporate-governance": [
+        "responsible scaling",
+        "frontier safety framework",
+        "whistleblower",
+        "incident reporting",
+        "corporate governance",
+        "board structure"
+      ],
+      "ai-law": [
+        "liability",
+        "litigation",
+        "lawsuit",
+        "model legislation",
+        "legal",
+        "law and ai",
+        "law & ai"
+      ],
+      "ai-advocacy": [
+        "advocacy",
+        "campaign",
+        "media",
+        "journalism",
+        "public opinion",
+        "communications",
+        "awareness",
+        "documentary",
+        "podcast",
+        "newsletter"
+      ]
+    },
+    "ai-fieldbuilding": {
+      "training-pipelines": [
+        "mats",
+        "arena",
+        "fellowship",
+        "phd",
+        "bootcamp",
+        "training program",
+        "mentorship",
+        "research program"
+      ],
+      "university-groups": [
+        "university group",
+        "student group",
+        "course",
+        "curriculum",
+        "class",
+        "teaching"
+      ],
+      "career-transition": [
+        "career transition",
+        "career advising",
+        "placement",
+        "upskilling",
+        "salary bridge",
+        "career exploration"
+      ],
+      "ais-events": ["conference", "workshop", "retreat", "hackathon", "event"],
+      "research-hubs": [
+        "constellation",
+        "lisa",
+        "far labs",
+        "mox",
+        "lighthaven",
+        "coworking",
+        "office space",
+        "research hub"
+      ]
+    },
+    "ai-ecosystem": {
+      "funding-infrastructure": [
+        "regrant",
+        "impact market",
+        "prize",
+        "fiscal sponsor",
+        "evaluator",
+        "donor",
+        "funding platform"
+      ],
+      "research-infrastructure": [
+        "compute",
+        "gpu",
+        "model access",
+        "dataset",
+        "api credits",
+        "cluster"
+      ],
+      "ai-strategy": [
+        "forecast",
+        "takeoff",
+        "threat model",
+        "timelines",
+        "epoch",
+        "trends",
+        "scenario",
+        "strategy research"
+      ],
+      "epistemic-infrastructure": [
+        "lesswrong",
+        "alignment forum",
+        "newsletter",
+        "wiki",
+        "distillation",
+        "blog",
+        "epistemic"
+      ],
+      "org-incubation": ["incubat", "ops support", "operations", "founding", "fiscal sponsorship"]
+    },
+    "ai-adjacent": {
+      "ai-bio": ["biosecurity", "biorisk", "pandemic", "biological"],
+      "ai-cyber": ["cyber"],
+      "digital-minds": [
+        "digital minds",
+        "ai welfare",
+        "sentience",
+        "moral patient",
+        "consciousness"
+      ],
+      "s-risk": ["s-risk", "suffering risk"],
+      "gradual-disempowerment": ["disempowerment", "labor market", "economic disruption", "wage"]
+    }
   },
   "keywords": {
     "ai-safety": [

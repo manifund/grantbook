@@ -6,6 +6,7 @@ import { usePathname, useRouter, useSearchParams } from 'next/navigation'
 import { useMemo, useState } from 'react'
 import type { GrantRow } from '@/db/grant'
 import { formatGrantDate, formatMoney } from '@/utils/format'
+import { CAUSE_OPTIONS, displayCauses } from '@/utils/cause-tree'
 import {
   applyFilters,
   filtersFromParams,
@@ -59,7 +60,6 @@ function MultiSelect(props: {
 export function GrantsTable(props: {
   grants: GrantRow[]
   sources: { id: string; name: string }[]
-  causeOptions: { slug: string; name: string }[]
   cause: string
 }) {
   const router = useRouter()
@@ -150,8 +150,9 @@ export function GrantsTable(props: {
           className="rounded border border-rule bg-paper-alt px-2 py-1 text-sm"
         >
           <option value="all">All causes</option>
-          {props.causeOptions.map((cause) => (
+          {CAUSE_OPTIONS.map((cause) => (
             <option key={cause.slug} value={cause.slug}>
+              {' '.repeat(cause.depth)}
               {cause.name}
             </option>
           ))}
@@ -194,6 +195,7 @@ export function GrantsTable(props: {
               <th>Via</th>
               {sortHeader('recipient', 'Recipient')}
               {sortHeader('amount', 'Amount', true)}
+              <th>Cause</th>
               <th>Source</th>
               <th>Purpose</th>
             </tr>
@@ -216,6 +218,9 @@ export function GrantsTable(props: {
                   <a href={`/orgs/${row.recipientSlug}`}>{row.recipientName}</a>
                 </td>
                 <td className="gb-num whitespace-nowrap">{formatMoney(row.amountUsd)}</td>
+                <td className="max-w-44 text-xs text-ink-muted">
+                  {displayCauses(row.causes).join(', ')}
+                </td>
                 <td className="whitespace-nowrap">
                   {row.url ? <a href={row.url}>{row.sourceId}</a> : row.sourceId}
                 </td>

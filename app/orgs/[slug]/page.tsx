@@ -1,6 +1,7 @@
 import { notFound } from 'next/navigation'
 import { listGrantsByOrg, type GrantRow } from '@/db/grant'
 import { getOrgBySlug } from '@/db/org'
+import { displayCauses } from '@/utils/cause-tree'
 import { formatGrantDate, formatMoney } from '@/utils/format'
 
 export const revalidate = 3600
@@ -24,6 +25,7 @@ function GrantList(props: { title: string; grants: GrantRow[]; side: 'made' | 'r
               <th>{props.side === 'made' ? 'Recipient' : 'Funder'}</th>
               <th>Via</th>
               <th className="gb-num">Amount</th>
+              <th>Cause</th>
               <th>Source</th>
               <th>Purpose</th>
             </tr>
@@ -48,6 +50,9 @@ function GrantList(props: { title: string; grants: GrantRow[]; side: 'made' | 'r
                     ) : null}
                   </td>
                   <td className="gb-num whitespace-nowrap">{formatMoney(grant.amountUsd)}</td>
+                  <td className="max-w-44 text-xs text-ink-muted">
+                    {displayCauses(grant.causes).join(', ')}
+                  </td>
                   <td className="whitespace-nowrap">
                     {grant.url ? <a href={grant.url}>{grant.sourceId}</a> : grant.sourceId}
                   </td>

@@ -1,4 +1,5 @@
-import { grantYearRange, listCauseAreas } from '@/db/grant'
+import { grantYearRange } from '@/db/grant'
+import { CAUSE_OPTIONS } from '@/utils/cause-tree'
 import { listOrgAggregates } from '@/db/org'
 import { formatMoney } from '@/utils/format'
 
@@ -13,9 +14,8 @@ export async function OrgIndex(props: {
   const cause = props.searchParams.cause ?? 'ai-safety'
   const yearMin = Number(props.searchParams.yearMin) || null
   const yearMax = Number(props.searchParams.yearMax) || null
-  const [rows, causeAreas, yearRange] = await Promise.all([
+  const [rows, yearRange] = await Promise.all([
     listOrgAggregates(props.side, { cause, yearMin, yearMax }),
-    listCauseAreas(),
     grantYearRange(),
   ])
   const totalUsd = rows.reduce((sum, row) => sum + row.totalUsd, 0)
@@ -31,8 +31,9 @@ export async function OrgIndex(props: {
           className="rounded border border-rule bg-paper-alt px-2 py-1"
         >
           <option value="all">All causes</option>
-          {causeAreas.map((area) => (
+          {CAUSE_OPTIONS.map((area) => (
             <option key={area.slug} value={area.slug}>
+              {' '.repeat(area.depth)}
               {area.name}
             </option>
           ))}

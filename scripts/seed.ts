@@ -6,19 +6,32 @@
 import aliasesFile from '@/data/aliases.json'
 import orgsSeed from '@/data/orgs-seed.json'
 import { createAdminClient } from '@/db/supabase-admin'
+import { CAUSE_TREE } from '@/utils/cause-tree'
 import { normalizeName } from './lib/normalize'
 
 const db = createAdminClient()
 
-const CAUSE_AREAS = [
-  { slug: 'ai-safety', name: 'AI safety' },
-  { slug: 'biosecurity', name: 'Biosecurity' },
-  { slug: 'x-risk-other', name: 'Other existential risk' },
-  { slug: 'ea-infrastructure', name: 'EA infrastructure' },
-  { slug: 'animal-welfare', name: 'Animal welfare' },
-  { slug: 'global-health-development', name: 'Global health and development' },
-  { slug: 'other', name: 'Other' },
-]
+// Cause areas come from the canonical tree; parent links are wired in a
+// second pass once every row exists.
+async function seedCauseAreas() {
+  await db
+    .from('cause_areas')
+    .upsert(
+      CAUSE_TREE.map((node) => ({ slug: node.slug, name: node.name })),
+      { onConflict: 'slug' }
+    )
+    .throwOnError()
+  const { data } = await db.from('cause_areas').select('id, slug').throwOnError()
+  const idBySlug = new Map((data ?? []).map((row) => [row.slug, row.id]))
+  for (const node of CAUSE_TREE) {
+    if (!node.parent) continue
+    await db
+      .from('cause_areas')
+      .update({ parent_id: idBySlug.get(node.parent) ?? null })
+      .eq('slug', node.slug)
+      .throwOnError()
+  }
+}
 
 const SOURCES = [
   {
@@ -157,10 +170,7 @@ async function claimName(
 }
 
 async function main() {
-  await db
-    .from('cause_areas')
-    .upsert(CAUSE_AREAS, { onConflict: 'slug', ignoreDuplicates: true })
-    .throwOnError()
+  await seedCauseAreas()
   await db.from('sources').upsert(SOURCES, { onConflict: 'id' }).throwOnError()
 
   const orgs = (orgsSeed as never as { orgs: SeedOrg[] }).orgs
@@ -221,7 +231,7 @@ async function main() {
   }
 
   console.log(
-    `Seeded ${CAUSE_AREAS.length} cause areas, ${SOURCES.length} sources, ${orgs.length} orgs`
+    `Seeded ${CAUSE_TREE.length} cause areas, ${SOURCES.length} sources, ${orgs.length} orgs`
   )
 }
 
