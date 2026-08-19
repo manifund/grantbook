@@ -26,7 +26,7 @@ export async function getOrgBySlug(slug: string): Promise<OrgDetail | null> {
   return { ...org, names: org.org_names }
 }
 
-export type FunderSummary = {
+export type OrgAggregate = {
   slug: string
   name: string
   grantCount: number
@@ -35,26 +35,43 @@ export type FunderSummary = {
   lastYear: number | null
 }
 
-export async function listFunders(): Promise<FunderSummary[]> {
+export type AggregateFilters = {
+  cause?: string
+  yearMin?: number | null
+  yearMax?: number | null
+}
+
+// Per-org totals over approved grants, from either side of the grant.
+export async function listOrgAggregates(
+  side: 'funder' | 'recipient',
+  filters: AggregateFilters = {}
+): Promise<OrgAggregate[]> {
   if (!dbConfigured()) return []
   const supabase = createPublicSupabaseClient()
-  const byFunder = new Map<string, FunderSummary>()
+  const fkey = side === 'funder' ? 'grants_funder_org_id_fkey' : 'grants_recipient_org_id_fkey'
+  const causeFilter = filters.cause && filters.cause !== 'all'
+  const causeEmbed = causeFilter ? ', grant_cause_areas!inner(cause_areas!inner(slug))' : ''
+  const byOrg = new Map<string, OrgAggregate>()
   for (let from = 0; ; from += 1000) {
-    const { data } = await supabase
+    let query = supabase
       .from('grants')
-      .select('amount_usd, grant_date, funder:orgs!grants_funder_org_id_fkey(slug, name)')
+      .select(`amount_usd, grant_date, org:orgs!${fkey}(slug, name)${causeEmbed}`)
       .eq('status', 'approved')
       .range(from, from + 999)
-      .throwOnError()
+    if (causeFilter) query = query.eq('grant_cause_areas.cause_areas.slug', filters.cause)
+    if (filters.yearMin) query = query.gte('grant_date', `${filters.yearMin}-01-01`)
+    if (filters.yearMax) query = query.lte('grant_date', `${filters.yearMax}-12-31`)
+
+    const { data } = await query.throwOnError()
     for (const grant of (data ?? []) as never as {
       amount_usd: number | null
       grant_date: string | null
-      funder: { slug: string; name: string } | null
+      org: { slug: string; name: string } | null
     }[]) {
-      if (!grant.funder) continue
-      const entry = byFunder.get(grant.funder.slug) ?? {
-        slug: grant.funder.slug,
-        name: grant.funder.name,
+      if (!grant.org) continue
+      const entry = byOrg.get(grant.org.slug) ?? {
+        slug: grant.org.slug,
+        name: grant.org.name,
         grantCount: 0,
         totalUsd: 0,
         firstYear: null,
@@ -67,9 +84,9 @@ export async function listFunders(): Promise<FunderSummary[]> {
         entry.firstYear = entry.firstYear === null ? year : Math.min(entry.firstYear, year)
         entry.lastYear = entry.lastYear === null ? year : Math.max(entry.lastYear, year)
       }
-      byFunder.set(grant.funder.slug, entry)
+      byOrg.set(grant.org.slug, entry)
     }
     if (!data || data.length < 1000) break
   }
-  return Array.from(byFunder.values()).sort((a, b) => b.totalUsd - a.totalUsd)
+  return Array.from(byOrg.values()).sort((a, b) => b.totalUsd - a.totalUsd)
 }
