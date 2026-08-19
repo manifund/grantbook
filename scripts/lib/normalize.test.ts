@@ -22,7 +22,9 @@ describe('slugify', () => {
   test('kebab-case', () => {
     expect(slugify('Survival and Flourishing Fund')).toBe('survival-and-flourishing-fund')
   })
-  test('empty fallback', () => {
-    expect(slugify('!!!')).toBe('unnamed')
+  test('non-latin names get a stable hash slug', () => {
+    expect(slugify('!!!')).toMatch(/^org-[0-9a-f]+$/)
+    expect(slugify('הארגון למען קיימות')).toMatch(/^org-[0-9a-f]+$/)
+    expect(slugify('הארגון למען קיימות')).toBe(slugify('הארגון למען קיימות'))
   })
 })

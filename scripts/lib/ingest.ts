@@ -142,7 +142,12 @@ export async function runIngest(
       hash,
       recordId: prior?.id ?? crypto.randomUUID(),
       isNewRecord: !prior,
-      changed: !prior || prior.content_hash !== hash || prior.removed_at !== null,
+      changed:
+        !prior ||
+        prior.content_hash !== hash ||
+        prior.removed_at !== null ||
+        // A record without a grant means an earlier run died mid-derivation.
+        !grantLinks.has(prior.id),
     })
   }
 

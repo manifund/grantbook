@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "format": "bunx oxfmt --write .",
-    "gen-types": "bunx supabase gen types typescript --project-id GRANTBOOK_PROJECT_ID --schema public > db/database.types.ts",
+    "gen-types": "bunx supabase gen types typescript --project-id ylckglpbctcxdohxwsnv --schema public > db/database.types.ts",
     "seed": "bun run scripts/seed.ts",
     "ingest": "bun run scripts/ingest-all.ts",
     "ingest:ea-funds": "bun run scripts/ingest-ea-funds.ts",

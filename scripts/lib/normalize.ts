@@ -5,15 +5,25 @@ export function normalizeName(name: string): string {
     .normalize('NFKD')
     .replace(/[̀-ͯ]/g, '')
     .toLowerCase()
-    .replace(/[^a-z0-9\s]/g, ' ')
+    .replace(/[^\p{L}\p{N}\s]/gu, ' ')
     .replace(/\s+/g, ' ')
     .trim()
     .replace(/\s+(inc|llc|ltd|incorporated)$/, '')
     .trim()
 }
 
+// Slugs stay ASCII for URLs; fully non-Latin names get a stable hash slug.
 export function slugify(name: string): string {
-  return normalizeName(name).replace(/\s/g, '-').slice(0, 80) || 'unnamed'
+  const ascii = normalizeName(name)
+    .replace(/[^a-z0-9\s]/g, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+    .replace(/\s/g, '-')
+    .slice(0, 80)
+  if (ascii) return ascii
+  let hash = 0
+  for (const char of name) hash = (hash * 31 + char.codePointAt(0)!) >>> 0
+  return `org-${hash.toString(16)}`
 }
 
 export async function sha256(text: string): Promise<string> {
