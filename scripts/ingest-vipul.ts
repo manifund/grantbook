@@ -44,13 +44,29 @@ async function main() {
       `https://api.github.com/repos/${REPO}/git/trees/${sha}?recursive=1`
     )) as never as { tree: { path: string; type: string }[] }
   ).tree
+  // Within private-foundations/, only EA/x-risk funders are in scope. The
+  // mass-scraped mainstream foundations (Gates, MacArthur, Hewlett, Wellcome,
+  // Wallenberg, ...) keyword-match on things like "artificial intelligence"
+  // while being general philanthropy — exclude them wholesale.
+  const FOUNDATION_ALLOWLIST = [
+    'sql/donations/private-foundations/open-philanthropy/',
+    'sql/donations/private-foundations/ftx-future-fund/',
+    'sql/donations/private-foundations/future-of-life-institute',
+    'sql/donations/private-foundations/foundational-questions-institute',
+    'sql/donations/private-foundations/ea-giving-group',
+    'sql/donations/private-foundations/pineapple-fund',
+    'sql/donations/private-foundations/thiel-foundation',
+    'sql/donations/private-foundations/future-justice-fund',
+  ]
   const files = tree
     .filter(
       (t) =>
         t.type === 'blob' &&
         t.path.startsWith('sql/donations/') &&
         t.path.endsWith('.sql') &&
-        !t.path.endsWith('-schema.sql')
+        !t.path.endsWith('-schema.sql') &&
+        (!t.path.startsWith('sql/donations/private-foundations/') ||
+          FOUNDATION_ALLOWLIST.some((prefix) => t.path.startsWith(prefix)))
     )
     .map((t) => t.path)
   console.log(`${files.length} donation SQL files`)
