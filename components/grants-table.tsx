@@ -173,6 +173,7 @@ export function GrantsTable(props: {
             <tr>
               {sortHeader('date', 'Date')}
               {sortHeader('funder', 'Funder')}
+              <th>Via</th>
               {sortHeader('recipient', 'Recipient')}
               {sortHeader('amount', 'Amount', true)}
               <th>Source</th>
@@ -187,11 +188,11 @@ export function GrantsTable(props: {
                 </td>
                 <td>
                   <a href={`/orgs/${row.funderSlug}`}>{row.funderName}</a>
-                  {row.viaName && row.viaSlug !== row.funderSlug && (
-                    <span className="block text-xs text-ink-muted">
-                      via <a href={`/orgs/${row.viaSlug}`}>{row.viaName}</a>
-                    </span>
-                  )}
+                </td>
+                <td>
+                  {row.viaName && row.viaSlug !== row.funderSlug ? (
+                    <a href={`/orgs/${row.viaSlug}`}>{row.viaName}</a>
+                  ) : null}
                 </td>
                 <td>
                   <a href={`/orgs/${row.recipientSlug}`}>{row.recipientName}</a>
