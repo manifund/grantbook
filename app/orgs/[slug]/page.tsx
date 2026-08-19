@@ -22,6 +22,7 @@ function GrantList(props: { title: string; grants: GrantRow[]; side: 'made' | 'r
             <tr>
               <th>Date</th>
               <th>{props.side === 'made' ? 'Recipient' : 'Funder'}</th>
+              <th>Via</th>
               <th className="gb-num">Amount</th>
               <th>Purpose</th>
             </tr>
@@ -44,6 +45,11 @@ function GrantList(props: { title: string; grants: GrantRow[]; side: 'made' | 'r
                         via <a href={`/orgs/${grant.sponsorSlug}`}>{grant.sponsorName}</a>
                       </span>
                     )}
+                  </td>
+                  <td>
+                    {grant.viaName && grant.viaSlug !== grant.funderSlug ? (
+                      <a href={`/orgs/${grant.viaSlug}`}>{grant.viaName}</a>
+                    ) : null}
                   </td>
                   <td className="gb-num whitespace-nowrap">{formatMoney(grant.amountUsd)}</td>
                   <td className="max-w-md">
