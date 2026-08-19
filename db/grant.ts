@@ -22,6 +22,8 @@ export type GrantRow = {
   recipientName: string
   sponsorSlug: string | null
   sponsorName: string | null
+  viaSlug: string | null
+  viaName: string | null
   sourceId: string | null
   causes: string[]
 }
@@ -32,12 +34,14 @@ const GRANT_SELECT_BASE = `id, amount, currency, amount_usd, grant_date, date_pr
   funder:orgs!grants_funder_org_id_fkey(slug, name),
   recipient:orgs!grants_recipient_org_id_fkey(slug, name),
   sponsor:orgs!grants_fiscal_sponsor_org_id_fkey(slug, name),
+  via:orgs!grants_via_org_id_fkey(slug, name),
   grant_sources(is_primary, source_records(source_id))`
 
 function mapGrantRow(grant: Record<string, unknown>): GrantRow {
   const funder = grant.funder as JoinedOrg
   const recipient = grant.recipient as JoinedOrg
   const sponsor = grant.sponsor as JoinedOrg
+  const via = grant.via as JoinedOrg
   const causeJoins = (grant.grant_cause_areas ?? []) as { cause_areas: { slug: string } | null }[]
   const sourceJoins = (grant.grant_sources ?? []) as {
     is_primary: boolean
@@ -59,6 +63,8 @@ function mapGrantRow(grant: Record<string, unknown>): GrantRow {
     recipientName: recipient?.name ?? '',
     sponsorSlug: sponsor?.slug ?? null,
     sponsorName: sponsor?.name ?? null,
+    viaSlug: via?.slug ?? null,
+    viaName: via?.name ?? null,
     sourceId: sourceJoins.find((s) => s.is_primary)?.source_records?.source_id ?? null,
     causes: causeJoins
       .map((join) => join.cause_areas?.slug)

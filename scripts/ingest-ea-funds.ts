@@ -66,6 +66,7 @@ async function main() {
       parsed: {
         funderName: row.fund,
         funderType: 'fund',
+        viaName: 'EA Funds',
         recipientName: row.grantee,
         amount: Number.isFinite(amount) && amount > 0 ? amount : null,
         currency: 'USD',

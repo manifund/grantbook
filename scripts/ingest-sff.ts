@@ -70,6 +70,7 @@ async function main() {
         funderType: 'individual',
         recipientName: recipient,
         sponsorName: sponsor,
+        viaName: 'Survival and Flourishing Fund',
         amount: parseAmount(amountCell),
         currency: 'USD',
         date,

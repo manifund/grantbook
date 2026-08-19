@@ -6,6 +6,23 @@ const FUNDS: Record<string, string> = (causeMap as never as { funds: Record<stri
 const KEYWORDS: Record<string, string[]> = (
   causeMap as never as { keywords: Record<string, string[]> }
 ).keywords
+const FALLBACKS: Record<string, string> = (
+  causeMap as never as { fallbacks: Record<string, string> }
+).fallbacks
+
+// Vipul cause areas are hierarchical ("Animal welfare/factory farming/...");
+// match the longest known prefix.
+function lookupLabel(label: string): string | undefined {
+  const trimmed = label.trim()
+  const direct = LABELS[trimmed]
+  if (direct) return direct
+  const parts = trimmed.split('/')
+  for (let n = parts.length - 1; n >= 1; n--) {
+    const prefix = parts.slice(0, n).join('/')
+    if (LABELS[prefix]) return LABELS[prefix]
+  }
+  return undefined
+}
 
 export const CAUSE_SLUGS = [
   'ai-safety',
@@ -26,7 +43,7 @@ export function classifyCauses(opts: {
   text?: string
 }): string[] {
   const fromLabels = (opts.labels ?? [])
-    .map((label) => LABELS[label] ?? LABELS[label.trim()])
+    .map(lookupLabel)
     .filter((slug): slug is string => Boolean(slug))
   if (fromLabels.length > 0) return Array.from(new Set(fromLabels))
 
@@ -39,5 +56,6 @@ export function classifyCauses(opts: {
       if (words.some((word) => text.includes(word))) return [slug]
     }
   }
-  return ['other']
+  const fallback = opts.fund ? FALLBACKS[opts.fund] : undefined
+  return [fallback ?? 'other']
 }

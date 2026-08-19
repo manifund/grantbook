@@ -48,8 +48,9 @@ export class OrgResolver {
   }
 
   async resolve(name: string, orgType: OrgType = 'organization'): Promise<string> {
-    const normalized = normalizeName(name)
-    if (!normalized) throw new Error(`Unresolvable empty org name: ${JSON.stringify(name)}`)
+    // Names that normalize to nothing ("-", " ") fall back to the stable
+    // hash slug so they can still round-trip; curation renames them later.
+    const normalized = normalizeName(name) || slugify(name)
 
     const aliasSlug = this.slugByAlias.get(normalized)
     if (aliasSlug) {

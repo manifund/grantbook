@@ -57,6 +57,7 @@ type GrantRow = {
   funder_org_id: string
   recipient_org_id: string
   fiscal_sponsor_org_id: string | null
+  via_org_id: string | null
   amount: number | null
   currency: string
   amount_usd: number | null
@@ -118,6 +119,7 @@ export type Database = {
         GrantRow,
         | 'id'
         | 'fiscal_sponsor_org_id'
+        | 'via_org_id'
         | 'amount'
         | 'currency'
         | 'amount_usd'

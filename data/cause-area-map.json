@@ -13,6 +13,11 @@
     "acx-grants": "keyword",
     "manifund": "keyword"
   },
+  "fallbacks": {
+    "sff": "x-risk-other",
+    "Long-Term Future Fund": "x-risk-other",
+    "Global Catastrophic Risks Fund": "x-risk-other"
+  },
   "labels": {
     "AI safety": "ai-safety",
     "AI safety/other global catastrophic risks": "ai-safety",

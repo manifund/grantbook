@@ -187,6 +187,11 @@ export function GrantsTable(props: {
                 </td>
                 <td>
                   <a href={`/orgs/${row.funderSlug}`}>{row.funderName}</a>
+                  {row.viaName && row.viaSlug !== row.funderSlug && (
+                    <span className="block text-xs text-ink-muted">
+                      via <a href={`/orgs/${row.viaSlug}`}>{row.viaName}</a>
+                    </span>
+                  )}
                 </td>
                 <td>
                   <a href={`/orgs/${row.recipientSlug}`}>{row.recipientName}</a>

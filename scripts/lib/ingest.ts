@@ -22,6 +22,8 @@ export type ParsedGrant = {
   recipientName: string
   recipientType?: OrgType
   sponsorName?: string | null
+  // Funding-side vehicle the money flowed through (Manifund, SFF, EA Funds).
+  viaName?: string | null
   amount: number | null
   currency?: string
   date?: string | null
@@ -143,6 +145,7 @@ export async function runIngest(
       recordId: prior?.id ?? crypto.randomUUID(),
       isNewRecord: !prior,
       changed:
+        process.argv.includes('--force') ||
         !prior ||
         prior.content_hash !== hash ||
         prior.removed_at !== null ||
@@ -193,6 +196,7 @@ export async function runIngest(
       fiscal_sponsor_org_id: p.parsed.sponsorName
         ? await resolver.resolve(p.parsed.sponsorName)
         : null,
+      via_org_id: p.parsed.viaName ? await resolver.resolve(p.parsed.viaName, 'fund') : null,
       amount: p.parsed.amount,
       currency,
       amount_usd: p.parsed.amount === null ? null : toUsd(p.parsed.amount, currency, year),

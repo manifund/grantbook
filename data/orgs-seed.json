@@ -72,6 +72,13 @@
       "aliases": [{ "name": "LessWrong", "kind": "alias" }]
     },
     {
+      "slug": "ea-funds",
+      "name": "EA Funds",
+      "org_type": "fund",
+      "website": "https://funds.effectivealtruism.org/",
+      "aliases": [{ "name": "Effective Altruism Funds", "kind": "alias" }]
+    },
+    {
       "slug": "manifund",
       "name": "Manifund",
       "org_type": "fund",
