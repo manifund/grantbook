@@ -14,7 +14,7 @@ export function OrgIndex(props: { side: 'funder' | 'recipient'; rows: OrgIndexRo
   const router = useRouter()
   const pathname = usePathname()
   const searchParams = useSearchParams()
-  const cause = searchParams.get('cause') ?? 'ai-safety'
+  const cause = searchParams.get('cause') || 'ai-safety'
   const yearMin = Number(searchParams.get('yearMin')) || null
   const yearMax = Number(searchParams.get('yearMax')) || null
 

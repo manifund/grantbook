@@ -22,7 +22,7 @@ export function GrantsTable(props: {
   const router = useRouter()
   const pathname = usePathname()
   const searchParams = useSearchParams()
-  const cause = searchParams.get('cause') ?? 'ai-safety'
+  const cause = searchParams.get('cause') || 'ai-safety'
   const [filters, setFilters] = useState<GrantFilters>(() =>
     filtersFromParams(new URLSearchParams(searchParams.toString()))
   )
