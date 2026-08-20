@@ -60,30 +60,46 @@ async function main() {
         : null
     const { date, precision } = parseRound(round)
 
-    records.push({
-      key: await sha256(
-        [round, source, organization, amountCell, receivingCharity, purpose].join('|')
-      ),
-      raw: { round, source, organization, amount: amountCell, receivingCharity, purpose },
-      parsed: {
-        funderName: source,
-        funderType: 'individual',
-        recipientName: recipient,
-        sponsorName: sponsor,
-        viaName: 'Survival and Flourishing Fund',
-        amount: parseAmount(amountCell),
-        currency: 'USD',
-        date,
-        datePrecision: precision,
-        description: purpose || null,
-        round,
-        url: URL,
-        causeSlugs: classifyCauses({
-          fund: 'sff',
-          text: `${recipient} ${purpose ?? ''}`,
-        }),
-      },
-    })
+    // Joint-funder rows ("Jaan Tallinn and Blake Borgeson") pair each funder
+    // with their own amount ("$1,094,000 and $135,000", same order). Split
+    // them into one grant per funder. Only split when the amount cell itself
+    // pairs two figures — org names can contain "and" ("The Casey and Family
+    // Foundation") without being joint.
+    const jointAmounts = amountCell.match(/^\$([\d,]+) and \$([\d,]+)$/)
+    const funders =
+      jointAmounts && source.includes(' and ')
+        ? source.split(' and ').map((name, i) => ({
+            name: name.trim(),
+            amount: Number(jointAmounts[i + 1].replace(/,/g, '')),
+          }))
+        : [{ name: source, amount: parseAmount(amountCell) }]
+
+    for (const funder of funders) {
+      records.push({
+        key: await sha256(
+          [round, funder.name, organization, amountCell, receivingCharity, purpose].join('|')
+        ),
+        raw: { round, source, funder: funder.name, organization, amount: amountCell, receivingCharity, purpose },
+        parsed: {
+          funderName: funder.name,
+          funderType: 'individual',
+          recipientName: recipient,
+          sponsorName: sponsor,
+          viaName: 'Survival and Flourishing Fund',
+          amount: funder.amount,
+          currency: 'USD',
+          date,
+          datePrecision: precision,
+          description: purpose || null,
+          round,
+          url: URL,
+          causeSlugs: classifyCauses({
+            fund: 'sff',
+            text: `${recipient} ${purpose ?? ''}`,
+          }),
+        },
+      })
+    }
   }
   if (records.length < 400) {
     throw new Error(`SFF parse suspiciously small: ${records.length} rows — page layout changed?`)
