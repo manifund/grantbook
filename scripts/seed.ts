@@ -72,6 +72,13 @@ const SOURCES = [
     tier: 2,
   },
   { id: 'foresight', name: 'Foresight Institute', url: 'https://foresight.org/', tier: 2 },
+  {
+    id: 'schmidt_sciences',
+    name: 'Schmidt Sciences',
+    url: 'https://www.schmidtsciences.org/',
+    tier: 2,
+  },
+  { id: 'longview', name: 'Longview Philanthropy', url: 'https://www.longview.org/', tier: 2 },
   { id: 'jefftk', name: 'Jeff Kaufman', url: 'https://www.jefftk.com/donations', tier: 3 },
   {
     id: 'propublica_990',

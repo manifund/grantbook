@@ -225,8 +225,7 @@ export async function runIngest(
     // Keys with a suffix (manifund's "projectId:donor") also match their
     // prefix, so one entry can cover every donor to a project.
     const manualTags =
-      MANUAL_TAGS[`${sourceId}:${p.key}`] ??
-      MANUAL_TAGS[`${sourceId}:${p.key.split(':')[0]}`]
+      MANUAL_TAGS[`${sourceId}:${p.key}`] ?? MANUAL_TAGS[`${sourceId}:${p.key.split(':')[0]}`]
     grantCauses.set(grantId, manualTags ? withAncestors(manualTags) : p.parsed.causeSlugs)
     if (link) {
       updatedGrants.push({ ...base, id: grantId })

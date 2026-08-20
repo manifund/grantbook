@@ -337,13 +337,7 @@
         "salary bridge",
         "career exploration"
       ],
-      "ais-events": [
-        "conference",
-        "workshop",
-        "retreat",
-        "hackathon",
-        "event"
-      ],
+      "ais-events": ["conference", "workshop", "retreat", "hackathon", "event"],
       "research-hubs": [
         "constellation",
         "lisa",
@@ -408,24 +402,11 @@
         "blog",
         "epistemic"
       ],
-      "org-incubation": [
-        "incubat",
-        "ops support",
-        "operations",
-        "founding",
-        "fiscal sponsorship"
-      ]
+      "org-incubation": ["incubat", "ops support", "operations", "founding", "fiscal sponsorship"]
     },
     "ai-adjacent": {
-      "ai-bio": [
-        "biosecurity",
-        "biorisk",
-        "pandemic",
-        "biological"
-      ],
-      "ai-cyber": [
-        "cyber"
-      ],
+      "ai-bio": ["biosecurity", "biorisk", "pandemic", "biological"],
+      "ai-cyber": ["cyber"],
       "digital-minds": [
         "digital minds",
         "ai welfare",
@@ -433,16 +414,8 @@
         "moral patient",
         "consciousness"
       ],
-      "s-risk": [
-        "s-risk",
-        "suffering risk"
-      ],
-      "gradual-disempowerment": [
-        "disempowerment",
-        "labor market",
-        "economic disruption",
-        "wage"
-      ]
+      "s-risk": ["s-risk", "suffering risk"],
+      "gradual-disempowerment": ["disempowerment", "labor market", "economic disruption", "wage"]
     }
   },
   "keywords": {
