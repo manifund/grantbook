@@ -7,7 +7,23 @@
 import resolutionsFile from '@/data/dedup-resolutions.json'
 import { createAdminClient } from '@/db/supabase-admin'
 
-const PRIORITY = ['sff', 'ea_funds', 'manifund', 'coefficient_giving', 'vipul_donations']
+// Original sources outrank Vipul's aggregate mirror; anything unlisted ranks
+// just above vipul_donations (see rank()).
+const PRIORITY = [
+  'sff',
+  'ea_funds',
+  'manifund',
+  'coefficient_giving',
+  'fli',
+  'longview',
+  'schmidt_sciences',
+  'foresight',
+  'acx_grants',
+  'jefftk',
+  'uk_aisi',
+  'irs_990',
+  'vipul_donations',
+]
 
 const RESOLUTIONS: Record<string, 'merged' | 'distinct'> = (
   resolutionsFile as never as { resolutions: Record<string, 'merged' | 'distinct'> }
@@ -161,7 +177,7 @@ async function main() {
           // Sources missing from PRIORITY rank last, not first.
           const rank = (sourceId: string) => {
             const i = PRIORITY.indexOf(sourceId)
-            return i === -1 ? PRIORITY.length : i
+            return i === -1 ? PRIORITY.length - 1 : i
           }
           const [winner, loser] = rank(a.sourceId) <= rank(b.sourceId) ? [a, b] : [b, a]
           await merge(winner, loser)
@@ -194,6 +210,42 @@ async function main() {
       }
     }
   }
+  // Recorded resolutions can pair grants the heuristics never compare (e.g.
+  // the two sources name the recipient differently, so they sit in different
+  // buckets). Process them directly by provenance key.
+  const byProvenance = new Map(grants.map((g) => [g.provenanceKey, g]))
+  for (const [rkey, resolution] of Object.entries(RESOLUTIONS)) {
+    if (resolution !== 'merged' || !apply) continue
+    const [keyA, keyB] = rkey.split(' || ')
+    const a = byProvenance.get(keyA)
+    const b = byProvenance.get(keyB)
+    if (!a || !b || a.id === b.id) continue
+    const pairKey = [a.id, b.id].sort().join('|')
+    if (seenPairs.has(pairKey)) continue
+    seenPairs.add(pairKey)
+    const rank = (sourceId: string) => {
+      const i = PRIORITY.indexOf(sourceId)
+      return i === -1 ? PRIORITY.length - 1 : i
+    }
+    const [winner, loser] = rank(a.sourceId) <= rank(b.sourceId) ? [a, b] : [b, a]
+    await merge(winner, loser)
+    merged++
+    const [idA, idB] = [a.id, b.id].sort()
+    await db
+      .from('dedup_candidates')
+      .upsert(
+        {
+          grant_id_a: idA,
+          grant_id_b: idB,
+          reason: 'manually recorded pair',
+          status: 'merged',
+          resolved_at: new Date().toISOString(),
+        },
+        { onConflict: 'grant_id_a,grant_id_b' }
+      )
+      .throwOnError()
+  }
+
   console.log(JSON.stringify({ grants: grants.length, pending, merged, distinct, applied: apply }))
   if (pending > 0) {
     console.log('Resolve pending pairs in data/dedup-resolutions.json, then run dedup --apply')
