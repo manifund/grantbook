@@ -540,6 +540,27 @@
     "acx_grants:a691af21a6f9e2f14ae01952099c556a4f59c8857923c75d06bba4b05d04a5fb || manifund:da701a99-d0a0-42ff-9c93-f253e1b8eb50:acx-grants": "merged",
     "acx_grants:8beb1f2abecaea3c3be84276d74bfb61c7461883b8caabd4422c810aab1c6afd || manifund:a84c5f2b-334b-49e0-b7a5-e6e165de73d7:acx-grants": "merged",
     "acx_grants:94c30223b0583016d4cbcfb45733f09b6497d1997288d1fc3672ff48656f2917 || manifund:ac93cf51-843b-4bc5-935a-369d1c039407:acx-grants": "merged",
-    "acx_grants:6af30672931cebcb8a87746a2db96d6214f811998d30e44671817755212050a1 || manifund:c599f272-5325-4935-b24b-80d93735a6e2:acx-grants": "merged"
+    "acx_grants:6af30672931cebcb8a87746a2db96d6214f811998d30e44671817755212050a1 || manifund:c599f272-5325-4935-b24b-80d93735a6e2:acx-grants": "merged",
+    "ea_funds:grantsAddonData[102] || vipul_donations:797541f7da2518804e3cbb8065884d1798733e431ed4f62b7780f8e052233006": "merged",
+    "ea_funds:grantsAddonData[92] || vipul_donations:eeffe306140f9fca94db159cf9687798e53cdc8f41c83e5989d56349af8b3505": "merged",
+    "ea_funds:grantsAddonData[90] || vipul_donations:5cdfc330ba77ac7d7322e6fcd689fd75d504d467db4fe9a0824dd41d1f0e0939": "merged",
+    "jefftk:984718549263bdddd77352fffa964593df8ac1b6f0448fe69b5f09f19b005c5f || vipul_donations:7ab8996f992d569ca839c20cfafb5efc7d436fa695cfc0748141bfc414128064": "merged",
+    "jefftk:d7d3e739ad3ae68a2189bd11d26a6595655457e6cdb21def1996cbbc093dceae || vipul_donations:e0ecfa6efe8e3b9217670991c21ad0bb64f1a3cc7f7465b3b60ce198f011305b": "merged",
+    "jefftk:f0685a53dbc899c1c2cd90a1a465b9d788018aa0f6da6590dcdb9366bc801648 || vipul_donations:8d3b701acf7b340005d9ae281aae38e88f2b8357c7bbb4e297e12ea36e3ad85a": "merged",
+    "jefftk:5c8a9f6c87c7efed364b2eca6de36ac760a18056981f672d956d02f9d0ec86da || vipul_donations:cabe523234cd9a32dfa642506a1d6a42221c2edf137b4c67a1aa6694221e677b": "merged",
+    "jefftk:c16897a4926447fa491834115cd0301e1341ad8dda0d8dfa2c793508332185df || vipul_donations:b82267f0219a1379ebeffc6d02bfef6f16ac73959e83f319c046996471f27352": "merged",
+    "coefficient_giving:2722 || vipul_donations:cac5fc7cf95264f49d49e8bf8d9b676f5391d20f8b7a930d54753a551ef424b4": "merged",
+    "sff:be1ae50e9e1c43e402bc6191b15889f3756851b7d52b83c9379a2e49bc7ad950 || vipul_donations:b68e9c6f3cb931c09747141b382167be78548c7ecd2d4da52f3b97bac6fd1a38": "merged",
+    "jefftk:da8885c7fb2f0323f2280cc74d8a7563da71ab99342bf175fa9f0a6188c880a2 || vipul_donations:3c04a62c486d5192174bc3443b9f73fbd76269ab1553c1e0132a2ffeda1f89c8": "merged",
+    "coefficient_giving:2727 || vipul_donations:e5bb326412f1f1fe33f697a616ba43dd4deec70b324b5fb48ac4c872fe7ffd9c": "merged",
+    "coefficient_giving:8561 || vipul_donations:3f9d65960bdca21d3fb800e387e9dc6e91f897281c6436961a2921aaeb94431d": "merged",
+    "sff:2dd352240ec3560f24f4599e03978f6a529b315ce01c07e834f382d126d06672 || vipul_donations:db56a4a9032a5069e3b8dadf1f7c030747ed3ca2f620186d9f68e85686f30d7d": "merged",
+    "jefftk:669dfd82f643018fd56d1b54e772a8ce01b1fde48bb7d0dbd973efc6ba4a1c98 || vipul_donations:c828fc4b989e714bec7c419af4288422eb031d082878276ea89e179b6df4e0b7": "merged",
+    "coefficient_giving:2936 || vipul_donations:fcefec7b2748428a7168a0476f0a5636b0bea6b2ea7bb8a3d85635676f46e17e": "merged",
+    "sff:dab915f026f96e512e4d06ba3498fe32f34fbfe2d3e2858da947b893b96c2014 || vipul_donations:7f0586d0a0a789b337f37cc0ad8f86cced4a88daa8971d5edf83c1f86cbb4c22": "merged",
+    "jefftk:f013c0cfeee7f61530fe476a3669afc4eb3610f7f0259644bbe5755eb534c3ad || vipul_donations:263eba4db0e2a7d2bb123248da0690a636a2fa72b74a6f1df3035bc93e6af6a3": "merged",
+    "sff:db7f3d80709a91006d9ec852662c0600bed830cb435199932891a249ea244636 || vipul_donations:07a4ce314a0faf009b458fd0431b03feab6e28d8a8b189f5810111652d824d68": "merged",
+    "coefficient_giving:2666 || vipul_donations:c5238b6073a7a4d3fae0779d71aa9c7f45663f0065ec73295ec197f8fb3c8f4e": "merged",
+    "sff:6dad9c7be61bac2d3508fff3a0ecdd0870855b6ba44d9651426e0ab551e97c4f || vipul_donations:93e9461100b53a001c37269c4d9c51d325fb2140197e02afbcb6ac5c15696ce9": "merged"
   }
 }
