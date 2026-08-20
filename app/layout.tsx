@@ -1,6 +1,7 @@
 import './globals.css'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { OrgSearch } from '@/components/org-search'
 
 export const metadata: Metadata = {
   title: 'Grantbook',
@@ -22,6 +23,7 @@ export default function RootLayout(props: { children: React.ReactNode }) {
             <Link href="/charts">Charts</Link>
             <Link href="/about">About</Link>
           </nav>
+          <OrgSearch />
         </header>
         {props.children}
       </body>

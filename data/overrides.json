@@ -8,6 +8,14 @@
     "manifund:bc897493-91bf-47af-afed-5e309538c6c8:acx-grants": {
       "note": "ACX 2024 regrant paid out via Manifund; Tarbell's program, listed under Cillian Crosson",
       "recipient_name": "Tarbell Center for AI Journalism"
+    },
+    "ea_funds:reciaJlSLKPTEDU71": {
+      "note": "Training for Good grant covering the Tarbell journalism program (per Caroline: TfG grants mentioning Tarbell/journalism belong to Tarbell)",
+      "recipient_name": "Tarbell Center for AI Journalism"
+    },
+    "coefficient_giving:16424": {
+      "note": "Training for Good 'Operating Costs and Tarbell Fellowship' grant",
+      "recipient_name": "Tarbell Center for AI Journalism"
     }
   }
 }

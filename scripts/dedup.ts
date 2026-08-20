@@ -158,8 +158,12 @@ async function main() {
           continue
         }
         if (resolution === 'merged' && apply) {
-          const [winner, loser] =
-            PRIORITY.indexOf(a.sourceId) <= PRIORITY.indexOf(b.sourceId) ? [a, b] : [b, a]
+          // Sources missing from PRIORITY rank last, not first.
+          const rank = (sourceId: string) => {
+            const i = PRIORITY.indexOf(sourceId)
+            return i === -1 ? PRIORITY.length : i
+          }
+          const [winner, loser] = rank(a.sourceId) <= rank(b.sourceId) ? [a, b] : [b, a]
           await merge(winner, loser)
           merged++
           await db

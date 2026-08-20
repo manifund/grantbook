@@ -80,6 +80,13 @@ const SOURCES = [
   { id: 'longview', name: 'Longview Philanthropy', url: 'https://www.longview.org/', tier: 2 },
   { id: 'jefftk', name: 'Jeff Kaufman', url: 'https://www.jefftk.com/donations', tier: 3 },
   {
+    id: 'irs_990',
+    name: 'IRS Form 990 filings',
+    url: 'https://projects.propublica.org/nonprofits/',
+    license: 'public record',
+    tier: 2,
+  },
+  {
     id: 'propublica_990',
     name: 'IRS Form 990',
     url: 'https://projects.propublica.org/nonprofits/',
