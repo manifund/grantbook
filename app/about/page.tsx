@@ -5,7 +5,19 @@ export const revalidate = 600
 export default async function Page() {
   const sources = await listSources()
   return (
-    <div>
+    <div className="max-w-3xl">
+      <p className="mb-4">
+        Grantbook compiles data on donations from a variety of sources. The code is open-source and
+        can be seen at <a href="https://github.com/manifund/grantbook">GitHub</a>. The compilation
+        is released under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>;
+        underlying records come from the listed sources.
+      </p>
+      <p className="mb-6">
+        Thanks to Vipul Naik for creating{' '}
+        <a href="https://donations.vipulnaik.com/">donations.vipulnaik.com</a>, a spiritual
+        predecessor to this site and source for some of the data. At his request, we would like to
+        caveat that data from his site is preliminary and has not been completely vetted.
+      </p>
       <h1 className="mb-4 font-serif text-2xl font-bold">Sources</h1>
       <div className="overflow-x-auto">
         <table className="gb-table">
@@ -27,10 +39,6 @@ export default async function Page() {
           </tbody>
         </table>
       </div>
-      <p className="mt-6 text-sm text-ink-muted">
-        Predecessors: <a href="https://donations.vipulnaik.com/">donations.vipulnaik.com</a>,{' '}
-        <a href="https://openbook.fyi/">openbook.fyi</a>
-      </p>
     </div>
   )
 }
