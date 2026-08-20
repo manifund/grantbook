@@ -527,6 +527,19 @@
     "coefficient_giving:8428 || vipul_donations:c2441f1610b3b4f42bc5b4fa669ebb3e1bf97b53883e52e24c68802eafbf11e9": "merged",
     "coefficient_giving:1547 || vipul_donations:174d0fcae0d7eb1d2187b5047dbd8383058f6ab68532995b5c8f6b9910fea6e1": "merged",
     "coefficient_giving:1282 || vipul_donations:198c582563fa154f5963c673c9c6cd24d8189ae42621230028a629197feeb1b0": "merged",
-    "fli:f0971c8bf755dc3970c8d5e16ddab425ba3c71c01d5662f7085cef1dab99db98 || vipul_donations:f61ba8ded7c0b3a61ec3b87646d6578f68c29b58f02af63682f4ba15d26ba7cd": "merged"
+    "fli:f0971c8bf755dc3970c8d5e16ddab425ba3c71c01d5662f7085cef1dab99db98 || vipul_donations:f61ba8ded7c0b3a61ec3b87646d6578f68c29b58f02af63682f4ba15d26ba7cd": "merged",
+    "acx_grants:22007f5018567797ac2211e9399d05557b95515887b077fe3dddf339b0e67312 || manifund:6be0210b-d06a-4159-91cf-a722d8e5ca14:acx-grants": "merged",
+    "acx_grants:cd536a02ecb7891025e40d9fa3785b055f1cd979806bd95ea3d995d908665deb || manifund:91807dc3-c874-452d-98fc-6065265a8f8c:acx-grants": "merged",
+    "acx_grants:b2000b79ad81c7530e1c40691fb0170f6435d22f32d0fcd98fd2e12f17e2c99d || manifund:2a38a383-5c21-415c-88f7-21910e8d7d79:acx-grants": "merged",
+    "acx_grants:696df59f51e630fda79367bc2a721ff5b267d93cb55147530a8f583d7914e5b3 || manifund:f02c2577-1f63-4461-9dc9-7b803445a414:acx-grants": "merged",
+    "acx_grants:989bb7c8cdffdb43dbae9d85b6247f5218fe3eb587544681c3af7355140d2bd9 || manifund:c3689a1a-e771-46db-ab69-bae7185746a5:acx-grants": "merged",
+    "acx_grants:d388023d3cf969af780b806225b1909baabd9641e7f1ed22a63cbc3a04c019be || manifund:c2270045-44b8-4365-87d4-f59060d2179c:acx-grants": "merged",
+    "acx_grants:bd8203f9ceb310d78b2a794d7d1354377661c8555505cb42fc5786c1b28963b3 || manifund:313977af-6547-4861-8b97-bdddb44957bd:acx-grants": "merged",
+    "acx_grants:7f844fe7d73c8001ac942aac4348e1e7a8b140730ab64f08ece0ffc5874c3c4c || manifund:0e09e971-46eb-406a-aba9-b6ab0bb7c772:acx-grants": "merged",
+    "acx_grants:bff272c2e1dd017be2a4a74b3ced1e81e260706d78f37b405e52bfa4600978dc || manifund:3de8091c-06d5-47da-b0e2-fde70ffec68d:acx-grants": "merged",
+    "acx_grants:a691af21a6f9e2f14ae01952099c556a4f59c8857923c75d06bba4b05d04a5fb || manifund:da701a99-d0a0-42ff-9c93-f253e1b8eb50:acx-grants": "merged",
+    "acx_grants:8beb1f2abecaea3c3be84276d74bfb61c7461883b8caabd4422c810aab1c6afd || manifund:a84c5f2b-334b-49e0-b7a5-e6e165de73d7:acx-grants": "merged",
+    "acx_grants:94c30223b0583016d4cbcfb45733f09b6497d1997288d1fc3672ff48656f2917 || manifund:ac93cf51-843b-4bc5-935a-369d1c039407:acx-grants": "merged",
+    "acx_grants:6af30672931cebcb8a87746a2db96d6214f811998d30e44671817755212050a1 || manifund:c599f272-5325-4935-b24b-80d93735a6e2:acx-grants": "merged"
   }
 }

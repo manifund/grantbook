@@ -66,6 +66,44 @@ const SOURCES: CuratedSource[] = [
     funderType: 'organization',
     programCauses: () => null,
   },
+  {
+    sourceId: 'longview',
+    file: 'longview.json',
+    defaultFunder: 'Longview Philanthropy',
+    funderType: 'foundation',
+    programCauses: (program) => {
+      if (/nuclear/i.test(program)) return ['x-risk-other']
+      if (/frontier ai/i.test(program)) return ['ai-safety']
+      if (/digital minds|sentience/i.test(program)) return ['digital-minds']
+      return null
+    },
+  },
+  {
+    sourceId: 'acx_grants',
+    file: 'acx-grants.json',
+    defaultFunder: 'ACX Grants',
+    funderType: 'fund',
+    programCauses: () => null,
+  },
+  {
+    sourceId: 'jefftk',
+    file: 'jefftk.json',
+    defaultFunder: 'Jeff Kaufman',
+    funderType: 'individual',
+    programCauses: () => null,
+  },
+  {
+    sourceId: 'uk_aisi',
+    file: 'uk-aisi.json',
+    defaultFunder: 'UK AI Security Institute',
+    funderType: 'government',
+    programCauses: (program) => {
+      if (/alignment project/i.test(program)) return ['technical-ai-safety']
+      if (/systemic safety/i.test(program)) return ['ai-safety']
+      if (/challenge fund/i.test(program)) return ['ai-safety']
+      return null
+    },
+  },
 ]
 
 function parseDate(row: CuratedRow): {

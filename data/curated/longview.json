@@ -1,0 +1,565 @@
+{
+  "_comment": "Longview Philanthropy public grants (ECF/Longtermism Fund reports, featured grants, US 990 Schedule I), 2026-08-19. Most Longview-advised giving is private; this is the itemizable slice.",
+  "grants": [
+    {
+      "recipient": "Center for Human-Compatible Artificial Intelligence (UC Berkeley)",
+      "amount": 70000,
+      "currency": "USD",
+      "date": "2022-12",
+      "datePrecision": "month",
+      "description": "Supporting graduate students, affiliated researchers, and infrastructure for AI alignment research. Longtermism Fund (now Emerging Challenges Fund) December 2022 grants report.",
+      "program": "Emerging Challenges Fund (formerly Longtermism Fund)",
+      "sourceUrl": "https://www.givingwhatwecan.org/charities/emerging-challenges-fund/longermism-fund-december-2022-grants-report"
+    },
+    {
+      "recipient": "SecureBio",
+      "amount": 60000,
+      "currency": "USD",
+      "date": "2022-12",
+      "datePrecision": "month",
+      "description": "Funding research scientists, an air sanitisation trial, and establishing a policy unit focused on biosecurity. Longtermism Fund December 2022 grants report.",
+      "program": "Emerging Challenges Fund (formerly Longtermism Fund)",
+      "sourceUrl": "https://www.givingwhatwecan.org/charities/emerging-challenges-fund/longermism-fund-december-2022-grants-report"
+    },
+    {
+      "recipient": "Rethink Priorities (General Longtermism Team)",
+      "amount": 30000,
+      "currency": "USD",
+      "date": "2022-12",
+      "datePrecision": "month",
+      "description": "Supporting researchers and research staff working on existential risk. Longtermism Fund December 2022 grants report.",
+      "program": "Emerging Challenges Fund (formerly Longtermism Fund)",
+      "sourceUrl": "https://www.givingwhatwecan.org/charities/emerging-challenges-fund/longermism-fund-december-2022-grants-report"
+    },
+    {
+      "recipient": "Council on Strategic Risks (Nuclear Weapons Policy Work)",
+      "amount": 15000,
+      "currency": "USD",
+      "date": "2022-12",
+      "datePrecision": "month",
+      "description": "Policy development, advocacy, and fellowships related to nuclear risk reduction. Longtermism Fund December 2022 grants report.",
+      "program": "Emerging Challenges Fund (formerly Longtermism Fund)",
+      "sourceUrl": "https://www.givingwhatwecan.org/charities/emerging-challenges-fund/longermism-fund-december-2022-grants-report"
+    },
+    {
+      "recipient": "Harvard University (Wattenberg & Viegas AI interpretability lab)",
+      "amount": 110000,
+      "currency": "USD",
+      "date": "2023-08",
+      "datePrecision": "month",
+      "description": "AI interpretability research: compute cluster setup and hiring graduate students or postdoctoral fellows. Longtermism Fund August 2023 grants report.",
+      "program": "Emerging Challenges Fund (formerly Longtermism Fund)",
+      "sourceUrl": "https://www.givingwhatwecan.org/charities/emerging-challenges-fund/longtermism-fund-august-2023-grants-report"
+    },
+    {
+      "recipient": "ARC Evals (now METR)",
+      "amount": 220000,
+      "currency": "USD",
+      "date": "2023-08",
+      "datePrecision": "month",
+      "description": "Staff costs and possibly compute for assessing whether cutting-edge AI systems pose catastrophic risks before release. Longtermism Fund August 2023 grants report.",
+      "program": "Emerging Challenges Fund (formerly Longtermism Fund)",
+      "sourceUrl": "https://www.givingwhatwecan.org/charities/emerging-challenges-fund/longtermism-fund-august-2023-grants-report"
+    },
+    {
+      "recipient": "Nuclear Threat Initiative Biosecurity Programme (NTI | Bio)",
+      "amount": 100000,
+      "currency": "USD",
+      "date": "2023-08",
+      "datePrecision": "month",
+      "description": "Project to develop research recommendations for disincentivizing state biological weapons programs, including expert workshops. Longtermism Fund August 2023 grants report.",
+      "program": "Emerging Challenges Fund (formerly Longtermism Fund)",
+      "sourceUrl": "https://www.givingwhatwecan.org/charities/emerging-challenges-fund/longtermism-fund-august-2023-grants-report"
+    },
+    {
+      "recipient": "Center for Communicable Disease Dynamics (Harvard T.H. Chan School)",
+      "amount": 80000,
+      "currency": "USD",
+      "date": "2023-08",
+      "datePrecision": "month",
+      "description": "Partially funding the Director of Research and Administration position to support pandemic prevention and biosecurity work. Longtermism Fund August 2023 grants report.",
+      "program": "Emerging Challenges Fund (formerly Longtermism Fund)",
+      "sourceUrl": "https://www.givingwhatwecan.org/charities/emerging-challenges-fund/longtermism-fund-august-2023-grants-report"
+    },
+    {
+      "recipient": "Carnegie Endowment for International Peace (Nuclear Policy Program)",
+      "amount": 52000,
+      "currency": "USD",
+      "date": "2023-08",
+      "datePrecision": "month",
+      "description": "Research workshops and analysis of nuclear war escalation pathways and policy interventions, led by James Acton and Jamie Kwong. Longtermism Fund August 2023 grants report.",
+      "program": "Emerging Challenges Fund (formerly Longtermism Fund)",
+      "sourceUrl": "https://www.givingwhatwecan.org/charities/emerging-challenges-fund/longtermism-fund-august-2023-grants-report"
+    },
+    {
+      "recipient": "FAR AI",
+      "amount": 100000,
+      "currency": "USD",
+      "date": "2023-12",
+      "datePrecision": "month",
+      "description": "Research directions focused on safely building advanced AI systems (robustness, value alignment, model testing, interpretability). ECF December 2023 grants report.",
+      "program": "Emerging Challenges Fund",
+      "sourceUrl": "https://www.longview.org/fund/emerging-challenges-fund-december-2023-grants-report/"
+    },
+    {
+      "recipient": "Blueprint Biosecurity",
+      "amount": 50000,
+      "currency": "USD",
+      "date": "2023-12",
+      "datePrecision": "month",
+      "description": "Commissioning research into far-UVC light: efficacy for reducing disease transmission, eye safety, and impacts on air quality. ECF December 2023 grants report. Also listed as a featured grant on longview.org ('Blueprint Biosecurity far-UVC work', added Nov 2023).",
+      "program": "Emerging Challenges Fund",
+      "sourceUrl": "https://www.longview.org/fund/emerging-challenges-fund-december-2023-grants-report/"
+    },
+    {
+      "recipient": "Decision Research",
+      "amount": 20000,
+      "currency": "USD",
+      "date": "2023-12",
+      "datePrecision": "month",
+      "description": "Research into nuclear decision-making: sharing and generating research to help officials review nuclear crisis decision protocols. ECF December 2023 grants report. Note: Longview also featured an earlier (pre-2021, amount undisclosed) Decision Research project on psychological processes in nuclear decision-making on its 2021 grantmaking page (https://web.archive.org/web/20210116204242/https://www.longview.org/grantmaking).",
+      "program": "Emerging Challenges Fund",
+      "sourceUrl": "https://www.longview.org/fund/emerging-challenges-fund-december-2023-grants-report/"
+    },
+    {
+      "recipient": "Six EU civil society organisations (aggregate; EU AI Act Emergency Support)",
+      "amount": 733000,
+      "currency": "USD",
+      "date": "2024",
+      "datePrecision": "year",
+      "description": "Aggregate grant line from the ECF 2024 Annual Report ('$733k, EU AI Act: Emergency Support') supporting civil society organisations invited to help draft the EU AI Act Code of Practice; over half of 2024 ECF grantmaking. Individual recipients not named in the public summary. Three of them are probably the US-entity Schedule I grantees Rethink Priorities ($219,000), Players Philanthropy Fund ($51,000), and AI Objectives Institute ($18,843), each with identical '(AI governance in Europe' purpose text in the FY2024 Form 990 -- see separate 990 entries; treat with care to avoid double counting. Source is the TYPE III AUDIO narration mirror of the (now-unavailable) EA Forum announcement post https://forum.effectivealtruism.org/posts/PBonnCzpMjij4X3Mr/announcing-the-emerging-challenges-fund-s-2024-report; canonical report PDF (download-restricted): https://drive.google.com/file/d/1HIds8PdJsjdMSyW2yQtozqEG87jIOzv9/view",
+      "program": "Emerging Challenges Fund",
+      "sourceUrl": "https://podm8.com/episodes/ea-forum-podcast-all-audio/announcing-the-emerging-challenges-funds-2024-report-by-longview-philanthropy-suryanshm-mhpage-carl-robichaud-zdgroff-aidan-ogara-gentzel-sim-S6fOAta26C"
+    },
+    {
+      "recipient": "Horizon Institute for Public Service",
+      "amount": 150000,
+      "currency": "USD",
+      "date": "2024",
+      "datePrecision": "year",
+      "description": "Placing technical expertise in government. ECF 2024 Annual Report grants table. Partially corroborated by FY2024 Form 990 Schedule I grant of $116,285 (general support) from Longview Philanthropy USA Inc; remainder likely disbursed via Giving What We Can/UK entity.",
+      "program": "Emerging Challenges Fund",
+      "sourceUrl": "https://podm8.com/episodes/ea-forum-podcast-all-audio/announcing-the-emerging-challenges-funds-2024-report-by-longview-philanthropy-suryanshm-mhpage-carl-robichaud-zdgroff-aidan-ogara-gentzel-sim-S6fOAta26C"
+    },
+    {
+      "recipient": "Centre for Long-Term Resilience",
+      "amount": 150000,
+      "currency": "USD",
+      "date": "2024",
+      "datePrecision": "year",
+      "description": "Advising on biosecurity & AI policy. ECF 2024 Annual Report grants table. CLTR (formerly Alpenglow) is also a long-standing Longview featured grantee (see separate entry).",
+      "program": "Emerging Challenges Fund",
+      "sourceUrl": "https://podm8.com/episodes/ea-forum-podcast-all-audio/announcing-the-emerging-challenges-funds-2024-report-by-longview-philanthropy-suryanshm-mhpage-carl-robichaud-zdgroff-aidan-ogara-gentzel-sim-S6fOAta26C"
+    },
+    {
+      "recipient": "Pacific Forum",
+      "amount": 50000,
+      "currency": "USD",
+      "date": "2024",
+      "datePrecision": "year",
+      "description": "Convening (summary truncated in source; an asterisk footnote on the amount could not be recovered). ECF 2024 Annual Report grants table. Corroborated by FY2024 Form 990 Schedule I: $50,000 to Pacific Forum International, Honolulu HI, 'to support a US-China dialogue to foster mutual understanding and promote public policy development'. This entry and the Schedule I entry are the same grant.",
+      "program": "Emerging Challenges Fund",
+      "sourceUrl": "https://podm8.com/episodes/ea-forum-podcast-all-audio/announcing-the-emerging-challenges-funds-2024-report-by-longview-philanthropy-suryanshm-mhpage-carl-robichaud-zdgroff-aidan-ogara-gentzel-sim-S6fOAta26C"
+    },
+    {
+      "recipient": "Players Philanthropy Fund (Towson, MD; fiscal sponsor)",
+      "amount": 51000,
+      "currency": "USD",
+      "date": "2024",
+      "datePrecision": "year",
+      "description": "FY2024 (calendar year 2024) Form 990 Schedule I, Longview Philanthropy USA Inc (EIN 93-2664730): 'Supporting public-interest, expert-led research and collaboration to strengthen best practices for AI governance in Europe.' Likely one of the six EU AI Act Code of Practice support grants (fiscally sponsored project not named).",
+      "program": "Longview Philanthropy USA Inc direct grant (990 Schedule I)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/932664730/202503179349304265/full"
+    },
+    {
+      "recipient": "Rethink Priorities",
+      "amount": 219000,
+      "currency": "USD",
+      "date": "2024",
+      "datePrecision": "year",
+      "description": "FY2024 Form 990 Schedule I, Longview Philanthropy USA Inc: 'Supporting public-interest, expert-led research and collaboration to strengthen best practices for AI governance in Europe.' Likely part of the ECF 'Six EU civil society organisations' $733k aggregate.",
+      "program": "Longview Philanthropy USA Inc direct grant (990 Schedule I)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/932664730/202503179349304265/full"
+    },
+    {
+      "recipient": "AI Objectives Institute",
+      "amount": 18843,
+      "currency": "USD",
+      "date": "2024",
+      "datePrecision": "year",
+      "description": "FY2024 Form 990 Schedule I, Longview Philanthropy USA Inc: 'Supporting public-interest, expert-led research and collaboration to strengthen best practices for AI governance in Europe.' Likely part of the ECF 'Six EU civil society organisations' $733k aggregate.",
+      "program": "Longview Philanthropy USA Inc direct grant (990 Schedule I)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/932664730/202503179349304265/full"
+    },
+    {
+      "recipient": "Undisclosed organisation, Europe (990 Schedule F grant 1 of 3)",
+      "amount": 504714,
+      "currency": "USD",
+      "date": "2024",
+      "datePrecision": "year",
+      "description": "FY2024 Form 990 Schedule F Part II, Longview Philanthropy USA Inc: cash grant to an organisation in 'Europe (including Iceland & Greenland)', purpose 'General support'. Recipient names are not required to be disclosed on Schedule F. Total FY2024 foreign grants: $892,714.",
+      "program": "Longview Philanthropy USA Inc direct grant (990 Schedule F)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/932664730/202503179349304265/full"
+    },
+    {
+      "recipient": "Undisclosed organisation, Europe (990 Schedule F grant 2 of 3)",
+      "amount": 262000,
+      "currency": "USD",
+      "date": "2024",
+      "datePrecision": "year",
+      "description": "FY2024 Form 990 Schedule F Part II, Longview Philanthropy USA Inc: cash grant to an organisation in 'Europe (including Iceland & Greenland)', purpose 'General support'.",
+      "program": "Longview Philanthropy USA Inc direct grant (990 Schedule F)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/932664730/202503179349304265/full"
+    },
+    {
+      "recipient": "Undisclosed organisation, Europe (990 Schedule F grant 3 of 3)",
+      "amount": 126000,
+      "currency": "USD",
+      "date": "2024",
+      "datePrecision": "year",
+      "description": "FY2024 Form 990 Schedule F Part II, Longview Philanthropy USA Inc: cash grant to an organisation in 'Europe (including Iceland & Greenland)', purpose 'General support'.",
+      "program": "Longview Philanthropy USA Inc direct grant (990 Schedule F)",
+      "sourceUrl": "https://projects.propublica.org/nonprofits/organizations/932664730/202503179349304265/full"
+    },
+    {
+      "recipient": "Panoplia Laboratories",
+      "amount": null,
+      "currency": "USD",
+      "date": "2025",
+      "datePrecision": "year",
+      "description": "Empirical AI-biosecurity research to assess how frontier AI models could enable or constrain real-world misuse and to evaluate current safeguards. Listed as an ECF grantee on Giving What We Can's fund page after the 2025 ECF Annual Report was released (not present on the Feb 2025 archived version); very likely one of the six 2025 ECF grants (which totalled $1.5M across six grants). Amount not publicly disclosed; see the 2025 ECF Annual Report PDF (download-restricted): https://drive.google.com/file/d/1KQWTkWdR6NJ0owpAWeVYwDyKlIPLIuvf/view",
+      "program": "Emerging Challenges Fund",
+      "sourceUrl": "https://www.givingwhatwecan.org/charities/emerging-challenges-fund"
+    },
+    {
+      "recipient": "Massachusetts Institute of Technology (MIT)",
+      "amount": null,
+      "currency": "USD",
+      "date": "2026",
+      "datePrecision": "year",
+      "description": "Featured grant (no amount published): testing whether cosmic-particle signatures of nuclear warheads could verify compliance with the Outer Space Treaty's ban on nuclear weapons in orbit. Date is when the grant was added to longview.org (May 2026); actual grant date may be earlier.",
+      "program": "Nuclear Weapons Policy Fund",
+      "sourceUrl": "https://www.longview.org/fund/nuclear-weapons-policy-fund/"
+    },
+    {
+      "recipient": "Perry World House, University of Pennsylvania",
+      "amount": null,
+      "currency": "USD",
+      "date": "2026",
+      "datePrecision": "year",
+      "description": "Featured grant (no amount published): drafting an 'Autonomous Incidents Agreement' on AI-nuclear risk and operationalizing the Biden-Xi commitment to human control of nuclear launch; Chinese-language research and Track-2 dialogues. Added to longview.org May 2026.",
+      "program": "Nuclear Weapons Policy Fund",
+      "sourceUrl": "https://www.longview.org/fund/nuclear-weapons-policy-fund/"
+    },
+    {
+      "recipient": "Council on Strategic Risks (CSR) and Berkeley Risk and Security Lab (BRSL)",
+      "amount": null,
+      "currency": "USD",
+      "date": "2026",
+      "datePrecision": "year",
+      "description": "Featured grant (no amount published): six-fellow program pairing AI specialists with nuclear experts, collaborative research, and placement of fellows into US government roles (Defense, State, Energy, Capitol Hill). Added to longview.org May 2026.",
+      "program": "Nuclear Weapons Policy Fund",
+      "sourceUrl": "https://www.longview.org/fund/nuclear-weapons-policy-fund/"
+    },
+    {
+      "recipient": "AI policy at the Brookings Institution",
+      "amount": null,
+      "currency": "USD",
+      "date": "2023",
+      "datePrecision": "year",
+      "description": "Featured grant on longview.org (no amount published; added to site March 2023). Actual grant date may be earlier.",
+      "program": "Longview advised/recommended grant (AI)",
+      "sourceUrl": "https://www.longview.org/wp-json/wp/v2/grant?per_page=100"
+    },
+    {
+      "recipient": "Existential risk policy at the OECD",
+      "amount": null,
+      "currency": "USD",
+      "date": "2023",
+      "datePrecision": "year",
+      "description": "Featured grant on longview.org (no amount published; added March 2023). Ongoing partnership supporting OECD existential-risk policy work across the Strategic Foresight Unit, High-Level Risk Forum, AI Policy Observatory, and Secretariat on Bio-, Nano-, and Converging Technologies. A related item 'Longtermism at the OECD' appeared on the 2023 archived site.",
+      "program": "Longview advised/recommended grant (policy)",
+      "sourceUrl": "https://www.longview.org/about/"
+    },
+    {
+      "recipient": "Center for Human-Compatible Artificial Intelligence (UC Berkeley) - featured/advised support",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Featured grant on longview.org (no amount published; featured since at least Jan 2021, re-listed March 2023): support for CHAI's AI safety research and PhD training. Distinct from (and possibly additional to) the $70,000 Longtermism Fund grant of Dec 2022 recorded separately.",
+      "program": "Longview advised/recommended grant (AI)",
+      "sourceUrl": "https://www.longview.org/artificial-intelligence/"
+    },
+    {
+      "recipient": "Forethought Foundation for Global Priorities Research",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Featured grant (no amount published): launching the Forethought Foundation (listed on the 2021 site as a launch grant; re-listed on longview.org Oct 2022).",
+      "program": "Longview advised/recommended grant (prioritisation research)",
+      "sourceUrl": "https://web.archive.org/web/20210116204242/https://www.longview.org/grantmaking"
+    },
+    {
+      "recipient": "Global Priorities Institute, University of Oxford",
+      "amount": null,
+      "currency": "USD",
+      "date": "2022",
+      "datePrecision": "year",
+      "description": "Featured grant on longview.org (no amount published; added Oct 2022).",
+      "program": "Longview advised/recommended grant (prioritisation research)",
+      "sourceUrl": "https://www.longview.org/wp-json/wp/v2/grant?per_page=100"
+    },
+    {
+      "recipient": "AI Ethics Research at NYU",
+      "amount": null,
+      "currency": "USD",
+      "date": "2022",
+      "datePrecision": "year",
+      "description": "Featured grant on longview.org (no amount published; added Oct 2022).",
+      "program": "Longview advised/recommended grant (AI)",
+      "sourceUrl": "https://www.longview.org/wp-json/wp/v2/grant?per_page=100"
+    },
+    {
+      "recipient": "The Centre for Long-Term Resilience (formerly Alpenglow)",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Featured grant (no amount published): launch/ongoing support for putting long-term thinking (AI, biosecurity) at the heart of UK policymaking. Listed as 'Alpenglow' launch grant on the 2021 site; re-listed Oct 2022. Separate from the $150,000 ECF grant in 2024 recorded separately.",
+      "program": "Longview advised/recommended grant (policy)",
+      "sourceUrl": "https://web.archive.org/web/20210116204242/https://www.longview.org/grantmaking"
+    },
+    {
+      "recipient": "Preventing Nuclear War Project",
+      "amount": null,
+      "currency": "USD",
+      "date": "2022",
+      "datePrecision": "year",
+      "description": "Featured grant on longview.org (no amount published; added Oct 2022).",
+      "program": "Longview advised/recommended grant (nuclear)",
+      "sourceUrl": "https://www.longview.org/wp-json/wp/v2/grant?per_page=100"
+    },
+    {
+      "recipient": "UT Austin Population Wellbeing Initiative",
+      "amount": null,
+      "currency": "USD",
+      "date": "2022",
+      "datePrecision": "year",
+      "description": "Featured grant on longview.org (no amount published; added Oct 2022).",
+      "program": "Longview advised/recommended grant",
+      "sourceUrl": "https://www.longview.org/wp-json/wp/v2/grant?per_page=100"
+    },
+    {
+      "recipient": "Clean Air Task Force",
+      "amount": null,
+      "currency": "USD",
+      "date": "2022",
+      "datePrecision": "year",
+      "description": "Featured grant on longview.org (no amount published; added Oct 2022). Climate/energy policy.",
+      "program": "Longview advised/recommended grant (climate)",
+      "sourceUrl": "https://www.longview.org/wp-json/wp/v2/grant?per_page=100"
+    },
+    {
+      "recipient": "AI Impacts",
+      "amount": null,
+      "currency": "USD",
+      "date": "2022",
+      "datePrecision": "year",
+      "description": "Featured grant on longview.org (no amount published; added Oct 2022).",
+      "program": "Longview advised/recommended grant (AI)",
+      "sourceUrl": "https://www.longview.org/wp-json/wp/v2/grant?per_page=100"
+    },
+    {
+      "recipient": "Telis Bioscience",
+      "amount": null,
+      "currency": "USD",
+      "date": "2022",
+      "datePrecision": "year",
+      "description": "Featured grant on longview.org (no amount published; added July 2022). Biosecurity.",
+      "program": "Longview advised/recommended grant (biosecurity)",
+      "sourceUrl": "https://www.longview.org/wp-json/wp/v2/grant?per_page=100"
+    },
+    {
+      "recipient": "SecureDNA",
+      "amount": null,
+      "currency": "USD",
+      "date": "2022",
+      "datePrecision": "year",
+      "description": "Featured grant on longview.org (no amount published; added July 2022): secure, automatic screening of DNA synthesis orders for bioweapon sequences (MIT/Tsinghua collaboration).",
+      "program": "Longview advised/recommended grant (biosecurity)",
+      "sourceUrl": "https://www.longview.org/biosecurity/"
+    },
+    {
+      "recipient": "Carbon180",
+      "amount": null,
+      "currency": "USD",
+      "date": "2022",
+      "datePrecision": "year",
+      "description": "Featured grant on longview.org (no amount published; added July 2022). Carbon removal policy.",
+      "program": "Longview advised/recommended grant (climate)",
+      "sourceUrl": "https://www.longview.org/wp-json/wp/v2/grant?per_page=100"
+    },
+    {
+      "recipient": "The Johns Hopkins Center for Health Security",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Featured grant (no amount published; featured since at least Jan 2021, re-listed July 2022): work to strengthen global health security and defenses against deliberate biological threats, including a research project with the Future of Humanity Institute and pre-pandemic advocacy for a US National Center for Epidemic Forecasting.",
+      "program": "Longview advised/recommended grant (biosecurity)",
+      "sourceUrl": "https://www.longview.org/biosecurity/"
+    },
+    {
+      "recipient": "Ought",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Featured grant (no amount published; featured since at least Jan 2021, re-listed July 2022): research on factored cognition and AI alignment.",
+      "program": "Longview advised/recommended grant (AI)",
+      "sourceUrl": "https://web.archive.org/web/20210116204242/https://www.longview.org/grantmaking"
+    },
+    {
+      "recipient": "University of Oxford (nanopore sequencing diagnostics study)",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Featured grant on the 2021 longview.org site (no amount published): study validating a nanopore-sequencing diagnostic tool for early detection of emerging infectious diseases.",
+      "program": "Longview advised/recommended grant (biosecurity)",
+      "sourceUrl": "https://web.archive.org/web/20210116204242/https://www.longview.org/grantmaking"
+    },
+    {
+      "recipient": "Legal Priorities Project / Legal Priorities Research Network",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Featured grant (no amount published): longtermist legal research agenda at Harvard Law School (2021 site); listed as 'Legal Priorities Research Network' on the 2023 site.",
+      "program": "Longview advised/recommended grant",
+      "sourceUrl": "https://web.archive.org/web/20210116204242/https://www.longview.org/grantmaking"
+    },
+    {
+      "recipient": "80,000 Hours",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Featured grant on the 2023 archived longview.org site (no amount or description recoverable; page title only).",
+      "program": "Longview advised/recommended grant",
+      "sourceUrl": "https://web.archive.org/web/20230604080906/https://www.longview.org/?grant=80000-hours"
+    },
+    {
+      "recipient": "Centre for Effective Altruism",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Featured grant on the 2023 archived longview.org site (no amount or description recoverable).",
+      "program": "Longview advised/recommended grant",
+      "sourceUrl": "https://web.archive.org/web/20230604070450/https://www.longview.org/?grant=centre-for-effective-altruism"
+    },
+    {
+      "recipient": "Building the Longtermism Community",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Featured grant on the 2023 archived longview.org site (no amount or description recoverable; recipient organisation unclear).",
+      "program": "Longview advised/recommended grant",
+      "sourceUrl": "https://web.archive.org/web/20230604074133/https://www.longview.org/?grant=building-the-lontermism-community"
+    },
+    {
+      "recipient": "CarbonPlan",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Featured grant on the 2023 archived longview.org site (no amount or description recoverable).",
+      "program": "Longview advised/recommended grant (climate)",
+      "sourceUrl": "https://web.archive.org/web/20230604075829/https://www.longview.org/?grant=carbonplan"
+    },
+    {
+      "recipient": "Confessions of a Good Samaritan (documentary)",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Featured grant on the 2023 archived longview.org site (no amount or description recoverable).",
+      "program": "Longview advised/recommended grant",
+      "sourceUrl": "https://web.archive.org/web/20230604072751/https://www.longview.org/?grant=confessions-of-a-good-samaritan"
+    },
+    {
+      "recipient": "Council on Strategic Risks (featured/advised support)",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Featured grant on the 2023 archived longview.org site (no amount recoverable). Possibly the same relationship as the $15,000 Longtermism Fund grant of Dec 2022 and/or larger advised support.",
+      "program": "Longview advised/recommended grant (nuclear)",
+      "sourceUrl": "https://web.archive.org/web/20230604062634/https://www.longview.org/?grant=council-on-strategic-risk"
+    },
+    {
+      "recipient": "Effective Ideas Blog Prize",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Featured grant on the 2023 archived longview.org site (no amount or description recoverable).",
+      "program": "Longview advised/recommended grant",
+      "sourceUrl": "https://web.archive.org/web/20230604071125/https://www.longview.org/?grant=effective-ideas-blog-brize"
+    },
+    {
+      "recipient": "Good Impressions",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Featured grant on the 2023 archived longview.org site (no amount or description recoverable).",
+      "program": "Longview advised/recommended grant",
+      "sourceUrl": "https://web.archive.org/web/20230604080635/https://www.longview.org/?grant=good-impressions"
+    },
+    {
+      "recipient": "Nuclear Information Project (Federation of American Scientists)",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Featured grant on the 2023 archived longview.org site (no amount or description recoverable; capture of page content failed, title from URL slug).",
+      "program": "Longview advised/recommended grant (nuclear)",
+      "sourceUrl": "https://web.archive.org/web/20230604065347/https://www.longview.org/?grant=nuclear-information-project"
+    },
+    {
+      "recipient": "Our World in Data",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Featured grant on the 2023 archived longview.org site (no amount or description recoverable; title from URL slug).",
+      "program": "Longview advised/recommended grant",
+      "sourceUrl": "https://web.archive.org/web/20230604074731/https://www.longview.org/?grant=our-world-in-data"
+    },
+    {
+      "recipient": "Promotion of Toby Ord's The Precipice",
+      "amount": null,
+      "currency": "USD",
+      "date": null,
+      "datePrecision": null,
+      "description": "Featured grant on the 2023 archived longview.org site (no amount or description recoverable; title from URL slug).",
+      "program": "Longview advised/recommended grant",
+      "sourceUrl": "https://web.archive.org/web/20230604071335/https://www.longview.org/?grant=promotion-of-toby-ords-the-precipice"
+    },
+    {
+      "recipient": "Consortium to Reduce Nuclear Dangers - first funding round (aggregate, ~25+ recipients undisclosed)",
+      "amount": 5400000,
+      "currency": "USD",
+      "date": "2025",
+      "datePrecision": "year",
+      "description": "CAVEAT - not a single Longview grant: the Consortium to Reduce Nuclear Dangers (a ~$10M pooled fund co-launched by Longview in 2025) awarded $5.4M in its first call for proposals (nearly 500 applications; over $68M requested); a second call opened May 2026. Individual recipients not published on longview.org. Include only if consortium grantmaking is in scope for the database.",
+      "program": "Nuclear Consortium (co-launched by Longview)",
+      "sourceUrl": "https://www.longview.org/fund/nuclear-weapons-policy-fund/"
+    }
+  ]
+}
