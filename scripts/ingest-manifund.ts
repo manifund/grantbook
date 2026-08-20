@@ -70,10 +70,21 @@ async function main() {
   const projects = await (direct ? fetchDirect() : fetchViaApi())
   console.log(`${projects.length} projects fetched${direct ? ' (direct)' : ' (api, recent only)'}`)
 
+  // Creators whose projects belong to their organization, not to them.
+  const RECIPIENT_OVERRIDES: Record<string, string> = {
+    'Oliver Habryka': 'Lightcone Infrastructure',
+  }
+  // Donor accounts that pass through someone else's money: the person is the
+  // funder, the account is the vehicle.
+  const DONOR_OVERRIDES: Record<string, { name: string; via: string }> = {
+    'grantmaking-ai': { name: 'Anton Makiievskyi', via: 'grantmaking.ai' },
+  }
+
   const records: SourceRecordInput[] = []
   for (const project of projects) {
-    const recipient =
+    const creatorName =
       project.profiles?.full_name?.trim() || project.profiles?.username || project.title
+    const recipient = RECIPIENT_OVERRIDES[creatorName] ?? creatorName
     const causeSlugs = (project.causes ?? []).map((cause) => cause.slug)
     const causes = classifyCauses({
       labels: causeSlugs,
@@ -130,9 +141,9 @@ async function main() {
           causes: causeSlugs,
         },
         parsed: {
-          funderName: donor.name,
+          funderName: DONOR_OVERRIDES[username]?.name ?? donor.name,
           funderType: 'individual',
-          viaName: 'Manifund',
+          viaName: DONOR_OVERRIDES[username]?.via ?? 'Manifund',
           recipientName: recipient,
           amount: Math.round(donor.total * 100) / 100,
           currency: 'USD',
