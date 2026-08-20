@@ -25,6 +25,49 @@ type SnapshotGrant = {
   slug: string | null
 }
 
+// The per-grant pages died in the Nov 2025 rebrand; link the grant's fund
+// page instead. Sub-programs map to their parent fund; legacy Open Phil areas
+// with no current fund fall back to the funds index.
+const FUND_PAGES: Record<string, string> = {
+  'Navigating Transformative AI': 'navigating-transformative-ai',
+  'Farm Animal Welfare': 'farm-animal-welfare',
+  'Cage-Free Reforms': 'farm-animal-welfare',
+  'Farm Animal Welfare in Asia': 'farm-animal-welfare',
+  'Farm Animal Welfare in Europe': 'farm-animal-welfare',
+  'Fish Welfare': 'farm-animal-welfare',
+  'Broiler Chicken Welfare': 'farm-animal-welfare',
+  'Alternatives to Animal Products': 'farm-animal-welfare',
+  'Science and Global Health R&D': 'science-and-global-health-rd',
+  'Infectious Diseases': 'science-and-global-health-rd',
+  'Noninfectious Diseases': 'science-and-global-health-rd',
+  'Human Health and Wellbeing': 'science-and-global-health-rd',
+  'Transformative Science': 'science-and-global-health-rd',
+  'Scientific Innovation: Tools and Techniques': 'science-and-global-health-rd',
+  'Other Scientific Research Areas': 'science-and-global-health-rd',
+  'Strep A Vaccine Fund': 'strep-a-vaccine-fund',
+  'Global Health & Wellbeing Opportunities': 'global-health-wellbeing-opportunities',
+  'Global Catastrophic Risks Opportunities': 'global-catastrophic-risks-opportunities',
+  'Biosecurity & Pandemic Preparedness': 'biosecurity-pandemic-preparedness',
+  'Science Supporting Biosecurity and Pandemic Preparedness': 'biosecurity-pandemic-preparedness',
+  'Abundance & Growth': 'abundance-and-growth',
+  'Housing Policy Reform': 'abundance-and-growth',
+  'Innovation Policy': 'abundance-and-growth',
+  'Effective Giving & Careers': 'effective-giving-and-careers',
+  'Global Aid Policy': 'global-aid-policy',
+  'Air Quality': 'air-quality',
+  Forecasting: 'forecasting',
+  'Lead Exposure Action Fund': 'lead-exposure-action-fund',
+  'Global Growth': 'global-growth',
+}
+
+function fundUrl(areas: string[]): string {
+  for (const area of areas) {
+    const slug = FUND_PAGES[area]
+    if (slug) return `https://coefficientgiving.org/funds/${slug}/`
+  }
+  return 'https://coefficientgiving.org/funds/'
+}
+
 async function main() {
   const grants = (snapshot as never as { grants: SnapshotGrant[] }).grants
   if (grants.length < 2500) throw new Error(`Suspiciously few rows: ${grants.length}`)
@@ -59,7 +102,7 @@ async function main() {
         datePrecision: date ? 'month' : null,
         description: grant.title || null,
         round: grant.areas[0] ?? null,
-        url: grant.slug ? `https://coefficientgiving.org/grants/${grant.slug}` : null,
+        url: fundUrl(grant.areas),
         causeSlugs: classifyCauses({
           labels: grant.areas,
           text: `${recipient} ${grant.title ?? ''} ${grant.areas.join(' ')}`,
