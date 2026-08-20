@@ -8,8 +8,11 @@
 //   a coarse aggregate grant (funder = Manifund). Use --direct for real runs;
 //   a later --direct run tombstones the coarse records automatically.
 import { createClient } from '@supabase/supabase-js'
+import aliasesFile from '@/data/aliases.json'
+import { createAdminClient } from '@/db/supabase-admin'
 import { classifyCauses } from './lib/causes'
 import { runIngest, type SourceRecordInput } from './lib/ingest'
+import { normalizeName } from './lib/normalize'
 
 type Txn = {
   amount: number
@@ -65,10 +68,29 @@ async function fetchDirect(): Promise<Project[]> {
   return all
 }
 
+// Normalized names of every org already known to grantbook (org_names rows
+// plus alias keys). Used to detect org-run projects by their title.
+async function fetchKnownOrgNames(): Promise<Set<string>> {
+  const db = createAdminClient()
+  const known = new Set<string>()
+  for (let from = 0; ; from += 1000) {
+    const { data } = await db
+      .from('org_names')
+      .select('normalized')
+      .range(from, from + 999)
+      .throwOnError()
+    for (const row of data ?? []) known.add(row.normalized)
+    if (!data || data.length < 1000) break
+  }
+  for (const alias of Object.keys(aliasesFile)) known.add(normalizeName(alias))
+  return known
+}
+
 async function main() {
   const direct = process.argv.includes('--direct')
   const projects = await (direct ? fetchDirect() : fetchViaApi())
   console.log(`${projects.length} projects fetched${direct ? ' (direct)' : ' (api, recent only)'}`)
+  const knownOrgs = await fetchKnownOrgNames()
 
   // Creators whose projects belong to their organization, not to them.
   const RECIPIENT_OVERRIDES: Record<string, string> = {
@@ -84,7 +106,12 @@ async function main() {
   for (const project of projects) {
     const creatorName =
       project.profiles?.full_name?.trim() || project.profiles?.username || project.title
-    const recipient = RECIPIENT_OVERRIDES[creatorName] ?? creatorName
+    // A project titled exactly like a known org belongs to that org, not to
+    // the person who posted it (e.g. Tarbell Center for AI Journalism).
+    const normalizedTitle = normalizeName(project.title)
+    const titleIsOrg = normalizedTitle.length >= 4 && knownOrgs.has(normalizedTitle)
+    const recipient =
+      RECIPIENT_OVERRIDES[creatorName] ?? (titleIsOrg ? project.title.trim() : creatorName)
     const causeSlugs = (project.causes ?? []).map((cause) => cause.slug)
     const causes = classifyCauses({
       labels: causeSlugs,
