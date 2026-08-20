@@ -27,8 +27,9 @@ export type ParsedGrant = {
   recipientName: string
   recipientType?: OrgType
   sponsorName?: string | null
-  // Funding-side vehicle the money flowed through (Manifund, SFF, EA Funds).
-  viaName?: string | null
+  // Funding-side vehicles the money flowed through, outermost first
+  // (e.g. ['grantmaking.ai', 'Manifund']).
+  viaNames?: string[]
   amount: number | null
   currency?: string
   date?: string | null
@@ -186,6 +187,7 @@ export async function runIngest(
   const newGrants: GrantInsert[] = []
   const newGrantSources: { grant_id: string; source_record_id: string; is_primary: boolean }[] = []
   const grantCauses = new Map<string, string[]>()
+  const grantVias = new Map<string, string[]>()
   const updatedGrants: (GrantInsert & { id: string })[] = []
 
   for (const p of prepared) {
@@ -201,7 +203,6 @@ export async function runIngest(
       fiscal_sponsor_org_id: p.parsed.sponsorName
         ? await resolver.resolve(p.parsed.sponsorName)
         : null,
-      via_org_id: p.parsed.viaName ? await resolver.resolve(p.parsed.viaName, 'fund') : null,
       amount: p.parsed.amount,
       currency,
       amount_usd: p.parsed.amount === null ? null : toUsd(p.parsed.amount, currency, year),
@@ -227,6 +228,12 @@ export async function runIngest(
     const manualTags =
       MANUAL_TAGS[`${sourceId}:${p.key}`] ?? MANUAL_TAGS[`${sourceId}:${p.key.split(':')[0]}`]
     grantCauses.set(grantId, manualTags ? withAncestors(manualTags) : p.parsed.causeSlugs)
+
+    const viaIds: string[] = []
+    for (const viaName of p.parsed.viaNames ?? []) {
+      viaIds.push(await resolver.resolve(viaName, 'fund'))
+    }
+    grantVias.set(grantId, Array.from(new Set(viaIds)))
     if (link) {
       updatedGrants.push({ ...base, id: grantId })
       updated++
@@ -261,6 +268,16 @@ export async function runIngest(
   }
   for (const rows of chunks(causeRows)) {
     await db.from('grant_cause_areas').insert(rows).throwOnError()
+  }
+
+  const viaRows = Array.from(grantVias.entries()).flatMap(([grantId, orgIds]) =>
+    orgIds.map((orgId) => ({ grant_id: grantId, via_org_id: orgId }))
+  )
+  for (const ids of chunks(updatedGrantIds)) {
+    await db.from('grant_vias').delete().in('grant_id', ids).throwOnError()
+  }
+  for (const rows of chunks(viaRows)) {
+    await db.from('grant_vias').insert(rows).throwOnError()
   }
 
   // Tombstone records the source no longer returns, and reject their grants.

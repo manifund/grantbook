@@ -79,13 +79,21 @@ async function main() {
         key: await sha256(
           [round, funder.name, organization, amountCell, receivingCharity, purpose].join('|')
         ),
-        raw: { round, source, funder: funder.name, organization, amount: amountCell, receivingCharity, purpose },
+        raw: {
+          round,
+          source,
+          funder: funder.name,
+          organization,
+          amount: amountCell,
+          receivingCharity,
+          purpose,
+        },
         parsed: {
           funderName: funder.name,
           funderType: 'individual',
           recipientName: recipient,
           sponsorName: sponsor,
-          viaName: 'Survival and Flourishing Fund',
+          viaNames: ['Survival and Flourishing Fund'],
           amount: funder.amount,
           currency: 'USD',
           date,

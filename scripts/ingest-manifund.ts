@@ -76,8 +76,8 @@ async function main() {
   }
   // Donor accounts that pass through someone else's money: the person is the
   // funder, the account is the vehicle.
-  const DONOR_OVERRIDES: Record<string, { name: string; via: string }> = {
-    'grantmaking-ai': { name: 'Anton Makiievskyi', via: 'grantmaking.ai' },
+  const DONOR_OVERRIDES: Record<string, { name: string; vias: string[] }> = {
+    'grantmaking-ai': { name: 'Anton Makiievskyi', vias: ['grantmaking.ai', 'Manifund'] },
   }
 
   const records: SourceRecordInput[] = []
@@ -104,7 +104,7 @@ async function main() {
         parsed: {
           funderName: 'Manifund',
           funderType: 'fund',
-          viaName: 'Manifund',
+          viaNames: ['Manifund'],
           recipientName: recipient,
           amount: funded,
           currency: 'USD',
@@ -143,7 +143,7 @@ async function main() {
         parsed: {
           funderName: DONOR_OVERRIDES[username]?.name ?? donor.name,
           funderType: 'individual',
-          viaName: DONOR_OVERRIDES[username]?.via ?? 'Manifund',
+          viaNames: DONOR_OVERRIDES[username]?.vias ?? ['Manifund'],
           recipientName: recipient,
           amount: Math.round(donor.total * 100) / 100,
           currency: 'USD',

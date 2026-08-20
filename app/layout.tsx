@@ -19,6 +19,7 @@ export default function RootLayout(props: { children: React.ReactNode }) {
             <Link href="/">Grants</Link>
             <Link href="/funders">Funders</Link>
             <Link href="/recipients">Recipients</Link>
+            <Link href="/charts">Charts</Link>
             <Link href="/about">About</Link>
           </nav>
         </header>

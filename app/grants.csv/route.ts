@@ -34,7 +34,7 @@ export async function GET(request: Request) {
         row.date,
         row.datePrecision,
         row.funderName,
-        row.viaName,
+        row.vias.map((via) => via.name).join('; '),
         row.recipientName,
         row.sponsorName,
         row.amount,

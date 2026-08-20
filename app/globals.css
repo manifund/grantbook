@@ -12,6 +12,13 @@
   --rule: #d8d4c9;
   --accent: #1f4f6e;
   --accent-soft: rgba(31, 79, 110, 0.08);
+  /* Chart series (validated: lightness band, chroma, CVD ΔE, contrast). */
+  --s1: #0457aa;
+  --s2: #069096;
+  --s3: #9c7820;
+  --s4: #943432;
+  --s5: #9967af;
+  --s-other: #8b8578;
 }
 
 body {

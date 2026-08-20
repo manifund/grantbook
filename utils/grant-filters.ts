@@ -81,7 +81,7 @@ export function applyFilters(rows: GrantRow[], filters: GrantFilters): GrantRow[
         row.funderName,
         row.recipientName,
         row.sponsorName ?? '',
-        row.viaName ?? '',
+        row.vias.map((via) => via.name).join(' '),
         row.description ?? '',
         row.round ?? ''
       )

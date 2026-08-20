@@ -22,8 +22,7 @@ export type GrantRow = {
   recipientName: string
   sponsorSlug: string | null
   sponsorName: string | null
-  viaSlug: string | null
-  viaName: string | null
+  vias: { slug: string; name: string }[]
   sourceId: string | null
   causes: string[]
 }
@@ -34,14 +33,14 @@ const GRANT_SELECT_BASE = `id, amount, currency, amount_usd, grant_date, date_pr
   funder:orgs!grants_funder_org_id_fkey(slug, name),
   recipient:orgs!grants_recipient_org_id_fkey(slug, name),
   sponsor:orgs!grants_fiscal_sponsor_org_id_fkey(slug, name),
-  via:orgs!grants_via_org_id_fkey(slug, name),
+  grant_vias(orgs(slug, name)),
   grant_sources(is_primary, source_records(source_id))`
 
 function mapGrantRow(grant: Record<string, unknown>): GrantRow {
   const funder = grant.funder as JoinedOrg
   const recipient = grant.recipient as JoinedOrg
   const sponsor = grant.sponsor as JoinedOrg
-  const via = grant.via as JoinedOrg
+  const viaJoins = (grant.grant_vias ?? []) as { orgs: { slug: string; name: string } | null }[]
   const causeJoins = (grant.grant_cause_areas ?? []) as { cause_areas: { slug: string } | null }[]
   const sourceJoins = (grant.grant_sources ?? []) as {
     is_primary: boolean
@@ -63,8 +62,9 @@ function mapGrantRow(grant: Record<string, unknown>): GrantRow {
     recipientName: recipient?.name ?? '',
     sponsorSlug: sponsor?.slug ?? null,
     sponsorName: sponsor?.name ?? null,
-    viaSlug: via?.slug ?? null,
-    viaName: via?.name ?? null,
+    vias: viaJoins
+      .map((j) => j.orgs)
+      .filter((o): o is { slug: string; name: string } => Boolean(o)),
     sourceId: sourceJoins.find((s) => s.is_primary)?.source_records?.source_id ?? null,
     causes: causeJoins
       .map((join) => join.cause_areas?.slug)
@@ -94,6 +94,31 @@ export async function listGrants(cause?: string): Promise<GrantRow[]> {
     if (causeFilter) query = query.eq('grant_cause_areas.cause_areas.slug', cause)
 
     const { data } = await query.throwOnError()
+    for (const grant of (data ?? []) as never as Record<string, unknown>[]) {
+      rows.push(mapGrantRow(grant))
+    }
+    if (!data || data.length < 1000) break
+  }
+  return rows
+}
+
+// Approved grants that flowed through the given vehicle org.
+export async function listGrantsByVia(orgId: string): Promise<GrantRow[]> {
+  if (!dbConfigured()) return []
+  const supabase = createPublicSupabaseClient()
+  const rows: GrantRow[] = []
+  for (let from = 0; ; from += 1000) {
+    const { data } = await supabase
+      .from('grants')
+      .select(
+        `${GRANT_SELECT_BASE}, grant_cause_areas(cause_areas(slug)), via_filter:grant_vias!inner(via_org_id)`
+      )
+      .eq('status', 'approved')
+      .eq('via_filter.via_org_id', orgId)
+      .order('grant_date', { ascending: false, nullsFirst: false })
+      .order('id')
+      .range(from, from + 999)
+      .throwOnError()
     for (const grant of (data ?? []) as never as Record<string, unknown>[]) {
       rows.push(mapGrantRow(grant))
     }

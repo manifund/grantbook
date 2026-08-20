@@ -1,12 +1,17 @@
 import { notFound } from 'next/navigation'
-import { listGrantsByOrg, type GrantRow } from '@/db/grant'
+import { OrgYearChart } from '@/components/org-year-chart'
+import { listGrantsByOrg, listGrantsByVia, type GrantRow } from '@/db/grant'
 import { getOrgBySlug } from '@/db/org'
 import { displayCauses } from '@/utils/cause-tree'
 import { formatGrantDate, formatMoney } from '@/utils/format'
 
 export const revalidate = 600
 
-function GrantList(props: { title: string; grants: GrantRow[]; side: 'made' | 'received' }) {
+function GrantList(props: {
+  title: string
+  grants: GrantRow[]
+  side: 'made' | 'received' | 'via'
+}) {
   if (props.grants.length === 0) return null
   const total = props.grants.reduce((sum, grant) => sum + (grant.amountUsd ?? 0), 0)
   return (
@@ -22,7 +27,14 @@ function GrantList(props: { title: string; grants: GrantRow[]; side: 'made' | 'r
           <thead>
             <tr>
               <th>Date</th>
-              <th>{props.side === 'made' ? 'Recipient' : 'Funder'}</th>
+              {props.side === 'via' ? (
+                <>
+                  <th>Funder</th>
+                  <th>Recipient</th>
+                </>
+              ) : (
+                <th>{props.side === 'made' ? 'Recipient' : 'Funder'}</th>
+              )}
               <th>Via</th>
               <th className="gb-num">Amount</th>
               <th>Cause</th>
@@ -41,13 +53,29 @@ function GrantList(props: { title: string; grants: GrantRow[]; side: 'made' | 'r
                   <td className="whitespace-nowrap">
                     {formatGrantDate(grant.date, grant.datePrecision)}
                   </td>
+                  {props.side === 'via' ? (
+                    <>
+                      <td>
+                        <a href={`/orgs/${grant.funderSlug}`}>{grant.funderName}</a>
+                      </td>
+                      <td>
+                        <a href={`/orgs/${grant.recipientSlug}`}>{grant.recipientName}</a>
+                      </td>
+                    </>
+                  ) : (
+                    <td>
+                      <a href={`/orgs/${other.slug}`}>{other.name}</a>
+                    </td>
+                  )}
                   <td>
-                    <a href={`/orgs/${other.slug}`}>{other.name}</a>
-                  </td>
-                  <td>
-                    {grant.viaName && grant.viaSlug !== grant.funderSlug ? (
-                      <a href={`/orgs/${grant.viaSlug}`}>{grant.viaName}</a>
-                    ) : null}
+                    {grant.vias
+                      .filter((via) => via.slug !== grant.funderSlug)
+                      .map((via, i) => (
+                        <span key={via.slug}>
+                          {i > 0 && ', '}
+                          <a href={`/orgs/${via.slug}`}>{via.name}</a>
+                        </span>
+                      ))}
                   </td>
                   <td className="gb-num whitespace-nowrap">{formatMoney(grant.amountUsd)}</td>
                   <td className="max-w-44 text-xs text-ink-muted">
@@ -74,12 +102,41 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
   const org = await getOrgBySlug(slug)
   if (!org) notFound()
 
-  const [made, received, sponsored] = await Promise.all([
+  const [made, received, sponsored, via] = await Promise.all([
     listGrantsByOrg('funder_org_id', org.id),
     listGrantsByOrg('recipient_org_id', org.id),
     listGrantsByOrg('fiscal_sponsor_org_id', org.id),
+    listGrantsByVia(org.id),
   ])
   const formerNames = org.names.filter((name) => name.kind !== 'canonical')
+
+  const byYear = (grants: GrantRow[]) => {
+    const out: Record<number, number> = {}
+    for (const grant of grants) {
+      if (!grant.date || grant.amountUsd === null) continue
+      const year = Number(grant.date.slice(0, 4))
+      out[year] = (out[year] ?? 0) + grant.amountUsd
+    }
+    return out
+  }
+  const chartSeries = [
+    { name: 'Received', color: 'var(--s1)', byYear: byYear(received) },
+    { name: 'Made', color: 'var(--s3)', byYear: byYear(made) },
+    // Only chart the via flow when this org is not also the funder of record.
+    {
+      name: 'Via',
+      color: 'var(--s2)',
+      byYear: byYear(via.filter((g) => g.funderSlug !== org.slug)),
+    },
+  ]
+
+  const statsFor = (grants: GrantRow[]) => {
+    const priced = grants.filter((grant) => grant.amountUsd !== null)
+    const total = priced.reduce((sum, grant) => sum + (grant.amountUsd ?? 0), 0)
+    return { count: grants.length, total, avg: priced.length > 0 ? total / priced.length : null }
+  }
+  const primary = statsFor(made.length >= received.length ? made : received)
+  const primaryLabel = made.length >= received.length ? 'made' : 'received'
 
   return (
     <div>
@@ -104,8 +161,20 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
           </>
         )}
       </p>
+      {(made.length > 0 || received.length > 0 || via.length > 0) && (
+        <p className="mb-4 text-sm text-ink-muted">
+          {primary.count.toLocaleString()} grants {primaryLabel} · {formatMoney(primary.total)}
+          {primary.avg !== null && <> · {formatMoney(Math.round(primary.avg))} average</>}
+        </p>
+      )}
+      <OrgYearChart series={chartSeries} />
       <GrantList title="Grants received" grants={received} side="received" />
       <GrantList title="Grants made" grants={made} side="made" />
+      <GrantList
+        title="Grants via"
+        grants={via.filter((g) => g.funderSlug !== org.slug)}
+        side="via"
+      />
       <GrantList title="As fiscal sponsor" grants={sponsored} side="received" />
     </div>
   )

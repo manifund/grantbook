@@ -57,7 +57,6 @@ type GrantRow = {
   funder_org_id: string
   recipient_org_id: string
   fiscal_sponsor_org_id: string | null
-  via_org_id: string | null
   amount: number | null
   currency: string
   amount_usd: number | null
@@ -75,6 +74,11 @@ type GrantRow = {
 type GrantCauseAreaRow = {
   grant_id: string
   cause_area_id: string
+}
+
+type GrantViaRow = {
+  grant_id: string
+  via_org_id: string
 }
 
 type GrantSourceRow = {
@@ -119,7 +123,6 @@ export type Database = {
         GrantRow,
         | 'id'
         | 'fiscal_sponsor_org_id'
-        | 'via_org_id'
         | 'amount'
         | 'currency'
         | 'amount_usd'
@@ -135,6 +138,7 @@ export type Database = {
       >
       grant_cause_areas: Table<GrantCauseAreaRow, never>
       grant_sources: Table<GrantSourceRow, 'is_primary'>
+      grant_vias: Table<GrantViaRow, never>
       dedup_candidates: Table<
         DedupCandidateRow,
         'id' | 'score' | 'reason' | 'status' | 'resolved_at'

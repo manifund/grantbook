@@ -129,7 +129,8 @@ async function main() {
   const limit = Number(process.argv[2] ?? 120)
   console.log(`${pairs.length} candidate pairs; top ${Math.min(limit, pairs.length)}:\n`)
   for (const p of pairs.slice(0, limit)) {
-    const tag = (o: Org) => `${o.name} [${o.slug}${o.needs_review ? '' : ' *curated'}] ${o.grants}g $${Math.round(o.usd).toLocaleString()}`
+    const tag = (o: Org) =>
+      `${o.name} [${o.slug}${o.needs_review ? '' : ' *curated'}] ${o.grants}g $${Math.round(o.usd).toLocaleString()}`
     console.log(`${p.signal.padEnd(6)} ${tag(p.a)}`)
     console.log(`       ${tag(p.b)}\n`)
   }
