@@ -21,6 +21,10 @@
       "note": "Grantee listed as 'Ashgro Inc. (fiscal sponsor of Apart)' — the grant is Apart's",
       "recipient_name": "Apart Research",
       "fiscal_sponsor_name": "Ashgro, Inc."
+    },
+    "manifund:d587a9b8-94d1-6694-1c19-a0db7802ae47": {
+      "note": "Manifund project 'AI forecasting and policy research by the AI 2027 team' is the AI Futures Project",
+      "recipient_name": "AI Futures Project"
     }
   }
 }

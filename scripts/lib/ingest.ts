@@ -205,7 +205,11 @@ export async function runIngest(
       recipient_name: recipientNameOverride,
       fiscal_sponsor_name: sponsorNameOverride,
       ...fieldOverrides
-    } = (OVERRIDES[`${sourceId}:${p.key}`] ?? {}) as Partial<GrantInsert> & {
+    } = (OVERRIDES[`${sourceId}:${p.key}`] ??
+      // Project-level fallback, mirroring MANUAL_TAGS: applies to every
+      // sub-record of a key like `<projectId>:<donor>`.
+      OVERRIDES[`${sourceId}:${p.key.split(':')[0]}`] ??
+      {}) as Partial<GrantInsert> & {
       note?: string
       recipient_name?: string
       fiscal_sponsor_name?: string
