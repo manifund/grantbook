@@ -197,15 +197,18 @@ export async function runIngest(
 
     const year = p.parsed.date ? Number(p.parsed.date.slice(0, 4)) : null
     const currency = p.parsed.currency ?? 'USD'
-    // Overrides may carry two non-column fields: `note` (documentation) and
-    // `recipient_name` (resolved like any source name, so it survives rebuilds).
+    // Overrides may carry non-column fields: `note` (documentation) and
+    // `recipient_name`/`fiscal_sponsor_name` (resolved like any source name,
+    // so they survive rebuilds).
     const {
       note: _note,
       recipient_name: recipientNameOverride,
+      fiscal_sponsor_name: sponsorNameOverride,
       ...fieldOverrides
     } = (OVERRIDES[`${sourceId}:${p.key}`] ?? {}) as Partial<GrantInsert> & {
       note?: string
       recipient_name?: string
+      fiscal_sponsor_name?: string
     }
     const base: GrantInsert = {
       funder_org_id: await resolver.resolve(p.parsed.funderName, p.parsed.funderType),
@@ -213,9 +216,10 @@ export async function runIngest(
         recipientNameOverride ?? p.parsed.recipientName,
         recipientNameOverride ? 'organization' : p.parsed.recipientType
       ),
-      fiscal_sponsor_org_id: p.parsed.sponsorName
-        ? await resolver.resolve(p.parsed.sponsorName)
-        : null,
+      fiscal_sponsor_org_id:
+        (sponsorNameOverride ?? p.parsed.sponsorName)
+          ? await resolver.resolve((sponsorNameOverride ?? p.parsed.sponsorName) as string)
+          : null,
       amount: p.parsed.amount,
       currency,
       amount_usd: p.parsed.amount === null ? null : toUsd(p.parsed.amount, currency, year),

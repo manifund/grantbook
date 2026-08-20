@@ -351,6 +351,27 @@
           "kind": "former_name"
         }
       ]
+    },
+    {
+      "slug": "model-evaluation-and-threat-research",
+      "name": "METR",
+      "org_type": "organization",
+      "website": "https://metr.org/",
+      "aliases": [
+        {
+          "name": "Model Evaluation and Threat Research, Inc.",
+          "kind": "alias"
+        },
+        {
+          "name": "Model Evaluation and Threat Research",
+          "kind": "alias"
+        },
+        {
+          "name": "ARC Evals",
+          "kind": "former_name",
+          "note": "spun out of ARC, renamed Dec 2023"
+        }
+      ]
     }
   ]
 }

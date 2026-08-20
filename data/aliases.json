@@ -144,6 +144,9 @@
     "ML Alignment & Theory Scholars Research (MATS Research)": "mats-research",
     "SERI ML Alignment Theory Scholars Program": "mats-research",
     "SERI-MATS program": "mats-research",
-    "BERI-SERI Collaboration": "mats-research"
+    "BERI-SERI Collaboration": "mats-research",
+    "Ashgro Inc. (fiscal sponsor of Apart)": "apart-research",
+    "ARC Evals (now METR)": "model-evaluation-and-threat-research",
+    "ARC Evals": "model-evaluation-and-threat-research"
   }
 }
