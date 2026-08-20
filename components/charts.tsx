@@ -143,7 +143,8 @@ export function YearLineChart(props: {
   const padT = 8
   const years = props.years
   const max = Math.max(1, ...props.series.flatMap((s) => Array.from(s.points.values())))
-  const ticks = niceTicks(max)
+  // 5% headroom so the tallest peak never rides the top edge of the plot.
+  const ticks = niceTicks(max * 1.05)
   const top = ticks[ticks.length - 1]
   const plotW = W - padL - 12
   const plotH = H - padT - padB

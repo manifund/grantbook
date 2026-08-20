@@ -13,13 +13,16 @@ function GrantList(props: {
   side: 'made' | 'received' | 'via'
 }) {
   if (props.grants.length === 0) return null
-  const total = props.grants.reduce((sum, grant) => sum + (grant.amountUsd ?? 0), 0)
+  const priced = props.grants.filter((grant) => grant.amountUsd !== null)
+  const total = priced.reduce((sum, grant) => sum + (grant.amountUsd ?? 0), 0)
+  const avg = priced.length > 0 ? total / priced.length : null
   return (
     <section className="mb-8">
       <h2 className="mb-2 font-serif text-lg font-bold">
         {props.title}{' '}
         <span className="text-sm font-normal text-ink-muted">
           {props.grants.length.toLocaleString()} · {formatMoney(total)}
+          {avg !== null && <> · {formatMoney(Math.round(avg))} average</>}
         </span>
       </h2>
       <div className="overflow-x-auto">
@@ -127,19 +130,6 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
     { name: 'Via', color: 'var(--s2)', byYear: byYear(viaOnly) },
   ]
 
-  const statsFor = (grants: GrantRow[]) => {
-    const priced = grants.filter((grant) => grant.amountUsd !== null)
-    const total = priced.reduce((sum, grant) => sum + (grant.amountUsd ?? 0), 0)
-    return { count: grants.length, total, avg: priced.length > 0 ? total / priced.length : null }
-  }
-  const roles = [
-    { label: 'made', grants: made },
-    { label: 'received', grants: received },
-    { label: 'via', grants: viaOnly },
-  ].sort((a, b) => b.grants.length - a.grants.length)
-  const primary = statsFor(roles[0].grants)
-  const primaryLabel = roles[0].label
-
   return (
     <div>
       <h1 className="font-serif text-2xl font-bold">{org.name}</h1>
@@ -163,12 +153,6 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
           </>
         )}
       </p>
-      {(made.length > 0 || received.length > 0 || via.length > 0) && (
-        <p className="mb-4 text-sm text-ink-muted">
-          {primary.count.toLocaleString()} grants {primaryLabel} · {formatMoney(primary.total)}
-          {primary.avg !== null && <> · {formatMoney(Math.round(primary.avg))} average</>}
-        </p>
-      )}
       <OrgYearChart series={chartSeries} />
       <GrantList title="Grants received" grants={received} side="received" />
       <GrantList title="Grants made" grants={made} side="made" />

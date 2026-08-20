@@ -36,14 +36,22 @@ export function OrgYearChart(props: { series: Series[] }) {
   return (
     <div ref={wrap} className="relative mb-6">
       <svg viewBox={`0 0 ${W} ${H}`} className="w-full" role="img" aria-label="Funding by year">
-        {ticks.filter((t) => t > 0).map((t) => (
-          <g key={t}>
-            <line x1={padL} x2={W - 8} y1={y(t)} y2={y(t)} stroke="var(--rule)" strokeWidth="1" />
-            <text x={padL - 6} y={y(t) + 3} textAnchor="end" fontSize="10" fill="var(--ink-muted)">
-              {fmtCompact(t)}
-            </text>
-          </g>
-        ))}
+        {ticks
+          .filter((t) => t > 0)
+          .map((t) => (
+            <g key={t}>
+              <line x1={padL} x2={W - 8} y1={y(t)} y2={y(t)} stroke="var(--rule)" strokeWidth="1" />
+              <text
+                x={padL - 6}
+                y={y(t) + 3}
+                textAnchor="end"
+                fontSize="10"
+                fill="var(--ink-muted)"
+              >
+                {fmtCompact(t)}
+              </text>
+            </g>
+          ))}
         <line x1={padL} x2={W - 8} y1={y(0)} y2={y(0)} stroke="var(--rule)" strokeWidth="1" />
         {years.map((year, yi) =>
           series.map((s, si) => {
