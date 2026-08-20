@@ -97,13 +97,14 @@
       "name": "Lightcone Commons",
       "org_type": "fund",
       "website": "https://www.lightconecommons.com/",
-      "aliases": [
-        {
-          "name": "Lightspeed Grants",
-          "kind": "former_name",
-          "note": "Lightspeed Grants superseded by Lightcone Commons, 2026"
-        }
-      ]
+      "aliases": []
+    },
+    {
+      "slug": "lightspeed-grants",
+      "name": "Lightspeed Grants",
+      "org_type": "fund",
+      "website": "https://lightspeedgrants.org/",
+      "aliases": []
     },
     {
       "slug": "lightcone-infrastructure",
