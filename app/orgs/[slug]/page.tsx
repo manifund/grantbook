@@ -119,15 +119,12 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
     }
     return out
   }
+  // Only chart the via flow when this org is not also the funder of record.
+  const viaOnly = via.filter((g) => g.funderSlug !== org.slug)
   const chartSeries = [
     { name: 'Received', color: 'var(--s1)', byYear: byYear(received) },
     { name: 'Made', color: 'var(--s3)', byYear: byYear(made) },
-    // Only chart the via flow when this org is not also the funder of record.
-    {
-      name: 'Via',
-      color: 'var(--s2)',
-      byYear: byYear(via.filter((g) => g.funderSlug !== org.slug)),
-    },
+    { name: 'Via', color: 'var(--s2)', byYear: byYear(viaOnly) },
   ]
 
   const statsFor = (grants: GrantRow[]) => {
@@ -135,8 +132,13 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
     const total = priced.reduce((sum, grant) => sum + (grant.amountUsd ?? 0), 0)
     return { count: grants.length, total, avg: priced.length > 0 ? total / priced.length : null }
   }
-  const primary = statsFor(made.length >= received.length ? made : received)
-  const primaryLabel = made.length >= received.length ? 'made' : 'received'
+  const roles = [
+    { label: 'made', grants: made },
+    { label: 'received', grants: received },
+    { label: 'via', grants: viaOnly },
+  ].sort((a, b) => b.grants.length - a.grants.length)
+  const primary = statsFor(roles[0].grants)
+  const primaryLabel = roles[0].label
 
   return (
     <div>
@@ -170,11 +172,7 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
       <OrgYearChart series={chartSeries} />
       <GrantList title="Grants received" grants={received} side="received" />
       <GrantList title="Grants made" grants={made} side="made" />
-      <GrantList
-        title="Grants via"
-        grants={via.filter((g) => g.funderSlug !== org.slug)}
-        side="via"
-      />
+      <GrantList title="Grants via" grants={viaOnly} side="via" />
       <GrantList title="As fiscal sponsor" grants={sponsored} side="received" />
     </div>
   )
