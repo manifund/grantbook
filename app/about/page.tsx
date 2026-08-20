@@ -12,6 +12,10 @@ export default async function Page() {
         is released under <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0</a>;
         underlying records come from the listed sources.
       </p>
+      <p className="mb-4">
+        Programmatic access: <a href="/api/v0">API</a> · MCP endpoint at <code>/api/mcp</code> ·{' '}
+        <a href="/grants.csv">CSV</a>
+      </p>
       <p className="mb-6">
         Thanks to Vipul Naik for creating{' '}
         <a href="https://donations.vipulnaik.com/">donations.vipulnaik.com</a>, a spiritual
