@@ -4,6 +4,7 @@
 // extraction with per-row provenance URLs; refresh by re-running the
 // extraction and overwriting the file.
 // Usage: bun run scripts/ingest-curated.ts [sourceId]
+import { readFileSync } from 'node:fs'
 import { classifyCauses } from './lib/causes'
 import { runIngest, type SourceRecordInput } from './lib/ingest'
 import { sha256 } from './lib/normalize'
@@ -83,7 +84,9 @@ function parseDate(row: CuratedRow): {
 }
 
 async function ingestSource(source: CuratedSource) {
-  const file = (await Bun.file(`data/curated/${source.file}`).json()) as { grants: CuratedRow[] }
+  const file = JSON.parse(readFileSync(`data/curated/${source.file}`, 'utf8')) as {
+    grants: CuratedRow[]
+  }
   const records: SourceRecordInput[] = []
   const keyCounts = new Map<string, number>()
 
