@@ -327,6 +327,30 @@
           "kind": "alias"
         }
       ]
+    },
+    {
+      "slug": "mats-research",
+      "name": "MATS Research",
+      "org_type": "organization",
+      "website": "https://www.matsprogram.org/",
+      "aliases": [
+        {
+          "name": "MATS Research, Inc.",
+          "kind": "alias"
+        },
+        {
+          "name": "MATS",
+          "kind": "abbreviation"
+        },
+        {
+          "name": "SERI ML Alignment Theory Scholars Program",
+          "kind": "former_name"
+        },
+        {
+          "name": "SERI-MATS program",
+          "kind": "former_name"
+        }
+      ]
     }
   ]
 }
