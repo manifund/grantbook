@@ -1,7 +1,21 @@
-import { OrgIndex, type OrgIndexSearchParams } from '@/components/org-index'
+import { Suspense } from 'react'
+import { OrgIndex, type OrgIndexRow } from '@/components/org-index'
+import { listGrants } from '@/db/grant'
 
 export const revalidate = 600
 
-export default async function Page(props: { searchParams: Promise<OrgIndexSearchParams> }) {
-  return <OrgIndex side="recipient" searchParams={await props.searchParams} />
+export default async function Page() {
+  const grants = await listGrants('all')
+  const rows: OrgIndexRow[] = grants.map((grant) => [
+    grant.recipientSlug,
+    grant.recipientName,
+    grant.date ? Number(grant.date.slice(0, 4)) : null,
+    grant.amountUsd,
+    grant.causes,
+  ])
+  return (
+    <Suspense>
+      <OrgIndex side="recipient" rows={rows} />
+    </Suspense>
+  )
 }

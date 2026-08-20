@@ -1,47 +1,94 @@
-import { grantYearRange } from '@/db/grant'
+'use client'
+
+// Client-side index for /funders and /recipients: the page ships one compact
+// tuple per grant and every filter recomputes the aggregates instantly.
+import { usePathname, useRouter, useSearchParams } from 'next/navigation'
+import { useMemo } from 'react'
 import { CAUSE_OPTIONS } from '@/utils/cause-tree'
-import { listOrgAggregates } from '@/db/org'
 import { formatMoney } from '@/utils/format'
 
-export type OrgIndexSearchParams = { cause?: string; yearMin?: string; yearMax?: string }
+// [org slug, org name, year, amount USD, cause slugs]
+export type OrgIndexRow = [string, string, number | null, number | null, string[]]
 
-// Shared server-rendered index for /funders and /recipients: a plain GET
-// filter form plus the aggregate table. No client JS.
-export async function OrgIndex(props: {
-  side: 'funder' | 'recipient'
-  searchParams: OrgIndexSearchParams
-}) {
-  const cause = props.searchParams.cause ?? 'ai-safety'
-  const yearMin = Number(props.searchParams.yearMin) || null
-  const yearMax = Number(props.searchParams.yearMax) || null
-  const [rows, yearRange] = await Promise.all([
-    listOrgAggregates(props.side, { cause, yearMin, yearMax }),
-    grantYearRange(),
-  ])
-  const totalUsd = rows.reduce((sum, row) => sum + row.totalUsd, 0)
-  const years: number[] = []
-  for (let year = yearRange.max; year >= yearRange.min; year--) years.push(year)
+export function OrgIndex(props: { side: 'funder' | 'recipient'; rows: OrgIndexRow[] }) {
+  const router = useRouter()
+  const pathname = usePathname()
+  const searchParams = useSearchParams()
+  const cause = searchParams.get('cause') ?? 'ai-safety'
+  const yearMin = Number(searchParams.get('yearMin')) || null
+  const yearMax = Number(searchParams.get('yearMax')) || null
+
+  const setParam = (key: string, value: string) => {
+    const params = new URLSearchParams(searchParams.toString())
+    if (value) params.set(key, value)
+    else params.delete(key)
+    router.replace(`${pathname}?${params.toString()}`, { scroll: false })
+  }
+
+  const years = useMemo(() => {
+    const set = new Set<number>()
+    for (const [, , year] of props.rows) if (year !== null) set.add(year)
+    return Array.from(set).sort((a, b) => b - a)
+  }, [props.rows])
+
+  const aggregates = useMemo(() => {
+    const byOrg = new Map<
+      string,
+      {
+        name: string
+        grantCount: number
+        totalUsd: number
+        firstYear: number | null
+        lastYear: number | null
+      }
+    >()
+    for (const [slug, name, year, amountUsd, causes] of props.rows) {
+      if (cause !== 'all' && !causes.includes(cause)) continue
+      if (yearMin !== null && (year === null || year < yearMin)) continue
+      if (yearMax !== null && (year === null || year > yearMax)) continue
+      const entry = byOrg.get(slug) ?? {
+        name,
+        grantCount: 0,
+        totalUsd: 0,
+        firstYear: null,
+        lastYear: null,
+      }
+      entry.grantCount++
+      entry.totalUsd += amountUsd ?? 0
+      if (year !== null) {
+        entry.firstYear = entry.firstYear === null ? year : Math.min(entry.firstYear, year)
+        entry.lastYear = entry.lastYear === null ? year : Math.max(entry.lastYear, year)
+      }
+      byOrg.set(slug, entry)
+    }
+    return Array.from(byOrg.entries())
+      .map(([slug, entry]) => ({ slug, ...entry }))
+      .sort((a, b) => b.totalUsd - a.totalUsd)
+  }, [props.rows, cause, yearMin, yearMax])
+
+  const totalUsd = aggregates.reduce((sum, row) => sum + row.totalUsd, 0)
+  const selectClass = 'rounded border border-rule bg-paper-alt px-2 py-1'
 
   return (
     <div>
-      <form method="get" className="mb-3 flex flex-wrap items-center gap-2 text-sm">
+      <div className="mb-3 flex flex-wrap items-center gap-2 text-sm">
         <select
-          name="cause"
-          defaultValue={cause}
-          className="rounded border border-rule bg-paper-alt px-2 py-1"
+          value={cause}
+          onChange={(e) => setParam('cause', e.target.value === 'ai-safety' ? '' : e.target.value)}
+          className={selectClass}
         >
           <option value="all">All causes</option>
           {CAUSE_OPTIONS.map((area) => (
             <option key={area.slug} value={area.slug}>
-              {' '.repeat(area.depth)}
+              {' '.repeat(area.depth)}
               {area.name}
             </option>
           ))}
         </select>
         <select
-          name="yearMin"
-          defaultValue={yearMin ?? ''}
-          className="rounded border border-rule bg-paper-alt px-2 py-1"
+          value={yearMin ?? ''}
+          onChange={(e) => setParam('yearMin', e.target.value)}
+          className={selectClass}
         >
           <option value="">From: start</option>
           {years.map((year) => (
@@ -51,9 +98,9 @@ export async function OrgIndex(props: {
           ))}
         </select>
         <select
-          name="yearMax"
-          defaultValue={yearMax ?? ''}
-          className="rounded border border-rule bg-paper-alt px-2 py-1"
+          value={yearMax ?? ''}
+          onChange={(e) => setParam('yearMax', e.target.value)}
+          className={selectClass}
         >
           <option value="">To: present</option>
           {years.map((year) => (
@@ -62,10 +109,10 @@ export async function OrgIndex(props: {
             </option>
           ))}
         </select>
-        <button type="submit" className="rounded border border-rule bg-paper-alt px-3 py-1">
-          Apply
-        </button>
-      </form>
+        <span className="ml-auto text-ink-muted">
+          {aggregates.length.toLocaleString()} orgs · {formatMoney(totalUsd)}
+        </span>
+      </div>
 
       <div className="overflow-x-auto">
         <table className="gb-table">
@@ -78,7 +125,7 @@ export async function OrgIndex(props: {
             </tr>
           </thead>
           <tbody>
-            {rows.map((row) => (
+            {aggregates.map((row) => (
               <tr key={row.slug}>
                 <td>
                   <a href={`/orgs/${row.slug}`}>{row.name}</a>
@@ -97,10 +144,6 @@ export async function OrgIndex(props: {
           </tbody>
         </table>
       </div>
-      <p className="mt-2 text-sm text-ink-muted">
-        {rows.length.toLocaleString()} {props.side === 'funder' ? 'funders' : 'recipients'} ·{' '}
-        {formatMoney(totalUsd)}
-      </p>
     </div>
   )
 }

@@ -18,48 +18,56 @@ const PAGE = 200
 export function GrantsTable(props: {
   grants: GrantRow[]
   sources: { id: string; name: string }[]
-  cause: string
 }) {
   const router = useRouter()
   const pathname = usePathname()
   const searchParams = useSearchParams()
+  const cause = searchParams.get('cause') ?? 'ai-safety'
   const [filters, setFilters] = useState<GrantFilters>(() =>
     filtersFromParams(new URLSearchParams(searchParams.toString()))
   )
   const [limit, setLimit] = useState(PAGE)
 
+  // Cause narrowing happens here, not on the server: the page is static.
+  const causeRows = useMemo(
+    () =>
+      cause === 'all' ? props.grants : props.grants.filter((row) => row.causes.includes(cause)),
+    [props.grants, cause]
+  )
+
   const update = (partial: Partial<GrantFilters>) => {
     const next = { ...filters, ...partial }
     setFilters(next)
     setLimit(PAGE)
-    const params = filtersToParams(next, props.cause)
+    const params = filtersToParams(next, cause)
     router.replace(`${pathname}?${params.toString()}`, { scroll: false })
   }
 
-  const setCause = (cause: string) => {
-    const params = filtersToParams(filters, cause)
-    router.push(`${pathname}?${params.toString()}`)
+  const setCause = (nextCause: string) => {
+    setLimit(PAGE)
+    const params = filtersToParams(filters, nextCause)
+    router.replace(`${pathname}?${params.toString()}`, { scroll: false })
   }
 
   const funderOptions = useMemo(() => {
     const names = new Map<string, string>()
-    for (const grant of props.grants) names.set(grant.funderSlug, grant.funderName)
+    for (const grant of causeRows) names.set(grant.funderSlug, grant.funderName)
     return Array.from(names.entries())
       .map(([value, label]) => ({ value, label }))
       .sort((a, b) => a.label.localeCompare(b.label))
-  }, [props.grants])
+  }, [causeRows])
 
   const sourceOptions = props.sources.map((source) => ({ value: source.id, label: source.name }))
 
   const years = useMemo(() => {
     const set = new Set<number>()
-    for (const grant of props.grants) {
+    for (const grant of causeRows) {
       if (grant.date) set.add(Number(grant.date.slice(0, 4)))
     }
     return Array.from(set).sort((a, b) => b - a)
-  }, [props.grants])
+  }, [causeRows])
 
-  const rows = useMemo(() => applyFilters(props.grants, filters), [props.grants, filters])
+  const rows = useMemo(() => applyFilters(causeRows, filters), [causeRows, filters])
   const totalUsd = useMemo(() => rows.reduce((sum, row) => sum + (row.amountUsd ?? 0), 0), [rows])
 
   const sortHeader = (key: GrantFilters['sort'], label: string, numeric = false) => (
@@ -78,7 +86,7 @@ export function GrantsTable(props: {
     </th>
   )
 
-  const csvHref = `/grants.csv?${filtersToParams(filters, props.cause).toString()}`
+  const csvHref = `/grants.csv?${filtersToParams(filters, cause).toString()}`
 
   return (
     <div>
@@ -103,7 +111,7 @@ export function GrantsTable(props: {
           onChange={(sources) => update({ sources })}
         />
         <select
-          value={props.cause}
+          value={cause}
           onChange={(e) => setCause(e.target.value)}
           className="rounded border border-rule bg-paper-alt px-2 py-1 text-sm"
         >

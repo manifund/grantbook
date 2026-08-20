@@ -85,21 +85,41 @@ export async function listGrants(cause?: string): Promise<GrantRow[]> {
     ? 'grant_cause_areas(cause_areas(slug)), cause_filter:grant_cause_areas!inner(cause_areas!inner(slug))'
     : 'grant_cause_areas(cause_areas(slug))'
 
-  for (let from = 0; ; from += 1000) {
+  // Count first, then fetch every 1000-row page in parallel: sequential
+  // paging was the dominant latency on pages that need the full table.
+  let countQuery = supabase
+    .from('grants')
+    .select(
+      causeFilter ? 'id, cause_filter:grant_cause_areas!inner(cause_areas!inner(slug))' : 'id',
+      { count: 'exact', head: true }
+    )
+    .eq('status', 'approved')
+  if (causeFilter) countQuery = countQuery.eq('cause_filter.cause_areas.slug', cause)
+  const { count } = await countQuery.throwOnError()
+  const pages = Math.ceil((count ?? 0) / 1000)
+
+  const fetchPage = (page: number) => {
     let query = supabase
       .from('grants')
       .select(`${GRANT_SELECT_BASE}, ${causeEmbed}`)
       .eq('status', 'approved')
       .order('grant_date', { ascending: false, nullsFirst: false })
       .order('id')
-      .range(from, from + 999)
+      .range(page * 1000, page * 1000 + 999)
     if (causeFilter) query = query.eq('cause_filter.cause_areas.slug', cause)
-
-    const { data } = await query.throwOnError()
-    for (const grant of (data ?? []) as never as Record<string, unknown>[]) {
-      rows.push(mapGrantRow(grant))
+    return query.throwOnError()
+  }
+  // Small chunks: full parallelism trips Postgres statement timeouts when
+  // several pages build at once.
+  for (let start = 0; start < pages; start += 3) {
+    const chunk = await Promise.all(
+      Array.from({ length: Math.min(3, pages - start) }, (_, i) => fetchPage(start + i))
+    )
+    for (const { data } of chunk) {
+      for (const grant of (data ?? []) as never as Record<string, unknown>[]) {
+        rows.push(mapGrantRow(grant))
+      }
     }
-    if (!data || data.length < 1000) break
   }
   return rows
 }
