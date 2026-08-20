@@ -79,8 +79,10 @@ export async function listGrants(cause?: string): Promise<GrantRow[]> {
   const supabase = createPublicSupabaseClient()
   const rows: GrantRow[] = []
   const causeFilter = cause && cause !== 'all'
+  // The filter needs its own aliased embed: filtering the display embed would
+  // strip every cause row except the matched one.
   const causeEmbed = causeFilter
-    ? 'grant_cause_areas!inner(cause_areas!inner(slug))'
+    ? 'grant_cause_areas(cause_areas(slug)), cause_filter:grant_cause_areas!inner(cause_areas!inner(slug))'
     : 'grant_cause_areas(cause_areas(slug))'
 
   for (let from = 0; ; from += 1000) {
@@ -91,7 +93,7 @@ export async function listGrants(cause?: string): Promise<GrantRow[]> {
       .order('grant_date', { ascending: false, nullsFirst: false })
       .order('id')
       .range(from, from + 999)
-    if (causeFilter) query = query.eq('grant_cause_areas.cause_areas.slug', cause)
+    if (causeFilter) query = query.eq('cause_filter.cause_areas.slug', cause)
 
     const { data } = await query.throwOnError()
     for (const grant of (data ?? []) as never as Record<string, unknown>[]) {
