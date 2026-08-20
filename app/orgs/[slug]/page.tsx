@@ -157,7 +157,7 @@ export default async function Page(props: { params: Promise<{ slug: string }> })
       <GrantList title="Grants received" grants={received} side="received" />
       <GrantList title="Grants made" grants={made} side="made" />
       <GrantList title="Grants via" grants={viaOnly} side="via" />
-      <GrantList title="As fiscal sponsor" grants={sponsored} side="received" />
+      <GrantList title="As fiscal sponsor" grants={sponsored} side="via" />
     </div>
   )
 }
