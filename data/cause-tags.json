@@ -427,7 +427,7 @@
     "ea_funds:recS1EI7Duim5qHiN": ["animal-welfare"],
     "ea_funds:recEi6IUtp2KerTOv": ["other"],
     "ea_funds:rec65VeA7OxW4AONN": ["animal-welfare"],
-    "manifund:39d6e7d5-bb12-41a2-ceaf-71fa618385d5": ["ai-safety"],
+    "manifund:39d6e7d5-bb12-41a2-ceaf-71fa618385d5": ["interp"],
     "ea_funds:rec5vdwJq0PMsCK2E": ["animal-welfare"],
     "ea_funds:rectYeL8lhIrJoyHC": ["animal-welfare"],
     "ea_funds:recxVL1lTQhwYBvlt": ["animal-welfare"],
@@ -563,8 +563,8 @@
     "manifund:c8246157-0ae4-116b-f935-ce4fc1b38766": ["training-pipelines"],
     "manifund:03777728-545e-8dfc-8706-1842dc4f9adc": ["animal-welfare"],
     "ea_funds:recIf0XSfYYdBjn9X": ["x-risk-other"],
-    "manifund:3f260cc0-ad93-b35a-3f08-77337d52cdc9": ["ai-safety"],
-    "ea_funds:recroHQ54ter8KvjV": ["ai-safety"],
+    "manifund:3f260cc0-ad93-b35a-3f08-77337d52cdc9": ["technical-ai-safety"],
+    "ea_funds:recroHQ54ter8KvjV": ["technical-ai-safety"],
     "manifund:0b37cc54-8ea5-633c-0730-a48e1394b720": ["alignment-methods"],
     "manifund:2516a656-6615-e019-b4b0-bbe67c4c8513": ["epistemic-infrastructure"],
     "ea_funds:recc41MOo6NvA2J2p": ["ai-advocacy"],
@@ -595,7 +595,7 @@
     "ea_funds:recwMuW2FgqU5aZKA": ["ai-policy"],
     "ea_funds:grantsAddonData[138]": ["global-health-development"],
     "ea_funds:rec6iTUM8ZmEDxhEF": ["ea-infrastructure"],
-    "ea_funds:recMvRaHhTedIISfM": ["ai-safety"],
+    "ea_funds:recMvRaHhTedIISfM": ["career-transition"],
     "vipul_donations:bef6d14c3b75db906dd3c389eabc7aacf694b79fc1ddd46f6184886bcc019c1e": [
       "funding-infrastructure"
     ],
@@ -655,7 +655,7 @@
     "manifund:a0dee8a5-6447-21d4-5d65-e7c7447125fe": ["technical-ai-safety"],
     "manifund:027d9719-5185-3e29-28fd-551c9807bc9b": ["x-risk-other"],
     "ea_funds:recOMBF2rj9jK22Xo": ["ea-infrastructure"],
-    "ea_funds:recKpKeimp6L2fETj": ["ai-safety"],
+    "ea_funds:recKpKeimp6L2fETj": ["ea-infrastructure"],
     "ea_funds:reckY2r02bVPQMlW3": ["other"],
     "ea_funds:recL9qKcc03t3BIhj": ["other"],
     "ea_funds:recKek4X0Eykk1fsJ": ["ai-theory"],
@@ -706,7 +706,7 @@
     "ea_funds:recsLBlbKpZiYmIyM": ["ais-events"],
     "ea_funds:recmwRqqfTRQU9PvG": ["animal-welfare"],
     "ea_funds:recTRUfoApSRVq9ci": ["animal-welfare"],
-    "manifund:561d6849-d277-5cf9-77fc-93b7e5d07b03": ["ai-safety"],
+    "manifund:561d6849-d277-5cf9-77fc-93b7e5d07b03": ["evals"],
     "ea_funds:recdpDa41oPYjuiqh": ["technical-ai-safety"],
     "ea_funds:reccHbwS6tyx8yCSD": ["career-transition"],
     "manifund:80f767b6-bd26-b627-9881-09a203139ab4": ["other"],
@@ -721,7 +721,7 @@
     "vipul_donations:c13ab463200f87ce56c1c650719726bfaff6744bc9d4a1505da4ef2fa19d0f81": ["other"],
     "ea_funds:rec8cwT3UFnRCqo3u": ["ai-control"],
     "ea_funds:recN3BoHxqyCSzytV": ["domestic-policy"],
-    "manifund:a3bec07e-9e42-7bf0-a0f3-a1a6ab05a6e4": ["ai-safety"],
+    "manifund:a3bec07e-9e42-7bf0-a0f3-a1a6ab05a6e4": ["epistemic-infrastructure"],
     "ea_funds:recyeQ0UJzaxDCuPF": ["interp"],
     "ea_funds:recceRQ808IF1ohGn": ["interp"],
     "manifund:291e4125-383d-4d06-94dc-ccbbeea28b35": ["other"],
@@ -752,8 +752,8 @@
     ],
     "ea_funds:rec48YrdMkmBYa0No": ["animal-welfare"],
     "ea_funds:rechKYaMcMnPT4alA": ["other"],
-    "sff:49b9bf3a46effef8c12f5c78138295356d7926f116132a934acb4ae56d198890": ["ai-safety"],
-    "sff:81ba47345c13ad914f64216f561f162d2b98a5230f95cd0f662b4d08b3b4f6bb": ["ai-safety"],
+    "sff:49b9bf3a46effef8c12f5c78138295356d7926f116132a934acb4ae56d198890": ["domestic-policy"],
+    "sff:81ba47345c13ad914f64216f561f162d2b98a5230f95cd0f662b4d08b3b4f6bb": ["training-pipelines"],
     "ea_funds:recJ9NaVtKSNRAgTZ": ["technical-ai-safety"],
     "ea_funds:recyfbOXritguLnIS": ["other"],
     "ea_funds:recXtCpjz60rsR52y": ["animal-welfare"],
@@ -803,7 +803,7 @@
     "ea_funds:rec7kdEHf85GaT08Y": ["training-pipelines"],
     "ea_funds:recQy1g9IurDgBwP2": ["biosecurity"],
     "ea_funds:reckh3aNfei20NZy2": ["animal-welfare"],
-    "ea_funds:recsyqZ6c1UNJeB7Q": ["ai-safety"],
+    "ea_funds:recsyqZ6c1UNJeB7Q": ["ea-infrastructure"],
     "ea_funds:reclpb7gQQMZ1Uoa6": ["other"],
     "ea_funds:recg2rJX0MkQPF2Q3": ["ea-infrastructure"],
     "ea_funds:recDEWUDBxZf3MrHG": ["technical-ai-safety"],
@@ -820,7 +820,7 @@
     "ea_funds:recKygPFk4w2XLq1U": ["training-pipelines"],
     "ea_funds:recqRvtAXIEN2Dy4C": ["animal-welfare"],
     "ea_funds:recXX558l3jL14l5u": ["interp"],
-    "sff:5361bf014f9f2e93dee37aa27b7cdac0d66e26a7c3f4a4612f5aad94a5f860f4": ["ai-safety"],
+    "sff:5361bf014f9f2e93dee37aa27b7cdac0d66e26a7c3f4a4612f5aad94a5f860f4": ["ai-theory"],
     "vipul_donations:f480153664ce7f8b80c6fddd6181f599a1776691d0d29617c08874fe49d02744": ["other"],
     "manifund:20d990fa-0a26-e449-d62b-c2128ab1914e": ["animal-welfare"],
     "ea_funds:recgqTEjTlFm5US74": ["animal-welfare"],
@@ -846,12 +846,12 @@
     "ea_funds:recw5zL94080aj721": ["evals"],
     "ea_funds:recNBOKP0C9d1PCJd": ["training-pipelines"],
     "ea_funds:recoZFCL9lxuoliJF": ["robustness-security"],
-    "manifund:a8d5d457-eff4-26fa-3fc5-0426ddc64ec7": ["ai-safety"],
-    "manifund:b89561e8-e0ec-9b07-83c2-7e0f3e783586": ["ai-safety"],
+    "manifund:a8d5d457-eff4-26fa-3fc5-0426ddc64ec7": ["local-groups"],
+    "manifund:b89561e8-e0ec-9b07-83c2-7e0f3e783586": ["ai-advocacy"],
     "ea_funds:recDxoC5puLrDjqhz": ["interp"],
     "ea_funds:recurG70bjg4rlIsR": ["interp"],
     "manifund:306d8ac0-a6dd-c080-40ca-7aa09e9c7463": ["ea-infrastructure"],
-    "manifund:9d0944e1-df76-e2ed-9511-1d3f9138fc12": ["ai-safety"],
+    "manifund:9d0944e1-df76-e2ed-9511-1d3f9138fc12": ["local-groups"],
     "manifund:06ea0d78-c04a-f094-0246-5985729a275c": ["other"],
     "ea_funds:recD7zVUebvUSDI60": ["evals"],
     "ea_funds:recyDEMsOTwjOFwEN": ["other"],
@@ -891,7 +891,7 @@
     "manifund:cb75cb76-1239-8da9-ae22-d95ffcccbe75": ["other"],
     "ea_funds:recVpOYc1HyWhEPRk": ["technical-ai-safety"],
     "ea_funds:recgHIMlqO0zy6duh": ["ai-bio"],
-    "manifund:e082678f-cada-2640-b36e-d216159e0fbb": ["ai-safety"],
+    "manifund:e082678f-cada-2640-b36e-d216159e0fbb": ["local-groups"],
     "ea_funds:recl29Uchl5IQkilM": ["ai-advocacy"],
     "manifund:cd6c3481-69cc-c6b4-9b1b-f1589afbc87d": ["ais-events"],
     "manifund:fcbdcadc-6509-8267-4e87-baab4d8a3be0": ["other"],
@@ -913,7 +913,7 @@
     "ea_funds:recLGSQmm3l1L3UnB": ["other"],
     "manifund:6e0b7d47-ba9f-6dc9-92fe-c7484ec8aa14": ["other"],
     "ea_funds:reca7Z12k9HeX89uR": ["animal-welfare"],
-    "manifund:36737b03-b113-47bd-59f1-a9da81eeb4ad": ["ai-safety"],
+    "manifund:36737b03-b113-47bd-59f1-a9da81eeb4ad": ["local-groups"],
     "manifund:12cff83d-4667-1b26-c416-fefe2b078e33": ["animal-welfare"],
     "ea_funds:recOsAvk6b8yYyM92": [
       "alignment-methods",
@@ -958,9 +958,9 @@
     "ea_funds:recmD3jpGgKBGoL7i": ["career-transition"],
     "ea_funds:recKHStJWH40djumD": ["ea-infrastructure"],
     "manifund:6609905a-660c-8eb8-0e60-893596f725c3": ["other"],
-    "manifund:4d069a06-dde8-1afc-ec0a-c9053c862a0d": ["ai-safety"],
+    "manifund:4d069a06-dde8-1afc-ec0a-c9053c862a0d": ["biosecurity"],
     "ea_funds:rec9KnJV2USfB67qH": ["animal-welfare"],
-    "manifund:8d961c45-85a2-95db-2122-6f34a330f4e2": ["ai-safety"],
+    "manifund:8d961c45-85a2-95db-2122-6f34a330f4e2": ["domestic-policy"],
     "manifund:106d5d5e-082d-60b1-76f3-86193c4f78c9": ["other"],
     "manifund:a13df19d-de74-47d1-6eb5-ebc710da4247": ["biosecurity", "training-pipelines"],
     "ea_funds:recfXTcPvW1LD3vE9": ["animal-welfare"],
@@ -970,13 +970,13 @@
       "international-policy"
     ],
     "ea_funds:recy2SCLtqKNAPfgy": ["ea-infrastructure", "local-groups"],
-    "manifund:e98de7cb-76c4-23f8-859f-bca0e5bde788": ["ai-safety"],
+    "manifund:e98de7cb-76c4-23f8-859f-bca0e5bde788": ["ai-strategy"],
     "ea_funds:recH7NsKmKSwaGNkR": ["ea-infrastructure", "local-groups"],
     "ea_funds:rec3DbZ5FJaA0QHoX": ["ea-infrastructure", "local-groups"],
-    "manifund:fcecf1ae-f1c6-75bf-cc8e-2c2d25988131": ["ai-safety"],
-    "manifund:8fb4e431-10f0-4da2-2672-122f32fa7ced": ["ai-safety"],
+    "manifund:fcecf1ae-f1c6-75bf-cc8e-2c2d25988131": ["ai-bio"],
+    "manifund:8fb4e431-10f0-4da2-2672-122f32fa7ced": ["ai-fieldbuilding"],
     "ea_funds:rec6MekJvvKszDN41": ["animal-welfare"],
-    "manifund:069a1e9f-9aa8-6fc0-bfd6-77fae8b2715a": ["ai-safety"],
+    "manifund:069a1e9f-9aa8-6fc0-bfd6-77fae8b2715a": ["corporate-governance"],
     "ea_funds:recOkLguVPDCXdLCn": ["animal-welfare", "corporate-governance"],
     "ea_funds:recbAyI7cqUfQeqKj": ["animal-welfare"],
     "manifund:92c3a9eb-8698-4499-ed27-f332923f8497": ["research-hubs"],
@@ -1020,8 +1020,8 @@
     "ea_funds:recUf0Jxy8Ot4bgnv": ["ai-advocacy", "animal-welfare"],
     "ea_funds:recLQJ4lK5iRmbjeX": ["alignment-methods", "evals"],
     "ea_funds:recMierZlrxgNIEMY": ["ea-infrastructure"],
-    "manifund:3e11c1db-d4ac-efa7-f168-5a0328728ef4": ["ai-safety"],
-    "manifund:84d9220f-ba30-0be3-cfac-969d4e257530": ["ai-safety"],
+    "manifund:3e11c1db-d4ac-efa7-f168-5a0328728ef4": ["other"],
+    "manifund:84d9220f-ba30-0be3-cfac-969d4e257530": ["ai-advocacy"],
     "manifund:2321b672-c833-028e-6e72-5a9e4a9323d7": ["interp"],
     "manifund:d17def93-e0d0-e9a9-3d2f-339c8b79d612": ["local-groups"],
     "ea_funds:recXD4V4b6U3pbyCD": ["animal-welfare"],
@@ -1042,7 +1042,7 @@
     "ea_funds:recEfddPx3UCNZVMo": ["animal-welfare"],
     "ea_funds:rechcapMFu4epVF03": ["biosecurity"],
     "manifund:f0d9b264-5cba-d43a-6cec-7309fe93b9b3": ["other"],
-    "manifund:0d732dba-68e8-73e9-d397-19d076358cbf": ["ai-safety"],
+    "manifund:0d732dba-68e8-73e9-d397-19d076358cbf": ["technical-ai-safety"],
     "manifund:d587a9b8-94d1-6694-1c19-a0db7802ae47": ["ai-strategy"],
     "ea_funds:reclUCZJgeeiuy4FP": ["animal-welfare"],
     "ea_funds:reckvXmyiaIZaem5G": ["ai-theory", "training-pipelines"],
@@ -1050,10 +1050,10 @@
     "ea_funds:recOocPggAqqVIwb6": ["training-pipelines"],
     "ea_funds:recrlOhdfkypxQFwd": ["interp", "training-pipelines"],
     "ea_funds:recOL9eJqEfXAuAUk": ["training-pipelines"],
-    "ea_funds:recJuYJCunSKsqTZX": ["ai-safety"],
-    "ea_funds:recDlLykEPBMEwp87": ["ai-safety"],
+    "ea_funds:recJuYJCunSKsqTZX": ["interp"],
+    "ea_funds:recDlLykEPBMEwp87": ["ai-theory"],
     "ea_funds:recWQGrFgzPONLFeG": ["ea-infrastructure"],
-    "ea_funds:recEtviBqr68O9RaD": ["ai-safety"],
+    "ea_funds:recEtviBqr68O9RaD": ["career-transition"],
     "ea_funds:recZ95e8EfEInDpfx": ["ais-events", "animal-welfare"],
     "ea_funds:reckXQBph03tArh0R": ["ea-infrastructure"],
     "ea_funds:recaqDNtBtL89NtS3": ["animal-welfare", "local-groups"],
@@ -1072,7 +1072,7 @@
     "ea_funds:recWe1H79OoSMtt9P": ["interp", "training-pipelines"],
     "ea_funds:recyObZhsjGHkDFBm": ["interp"],
     "ea_funds:recazv5rJFvYyUgfd": ["ea-infrastructure"],
-    "manifund:867e10bc-a770-3c38-6054-bfda7ff0967d": ["ai-safety"],
+    "manifund:867e10bc-a770-3c38-6054-bfda7ff0967d": ["ai-advocacy"],
     "ea_funds:recj5aTyiEelu90Nn": ["ai-theory"],
     "ea_funds:recHwfFbwxky618cs": ["alignment-methods", "career-transition"],
     "ea_funds:recnnmIgaxcNazBTc": ["animal-welfare"],
@@ -1097,7 +1097,7 @@
     "ea_funds:recsaxUTiiJBc3SSx": ["ai-control", "alignment-methods", "career-transition"],
     "ea_funds:recXHpSTDNVPTT8HK": ["ea-infrastructure", "global-health-development"],
     "ea_funds:recmfh6AbLPtcbZ2g": ["ea-infrastructure", "global-health-development"],
-    "manifund:16aebb97-7a4a-cbf8-e6ba-a5ce65e66c79": ["ai-safety"],
+    "manifund:16aebb97-7a4a-cbf8-e6ba-a5ce65e66c79": ["alignment-methods"],
     "manifund:4015f90d-f179-88f2-986a-b998318aa001": [
       "epistemic-infrastructure",
       "training-pipelines"
@@ -1109,9 +1109,9 @@
     "ea_funds:reclfyDslLuQahVDr": ["other"],
     "ea_funds:recxN17YXVlXkK5MT": ["ea-infrastructure"],
     "ea_funds:recJwL9RPX6g5tkXm": ["other"],
-    "ea_funds:rec3UTRtVhOaWOBjI": ["ai-safety"],
+    "ea_funds:rec3UTRtVhOaWOBjI": ["interp"],
     "ea_funds:recq2NQQv3C3rkbPg": ["ea-infrastructure", "international-policy", "local-groups"],
-    "manifund:7c7b4f70-6602-5f39-2592-6d7722980837": ["ai-safety"],
+    "manifund:7c7b4f70-6602-5f39-2592-6d7722980837": ["training-pipelines"],
     "ea_funds:rec1vYTw1EdCX9ECq": ["other"],
     "ea_funds:recGpWn5BIlXmYte5": ["ea-infrastructure"],
     "ea_funds:recSEKXhERpZhjjOd": ["animal-welfare"],
@@ -1127,26 +1127,26 @@
     "ea_funds:recnyhDaFAkuvsj4p": ["other"],
     "ea_funds:rec5tPHPKzmAse61Z": ["ea-infrastructure"],
     "manifund:14345d07-8ab7-40b4-f4c3-f1b145e67322": ["ai-control"],
-    "manifund:0189ee9f-0564-aab3-d3c6-7786d7fad680": ["ai-safety"],
+    "manifund:0189ee9f-0564-aab3-d3c6-7786d7fad680": ["interp"],
     "ea_funds:rec6R52YH9NnVcV6N": ["alignment-methods"],
     "ea_funds:grantsAddonData[100]": ["ai-strategy"],
     "ea_funds:rec5Ztvz13jf5LZTU": ["career-transition", "corporate-governance"],
     "manifund:295ebfcb-de92-9bd8-7b90-8b4ef89be265": ["interp"],
-    "manifund:527017a5-772a-e85f-8f20-37b6e1bbe3d0": ["ai-safety"],
+    "manifund:527017a5-772a-e85f-8f20-37b6e1bbe3d0": ["epistemic-infrastructure"],
     "ea_funds:recTnT8epH5ddrv6P": ["career-transition", "interp"],
     "manifund:6cabae01-5f33-02c5-e395-c6011c19e5f9": ["ea-infrastructure"],
     "manifund:ab4f9b86-aaeb-5311-c7e2-8b79891468ad": ["ai-theory"],
     "manifund:af518d81-218c-137d-26d9-cfdc7ce2b516": ["robustness-security"],
     "ea_funds:recpRm1DZ1iq0Go3M": ["alignment-methods", "career-transition"],
     "ea_funds:recftgv3k87dmCQ6h": ["ea-infrastructure"],
-    "ea_funds:reckfhxGr3MvADS7z": ["ai-safety"],
+    "ea_funds:reckfhxGr3MvADS7z": ["ai-theory"],
     "manifund:a1dbc837-3852-a22c-26e9-bd7dccbd541f": ["alignment-methods", "training-pipelines"],
     "manifund:bc1cc7fe-a930-c57b-abfc-cb99dc6b8997": ["training-pipelines"],
     "ea_funds:recSv3WQOuXE4Z7e9": ["ea-infrastructure"],
     "ea_funds:rec65WrAWMvXzJhfz": ["other"],
     "ea_funds:recEkPpfliiwAnrcx": ["ea-infrastructure"],
     "ea_funds:recTkQKGgQ2HflhVj": ["training-pipelines"],
-    "manifund:d1948c73-43e1-3125-9228-50f799ee7d3f": ["ai-safety"],
+    "manifund:d1948c73-43e1-3125-9228-50f799ee7d3f": ["ai-control"],
     "manifund:1d9e46a7-e5fb-0764-f5e1-fabfa6d11dd5": ["other"],
     "manifund:ab205690-bd44-c32a-12c3-3cce24dba37e": ["other"],
     "manifund:a89aac9a-39ee-8b68-4e7f-82cb944a4383": ["ai-theory", "global-health-development"],
@@ -1154,11 +1154,11 @@
     "manifund:46bae432-8de4-26d8-dc24-a2796f0e70df": ["international-policy"],
     "manifund:dcdc586b-35d6-9573-8c4d-06ce85fafdf3": ["other"],
     "manifund:4b0bbc6c-3ce1-09d1-f39c-f5bff315a30a": ["gradual-disempowerment"],
-    "manifund:6fbd8dbb-60af-1845-259e-a48075881895": ["ai-safety"],
+    "manifund:6fbd8dbb-60af-1845-259e-a48075881895": ["ai-advocacy"],
     "ea_funds:recajvNqxX7gxQQn1": ["interp"],
     "manifund:bf835bcd-7487-3cf4-5637-f2cc289f8eea": ["evals"],
     "manifund:ddcc5cd2-4d6c-cf49-4a3e-522544045974": ["robustness-security"],
-    "manifund:226acbb5-1312-4c62-d147-41054feab53a": ["ai-safety"],
+    "manifund:226acbb5-1312-4c62-d147-41054feab53a": ["ai-advocacy"],
     "ea_funds:recy0N5btRpahX8fq": ["corporate-governance"],
     "manifund:61203ee9-3b7a-dd1b-e5fa-1add242550ef": ["other"],
     "ea_funds:recR5QSjURGXnkHda": ["research-infrastructure"],
@@ -1170,7 +1170,7 @@
     "manifund:71e60cbb-d22b-f50d-5269-410a935aca51": ["ai-advocacy"],
     "manifund:860d9400-89d3-6e1b-e779-925fdaa6a366": ["alignment-methods"],
     "ea_funds:recjxTCkuVk1xeVwh": ["ai-advocacy", "local-groups"],
-    "manifund:488f50a9-99fb-ce77-6c37-1d200178d447": ["ai-safety"],
+    "manifund:488f50a9-99fb-ce77-6c37-1d200178d447": ["interp"],
     "manifund:f63e8209-5ae6-c17e-8731-a873918db152": ["evals"],
     "ea_funds:recF21n3uDKLdv6mR": ["local-groups"],
     "ea_funds:recxliVk1hsxBS3KB": ["local-groups"],
@@ -1178,7 +1178,7 @@
     "ea_funds:recIkT81SrnaVsb8R": ["animal-welfare"],
     "ea_funds:recGZ37hZqlrZ92Yh": ["interp"],
     "ea_funds:rec3OTVH0H5PBHEtU": ["interp"],
-    "ea_funds:reck2hsvw1hZcyt1v": ["ai-safety"],
+    "ea_funds:reck2hsvw1hZcyt1v": ["career-transition"],
     "ea_funds:recTMeczQedeSN1cq": ["training-pipelines"],
     "ea_funds:grantsAddonData[46]": ["animal-welfare"],
     "coefficient_giving:11929": ["technical-governance"],
@@ -1216,7 +1216,7 @@
     "manifund:5326c53d-71f4-dd5d-9d85-b8a51c4dae29": ["research-infrastructure"],
     "manifund:243c93df-6885-a7e6-c611-d51448cc1a28": ["other"],
     "manifund:f714ec4c-d129-3a0e-15aa-56fb399c0136": ["evals"],
-    "ea_funds:rec4qJJeViCTBs1Rp": ["ai-safety"],
+    "ea_funds:rec4qJJeViCTBs1Rp": ["career-transition"],
     "ea_funds:reck3tjyXkgf7ri73": ["local-groups"],
     "ea_funds:grantsAddonData[130]": ["global-health-development"],
     "sff:d238ac51ce606c5815db6a1d8bacda4aadaf5600c3a2c5f9123d88e1c48c8a80": [
@@ -1349,7 +1349,7 @@
     "manifund:66d545dc-e0c7-2df6-7b4c-cb9138056368": ["ai-control"],
     "ea_funds:recjhpSw7iIre2nip": ["interp"],
     "ea_funds:recHWq5wQob311cV5": ["career-transition"],
-    "manifund:961d9795-849a-a02e-76be-f6d0e41edf7d": ["ai-safety"],
+    "manifund:961d9795-849a-a02e-76be-f6d0e41edf7d": ["org-incubation"],
     "manifund:06125ba2-4ce6-7a1f-2e70-e2b7847d0083": ["interp"],
     "manifund:f368398e-3052-34a0-1aec-e65a5b279886": ["epistemic-infrastructure"],
     "ea_funds:recIuxdgIrJ3o1Qz8": ["ea-infrastructure"],
@@ -1392,13 +1392,13 @@
     "ea_funds:rechoPQLqV4WMWGnG": ["local-groups"],
     "ea_funds:recX6d3SxoBmu6wEp": ["training-pipelines"],
     "ea_funds:recAnG4HgZflszAvz": ["training-pipelines"],
-    "ea_funds:recRM3fuIlQAbiuvD": ["ai-safety"],
+    "ea_funds:recRM3fuIlQAbiuvD": ["technical-ai-safety"],
     "manifund:74219c6f-ac7f-875b-00b8-b1ac50a0f4ff": ["ai-policy"],
     "manifund:75029120-a8d0-0511-bf44-30c6eab7f12b": ["ai-control"],
     "manifund:0bdd0ba3-2a14-8a92-ba49-df3a238ce4cf": ["ai-advocacy"],
     "manifund:47d95653-50e1-f75d-58ab-bb71dbc4d269": ["training-pipelines"],
     "ea_funds:recbFhTPhFfNM3Jfh": ["training-pipelines"],
-    "ea_funds:recjtEEChUcPBMFaL": ["ai-safety"],
+    "ea_funds:recjtEEChUcPBMFaL": ["technical-ai-safety"],
     "ea_funds:recoqED5Os1ieujcl": ["ais-events"],
     "ea_funds:rec0WvKZUbSD6Xhrr": ["animal-welfare"],
     "manifund:0b3e8af6-eef4-493b-8c30-52c3c7b414f9": ["epistemic-infrastructure"],
@@ -1442,7 +1442,7 @@
     "manifund:6785d8b2-eef3-6e7d-a2c7-b3a65034a4da": ["x-risk-other"],
     "manifund:76effddb-f026-bfc2-aef5-d21475249aac": ["training-pipelines"],
     "manifund:6361cbad-da7c-be5b-322f-2262edf4b670": ["alignment-methods"],
-    "manifund:37f41b84-ab70-ce3f-c07d-dcac0e838d90": ["ai-safety"],
+    "manifund:37f41b84-ab70-ce3f-c07d-dcac0e838d90": ["alignment-methods"],
     "manifund:b9ad5841-a3e1-5ce6-699d-8ed887493cc2": ["ai-advocacy"],
     "ea_funds:recAg93cXuAV8k2qL": ["ai-strategy"],
     "ea_funds:recnnnAgFFFHx0YXa": ["technical-ai-safety"],
@@ -2937,7 +2937,7 @@
       "ea-infrastructure"
     ],
     "vipul_donations:a938f73db00b20b25de411b14dff83267b48164de922cdb6e5688655ac78844c": [
-      "ai-safety"
+      "technical-ai-safety"
     ],
     "vipul_donations:36b587f1f0b455a86b81a79200ae726674940d683e483b21ade4ea8ceb656cd6": [
       "local-groups"
@@ -3062,10 +3062,10 @@
       "domestic-policy"
     ],
     "vipul_donations:f3e9a928fc0a426d76d86120e0b426e59e66c425b3c0e385d801cc78c6f1d056": [
-      "ai-safety"
+      "animal-welfare"
     ],
     "vipul_donations:045bee2e5b0dde4a1c06b50a59786d433fcf3429acda68e388a19a45271e265a": [
-      "ai-safety"
+      "global-health-development"
     ],
     "vipul_donations:a65dfc73415dc128b301ac472825fbce056d581ccf369a0a8a6693ca20e4c728": [
       "global-health-development"
@@ -3681,13 +3681,13 @@
       "ea-infrastructure"
     ],
     "vipul_donations:3d4ebaa583520e3e650759e2f5aff20b4ebf3fb96fd09250aaf83f70b08ae6bf": [
-      "ai-safety"
+      "animal-welfare"
     ],
     "vipul_donations:79ae874cb53cb1cadfa076253416d2ab488071b1cc6e05085f5af35d248329f1": [
       "animal-welfare"
     ],
     "vipul_donations:adb8612810a03ee9fad1bd3323e2de55409f980bd053099b20b1b211fc922787": [
-      "ai-safety"
+      "biosecurity"
     ],
     "ea_funds:rec2gLNJNbJnF2sDH": ["animal-welfare"],
     "vipul_donations:b76d7d468db45abc5b3609427190991b499eff88ebe12a8921046193b5fb3370": [
@@ -3701,7 +3701,7 @@
       "animal-welfare"
     ],
     "vipul_donations:e307ad7755461280d4e6c0064a1227444108d20acdf6ef83fc08b9aa319d3926": [
-      "ai-safety"
+      "training-pipelines"
     ],
     "vipul_donations:89548ac255958408a036f9a0440a8ee50b96378f70144b56f8d282e57fbdf8a6": [
       "animal-welfare"
@@ -3815,7 +3815,7 @@
     "ea_funds:recKduemzcCtMErMT": ["animal-welfare"],
     "ea_funds:recIWpUML1OIOymWo": ["ais-events"],
     "vipul_donations:2925c077f8f2a06e4090087cdbc48d8b986a38e7fca435e3f0eac281de146813": [
-      "ai-safety"
+      "local-groups"
     ],
     "ea_funds:recq7MgAZpCSPaFJJ": ["alignment-methods"],
     "vipul_donations:36ccfbec30baa98732d9934950f42999fa15a6a061b6e8c09c25e70e292fca9c": ["evals"],
@@ -3937,7 +3937,7 @@
       "animal-welfare"
     ],
     "vipul_donations:3dbb4b3bd02cee7b01b372468468d51a2b23aed4fdbface280187d6e1f3f2836": [
-      "ai-safety"
+      "x-risk-other"
     ],
     "vipul_donations:3791c6c01646d4577bd5cca5bcb4f67bb26df82a9d7d8b1582b1834c9d4ec315": [
       "biosecurity"
@@ -4007,7 +4007,7 @@
     "vipul_donations:3c90acfbeb7dc45af894831006ff9a517145dba696bdf63efe3c80d944a6fb9f": [
       "animal-welfare"
     ],
-    "ea_funds:rec30QWFEMJCguIcY": ["ai-safety"],
+    "ea_funds:rec30QWFEMJCguIcY": ["technical-ai-safety"],
     "ea_funds:recOJjjK30CQWQRN8": ["animal-welfare"],
     "ea_funds:recUf6ikwO7TTKKQh": ["ea-infrastructure"],
     "vipul_donations:46fe088b9276253f4dc8d13ac8934fe5100a93aae4046b772f7b45c40795cb8d": [
@@ -4038,7 +4038,7 @@
       "ai-theory"
     ],
     "vipul_donations:879e73e370b9301b8fb4b48f21d9fa90d85611d42e8334ed7dc4545a327bf16d": [
-      "ai-safety"
+      "ai-theory"
     ],
     "vipul_donations:7f1c8c06ee6804cd96848efc5addfa58c3f56323b485fcf292da418173d10461": [
       "x-risk-other"
@@ -4074,7 +4074,7 @@
       "ais-events"
     ],
     "vipul_donations:6cdb023fbe2222ef2eefbcc5ba3f34b707cf738be94979da4a9d310b5f9414c9": [
-      "ai-safety"
+      "career-transition"
     ],
     "vipul_donations:cc13bdf71c57ab760c0114e0812fcdd099eb8bc83e909722fd74a13a91ea13c8": [
       "ais-events"
@@ -4086,10 +4086,10 @@
       "x-risk-other"
     ],
     "vipul_donations:f05ea13fd24a745a2be158b0026bbdf5a1999119ac0c24f3c62a5e3f65525e6a": [
-      "ai-safety"
+      "ais-events"
     ],
     "vipul_donations:fee07d916dfd1468f5605b37d1f97e2b286f9c76260953a6f757071f94206f61": [
-      "ai-safety"
+      "career-transition"
     ],
     "ea_funds:recegJoiXcqtplwO9": ["ea-infrastructure"],
     "vipul_donations:c2d612d46c067815b128af5211b872b1e089bb39edf008de2705d2d8c63d0f67": [
@@ -4176,13 +4176,13 @@
       "x-risk-other"
     ],
     "vipul_donations:dcb15b5c7f69d26704aaa7b2a51f51766ab73882ab14f812c673e6a265fbe255": [
-      "ai-safety"
+      "ai-strategy"
     ],
     "vipul_donations:ac0c69c6f31c5050bb9025f95750599a54002c4dc2262c0e637bbdb947e312d7": [
       "x-risk-other"
     ],
     "vipul_donations:3901684568334a2394ed8d39e793dbb09bd80b2093645b9d6369065d76e11f8e": [
-      "ai-safety"
+      "ai-strategy"
     ],
     "vipul_donations:e0fa439500d2ef897844e5b93ecc79822f11bd28e0ab70ef696f1a270c697c0a": [
       "ea-infrastructure"
@@ -4196,7 +4196,7 @@
     "vipul_donations:fb2e021ae940615ffd1dcd9e8509d97cdbbfdfa0ab578439b4e20ab873f2d159": [
       "ai-theory"
     ],
-    "coefficient_giving:1132": ["ai-safety"],
+    "coefficient_giving:1132": ["ea-infrastructure"],
     "vipul_donations:bcf59d050a4e325793eff031bcdb0cb9dc875e66acf4ebc20ef32a1645a14fb0": [
       "alignment-methods"
     ],
@@ -4237,7 +4237,7 @@
     "ea_funds:recAUUsrnRNfzi9yY": ["training-pipelines"],
     "ea_funds:recqTVcR0H3BXspHR": ["ea-infrastructure"],
     "ea_funds:receHsCgqcbSmAwK3": ["animal-welfare"],
-    "ea_funds:recw5CCXXzDCfh6Rf": ["ai-safety"],
+    "ea_funds:recw5CCXXzDCfh6Rf": ["x-risk-other"],
     "ea_funds:recNUMtgU6t4kdkAO": ["ea-infrastructure"],
     "ea_funds:recFKXxa1PE8gWwyH": ["ais-events"],
     "vipul_donations:03f91fd283acc46e6ede3cae62de3dd77e6f8e965663fd2e24d4e82f9fa5d745": [
@@ -4254,7 +4254,7 @@
     ],
     "ea_funds:recFuWf22ybwqvvdS": ["alignment-methods"],
     "ea_funds:recTsXCFPLsGLIUhQ": ["ea-infrastructure"],
-    "ea_funds:recIfYbgwY7VbzDvC": ["ai-safety"],
+    "ea_funds:recIfYbgwY7VbzDvC": ["technical-ai-safety"],
     "ea_funds:rec7a1UC1M1pKGJtI": ["ea-infrastructure"],
     "ea_funds:recCKeBx6MyHUVYxD": ["ea-infrastructure"],
     "ea_funds:recgugS9sVo8kC1Jj": ["ai-bio"],
@@ -4277,7 +4277,7 @@
     "ea_funds:rec0GRCJiaC8zzq46": ["ea-infrastructure"],
     "ea_funds:recflQ2WdrDBEgCii": ["ea-infrastructure"],
     "ea_funds:reclNUCkkW4TLbJ45": ["ea-infrastructure"],
-    "ea_funds:recwpQMPGksnAmEjx": ["ai-safety"],
+    "ea_funds:recwpQMPGksnAmEjx": ["other"],
     "ea_funds:recowNOhsH7xKdjfp": ["technical-ai-safety"],
     "ea_funds:recDMSLC8kQ7Rozz5": ["ea-infrastructure"],
     "ea_funds:recPFSPcZQOoCmWWn": ["ea-infrastructure"],
@@ -4323,11 +4323,11 @@
     "ea_funds:recncwUEIwQBhKdba": ["ea-infrastructure"],
     "ea_funds:recYycNGh3k6gFgYR": ["technical-ai-safety"],
     "ea_funds:rec7TR5dGROM944rA": ["ea-infrastructure"],
-    "ea_funds:rec0Q4TT16VdLmIVe": ["ai-safety"],
+    "ea_funds:rec0Q4TT16VdLmIVe": ["ai-theory"],
     "ea_funds:recqhddzi05HPkZB6": ["technical-ai-safety"],
     "ea_funds:rec9cfzyZTnNdHRFC": ["ea-infrastructure"],
     "ea_funds:recO0xNvPOY6sQ2eX": ["ea-infrastructure"],
-    "ea_funds:rec388cP998qR5MzP": ["ai-safety"],
+    "ea_funds:rec388cP998qR5MzP": ["ea-infrastructure"],
     "ea_funds:recKz2Bzbw3yNUuG5": ["ea-infrastructure"],
     "ea_funds:recmdN0xM4CZSEFsG": ["ea-infrastructure"],
     "ea_funds:recBJKGJ1kMziZK3F": ["research-infrastructure"],
@@ -4365,7 +4365,7 @@
     "ea_funds:recmKO0u7k7tZdVPp": ["animal-welfare"],
     "ea_funds:recwJxxp38Qs6YeqX": ["technical-ai-safety"],
     "ea_funds:rec9rIoKuPQ1EK50o": ["ea-infrastructure"],
-    "ea_funds:rec0m2qCpkxpeLVKU": ["ai-safety"],
+    "ea_funds:rec0m2qCpkxpeLVKU": ["career-transition"],
     "ea_funds:recL7KTOccLDUBQzL": ["training-pipelines"],
     "ea_funds:recOsGXevQ0Bbmdoe": ["training-pipelines"],
     "ea_funds:recL1ewiJPUvbqAhz": ["technical-ai-safety"],
@@ -4388,7 +4388,7 @@
     "ea_funds:recM95TDPmKSy3W8H": ["training-pipelines"],
     "ea_funds:recIyFaWSAcRBgn4c": ["ea-infrastructure"],
     "ea_funds:recd4vdLfoCiy2nu4": ["local-groups"],
-    "ea_funds:recnbBJrh0eTGC7bX": ["ai-safety"],
+    "ea_funds:recnbBJrh0eTGC7bX": ["x-risk-other"],
     "ea_funds:recioXCEclhd6Mbg2": ["career-transition"],
     "vipul_donations:441e8761960a45794acfb145a0be82deebbc89bb1166a2cef3942b4b48161781": [
       "ai-strategy"
@@ -4399,7 +4399,7 @@
     "ea_funds:rec9sDX0KHIy4V9eh": ["ea-infrastructure"],
     "ea_funds:recwEhocfxc5ZhL5I": ["ea-infrastructure"],
     "ea_funds:rec5Pp5mHT8db01mD": ["x-risk-other"],
-    "ea_funds:recHOF7ZRB62un2Ff": ["ai-safety"],
+    "ea_funds:recHOF7ZRB62un2Ff": ["ai-strategy"],
     "ea_funds:recNq8W8xvG0EhqDA": ["technical-ai-safety"],
     "ea_funds:rec7LBVUgeVxvxNiR": ["ea-infrastructure"],
     "ea_funds:recv1EjwLsQKIuRAh": ["ea-infrastructure"],
@@ -4412,7 +4412,7 @@
       "x-risk-other"
     ],
     "ea_funds:recdPOqsGJ1mmNN7X": ["ea-infrastructure"],
-    "ea_funds:reclHDaJasZyhPBu9": ["ai-safety"],
+    "ea_funds:reclHDaJasZyhPBu9": ["ai-advocacy"],
     "ea_funds:recLzxFnFRpsubYSd": ["animal-welfare"],
     "ea_funds:recQR51eHuG8Dn2Ks": ["animal-welfare"],
     "ea_funds:rec9JsXB8pEPHyGL9": ["technical-ai-safety"],
@@ -4506,7 +4506,7 @@
     "ea_funds:recRhgShwzClYl7WM": ["gradual-disempowerment"],
     "ea_funds:recsWITHWKmYITNnl": ["ea-infrastructure"],
     "ea_funds:recSR7gzmLnzIWS0U": ["ea-infrastructure"],
-    "ea_funds:recraxE9juXS8EFix": ["ai-safety"],
+    "ea_funds:recraxE9juXS8EFix": ["interp"],
     "ea_funds:rec8uoAxxR538Fy7E": ["gradual-disempowerment"],
     "ea_funds:recmTRf42H6nvfcjN": ["ea-infrastructure"],
     "ea_funds:recJGiUGaisKWQT96": ["ea-infrastructure"],
@@ -4527,7 +4527,7 @@
     "ea_funds:recTcqBgdmqrNc6kW": ["ea-infrastructure"],
     "ea_funds:reco5XRO76YLpFetW": ["ea-infrastructure"],
     "ea_funds:recHoQIA3Nuf5ByT0": ["technical-ai-safety"],
-    "ea_funds:rec1mCFqS9tlFoVNb": ["ai-safety"],
+    "ea_funds:rec1mCFqS9tlFoVNb": ["career-transition"],
     "ea_funds:recNAaH0uyFjWSg8X": ["animal-welfare"],
     "ea_funds:recnJR16o7ciOOgwH": ["technical-ai-safety"],
     "ea_funds:recKRzsd7mNJpbKPX": ["ea-infrastructure"],
@@ -5735,7 +5735,7 @@
     "sff:d80420b59b31f7a9a1e845a0a3e514785ab085bc69a9586351e6d5edac4275c2": ["other"],
     "sff:06f435149eb4ca7514f9a1e80bd74d84eb2c9d3bb2fd340aa2d0f0f0a7aa4c42": ["ea-infrastructure"],
     "sff:86410a98d66708e69ebd6d80c77b2c36f9811f6ae672a657a02a460cdd3fa461": ["other"],
-    "sff:b3de90a07052da97ee5f907b77c5a3927966d5673779905b49904021af93f13d": ["ai-safety"],
+    "sff:b3de90a07052da97ee5f907b77c5a3927966d5673779905b49904021af93f13d": ["alignment-methods"],
     "sff:b4d34695435e4523a8742ab87677c506decf40799144c035a6fa3c0fe2ec0b03": ["ea-infrastructure"],
     "sff:376e54ddb9aa23631ce7e2c1aecd9858eabd56d3b903651aa4cc7f179f9e68ea": ["ea-infrastructure"],
     "sff:89f1bc5e48facc3b0dededd9a9f1335ecf6940f517977a22693a894c89f83d02": ["x-risk-other"],
@@ -5751,7 +5751,7 @@
     "vipul_donations:c10689013d6c7620c648f415b6eb5c200e5d96c42580acadad99d2f4af91259a": [
       "alignment-methods"
     ],
-    "manifund:75878f84-aed1-a05e-ec1b-ebf64b4cd1cb": ["ai-safety"],
+    "manifund:75878f84-aed1-a05e-ec1b-ebf64b4cd1cb": ["epistemic-infrastructure"],
     "vipul_donations:3d452ec99b7411b62269432bfd5e3ea29a23d91c5f327e15964b1aa3c5785089": [
       "ai-theory"
     ],
@@ -6069,12 +6069,12 @@
     "coefficient_giving:1956": ["global-health-development"],
     "coefficient_giving:2023": ["biosecurity"],
     "coefficient_giving:2032": ["biosecurity"],
-    "coefficient_giving:1720": ["ai-safety"],
+    "coefficient_giving:1720": ["robustness-security"],
     "coefficient_giving:2038": ["animal-welfare"],
     "coefficient_giving:1996": ["other"],
     "coefficient_giving:14733": ["other"],
     "coefficient_giving:2035": ["animal-welfare"],
-    "coefficient_giving:2034": ["ai-safety"],
+    "coefficient_giving:2034": ["technical-ai-safety"],
     "coefficient_giving:2058": ["other"],
     "coefficient_giving:2046": ["animal-welfare"],
     "coefficient_giving:2048": ["other"],
@@ -6087,7 +6087,7 @@
     "coefficient_giving:2081": ["animal-welfare"],
     "coefficient_giving:2077": ["animal-welfare"],
     "coefficient_giving:2079": ["animal-welfare"],
-    "coefficient_giving:2075": ["ai-safety"],
+    "coefficient_giving:2075": ["ai-policy"],
     "coefficient_giving:2085": ["animal-welfare"],
     "coefficient_giving:2087": ["other"],
     "coefficient_giving:2089": ["animal-welfare"],
@@ -6098,8 +6098,8 @@
     "coefficient_giving:2122": ["x-risk-other"],
     "coefficient_giving:2097": ["global-health-development"],
     "coefficient_giving:2136": ["animal-welfare"],
-    "coefficient_giving:2177": ["ai-safety"],
-    "coefficient_giving:2129": ["ai-safety"],
+    "coefficient_giving:2177": ["robustness-security"],
+    "coefficient_giving:2129": ["domestic-policy"],
     "coefficient_giving:2140": ["biosecurity"],
     "coefficient_giving:2133": ["biosecurity"],
     "coefficient_giving:2138": ["global-health-development"],
@@ -6112,7 +6112,7 @@
     "coefficient_giving:2144": ["global-health-development"],
     "coefficient_giving:2167": ["animal-welfare"],
     "coefficient_giving:2214": ["animal-welfare"],
-    "coefficient_giving:2178": ["ai-safety"],
+    "coefficient_giving:2178": ["training-pipelines"],
     "coefficient_giving:2164": ["x-risk-other"],
     "coefficient_giving:2196": ["biosecurity"],
     "coefficient_giving:2125": ["global-health-development"],
@@ -6130,7 +6130,7 @@
     "coefficient_giving:2202": ["x-risk-other"],
     "coefficient_giving:2283": ["x-risk-other"],
     "coefficient_giving:2240": ["biosecurity"],
-    "coefficient_giving:2289": ["ai-safety"],
+    "coefficient_giving:2289": ["training-pipelines"],
     "coefficient_giving:2255": ["animal-welfare"],
     "coefficient_giving:2253": ["animal-welfare"],
     "coefficient_giving:2172": ["other"],
@@ -6150,7 +6150,7 @@
     "coefficient_giving:2308": ["global-health-development"],
     "coefficient_giving:2306": ["other"],
     "coefficient_giving:1606": ["global-health-development"],
-    "coefficient_giving:1599": ["ai-safety"],
+    "coefficient_giving:1599": ["technical-ai-safety"],
     "coefficient_giving:1597": ["global-health-development"],
     "coefficient_giving:1624": ["other"],
     "coefficient_giving:1608": ["global-health-development"],
@@ -6206,7 +6206,7 @@
     "coefficient_giving:1808": ["animal-welfare"],
     "coefficient_giving:1841": ["x-risk-other"],
     "coefficient_giving:1852": ["biosecurity"],
-    "coefficient_giving:1869": ["ai-safety"],
+    "coefficient_giving:1869": ["training-pipelines"],
     "coefficient_giving:1834": ["animal-welfare"],
     "coefficient_giving:1850": ["other"],
     "coefficient_giving:1718": ["animal-welfare"],
@@ -6247,7 +6247,7 @@
     "coefficient_giving:1819": ["global-health-development"],
     "coefficient_giving:1921": ["other"],
     "coefficient_giving:1838": ["animal-welfare"],
-    "coefficient_giving:2002": ["ai-safety"],
+    "coefficient_giving:2002": ["ai-policy"],
     "coefficient_giving:2145": ["other"],
     "coefficient_giving:1943": ["animal-welfare"],
     "coefficient_giving:1717": ["global-health-development"],
@@ -6347,7 +6347,7 @@
     "coefficient_giving:1330": ["animal-welfare"],
     "coefficient_giving:1329": ["animal-welfare"],
     "coefficient_giving:1379": ["animal-welfare"],
-    "coefficient_giving:1364": ["ai-safety"],
+    "coefficient_giving:1364": ["robustness-security"],
     "coefficient_giving:1375": ["biosecurity"],
     "coefficient_giving:1381": ["ai-ecosystem"],
     "vipul_donations:a0f1bc75571accb18c16b06284c308db8b29edb9b064e21afd8d8cf17890ec5e": [
@@ -6484,7 +6484,7 @@
     ],
     "coefficient_giving:10443": ["x-risk-other"],
     "coefficient_giving:8564": ["other"],
-    "coefficient_giving:12651": ["ai-safety"],
+    "coefficient_giving:12651": ["alignment-methods"],
     "coefficient_giving:8494": ["biosecurity"],
     "coefficient_giving:12588": ["ai-fieldbuilding"],
     "coefficient_giving:8559": ["animal-welfare"],
@@ -6505,12 +6505,12 @@
     "coefficient_giving:8415": ["global-health-development"],
     "coefficient_giving:8412": ["animal-welfare"],
     "coefficient_giving:8217": ["animal-welfare"],
-    "coefficient_giving:9553": ["ai-safety"],
+    "coefficient_giving:9553": ["technical-ai-safety"],
     "coefficient_giving:8563": ["global-health-development"],
     "coefficient_giving:7049": ["biosecurity"],
     "coefficient_giving:8212": ["other"],
     "coefficient_giving:12644": ["global-health-development"],
-    "coefficient_giving:9563": ["ai-safety"],
+    "coefficient_giving:9563": ["robustness-security"],
     "coefficient_giving:14059": ["global-health-development"],
     "coefficient_giving:9513": ["animal-welfare"],
     "coefficient_giving:12201": ["x-risk-other"],
@@ -6540,11 +6540,11 @@
     "coefficient_giving:12873": ["animal-welfare"],
     "coefficient_giving:8420": ["global-health-development"],
     "coefficient_giving:8403": ["global-health-development"],
-    "coefficient_giving:4969": ["ai-safety"],
+    "coefficient_giving:4969": ["ai-strategy"],
     "coefficient_giving:12511": ["global-health-development"],
     "coefficient_giving:9537": ["robustness-security"],
     "coefficient_giving:14796": ["x-risk-other"],
-    "coefficient_giving:10137": ["ai-safety"],
+    "coefficient_giving:10137": ["global-health-development"],
     "coefficient_giving:8566": ["animal-welfare"],
     "coefficient_giving:7053": ["other"],
     "coefficient_giving:28233": ["global-health-development"],
@@ -6555,12 +6555,12 @@
     "coefficient_giving:7044": ["ai-policy"],
     "coefficient_giving:8389": ["x-risk-other"],
     "coefficient_giving:8234": ["global-health-development"],
-    "coefficient_giving:8496": ["ai-safety"],
+    "coefficient_giving:8496": ["other"],
     "coefficient_giving:8427": ["robustness-security"],
     "coefficient_giving:8406": ["animal-welfare"],
     "coefficient_giving:7055": ["robustness-security"],
     "coefficient_giving:7048": ["global-health-development"],
-    "coefficient_giving:12194": ["ai-safety"],
+    "coefficient_giving:12194": ["global-health-development"],
     "coefficient_giving:7083": ["other"],
     "coefficient_giving:7051": ["robustness-security"],
     "coefficient_giving:7039": ["ai-policy"],
@@ -6576,7 +6576,7 @@
     "coefficient_giving:9562": ["animal-welfare"],
     "coefficient_giving:8382": ["global-health-development"],
     "coefficient_giving:7057": ["other"],
-    "coefficient_giving:11865": ["ai-safety"],
+    "coefficient_giving:11865": ["domestic-policy"],
     "coefficient_giving:8568": ["animal-welfare"],
     "coefficient_giving:12969": ["animal-welfare"],
     "coefficient_giving:7052": ["animal-welfare"],
@@ -6586,7 +6586,7 @@
     "coefficient_giving:18803": ["global-health-development"],
     "coefficient_giving:11863": ["global-health-development"],
     "coefficient_giving:7034": ["animal-welfare"],
-    "coefficient_giving:9549": ["ai-safety"],
+    "coefficient_giving:9549": ["other"],
     "coefficient_giving:7074": ["other"],
     "coefficient_giving:7073": ["animal-welfare"],
     "coefficient_giving:8598": ["global-health-development"],
@@ -6603,7 +6603,7 @@
     "coefficient_giving:9529": ["global-health-development"],
     "coefficient_giving:1090": ["x-risk-other"],
     "coefficient_giving:9515": ["other"],
-    "coefficient_giving:7020": ["ai-safety"],
+    "coefficient_giving:7020": ["technical-ai-safety"],
     "coefficient_giving:1079": ["animal-welfare"],
     "coefficient_giving:9555": ["global-health-development"],
     "coefficient_giving:1077": ["animal-welfare"],
@@ -6667,7 +6667,7 @@
     "coefficient_giving:1164": ["other"],
     "coefficient_giving:1136": ["x-risk-other"],
     "coefficient_giving:7081": ["global-health-development"],
-    "coefficient_giving:1135": ["ai-safety"],
+    "coefficient_giving:1135": ["animal-welfare"],
     "coefficient_giving:13404": ["animal-welfare"],
     "coefficient_giving:14647": ["animal-welfare"],
     "coefficient_giving:13559": ["other"],
@@ -6687,7 +6687,7 @@
     "coefficient_giving:13250": ["animal-welfare"],
     "coefficient_giving:13019": ["x-risk-other"],
     "coefficient_giving:15435": ["global-health-development"],
-    "coefficient_giving:13258": ["ai-safety"],
+    "coefficient_giving:13258": ["ai-strategy"],
     "coefficient_giving:12459": ["x-risk-other"],
     "coefficient_giving:13273": ["animal-welfare"],
     "coefficient_giving:13379": ["global-health-development"],
@@ -6697,15 +6697,15 @@
     "coefficient_giving:13016": ["global-health-development"],
     "coefficient_giving:12675": ["global-health-development"],
     "coefficient_giving:12657": ["global-health-development"],
-    "coefficient_giving:13459": ["ai-safety"],
+    "coefficient_giving:13459": ["ais-events"],
     "coefficient_giving:13181": ["x-risk-other"],
-    "coefficient_giving:13061": ["ai-safety"],
+    "coefficient_giving:13061": ["evals"],
     "coefficient_giving:12975": ["global-health-development"],
     "coefficient_giving:13382": ["global-health-development"],
-    "coefficient_giving:13312": ["ai-safety"],
+    "coefficient_giving:13312": ["interp"],
     "coefficient_giving:13054": ["animal-welfare"],
     "coefficient_giving:13075": ["ai-policy"],
-    "coefficient_giving:12902": ["ai-safety"],
+    "coefficient_giving:12902": ["technical-ai-safety"],
     "coefficient_giving:12714": ["ea-infrastructure"],
     "coefficient_giving:12763": ["biosecurity"],
     "coefficient_giving:12465": ["interp"],
@@ -6718,11 +6718,11 @@
     "coefficient_giving:12187": ["animal-welfare"],
     "coefficient_giving:13355": ["ai-fieldbuilding"],
     "coefficient_giving:13057": ["animal-welfare"],
-    "coefficient_giving:12131": ["ai-safety"],
+    "coefficient_giving:12131": ["ea-infrastructure"],
     "coefficient_giving:11896": ["animal-welfare"],
     "coefficient_giving:12135": ["x-risk-other"],
-    "coefficient_giving:13983": ["ai-safety"],
-    "coefficient_giving:12666": ["ai-safety"],
+    "coefficient_giving:13983": ["ai-theory"],
+    "coefficient_giving:12666": ["technical-ai-safety"],
     "coefficient_giving:12448": ["biosecurity"],
     "coefficient_giving:12509": ["other"],
     "coefficient_giving:12356": ["other"],
@@ -6784,7 +6784,7 @@
     "coefficient_giving:11824": ["other"],
     "coefficient_giving:11585": ["x-risk-other"],
     "coefficient_giving:12916": ["biosecurity"],
-    "coefficient_giving:11533": ["ai-safety"],
+    "coefficient_giving:11533": ["other"],
     "coefficient_giving:11545": ["animal-welfare"],
     "coefficient_giving:11568": ["other"],
     "coefficient_giving:11578": ["other"],
@@ -6824,7 +6824,7 @@
     "coefficient_giving:11675": ["x-risk-other"],
     "coefficient_giving:14826": ["local-groups"],
     "coefficient_giving:10505": ["animal-welfare"],
-    "coefficient_giving:12686": ["ai-safety"],
+    "coefficient_giving:12686": ["robustness-security"],
     "coefficient_giving:10996": ["biosecurity"],
     "coefficient_giving:10947": ["ai-policy"],
     "coefficient_giving:11878": ["x-risk-other"],
@@ -6886,8 +6886,8 @@
     "coefficient_giving:11010": ["global-health-development"],
     "coefficient_giving:9837": ["training-pipelines"],
     "coefficient_giving:9556": ["ea-infrastructure"],
-    "coefficient_giving:11122": ["ai-safety"],
-    "coefficient_giving:11119": ["ai-safety"],
+    "coefficient_giving:11122": ["technical-governance"],
+    "coefficient_giving:11119": ["technical-governance"],
     "coefficient_giving:9473": ["animal-welfare"],
     "coefficient_giving:9815": ["global-health-development"],
     "coefficient_giving:11744": ["alignment-methods"],
@@ -7723,7 +7723,7 @@
     "coefficient_giving:37162": ["other"],
     "coefficient_giving:37160": ["other"],
     "coefficient_giving:36966": ["global-health-development"],
-    "coefficient_giving:35985": ["ai-safety"],
+    "coefficient_giving:35985": ["ai-strategy"],
     "coefficient_giving:37214": ["animal-welfare"],
     "coefficient_giving:38079": ["global-health-development"],
     "coefficient_giving:38002": ["alignment-methods"],
@@ -7740,7 +7740,7 @@
     "coefficient_giving:38055": ["biosecurity"],
     "coefficient_giving:37695": ["other"],
     "coefficient_giving:37242": ["animal-welfare"],
-    "coefficient_giving:36979": ["ai-safety"],
+    "coefficient_giving:36979": ["ai-policy"],
     "coefficient_giving:35352": ["other"],
     "coefficient_giving:37175": ["global-health-development"],
     "coefficient_giving:35969": ["evals"],
@@ -7758,7 +7758,7 @@
     "coefficient_giving:38130": ["x-risk-other"],
     "coefficient_giving:37809": ["ai-fieldbuilding"],
     "coefficient_giving:37801": ["biosecurity"],
-    "coefficient_giving:37797": ["ai-safety"],
+    "coefficient_giving:37797": ["epistemic-infrastructure"],
     "coefficient_giving:37772": ["animal-welfare"],
     "coefficient_giving:37240": ["animal-welfare"],
     "coefficient_giving:37167": ["other"],
@@ -7772,7 +7772,7 @@
     "coefficient_giving:37187": ["global-health-development"],
     "coefficient_giving:36447": ["biosecurity"],
     "coefficient_giving:35845": ["evals"],
-    "coefficient_giving:37876": ["ai-safety"],
+    "coefficient_giving:37876": ["technical-ai-safety"],
     "coefficient_giving:38030": ["global-health-development"],
     "coefficient_giving:37034": ["other"],
     "coefficient_giving:36938": ["global-health-development"],
@@ -7850,7 +7850,7 @@
     "coefficient_giving:37148": ["animal-welfare"],
     "coefficient_giving:36168": ["other"],
     "coefficient_giving:37324": ["robustness-security"],
-    "coefficient_giving:38506": ["ai-safety"],
+    "coefficient_giving:38506": ["ai-policy"],
     "coefficient_giving:37216": ["animal-welfare"],
     "coefficient_giving:36570": ["global-health-development"],
     "coefficient_giving:37326": ["robustness-security"],
@@ -7936,7 +7936,7 @@
     "coefficient_giving:35877": ["other"],
     "coefficient_giving:28337": ["other"],
     "coefficient_giving:28988": ["ai-policy"],
-    "coefficient_giving:28980": ["ai-safety"],
+    "coefficient_giving:28980": ["ai-policy"],
     "coefficient_giving:28823": ["alignment-methods"],
     "coefficient_giving:28819": ["other"],
     "coefficient_giving:28817": ["international-policy"],
@@ -7945,7 +7945,7 @@
     "coefficient_giving:28788": ["ai-policy"],
     "coefficient_giving:28784": ["animal-welfare"],
     "coefficient_giving:28734": ["evals"],
-    "coefficient_giving:28730": ["ai-safety"],
+    "coefficient_giving:28730": ["ai-policy"],
     "coefficient_giving:28723": ["animal-welfare"],
     "coefficient_giving:28717": ["global-health-development"],
     "coefficient_giving:28363": ["ai-policy"],
@@ -7974,14 +7974,14 @@
     "coefficient_giving:36506": ["biosecurity"],
     "coefficient_giving:26008": ["global-health-development"],
     "coefficient_giving:36548": ["biosecurity"],
-    "coefficient_giving:38614": ["ai-safety"],
+    "coefficient_giving:38614": ["robustness-security"],
     "coefficient_giving:36071": ["global-health-development"],
     "coefficient_giving:35881": ["other"],
     "coefficient_giving:38729": ["training-pipelines"],
     "coefficient_giving:37139": ["animal-welfare"],
     "coefficient_giving:26216": ["evals"],
     "coefficient_giving:29007": ["technical-ai-safety"],
-    "coefficient_giving:28982": ["ai-safety"],
+    "coefficient_giving:28982": ["ai-policy"],
     "coefficient_giving:28978": ["training-pipelines"],
     "coefficient_giving:28965": ["training-pipelines"],
     "coefficient_giving:28961": ["training-pipelines"],
@@ -8020,8 +8020,8 @@
     "coefficient_giving:37223": ["animal-welfare"],
     "coefficient_giving:25961": ["animal-welfare"],
     "coefficient_giving:38248": ["other"],
-    "coefficient_giving:37759": ["ai-safety"],
-    "coefficient_giving:36981": ["ai-safety"],
+    "coefficient_giving:37759": ["ai-law"],
+    "coefficient_giving:36981": ["ai-policy"],
     "coefficient_giving:38072": ["global-health-development"],
     "coefficient_giving:37250": ["animal-welfare"],
     "coefficient_giving:26219": ["other"],
@@ -8085,14 +8085,14 @@
     "coefficient_giving:25032": ["x-risk-other"],
     "coefficient_giving:26094": ["animal-welfare"],
     "coefficient_giving:26020": ["ai-ecosystem"],
-    "coefficient_giving:25642": ["ai-safety"],
+    "coefficient_giving:25642": ["ai-fieldbuilding"],
     "coefficient_giving:25083": ["animal-welfare"],
     "coefficient_giving:25632": ["ea-infrastructure"],
     "coefficient_giving:26065": ["global-health-development"],
     "coefficient_giving:25071": ["other"],
     "coefficient_giving:26426": ["global-health-development"],
     "coefficient_giving:26027": ["other"],
-    "coefficient_giving:24905": ["ai-safety"],
+    "coefficient_giving:24905": ["x-risk-other"],
     "coefficient_giving:26105": ["ea-infrastructure", "x-risk-other"],
     "coefficient_giving:25509": ["animal-welfare"],
     "coefficient_giving:24640": ["other"],
@@ -8123,7 +8123,7 @@
     "coefficient_giving:24143": ["animal-welfare"],
     "coefficient_giving:24098": ["ea-infrastructure"],
     "coefficient_giving:24096": ["ea-infrastructure"],
-    "coefficient_giving:23693": ["ai-safety"],
+    "coefficient_giving:23693": ["training-pipelines"],
     "coefficient_giving:26138": ["global-health-development"],
     "coefficient_giving:25733": ["x-risk-other"],
     "coefficient_giving:25714": ["other"],
@@ -8178,7 +8178,7 @@
     "coefficient_giving:39794": ["other"],
     "coefficient_giving:39484": ["biosecurity"],
     "coefficient_giving:39772": ["animal-welfare"],
-    "coefficient_giving:39912": ["ai-safety", "ea-infrastructure"],
+    "coefficient_giving:39912": ["career-transition"],
     "coefficient_giving:39599": ["biosecurity"],
     "coefficient_giving:39482": ["other"],
     "coefficient_giving:40097": ["ea-infrastructure"],
@@ -8218,7 +8218,7 @@
     "coefficient_giving:39535": ["evals"],
     "coefficient_giving:39445": ["other"],
     "coefficient_giving:39439": ["other"],
-    "coefficient_giving:39622": ["ai-safety"],
+    "coefficient_giving:39622": ["ai-advocacy"],
     "coefficient_giving:39531": ["ai-policy"],
     "coefficient_giving:39382": ["other"],
     "coefficient_giving:39533": ["alignment-methods"],
@@ -8253,7 +8253,7 @@
     "coefficient_giving:39417": ["animal-welfare"],
     "coefficient_giving:39162": ["ai-theory"],
     "coefficient_giving:38664": ["other"],
-    "coefficient_giving:40083": ["ai-safety"],
+    "coefficient_giving:40083": ["ai-policy"],
     "coefficient_giving:39342": ["animal-welfare"],
     "coefficient_giving:39160": ["interp"],
     "coefficient_giving:37922": ["other"],
@@ -8317,7 +8317,7 @@
     "coefficient_giving:37865": ["global-health-development"],
     "coefficient_giving:37874": ["global-health-development"],
     "coefficient_giving:39405": ["animal-welfare"],
-    "coefficient_giving:40125": ["ai-safety"],
+    "coefficient_giving:40125": ["technical-ai-safety"],
     "coefficient_giving:37349": ["research-infrastructure"],
     "coefficient_giving:37347": ["interp"],
     "coefficient_giving:39553": ["ai-policy"],
@@ -8478,6 +8478,68 @@
     "manifund:26081b7c-cc1c-7a60-b33e-75df7fb347fc": ["digital-minds", "alignment-methods"],
     "vipul_donations:1e64e86528c83d8f0cc3a8a83dc66a95a98d82a91756f9a6574359e9fc66cd36": [
       "ai-theory"
-    ]
+    ],
+    "acx_grants:4d97ea62bc823bd73b77d596adc604d025345f3d411d404ce6584706350100b1": ["other"],
+    "acx_grants:bd8203f9ceb310d78b2a794d7d1354377661c8555505cb42fc5786c1b28963b3": ["other"],
+    "fli:3578ff73e6c37327934d1940aafc3f9a32caa1c2e7ba6b520bee8c08943ad633": [
+      "gradual-disempowerment"
+    ],
+    "fli:ab8c801334f2e0d3c7f0e9c783d7b511e9371fc692b9c56f69b56208fec2bab1": ["ai-policy"],
+    "fli:edd85168fd96ab12415271cacc18f24f9136ea3cf38b8c92fe956dc4e8948f50": ["other"],
+    "foresight:133426406b7b5e2a07c922db15c87b6ebcd8652230980f21f802195f79b8a6e8": [
+      "technical-ai-safety"
+    ],
+    "foresight:1de75f5f314a5b3dae5b940730fafabcfc458b42783ccb05735909e1c493a3f7": ["other"],
+    "schmidt_sciences:c9accf2c0f4016a6b0e92f753dfe3cbc3a2d9095eb5e87654e2588e771d70d0d": [
+      "technical-ai-safety"
+    ],
+    "uk_aisi:05e47b921486e5ec63764570c17ff9aa6ce0f31dd503000222964f0fb0a97be8": ["ai-policy"],
+    "uk_aisi:07125a21279b1407c92c304bd2d373c1a5e0831070babd9e870771a6fe493b7a": ["ai-law"],
+    "uk_aisi:099a4c11d0717becedfe96aebaf64d452ff2e76db13a0bfe37f89cb4f5329753": [
+      "robustness-security"
+    ],
+    "uk_aisi:194bc96cd45de78ae0c3cecc88fa0d567562ac9834da917071126efd4c57e9a1": ["ai-theory"],
+    "uk_aisi:4346195becd3484b3cd7a351075b01f5bfff6053b440f58c836c96b3650b28a4": [
+      "robustness-security"
+    ],
+    "uk_aisi:541c4fa11a1c80811c8694ec71f7448a5eb6a13d414300dd0b9bb4dca64a4005": [
+      "technical-ai-safety"
+    ],
+    "uk_aisi:791ccd4ff83797561b4fc01bd55a1969c300a3c1b2f8153f85cc23120d25bb68": ["ai-policy"],
+    "uk_aisi:8fd3d05697bac5f3aee82cfb426d95920c4ff28b4abc623a2579c6102fcb2b1f": [
+      "corporate-governance"
+    ],
+    "uk_aisi:918b7bc3e6e3ce1b018a3c45dc0eddb01ec34d81f1adfa50cec059b37686455c": [
+      "robustness-security"
+    ],
+    "uk_aisi:9b3ceb9891a7cc4c71ac239b84b6d8822babc7768d84031334b1ff2958a4120c": ["ai-control"],
+    "uk_aisi:a6b776c3a64fc7c24548cd58add1c2f7986351b0f6578d5f2208bd45cad8c847": [
+      "robustness-security"
+    ],
+    "uk_aisi:af5347dd034a83c9cf8b45b0cb40525dd55acc92156d3c0238084e998d0f141b": [
+      "robustness-security"
+    ],
+    "uk_aisi:b7ddb1ff258b6bf782acbc0bab6d375aa1b85162d8e6df7363a8fc4b22da6a16": [
+      "robustness-security"
+    ],
+    "uk_aisi:bcd9e980174fd69a5c3d40974412614436f41289eaaab3cfaffd271ed05a9014": [
+      "gradual-disempowerment"
+    ],
+    "uk_aisi:c075420164ac4b1911782274e3787371c3810e174c71faee38b8f7ddade86dcd": [
+      "technical-ai-safety"
+    ],
+    "uk_aisi:cbb311ffcc60d5386f66a0562ae4f246d5d614fb4d9a6c6264db189e7f59e3e0": [
+      "technical-ai-safety"
+    ],
+    "uk_aisi:d23b64ac10630bcb2a84f4ae41290f168ecee29ce9da8341efd99ec4071a1c56": [
+      "technical-ai-safety"
+    ],
+    "uk_aisi:df6670bfa12dfe42caaf4ac1c6f52ac595b6e0959725613ba7e34d6531a0ad62": [
+      "robustness-security"
+    ],
+    "uk_aisi:df8145fd211c5025b262ef599511db666e08a934f45da439df81d0b050300970": [
+      "robustness-security"
+    ],
+    "uk_aisi:ec59787fdbc24fc6daa3bd94090bf71798713fd6c3f42bc77bc7030f7d6a33e4": ["evals"]
   }
 }

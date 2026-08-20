@@ -7,13 +7,7 @@
 import resolutionsFile from '@/data/dedup-resolutions.json'
 import { createAdminClient } from '@/db/supabase-admin'
 
-const PRIORITY = [
-  'sff',
-  'ea_funds',
-  'manifund',
-  'coefficient_giving',
-  'vipul_donations',
-]
+const PRIORITY = ['sff', 'ea_funds', 'manifund', 'coefficient_giving', 'vipul_donations']
 
 const RESOLUTIONS: Record<string, 'merged' | 'distinct'> = (
   resolutionsFile as never as { resolutions: Record<string, 'merged' | 'distinct'> }

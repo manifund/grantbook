@@ -2,7 +2,7 @@ import { Suspense } from 'react'
 import { GrantsTable } from '@/components/grants-table'
 import { listGrants, listSources } from '@/db/grant'
 
-export const revalidate = 3600
+export const revalidate = 600
 
 export default async function Page(props: { searchParams: Promise<{ cause?: string }> }) {
   const { cause = 'ai-safety' } = await props.searchParams

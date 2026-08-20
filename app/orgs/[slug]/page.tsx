@@ -4,7 +4,7 @@ import { getOrgBySlug } from '@/db/org'
 import { displayCauses } from '@/utils/cause-tree'
 import { formatGrantDate, formatMoney } from '@/utils/format'
 
-export const revalidate = 3600
+export const revalidate = 600
 
 function GrantList(props: { title: string; grants: GrantRow[]; side: 'made' | 'received' }) {
   if (props.grants.length === 0) return null

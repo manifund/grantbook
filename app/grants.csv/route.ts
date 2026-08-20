@@ -2,7 +2,7 @@ import { listGrants } from '@/db/grant'
 import { toCsvCell } from '@/scripts/lib/csv'
 import { applyFilters, filtersFromParams } from '@/utils/grant-filters'
 
-export const revalidate = 3600
+export const revalidate = 600
 
 export async function GET(request: Request) {
   const { searchParams } = new URL(request.url)
