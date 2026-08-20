@@ -175,7 +175,7 @@ export function ChartsView(props: { grants: GrantRow[] }) {
     const head = sorted.slice(0, 5)
     const rest = sorted.slice(5).reduce((sum, [, v]) => sum + v, 0)
     const slices = head.map(([name, value], i) => ({ name, value, color: SERIES[i] }))
-    if (rest > 0) slices.push({ name: 'Other', value: rest, color: SERIES_OTHER })
+    if (rest > 0) slices.push({ name: 'All others', value: rest, color: SERIES_OTHER })
     return slices
   }, [props.grants, pieGroup, pieCause, pieFunders, pieRecipients])
 
