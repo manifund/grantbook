@@ -86,6 +86,18 @@ const SOURCES: CuratedSource[] = [
     programCauses: () => null,
   },
   {
+    sourceId: 'ftx_future_fund',
+    file: 'ftx-future-fund.json',
+    defaultFunder: 'FTX Future Fund',
+    funderType: 'fund',
+    programCauses: (program) => {
+      if (/artificial intelligence/i.test(program)) return ['ai-safety']
+      if (/biorisk/i.test(program)) return ['biosecurity']
+      if (/effective altruism/i.test(program)) return ['ea-infrastructure']
+      return null
+    },
+  },
+  {
     sourceId: 'jefftk',
     file: 'jefftk.json',
     defaultFunder: 'Julia Wise and Jeff Kaufman',

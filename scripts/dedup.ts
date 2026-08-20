@@ -22,6 +22,7 @@ const PRIORITY = [
   'jefftk',
   'uk_aisi',
   'irs_990',
+  'ftx_future_fund',
   'vipul_donations',
 ]
 
@@ -177,7 +178,7 @@ async function main() {
           // Sources missing from PRIORITY rank last, not first.
           const rank = (sourceId: string) => {
             const i = PRIORITY.indexOf(sourceId)
-            return i === -1 ? PRIORITY.length - 1 : i
+            return i === -1 ? PRIORITY.indexOf('vipul_donations') - 0.5 : i
           }
           const [winner, loser] = rank(a.sourceId) <= rank(b.sourceId) ? [a, b] : [b, a]
           await merge(winner, loser)
@@ -225,7 +226,7 @@ async function main() {
     seenPairs.add(pairKey)
     const rank = (sourceId: string) => {
       const i = PRIORITY.indexOf(sourceId)
-      return i === -1 ? PRIORITY.length - 1 : i
+      return i === -1 ? PRIORITY.indexOf('vipul_donations') - 0.5 : i
     }
     const [winner, loser] = rank(a.sourceId) <= rank(b.sourceId) ? [a, b] : [b, a]
     await merge(winner, loser)

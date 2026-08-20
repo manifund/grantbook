@@ -1,0 +1,1556 @@
+{
+  "grants": [
+    {
+      "recipient": "Dylan Iskandar",
+      "amount": 25000,
+      "date": "2022",
+      "description": "This regrant will support a summer research internship at Columbia University in Barnard’s Programming Languages Lab under Prof. Santolucito, as well as equipment and conference attendance. The research project is aimed at modeling and aligning program synthesis models in the setting of computational creativity.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Our World in Data",
+      "amount": 7500000,
+      "date": "2022",
+      "description": "We recommended a grant over three years to support OWID’s work producing high quality data and analysis of global trends like the rise in living standards and effects of COVID-19. This grant will specifically support work tracking trends that are relevant to humanity’s long term prospects.",
+      "program": "Epistemic Institutions",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Global Priorities Institute",
+      "amount": 1215800,
+      "date": "2022",
+      "description": "We recommended a grant to allow GPI to hire pre-docs and post-docs from economics, philosophy, and psychology and publish analysis on how to do the most good.",
+      "program": "Epistemic Institutions",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Sherry Glied",
+      "amount": 750000,
+      "date": "2022",
+      "description": "We recommended a grant to run two pilot studies in order to develop a platform that will allow policymakers to rapidly get reliable estimates about important quantitative parameters to inform policy measures during times of crisis, like during a pandemic. The pilot will focus on evaluating the cost-benefit profile of non-pharmaceutical interventions during pandemics.",
+      "program": "Epistemic Institutions, Values and Reflective Processes",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Long Term Future Fund",
+      "amount": 3900000,
+      "date": "2022",
+      "description": "We recommended funding to support their longtermist grantmaking.",
+      "program": "Effective Altruism",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "LEEP",
+      "amount": 400000,
+      "date": "2022",
+      "description": "We recommended a grant to an organization aiming to reduce childhood lead exposure and eliminate childhood lead poisoning worldwide.",
+      "program": "",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Differential Projections",
+      "amount": 250000,
+      "date": "2022",
+      "description": "We recommended a grant to support the creation of a small research organization that will use probabilistic models to forecast important questions about the future, in particular involving transformative artificial intelligence.",
+      "program": "Epistemic Institutions",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "ALLFED",
+      "amount": 300000,
+      "date": "2022",
+      "description": "We recommended a grant to create a nuclear winter food scale-up plan which governments can adopt.",
+      "program": "Biorisk and Recovery from Catastrophe, Great Power Relations",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Longview Philanthropy",
+      "amount": 2939775,
+      "date": "2022",
+      "description": "We recommended a grant to support Longview Philanthropy creating a longtermist coworking office in London.",
+      "program": "Empowering Exceptional People, Effective Altruism",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Constellation",
+      "amount": 3900000,
+      "date": "2022",
+      "description": "We recommended a grant to support 18 months of operations for a longtermist coworking space in Berkeley",
+      "program": "Empowering Exceptional People, Effective Altruism",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Alignment Research Center",
+      "amount": 1250000,
+      "date": "2022",
+      "description": "We recommended a grant to support researcher salaries, funding for contractors for evaluating AI capabilities, projects like the ELK prizes and workshops, and administrative expenses.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Charbel-Raphaël Segerie",
+      "amount": 25000,
+      "date": "2022",
+      "description": "This regrant will support six months of salary for Charbel-Raphaël Segerie to work on AI safety mentoring and study.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Sharon Hewitt Rawlette",
+      "amount": 70000,
+      "date": "2022",
+      "description": "This regrant will fund the writing of a book about classical utilitarianism and its foundations and implications.",
+      "program": "Values and Reflective Processes",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Machine Learning Moral Uncertainty Competition",
+      "amount": 100000,
+      "date": "2022",
+      "description": "This regrant will fund the prizes for a competition on using machine learning models to estimate when human values are in conflict and estimate moral uncertainty.",
+      "program": "Artificial Intelligence, Values and Reflective Processes",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "The Inside View",
+      "amount": 51980,
+      "date": "2022",
+      "description": "This regrant will support Michael Trazzi to make 20 episodes of his podcast and YouTube channel about research on AI and its risks called \"The Inside View.\" Funds compensated Michael for his time, for equipment, and for marketing.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Noa Nabeshima",
+      "amount": 30000,
+      "date": "2022",
+      "description": "This regrant will support three months of independent AI interpretability research.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "University of California, Santa Cruz, Cihang Xie",
+      "amount": 350000,
+      "date": "2022",
+      "description": "This regrant will support Professor Cihang Xie's research on adversarial robustness and honest AI.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Space Future Initiative",
+      "amount": 90000,
+      "date": "2022",
+      "description": "This regrant will support funding for students at Harvard and Cornell to establish student groups to learn about and research longtermist space governance, including events, stipends, and prizes.",
+      "program": "Space Governance",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "University of Pennsylvania, Professor Geoff Goodwin",
+      "amount": 282700,
+      "date": "2022",
+      "description": "This regrant will support three years of work on the Global Priorities Research psychology research agenda, for a post doc, conference attendance, research assistants, and payments for experimental participants, among other expenses.",
+      "program": "Research That Can Help Us Improve",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "The International Commission on Non-Ionizing Radiation Protection, Dr. Rodney Croft",
+      "amount": 1206000,
+      "date": "2022",
+      "description": "This regrant supports work investigating FarUVC, a wavelength of light which could safely sterilize pathogens in occupied rooms. This regrant supports the International Commission on Non-Ionizing Radiation Protection, a nonprofit group that sets international exposure guidelines, to 1) determine what additional information is needed to re-evaluate the guidelines for 180-230nm light, and 2) specify experiments that would provide that knowledge, including methodological details.",
+      "program": "Biorisk and Recovery from Catastrophe",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Safety Philosophers Program",
+      "amount": 1331500,
+      "date": "2022",
+      "description": "This regrant will cover the costs of running a seven month AI safety research fellowship for philosophy academics. The funds will cover the costs of travel, housing stipend, office space, guest speaker honorariums, and the hiring of researchers, advisors, a project manager, and organizers for the seven month period.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "The Treacherous Turn Game",
+      "amount": 96000,
+      "date": "2022",
+      "description": "This regrant will support the design and creation of a tabletop roleplaying game in which simulates potential risks from advanced AI.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "David Chapman",
+      "amount": 48000,
+      "date": "2022",
+      "description": "This regrant will support an independent researcher to investigate the magnitude of AI risk and the most useful actions to take to address it, how to improve Effective Altruist decisionmaking according to \"metarational\" principles, and potentially valuable projects in metascience.",
+      "program": "Artificial Intelligence, Research That Can Help Us Improve",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Evan R Murphy",
+      "amount": 30000,
+      "date": "2022",
+      "description": "This regrant will support six months of independent research on interpretability and other AI safety topics.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "University of Chicago, Professor Chenhao Tan",
+      "amount": 250000,
+      "date": "2022",
+      "description": "This regrant will support the hiring of a PhD student or postdoc to help orient their lab toward AI safety.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Princeton University, Professor Adji Bousso Dieng",
+      "amount": 250000,
+      "date": "2022",
+      "description": "This regrant will fund their research agenda into robust generative models in the face of non-randomly missing data, targeting use cases in healthcare, materials science, and climate.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Ben Marcovitz",
+      "amount": 150000,
+      "date": "2022",
+      "description": "This regrant will support leadership coaching for leaders of Effective Altruist projects.",
+      "program": "Empowering Exceptional People",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "AI Governance Summer Program",
+      "amount": 91417,
+      "date": "2022",
+      "description": "This regrant will support ten fellows to work on mentored AI Governance projects over the summer.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Jenny Xiao",
+      "amount": 26000,
+      "date": "2022",
+      "description": "This regrant will support a teaching buyout which will allow Jenny to spend 20 hours a week on AI Governance research.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Professor David Bau",
+      "amount": 765805,
+      "date": "2022",
+      "description": "This regrant will support several research directions in interpretability for 2-3 years, including: empirical evaluation of knowledge and guessing mechanisms in large language models, clarifying large language models’ ability to be aware of and control use of internal knowledge, a theory for defining and enumerating knowledge in large language models, and building systems that enable human users to tailor a model’s composition of its internal knowledge.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Yan Zhang",
+      "amount": 56000,
+      "date": "2022",
+      "description": "This regrant will support a teaching buyout to allow Yan to focus on forecasting AGI scenarios, as well as research on beneficial alignment and deployment.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Konstantin Pilz",
+      "amount": 43000,
+      "date": "2022",
+      "description": "This regrant will support independent study and research on AI safety and alignment alongside research assistant work for Lennart Heim.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "University of Maryland, Baltimore County, Professor Tim Oates",
+      "amount": 183040,
+      "date": "2022",
+      "description": "This regrant will fund Professor Tim Oates and a graduate student to work on AI alignment research.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Sandra Malagon",
+      "amount": 79530,
+      "date": "2022",
+      "description": "This regrant will support a year of coordinating several EA mentoring and community building activities with South American Spanish speakers.",
+      "program": "Effective Altruism",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Adam Jermyn",
+      "amount": 65000,
+      "date": "2022",
+      "description": "This regrant will support four months of theoretical AI safety research under Evan Hubinger’s mentorship.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Alex Mennen",
+      "amount": 40000,
+      "date": "2022",
+      "description": "This regrant will support six months of AI safety work.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "University of Western Ontario, Professor Joshua Pearce",
+      "amount": 150000,
+      "date": "2022",
+      "description": "This regrant will fund Professor Pearce’s graduate students to conduct research projects on resilient food, specifically on manufacturing rope for seaweed farming and on making leaf protein concentrate.",
+      "program": "Biorisk and Recovery from Catastrophe",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Existential Risk NeurIPS prize",
+      "amount": 100000,
+      "date": "2022",
+      "description": "This regrant will fund prizes for papers at a NeurIPS Workshop, with $50k for papers that have the best discussion of AI x-risk, $50k for best overall papers.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Global Challenges Project",
+      "amount": 50000,
+      "date": "2022",
+      "description": "This regrant will support operations and logistics for the Harvard-MIT Existential Risk Summit held in Berkeley at the end of July. This four-day retreat will bring together incoming Harvard and MIT first years with Berkeley EAs and members of the Harvard/MIT EA communities.",
+      "program": "Effective Altruism",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Hear This Idea Regranting Program",
+      "amount": 25000,
+      "date": "2022",
+      "description": "This regrant will support a small grants program managed and advertised via Hear This Idea which will give funding to people to launch podcasts or audio projects focused on ideas that matter.",
+      "program": "Values and Reflective Processes",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Adapt Research",
+      "amount": 152000,
+      "date": "2022",
+      "description": "This regrant will support the development of a first draft of a resilience plan for nuclear winter/extreme pandemic.",
+      "program": "Biorisk and Recovery from Catastrophe",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Javier López Corpas and Cristina Rodríguez Doblado",
+      "amount": 75000,
+      "date": "2022",
+      "description": "This regrant will support a year of work translating popular content on Effective Altruism into Spanish.",
+      "program": "Effective Altruism",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Future Forum",
+      "amount": 100000,
+      "date": "2022",
+      "description": "This regrant will support general expenses for running the Future Forum conference.",
+      "program": "",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Tom Green",
+      "amount": 50000,
+      "date": "2022",
+      "description": "This regrant will support six months of research on technology policy case studies of key historical figures who influenced technology development.",
+      "program": "Values and Reflective Processes",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Haoxing Du",
+      "amount": 50000,
+      "date": "2022",
+      "description": "This regrant will support a career transition grant from physics to AI safety.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Anton Howes",
+      "amount": 40000,
+      "date": "2022",
+      "description": "This regrant will support historical research contracting work.",
+      "program": "",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Cornell University, Professor Emma Pierson",
+      "amount": 250000,
+      "date": "2022",
+      "description": "This regrant will fund Professor Pierson to expand her program of research on fair and robustly aligned ML systems, with a focus on methods that will remain relevant as capabilities improve.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Neel Nanda",
+      "amount": 125000,
+      "date": "2022",
+      "description": "This regrant will provide a year of salary, funding to hire a research assistant, and compute for an independent AI safety researcher.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Flourishing Humanity Corporation",
+      "amount": 80000,
+      "date": "2022",
+      "description": "This regrant invested in two mental health, productivity, and personal growth applications.",
+      "program": "",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Center for Space Governance",
+      "amount": 80000,
+      "date": "2022",
+      "description": "This regrant will provide funding for six people to spend three months producing the Center’s research agenda and creating and registering the organization.",
+      "program": "Space Governance",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "David Mears",
+      "amount": 60000,
+      "date": "2022",
+      "description": "This regrant will support a career transition grant to allow David to pivot to working as a frontend developer for Effective Altruist organizations, becoming a 'language model psychologist,' or participating in charity entrepreneurship.",
+      "program": "Effective Altruism",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Sam Glendenning",
+      "amount": 42798,
+      "date": "2022",
+      "description": "This regrant will allow Sam to manage a group of students to start a 'London Existential Risk Initiative' (LERI). This provided funding for that student group, and in particular will be supporting three UCL student organizers.",
+      "program": "Effective Altruism",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "High Impact Medicine",
+      "amount": 170000,
+      "date": "2022",
+      "description": "This regrant will support 12 months of High Impact Medicine so that they continue (and scale up) their activities.",
+      "program": "",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Bertha von Suttner-Studienwerk",
+      "amount": 110000,
+      "date": "2022",
+      "description": "This regrant will fund BvS, a newly set up humanist student scholarship foundation, to take on 10 more fellows.",
+      "program": "Empowering Exceptional People",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "SoGive",
+      "amount": 92715,
+      "date": "2022",
+      "description": "This regrant will support four months of their work on in-depth analyses of charities.",
+      "program": "Effective Altruism",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Joseph Bloom",
+      "amount": 25000,
+      "date": "2022",
+      "description": "This regrant will support Joseph Bloom to spend 3-6 months transitioning his career to EA/Longtermist work, including conducting research on biosecurity.",
+      "program": "Biorisk and Recovery from Catastrophe, Empowering Exceptional People",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Montaigne Institute",
+      "amount": 67688,
+      "date": "2022",
+      "description": "This regrant will allow the Montaigne Institute to hire a full time staff member to work on AI policy.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "X-Axis",
+      "amount": 160000,
+      "date": "2022",
+      "description": "This regrant will support one year of funding to found and run a broad-interest, high-end website, featuring high-quality writing and appealing visualizations focused on promoting longer-term thinking.",
+      "program": "Values and Reflective Processes",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "José Alonso Flores Coronado",
+      "amount": 38500,
+      "date": "2022",
+      "description": "This regrant will support 6 months of salary for work on biosecurity projects, partly mentored by Tessa Alexanian, Officer of Safety and Security at iGEM.",
+      "program": "Biorisk and Recovery from Catastrophe",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Aleksei Paletskikh",
+      "amount": 27000,
+      "date": "2022",
+      "description": "This regrant will support six months of work on distilling AI alignment research.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Cornell University, Tom Gilbert",
+      "amount": 25000,
+      "date": "2022",
+      "description": "This regrant will fund students and postdocs to attend a conference on Human Centered AI at UC Berkeley and work on a resulting report.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "University of Toronto, Social Science Prediction Platform",
+      "amount": 492119,
+      "date": "2022",
+      "description": "This regrant will fund one year of operations for the Social Science Prediction Platform, a platform which allows economists and other social science academics to use forecasting in their research.",
+      "program": "Epistemic Institutions",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "The Royal Statistical Society",
+      "amount": 251925,
+      "date": "2022",
+      "description": "This regrant will support a course to teach civil servants in the UK to read, process, and use scientific research in their policy work. The course will focus on examples from emergency scenarios including pandemics and other existential risks.",
+      "program": "Epistemic Institutions, Values and Reflective Processes",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Aligned AI",
+      "amount": 150000,
+      "date": "2022",
+      "description": "This regrant invested in Aligned AI, an AI safety organization seeking bridging funding.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Gryphon Scientific",
+      "amount": 144000,
+      "date": "2022",
+      "description": "This regrant will support a risk-benefit analysis of virology research.",
+      "program": "Biorisk and Recovery from Catastrophe",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Fund for Alignment Research",
+      "amount": 1025000,
+      "date": "2022",
+      "description": "This regrant will fund the operations of the Fund for Alignment Research, which primarily provides engineering support to AI alignment researchers.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Redwood Research",
+      "amount": 6600000,
+      "date": "2022",
+      "description": "We recommended a grant to support Redwood Research, an AI safety organization, and MLAB, a Redwood project to teach machine learning to individuals interested in AI safety, for 18 months which will support salaries, primarily for their researchers and technical interns, and the rest for compute.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Pranav Gade",
+      "amount": 50000,
+      "date": "2022",
+      "description": "This regrant will support three years of work, paid out conditional on progress reports for a cybersecurity project for AI research.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Topos Institute",
+      "amount": 30000,
+      "date": "2022",
+      "description": "This regrant will support the second “Finding the Right Abstractions” workshop, likely to take place around January 2023, which connects applied category theory and AI alignment communities in an effort to understand self-selecting systems.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Peter Hartree",
+      "amount": 36405,
+      "date": "2022",
+      "description": "This regrant will support the recording of audio narrations of important philosophical papers. The recordings will be packaged up as a podcast feed with its own website, brand and YouTube channel.",
+      "program": "Epistemic Institutions",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Simeon Campos",
+      "amount": 25000,
+      "date": "2022",
+      "description": "This regrant will support Simeon Campos to work for a fraction of his year on AI safety projects.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Collective Intelligence Project",
+      "amount": 250000,
+      "date": "2022",
+      "description": "This regrant will support two researchers, Matthew Prewitt and Divya Siddarth, to create a research agenda on “collective intelligence” specifically aimed at mitigating Global Catastrophic and Existential risks, and run some trial projects based on it.",
+      "program": "Values and Reflective Processes",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Chatham House",
+      "amount": 400000,
+      "date": "2022",
+      "description": "This regrant will support ongoing research and convening with representatives from UK government, academia/think-tanks, and AI industry throughout 2022-23. These activities will be supplemented by written outputs and the program will focus on UK AI policy and risk reduction, pandemic prevention policy, defense policy, cybersecurity policy, and UK navigation of great power technology relations.",
+      "program": "Artificial Intelligence, Great Power Relations",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Elizabeth Van Nostrand",
+      "amount": 30000,
+      "date": "2022",
+      "description": "This regrant will support continued mentorship of a medical researcher and work generating novel medical research literature reviews, on a variety of topics, including long covid.",
+      "program": "",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Akash Wasil",
+      "amount": 37500,
+      "date": "2022",
+      "description": "This regrant will support five months of building and supporting the longtermist and AI alignment communities.",
+      "program": "Effective Altruism",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Condor Camp",
+      "amount": 50000,
+      "date": "2022",
+      "description": "This regrant will support additional funding for Condor Camp, the program for top Brazilian university students to come to Peru for a retreat to learn about Effective Altruism.",
+      "program": "Empowering Exceptional People",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Korbinian Kettnaker",
+      "amount": 158000,
+      "date": "2022",
+      "description": "This regrant will support a promising student who is working to bridge algorithmic information theory with epistemology and AGI research for his PhD at the University of Cambridge.",
+      "program": "Artificial Intelligence, Empowering Exceptional People",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Global Priorities Encyclopedia",
+      "amount": 241500,
+      "date": "2022",
+      "description": "This regrant will support a 6-month trial of setting up the Global Priorities Encyclopedia (GPE), a reference work on global priorities research featuring articles by academics and researchers from the effective altruism community. Funding would pay the project lead, web developers, and article contributions.",
+      "program": "Epistemic Institutions",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Gryphon Scientific",
+      "amount": 177583,
+      "date": "2022",
+      "description": "This regrant will fund Gryphon Scientific to analyze options for and hold a workshop on protecting potential pandemic pathogen genomes.",
+      "program": "Biorisk and Recovery from Catastrophe",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "AI Safety Community Building Hub",
+      "amount": 500000,
+      "date": "2022",
+      "description": "This regrant supports the creation and initial hiring for an organization that is centered around outreach to machine learning professionals about AI safety and alignment.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "VIVID",
+      "amount": 800000,
+      "date": "2022",
+      "description": "This regrant is an investment in VIVID, a customization-based mindset improvement app that aims to improve peoples' self-reflection and productivity.",
+      "program": "",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "HR Luna Park",
+      "amount": 200000,
+      "date": "2022",
+      "description": "This regrant will support an experiment where a recruiting agency will headhunt ML Engineers for AI safety organizations.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "School of Thinking",
+      "amount": 250000,
+      "date": "2022",
+      "description": "This regrant will support a global media outreach project to create high quality video and social media content about rationalism, longtermism and Effective Altruism.",
+      "program": "Values and Reflective Processes, Effective Altruism",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Legal Services Planning Grant",
+      "amount": 100000,
+      "date": "2022",
+      "description": "This regrant will support six months of research on topics including how legal services can be effectively provided to the Effective Altruism community, materials to be included in a legal services handbook for EA organizations, novel legal questions particular to the EA community that might benefit from further research initiatives, and ways to create an effective EA professional network for practicing lawyers.",
+      "program": "Effective Altruism",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Manifold Markets",
+      "amount": 1000000,
+      "date": "2022",
+      "description": "​​This regrant will support Manifold Markets in building a play-money prediction market platform. The platform is also experimenting with impact certificates and charity prediction markets.",
+      "program": "Epistemic Institutions",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "David Xu",
+      "amount": 50000,
+      "date": "2022",
+      "description": "This regrant will support six months of research on AI safety.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Trojan Detection Challenge at NeurIPS 2022",
+      "amount": 50000,
+      "date": "2022",
+      "description": "This regrant will support prizes for a trojan detection competition at NeurIPS, which involves identifying whether a deep neural network will suddenly change behavior if certain unknown conditions are met.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Effective Altruism Office Zurich",
+      "amount": 52000,
+      "date": "2022",
+      "description": "This regrant will support renting and furnishing an office space for a year.",
+      "program": "Effective Altruism",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Akash Wasil",
+      "amount": 26000,
+      "date": "2022",
+      "description": "This regrant will support an individual working on supporting students who are interested in focusing their careers on the world’s most pressing problems.",
+      "program": "Empowering Exceptional People, Effective Altruism",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Fiona Pollack",
+      "amount": 30000,
+      "date": "2022",
+      "description": "This regrant will support six months of salary for an individual working to support Harvard students interested in working on the world’s most pressing problems and protecting and improving the long term future.",
+      "program": "Empowering Exceptional People, Effective Altruism",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Peter McLaughlin",
+      "amount": 46000,
+      "date": "2022",
+      "description": "This regrant will support six months of research on criticisms of effective altruism.",
+      "program": "Research That Can Help Us Improve",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Dwarkesh Patel",
+      "amount": 76000,
+      "date": "2022",
+      "description": "This regrant will support a promising podcaster to hire a research assistant and editor, purchase equipment, and cover travel to meet guests in person. The podcast covers technological progress, existential risk, economic growth, and the long term future.",
+      "program": "Values and Reflective Processes",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "ALERT",
+      "amount": 150000,
+      "date": "2022",
+      "description": "This regrant will support the creation of the Active Longtermist Emergency Response Team, an organization to rapidly manage emerging global events like Covid-19.",
+      "program": "",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "EA Critiques and Red Teaming Prize",
+      "amount": 100000,
+      "date": "2022",
+      "description": "This regrant will support prize money for a writing contest for critically engaging with theory or work in Effective Altruism. The goal of the contest is to produce thoughtful, action oriented critiques.",
+      "program": "Effective Altruism",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Federation for American Scientists",
+      "amount": 1000000,
+      "date": "2022",
+      "description": "This regrant will support a researcher and research assistant to work on high-skill immigration and AI policy at FAS for three years.",
+      "program": "Artificial Intelligence, Economic Growth",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Ought",
+      "amount": 5000000,
+      "date": "2022",
+      "description": "This regrant will support Ought ’s work building Elicit , a language-model based research assistant. This work contributes to research on reducing alignment risk through scaling human supervision via process-based systems .",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "ML Safety Scholars Program",
+      "amount": 490000,
+      "date": "2022",
+      "description": "This regrant will fund a summer program for up to 100 students to spend 9 weeks studying machine learning, deep learning, and technical topics in safety.",
+      "program": "Artificial Intelligence, Empowering Exceptional People",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "AntiEntropy",
+      "amount": 120000,
+      "date": "2022",
+      "description": "This regrant will support a project to create and house operations-related resources and guidance for EA-aligned organizations.",
+      "program": "Effective Altruism",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Everett Smith",
+      "amount": 35000,
+      "date": "2022",
+      "description": "This regrant will support a policy retreat on governing artificial intelligence.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Olle Häggström, Chalmers University of Technology",
+      "amount": 380000,
+      "date": "2022",
+      "description": "This regrant will support research on statistical arguments relating to existential risk and work on risks from artificial intelligence, as well as outreach, supervision, and policy work on these topics.",
+      "program": "Artificial Intelligence, Effective Altruism, Research That Can Help Us Improve",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Essay Contest on Existential Risk in US Cost Benefit Analysis",
+      "amount": 137500,
+      "date": "2022",
+      "description": "This regrant will support an essay contest on “Accounting for Existential Risks in US Cost-Benefit Analysis,” with the aim of contributing to the revision of OMB Circular-A4, a document which guides US government cost-benefit analysis. The Legal Priorities Project is administering the contest.",
+      "program": "Epistemic Institutions, Values and Reflective Processes",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "MineRL BASALT competition at NeurIPS",
+      "amount": 155000,
+      "date": "2022",
+      "description": "This regrant will support a NeurIPS competition applying human feedback in a non-language-model setting, specifically pretrained models in Minecraft. The grant will be administered by the Berkeley Existential Risk Initiative .",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "QURI",
+      "amount": 200000,
+      "date": "2022",
+      "description": "This regrant will support QURI to develop a programming language called \"Squiggle\" as a tool for probabilistic estimation. The hope is this will be a useful tool for forecasting and fermi estimates.",
+      "program": "Epistemic Institutions, Research That Can Help Us Improve",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Andi Peng",
+      "amount": 42600,
+      "date": "2022",
+      "description": "This regrant will support four months of salary and compute for research on AI alignment.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "CSIS",
+      "amount": 75000,
+      "date": "2022",
+      "description": "This regrant will support initiatives including a CSIS public event focused on the importance of investments in human capital to ensure US national security; roundtables with policymakers, immigration experts, national security professionals, and company representatives to discuss key policy actions that should be taken to bolster US national security through immigration reform; and two episodes of the “Vying for Talent” podcast focusing on the importance of foreign talent in bolstering America’s innovative capacity.",
+      "program": "Economic Growth, Great Power Relations",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Aaron Scher",
+      "amount": 28500,
+      "date": "2022",
+      "description": "This regrant will support a summer of research on AI alignment in Berkeley.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Kris Shrishak",
+      "amount": 28000,
+      "date": "2022",
+      "description": "This regrant will support research on how cryptography might be applied to AI safety research.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "AI Impacts",
+      "amount": 250000,
+      "date": "2022",
+      "description": "This regrant will support rerunning the highly-cited survey “When Will AI Exceed Human Performance? Evidence from AI Experts” from 2016, analysis, and publication of results.",
+      "program": "Artificial Intelligence, Research That Can Help Us Improve",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Chinmay Ingalagavi",
+      "amount": 50000,
+      "date": "2022",
+      "description": "This regrant will support a Masters at LSE for a talented STEM student.",
+      "program": "Empowering Exceptional People",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Apart Research",
+      "amount": 95000,
+      "date": "2022",
+      "description": "This regrant will support the creation of an AI Safety organization which will create a platform to share AI safety research ideas and educational materials, connect people working on AI safety, and bring new people into the field.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Tereza Flidrova",
+      "amount": 32000,
+      "date": "2022",
+      "description": "This regrant will support a one year master’s program in architecture for a student interested in building civilizational shelters.",
+      "program": "Biorisk and Recovery from Catastrophe",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "J. Peter Scoblic",
+      "amount": 25000,
+      "date": "2022",
+      "description": "This regrant will fund a nuclear risk expert to construct nuclear war-related forecasting questions and provide forecasts and explanations on key nuclear war questions.",
+      "program": "Epistemic Institutions, Great Power Relations",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "AI Risk Public Materials Competition",
+      "amount": 40000,
+      "date": "2022",
+      "description": "This regrant will support two competitions to produce better public materials on the existential risk from AI.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Moncef Slaoui",
+      "amount": 150000,
+      "date": "2022",
+      "description": "This regrant will fund the writing of Slaoui's memoir, especially including his experience directing Operation Warp Speed.",
+      "program": "Biorisk and Recovery from Catastrophe",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Artificial Intelligence Summer Residency Program",
+      "amount": 60000,
+      "date": "2022",
+      "description": "This regrant will support a six week summer residency in Berkeley on AI safety.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Public Editor",
+      "amount": 500000,
+      "date": "2022",
+      "description": "This regrant will support a project to use a combination of human feedback and Machine Learning to label misinformation and reasoning errors in popular news articles.",
+      "program": "Epistemic Institutions",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "The Good Ancestors Project﻿",
+      "amount": 75000,
+      "date": "2022",
+      "description": "This regrant will support the creation of The Good Ancestors Project , an Australian-based organization to host research and community building on topics relevant to making the long term future go well.",
+      "program": "Effective Altruism",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Thomas Kwa",
+      "amount": 37500,
+      "date": "2022",
+      "description": "This regrant will support three months of research on AI safety.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Joshua Greene, Harvard University",
+      "amount": 250000,
+      "date": "2022",
+      "description": "This regrant will support the real-world testing and roll-out of 'Red Brain, Blue Brain', an online quiz designed to reduce negative partisanship between Democrats and Republicans in the US.",
+      "program": "Values and Reflective Processes",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Braden Leach",
+      "amount": 175000,
+      "date": "2022",
+      "description": "This regrant supported a recent law school graduate to work on biosecurity. Braden will research and write at the Johns Hopkins Center for Health Security.",
+      "program": "Biorisk and Recovery from Catastrophe, Empowering Exceptional People",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Adversarial Robustness Prizes at ECCV",
+      "amount": 30000,
+      "date": "2022",
+      "description": "This regrant will support three prizes for the best papers on adversarial robustness research at a workshop at ECCV, the main fall computer vision conference. The best papers are selected to have higher relevance to long-term threat models than usual adversarial robustness papers.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Confido Institute",
+      "amount": 190000,
+      "date": "2022",
+      "description": "The Confido Institute is working on developing a user-friendly interactive app, Confido, for making forecasts and communicating beliefs and uncertainty within groups and organizations. They are also building interactive educational programs about forecasting and working with uncertainty based around this app.",
+      "program": "Epistemic Institutions",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Supporting Agent Foundations AI safety research at ALTER",
+      "amount": 200000,
+      "date": "2022",
+      "description": "This regrant will support 1.5-3 years of salary for a mathematics researcher to work with Vanessa Kosoy on the learning-theoretic AI safety agenda.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Modeling Transformative AI Risks (Aryeh Englander, Sammy Martin, Analytica Consulting)",
+      "amount": 272000,
+      "date": "2022",
+      "description": "This regrant will support two AI researchers, one or two additional assistants, and a consulting firm to continue to build out and fully implement the quantitative model for how to understand risks and interventions around AI safety, expanding on their earlier research on “Modeling Transformative AI Risk.”",
+      "program": "Artificial Intelligence, Research That Can Help Us Improve",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Impact Markets",
+      "amount": 215000,
+      "date": "2022",
+      "description": "This regrant will support the creation of an “impact market.” The hope is to improve charity fundraising by allowing profit-motivated investors to earn returns by investing in charitable projects that are eventually deemed impactful.",
+      "program": "Effective Altruism, Research That Can Help Us Improve",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "AI Alignment Prize on Inverse Scaling",
+      "amount": 250000,
+      "date": "2022",
+      "description": "This regrant will support prizes for a contest to find tasks where larger language models do worse (“inverse scaling”).",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Swift Centre for Applied Forecasting",
+      "amount": 2000000,
+      "date": "2022",
+      "description": "This regrant will support the creation of the Swift Centre for Applied Forecasting, including salary for a director and a team of expert forecasters. They will forecast trends from Our World in Data charts, as well as other topics related to ensuring the long term future goes well, with a particular focus on explaining the “why” of forecast estimates.",
+      "program": "Epistemic Institutions",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Lawrence Newport",
+      "amount": 95000,
+      "date": "2022",
+      "description": "This regrant will support the launch and first year of a youtube channel focusing on video essays presented by Dr Lawrence Newport on longtermism, the future of humanity, and related topics.",
+      "program": "Effective Altruism",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Aidan O’Gara",
+      "amount": 46000,
+      "date": "2022",
+      "description": "This regrant will find salary, compute, and a scholarship for an undergraduate student doing career development and research on language model safety.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Legal Priorities Project",
+      "amount": 480000,
+      "date": "2022",
+      "description": "We recommended a grant to support the Legal Priorities Project’s ongoing research and outreach activities. This will allow LPP to pay two new hires and to put on a summer institute for non-US law students in Oxford.",
+      "program": "",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Oded Galor, Brown University",
+      "amount": 500000,
+      "date": "2022",
+      "description": "We recommended a grant to support two years of academic research on long-term economic growth.",
+      "program": "Economic Growth, Research That Can Help Us Improve",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "The Atlas Fellowship",
+      "amount": 5000000,
+      "date": "2022",
+      "description": "We recommended a grant to support scholarships for talented and promising high school students to use towards educational opportunities and enrolling in a summer program.",
+      "program": "Empowering Exceptional People",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Sherlock Biosciences",
+      "amount": 2000000,
+      "date": "2022",
+      "description": "We recommended an investment to support the development of universal CRISPR-based diagnostics, including paper-based diagnostics that can be used in developing-country settings without electricity.",
+      "program": "Biorisk and Recovery from Catastrophe",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Rethink Priorities",
+      "amount": 700000,
+      "date": "2022",
+      "description": "We recommended a grant to support Rethink’s research and projects aimed at improving humanity’s long-term prospects.",
+      "program": "Research That Can Help Us Improve",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "SecureBio",
+      "amount": 1200000,
+      "date": "2022",
+      "description": "We recommended a grant to support the hiring of several key staff for Dr. Kevin Esvelt’s pandemic prevention work. SecureBio is working to implement universal DNA synthesis screening, build a reliable early warning system, and coordinate the development of improved personal protective equipment and its delivery to essential workers when needed.",
+      "program": "Biorisk and Recovery from Catastrophe",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Lionel Levine, Cornell University",
+      "amount": 1500000,
+      "date": "2022",
+      "description": "We recommended a grant to Cornell University to support Prof. Levine, as well as students and collaborators, to work on alignment theory research at the Cornell math department.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Claudia Shi, Academic CS Research at Columbia University",
+      "amount": 100000,
+      "date": "2022",
+      "description": "We recommended a grant to pay for research assistants over three years to support the work of a PhD student working on AI safety at Columbia University.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Institute for Progress",
+      "amount": 480000,
+      "date": "2022",
+      "description": "We recommended a grant to support the Institute’s research and policy engagement work on high skilled immigration, biosecurity, and pandemic prevention.",
+      "program": "Biorisk and Recovery from Catastrophe, Economic Growth",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Good Judgment Project",
+      "amount": 300000,
+      "date": "2022",
+      "description": "We recommended a grant to support a Good Judgment initiative to produce forecasts on 10 Our World in Data data sets/charts.",
+      "program": "Epistemic Institutions",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Peter Hrosso, Researcher",
+      "amount": 230000,
+      "date": "2022",
+      "description": "We recommended a grant to support a project aimed at training large language models to represent the probability distribution over question answers in a prediction market.",
+      "program": "Epistemic Institutions",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Michael Jacob, MITRE",
+      "amount": 485000,
+      "date": "2022",
+      "description": "We recommended a grant to support research that we hope will be used to help strengthen the bioweapons convention and guide proactive actions to better secure those facilities or stop the dangerous work being done there.",
+      "program": "Biorisk and Recovery from Catastrophe",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Michael Robkin",
+      "amount": 200000,
+      "date": "2022",
+      "description": "We recommended an investment to support the creation of Pretty Good PPE that is comfortable, storable, simple, and inexpensive. PGPPE aims to provide protection that is better than disposable masks and cheaper than both hazmat suits and N95s.",
+      "program": "Biorisk and Recovery from Catastrophe",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Legal Priorities Project",
+      "amount": 700000,
+      "date": "2022",
+      "description": "This grant will support one year of operating expenses and salaries at the Legal Priorities Project, a longtermist legal research and field-building organization.",
+      "program": "",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "AI Safety Camp",
+      "amount": 290000,
+      "date": "2022",
+      "description": "We recommended a grant to partially support the salaries for AI Safety Camp’s two directors and to support logistical expenses at its physical camp.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Anca Dragan, UC Berkeley",
+      "amount": 800000,
+      "date": "2022",
+      "description": "We recommended a grant to support a project to develop interactive AI algorithms for alignment that can uncover the causal features in human reward systems, and thereby help AI systems learn underlying human values that generalize to new situations.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Association for Long Term Existence and Resilience",
+      "amount": 320000,
+      "date": "2022",
+      "description": "We recommended a grant to support ALTER, an academic research and advocacy organization, which hopes to investigate, demonstrate, and foster useful ways to improve the future in the short term, and to safeguard and improve the long-term trajectory of humanity. The organization's initial focus is building bridges to academia via conferences and grants to find researchers who can focus on AI safety, and on policy for reducing biorisk.",
+      "program": "Artificial Intelligence, Biorisk and Recovery from Catastrophe",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Manifold Markets",
+      "amount": 500000,
+      "date": "2022",
+      "description": "We recommended a grant to support Manifold Markets in building a charity prediction market, as an experiment for enabling effective forecasters to direct altruistic donations.",
+      "program": "Epistemic Institutions",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Guoliang (Greg) Liu, Virginia Tech",
+      "amount": 500000,
+      "date": "2022",
+      "description": "We recommended a grant to support a project to develop a new material -- an ultra-thin polymer-based thin film -- for use in next-generation Personal Protective Equipment which is both more effective and more comfortable.",
+      "program": "Biorisk and Recovery from Catastrophe",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Stimson South Asia Program",
+      "amount": 250000,
+      "date": "2022",
+      "description": "We recommended a grant to support the identification and implementation of promising confidence-building measures to reduce conflict between India and Pakistan.",
+      "program": "Great Power Relations",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Prometheus Science Bowl",
+      "amount": 100000,
+      "date": "2022",
+      "description": "We recommended a grant to support a competition for work on Eliciting Latent Knowledge, an open problem in AI alignment, for talented high school and college students who are participating in Prometheus Science Bowl.",
+      "program": "Artificial Intelligence, Empowering Exceptional People",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Maxwell Tabarrok",
+      "amount": 7500,
+      "date": "2022",
+      "description": "We recommended a grant to support this student to spend a summer at the Future of Humanity Institute at Oxford University researching differential tech development and the connection between existential risks to humanity and economic growth.",
+      "program": "Economic Growth, Research That Can Help Us Improve",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "HelixNano",
+      "amount": 10000000,
+      "date": "2022",
+      "description": "We recommended an investment to support Helix Nano running preclinical and Phase 1 trials of a pan-variant Covid-19 vaccine.",
+      "program": "Biorisk and Recovery from Catastrophe",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Giving What We Can",
+      "amount": 700000,
+      "date": "2022",
+      "description": "We recommended a grant to support Giving What We Can’s mission to create a world in which giving effectively and significantly is a cultural norm.",
+      "program": "Effective Altruism",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Gabriel Recchia, University of Cambridge",
+      "amount": 380000,
+      "date": "2022",
+      "description": "We recommended a grant to support research on how to fine-tune GPT-3 models to identify flaws in other fine-tuned language models' arguments for the correctness of their outputs, and to test whether these help nonexpert humans successfully judge such arguments.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Simon Institute for Longterm Governance",
+      "amount": 820000,
+      "date": "2022",
+      "description": "We recommended a grant to support SI’s policy work with the United Nations system on the prevention of existential risks to humanity.",
+      "program": "Great Power Relations",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Centre for Effective Altruism",
+      "amount": 13940000,
+      "date": "2022",
+      "description": "We recommended a grant for general support for their activities, including running conferences, supporting student groups, and maintaining online resources.",
+      "program": "Effective Altruism",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Nonlinear",
+      "amount": 250000,
+      "date": "2022",
+      "description": "We recommended a grant to support the maintenance of a library of high-quality audio content on the world’s most pressing problems, and a fund to provide productivity-enhancing equipment and support staff for people working on important social issues.",
+      "program": "Effective Altruism",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Konstantinos Konstantinidis",
+      "amount": 85000,
+      "date": "2022",
+      "description": "We recommended a grant to support two years of research on the impacts of disruptive space technologies, nuclear risk, and mitigating risks from future space-based weapons.",
+      "program": "Great Power Relations, Space Governance",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Apollo Academic Surveys",
+      "amount": 250000,
+      "date": "2022",
+      "description": "We recommended a grant to support Apollo’s work aggregating the views of academic experts in many different fields and making them freely available online.",
+      "program": "Epistemic Institutions",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "AI Safety Support",
+      "amount": 200000,
+      "date": "2022",
+      "description": "We recommended a grant for general funding for community building and managing the talent pipeline for AI alignment researchers. AI Safety Support’s work includes one-on-one coaching, events, and research training programs.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Daniel Brown, University of Utah",
+      "amount": 280000,
+      "date": "2022",
+      "description": "We recommended a grant to support research on value alignment in AI systems, practical algorithms for efficient value alignment verification, and user studies and experiments to test these algorithms.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Khalil Lab at Boston University",
+      "amount": 1550000,
+      "date": "2022",
+      "description": "We recommended a grant to support the development of a cheap, scalable, and decentralized platform for the rapid generation of disease-neutralizing therapeutic antibodies.",
+      "program": "Biorisk and Recovery from Catastrophe",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Sergey Levine, UC Berkeley",
+      "amount": 600000,
+      "date": "2022",
+      "description": "We recommended a grant to support a project to study how large language models integrated with offline reinforcement learning pose a risk of machine deception and persuasion.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Non-trivial Pursuits",
+      "amount": 1000000,
+      "date": "2022",
+      "description": "We recommended a grant to support outreach to help students to learn about career options, develop their skills, and plan their careers to work on the world’s most pressing problems.",
+      "program": "Empowering Exceptional People, Effective Altruism",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Rational Animations",
+      "amount": 400000,
+      "date": "2022",
+      "description": "We recommended a grant to support the creation of animated videos on topics related to rationality and effective altruism to explain these topics for a broader audience.",
+      "program": "Effective Altruism",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Justin Mares, Biotech Researcher",
+      "amount": 140000,
+      "date": "2022",
+      "description": "We recommended a grant to support research on the feasibility of inactivating viruses via electromagnetic radiation.",
+      "program": "Biorisk and Recovery from Catastrophe",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Lightcone Infrastructure",
+      "amount": 2000000,
+      "date": "2022",
+      "description": "We recommended a grant to support Lightcone’s ongoing projects including running the LessWrong forum, hosting conferences and events, and maintaining an office space for Effective Altruist organizations.",
+      "program": "Artificial Intelligence, Effective Altruism",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Confirm Solutions",
+      "amount": 1000000,
+      "date": "2022",
+      "description": "We recommended an investment in Confirm Solutions, a public-benefit corporation, to support development of statistical models and software tools that can automate parts of the regulatory process for complex clinical trials. We anticipate that this work can help to speed up approvals of new vaccines and medical treatments while enhancing their statistical rigor.",
+      "program": "Biorisk and Recovery from Catastrophe",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "High Impact Athletes",
+      "amount": 350000,
+      "date": "2022",
+      "description": "We recommended a grant to support HIA’s work encouraging professional athletes to donate more of their earnings to high impact charities and causes, and to promote a culture of giving among their fans.",
+      "program": "Effective Altruism",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "High Impact Professionals",
+      "amount": 320000,
+      "date": "2022",
+      "description": "We recommended a grant to support HIP’s work recruiting EA working professionals to use more of their resources, including their careers, to focus on the world’s most pressing problems.",
+      "program": "Empowering Exceptional People",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Berkeley Existential Risk Initiative",
+      "amount": 100000,
+      "date": "2022",
+      "description": "We recommended a grant to support BERI in hiring a second core operations employee to contribute to BERI’s work supporting university research groups.",
+      "program": "",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Nathan Young",
+      "amount": 182000,
+      "date": "2022",
+      "description": "We recommended a grant to support the creation of a website for collaboratively creating public forecasting questions for a range of prediction aggregators and markets.",
+      "program": "Epistemic Institutions",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Bear F. Braumoeller, Department of Political Science, The Ohio State University",
+      "amount": 388080,
+      "date": "2022",
+      "description": "We recommended a grant to support a postdoc and two research assistants for Professor Braumoeller’s MESO Lab for two years to carry out research on international orders and how they affect the probability of war.",
+      "program": "Great Power Relations",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Siddharth Hiregowdara, AI Safety Introductory Materials",
+      "amount": 100000,
+      "date": "2022",
+      "description": "We recommended a grant to support the production of high quality materials for learning about AI safety work.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Longview",
+      "amount": 15000000,
+      "date": "2022",
+      "description": "We recommended a grant to support Longview’s independent grantmaking on global priorities research, nuclear weapons policy, and other longtermist issues.",
+      "program": "",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Global Guessing",
+      "amount": 336000,
+      "date": "2022",
+      "description": "We recommended a grant to support Global Guessing’s forecasting coverage on the Russian invasion of Ukraine, which they will also use to build tools and infrastructure to support future forecasting work.",
+      "program": "Epistemic Institutions, Great Power Relations",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Brian Christian, Author",
+      "amount": 300000,
+      "date": "2022",
+      "description": "We recommended a grant to support the completion of a book which explores the nature of human values and the implications for aligning AI with human preferences.",
+      "program": "Artificial Intelligence",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Sage",
+      "amount": 700000,
+      "date": "2022",
+      "description": "We recommended a grant to support the creation of a pilot version of a forecasting platform, and a paid forecasting team, to make predictions about questions relevant to high-impact research.",
+      "program": "Epistemic Institutions",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "EffiSciences",
+      "amount": 135000,
+      "date": "2022",
+      "description": "We recommended a grant to support EffiSciences’s work promoting high impact research on global priorities (e.g. AI safety, biosecurity, and climate change) among French students and academics, and building up a community of people willing to work on important topics.",
+      "program": "Effective Altruism",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Anysphere",
+      "amount": 200000,
+      "date": "2022",
+      "description": "We recommended an investment to build a communication platform that provably leaks zero metadata.",
+      "program": "",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "1Day Sooner",
+      "amount": 350000,
+      "date": "2022",
+      "description": "We recommended a grant to support 1DS’ work on pandemic preparedness, including advocacy for advance market purchase commitments, collaboration with the UK Pandemic Ethics Accelerator on challenge studies, and advocacy with 1Day Africa and the West African Health Organization for a global pandemic insurance fund.",
+      "program": "Biorisk and Recovery from Catastrophe",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Cecil Abungu, Centre for the Study of Existential Risk, University of Cambridge",
+      "amount": 160000,
+      "date": "2022",
+      "description": "We recommended a grant to Cecil Abungu, Visiting Researcher at the Centre for the Study of Existential Risk and Research Affiliate at the Legal Priorities Project, to support the writing and publication of a book on longtermist currents in historical African thought.",
+      "program": "",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Luke Hewitt",
+      "amount": 150000,
+      "date": "2022",
+      "description": "We recommended a grant to support the development and application of a Minimum Viable Product of a data-driven approach to improving advocacy in areas of importance to societal well-being such as immigration policy.",
+      "program": "Epistemic Institutions, Empowering Exceptional People",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Dr. Emilio I. Alarcón, University of Ottawa Heart Institute & University of Ottawa",
+      "amount": 250000,
+      "date": "2022",
+      "description": "This grant will support a project to develop new plastic surfaces incorporating molecules that can be activated with low-energy visible light to eradicate bacteria and kill viruses continuously. If successful, this project will change how plastic surfaces are currently decontaminated.",
+      "program": "Biorisk and Recovery from Catastrophe",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Rajalakshmi Children Foundation",
+      "amount": 200000,
+      "date": "2022",
+      "description": "We recommended a grant to support the identification of children in India from under-resourced areas who excel in math, science, and technology, and enable them to obtain high quality online education by digitally connecting them with mentors and teachers.",
+      "program": "Empowering Exceptional People",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Nikki Teran, Institute for Progress",
+      "amount": 135000,
+      "date": "2022",
+      "description": "We recommended a grant to support the creation of biosecurity policy priorities via conversations with experts in security, technology, policy, and advocacy. It will develop position papers, research papers, and agendas for the biosecurity community.",
+      "program": "Biorisk and Recovery from Catastrophe",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "James Lin",
+      "amount": 190000,
+      "date": "2022",
+      "description": "We recommended a grant to allow a reputable technology publication to engage 2-5 undergraduate student interns to write about topics including AI safety, alternative proteins, and biosecurity.",
+      "program": "Artificial Intelligence, Biorisk and Recovery from Catastrophe",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Ray Amjad",
+      "amount": 300000,
+      "date": "2022",
+      "description": "We recommended a grant to support the creation of a talent search organization which will help identify top young students around the world through a free to use website consisting of both challenging math and physics olympiad-style problems and discussion forums. Efforts will be particularly focused across India and China. These students will later be connected to support and programs so they can go on to work on the world's most pressing issues.",
+      "program": "Empowering Exceptional People",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "The Center for Election Science",
+      "amount": 300000,
+      "date": "2022",
+      "description": "We recommended a grant to support the development of statewide ballot initiatives to institute approval voting. Approval voting is a simple voting method reform that lets voters select all the candidates they wish.",
+      "program": "Epistemic Institutions, Values and Reflective Processes",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "AVECRIS Pte. Ltd.",
+      "amount": 3600000,
+      "date": "2022",
+      "description": "We recommended an investment in AVECRIS’s Project DOOR to support the development of a next generation genetic vaccine platform that aims to allow for highly distributed vaccine production using AVECRIS’s advanced DNA vector delivery technology.",
+      "program": "Biorisk and Recovery from Catastrophe",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Council on Strategic Risks",
+      "amount": 400000,
+      "date": "2022",
+      "description": "We recommended a grant to support a project which will develop and advance ideas for strengthening regional and multilateral cooperation for addressing biological risks and filling gaps in current international institutions. These efforts include promoting the creation of a center with the capacity to rapidly respond to emerging infectious disease threats to prioritize blunting the impact of such events as well as quickly saving lives, and cooperative mechanisms to enhance biosafety and biosecurity while reducing the potential risks of spaces such as high-containment laboratories.",
+      "program": "Biorisk and Recovery from Catastrophe",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Effective Ideas Blog Prize",
+      "amount": 900000,
+      "date": "2022",
+      "description": "Longview Philanthropy and the Future Fund recommended a grant to support prizes for outstanding writing which encourages a broader public conversation around effective altruism and longtermism.",
+      "program": "Values and Reflective Processes, Effective Altruism",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Pathos Labs, PopShift",
+      "amount": 50000,
+      "date": "2022",
+      "description": "We recommended a grant to support Pathos Labs to produce a PopShift convening connecting experts on the future of technology and existential risks with television writers to inspire new ideas for their shows.",
+      "program": "Values and Reflective Processes",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    },
+    {
+      "recipient": "Piezo Therapeutics",
+      "amount": 1000000,
+      "date": "2022",
+      "description": "We recommended an investment to support work on technology for delivering mRNA vaccines without lipid nanoparticles with the aim of making vaccines more safe, affordable, and scalable.",
+      "program": "Biorisk and Recovery from Catastrophe",
+      "sourceUrl": "https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html"
+    }
+  ]
+}

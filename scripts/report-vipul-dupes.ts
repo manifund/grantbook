@@ -73,7 +73,11 @@ async function load(): Promise<Grant[]> {
 }
 
 function tokens(name: string): Set<string> {
-  return new Set(normalizeName(name).split(' ').filter((t) => t.length > 2))
+  return new Set(
+    normalizeName(name)
+      .split(' ')
+      .filter((t) => t.length > 2)
+  )
 }
 
 function nameSimilar(a: string, b: string): boolean {
@@ -101,8 +105,7 @@ async function main() {
     if (v.amountUsd === null) continue
     for (const o of byFunder.get(v.funder) ?? []) {
       if (o.amountUsd === null) continue
-      const ratio =
-        Math.abs(v.amountUsd - o.amountUsd) / Math.max(v.amountUsd, o.amountUsd)
+      const ratio = Math.abs(v.amountUsd - o.amountUsd) / Math.max(v.amountUsd, o.amountUsd)
       if (ratio > AMOUNT_TOLERANCE) continue
       const days =
         v.date && o.date
@@ -122,9 +125,13 @@ async function main() {
       console.log(
         `PAIR amt±${pct}% ${days === null ? '?' : Math.round(days)}d ${sameRecipient ? 'same-org' : 'FUZZY'}`
       )
-      console.log(`  vipul: ${v.date} $${Math.round(v.amountUsd).toLocaleString()} -> ${v.recipientName}`)
+      console.log(
+        `  vipul: ${v.date} $${Math.round(v.amountUsd).toLocaleString()} -> ${v.recipientName}`
+      )
       console.log(`         ${v.key}`)
-      console.log(`  ${o.sourceId}: ${o.date} $${Math.round(o.amountUsd).toLocaleString()} -> ${o.recipientName} | ${o.description.slice(0, 60)}`)
+      console.log(
+        `  ${o.sourceId}: ${o.date} $${Math.round(o.amountUsd).toLocaleString()} -> ${o.recipientName} | ${o.description.slice(0, 60)}`
+      )
       console.log(`         ${o.key}`)
     }
   }
