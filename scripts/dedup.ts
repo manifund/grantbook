@@ -12,7 +12,6 @@ const PRIORITY = [
   'ea_funds',
   'manifund',
   'coefficient_giving',
-  'openbook',
   'vipul_donations',
 ]
 

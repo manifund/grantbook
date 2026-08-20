@@ -62,7 +62,6 @@ const SOURCES = [
     url: 'https://coefficientgiving.org/grants/',
     tier: 2,
   },
-  { id: 'openbook', name: 'OpenBook', url: 'https://openbook.fyi/', tier: 2 },
   { id: 'acx_grants', name: 'ACX Grants', url: 'https://www.astralcodexten.com/', tier: 2 },
   { id: 'fli', name: 'Future of Life Institute', url: 'https://futureoflife.org/', tier: 2 },
   {
