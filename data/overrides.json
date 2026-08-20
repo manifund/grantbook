@@ -29,6 +29,66 @@
     "manifund:f60c8432-db34-65e9-b44e-cbadd8b5f02a": {
       "note": "Ryan Kidd's 'MATS Program' Manifund project — grants belong to MATS Research",
       "recipient_name": "MATS Research"
+    },
+    "coefficient_giving:12588": {
+      "note": "MATS program grant paid via Berkeley Existential Risk Initiative",
+      "recipient_name": "MATS Research",
+      "fiscal_sponsor_name": "Berkeley Existential Risk Initiative"
+    },
+    "coefficient_giving:13188": {
+      "note": "MATS program grant paid via Berkeley Existential Risk Initiative",
+      "recipient_name": "MATS Research",
+      "fiscal_sponsor_name": "Berkeley Existential Risk Initiative"
+    },
+    "coefficient_giving:11552": {
+      "note": "MATS program grant paid via Berkeley Existential Risk Initiative",
+      "recipient_name": "MATS Research",
+      "fiscal_sponsor_name": "Berkeley Existential Risk Initiative"
+    },
+    "coefficient_giving:18424": {
+      "note": "MATS program grant paid via Berkeley Existential Risk Initiative",
+      "recipient_name": "MATS Research",
+      "fiscal_sponsor_name": "Berkeley Existential Risk Initiative"
+    },
+    "coefficient_giving:16479": {
+      "note": "MATS program grant paid via Berkeley Existential Risk Initiative",
+      "recipient_name": "MATS Research",
+      "fiscal_sponsor_name": "Berkeley Existential Risk Initiative"
+    },
+    "coefficient_giving:13355": {
+      "note": "MATS program grant paid via AI Safety Support",
+      "recipient_name": "MATS Research",
+      "fiscal_sponsor_name": "AI Safety Support"
+    },
+    "coefficient_giving:18410": {
+      "note": "MATS program grant paid via AI Safety Support",
+      "recipient_name": "MATS Research",
+      "fiscal_sponsor_name": "AI Safety Support"
+    },
+    "coefficient_giving:16483": {
+      "note": "MATS program grant paid via AI Safety Support",
+      "recipient_name": "MATS Research",
+      "fiscal_sponsor_name": "AI Safety Support"
+    },
+    "coefficient_giving:26300": {
+      "note": "MATS program grant paid via AI Safety Support",
+      "recipient_name": "MATS Research",
+      "fiscal_sponsor_name": "AI Safety Support"
+    },
+    "coefficient_giving:24016": {
+      "note": "MATS program grant paid via AI Safety Support",
+      "recipient_name": "MATS Research",
+      "fiscal_sponsor_name": "AI Safety Support"
+    },
+    "coefficient_giving:13392": {
+      "note": "MATS program grant paid via Conjecture",
+      "recipient_name": "MATS Research",
+      "fiscal_sponsor_name": "Conjecture"
+    },
+    "coefficient_giving:15056": {
+      "note": "MATS program grant paid via Conjecture",
+      "recipient_name": "MATS Research",
+      "fiscal_sponsor_name": "Conjecture"
     }
   }
 }
