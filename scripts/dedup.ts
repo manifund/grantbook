@@ -131,7 +131,10 @@ async function main() {
         const b = bucket[j]
         const pairKey = [a.id, b.id].sort().join('|')
         if (seenPairs.has(pairKey)) continue
-        const reason = isCandidate(a, b)
+        // A hand-recorded resolution overrides the heuristic windows (e.g. an
+        // announcement and its payout more than 180 days apart).
+        const reason =
+          isCandidate(a, b) ?? (RESOLUTIONS[resolutionKey(a, b)] ? 'manually recorded pair' : null)
         if (!reason) continue
         seenPairs.add(pairKey)
 

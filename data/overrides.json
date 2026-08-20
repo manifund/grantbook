@@ -1,4 +1,13 @@
 {
   "_comment": "Manual field overrides applied after every ingest run, keyed by 'source_id:source_record_key'. Values are partial grant fields, e.g. {\"amount\": 100000, \"description\": \"...\"}. Keep a note explaining each override.",
-  "overrides": {}
+  "overrides": {
+    "acx_grants:5b48d9a612fd767f13004609724b66cfcc2a2eaa94a0d0a1683709ebb709191a": {
+      "note": "ACX 2024 grant listed under Cillian Crosson funds the Tarbell Fellowship program",
+      "recipient_name": "Tarbell Center for AI Journalism"
+    },
+    "manifund:bc897493-91bf-47af-afed-5e309538c6c8:acx-grants": {
+      "note": "ACX 2024 regrant paid out via Manifund; Tarbell's program, listed under Cillian Crosson",
+      "recipient_name": "Tarbell Center for AI Journalism"
+    }
+  }
 }

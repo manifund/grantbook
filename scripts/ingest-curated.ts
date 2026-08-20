@@ -88,7 +88,7 @@ const SOURCES: CuratedSource[] = [
   {
     sourceId: 'jefftk',
     file: 'jefftk.json',
-    defaultFunder: 'Jeff Kaufman',
+    defaultFunder: 'Julia Wise and Jeff Kaufman',
     funderType: 'individual',
     programCauses: () => null,
   },

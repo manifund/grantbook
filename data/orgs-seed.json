@@ -315,6 +315,18 @@
       "name": "Eric Rogstad",
       "org_type": "individual",
       "aliases": []
+    },
+    {
+      "slug": "jeff-kaufman",
+      "name": "Julia Wise and Jeff Kaufman",
+      "org_type": "individual",
+      "website": "https://www.jefftk.com/donations",
+      "aliases": [
+        {
+          "name": "Jeff Kaufman",
+          "kind": "alias"
+        }
+      ]
     }
   ]
 }

@@ -93,9 +93,8 @@ async function main() {
   const knownOrgs = await fetchKnownOrgNames()
 
   // Creators whose projects belong to their organization, not to them.
-  const RECIPIENT_OVERRIDES: Record<string, string> = {
-    'Oliver Habryka': 'Lightcone Infrastructure',
-  }
+  // (Most org-run pages are caught by the title-matches-org rule below.)
+  const RECIPIENT_OVERRIDES: Record<string, string> = {}
   // Donor accounts that pass through someone else's money: the person is the
   // funder, the account is the vehicle.
   const DONOR_OVERRIDES: Record<string, { name: string; vias: string[] }> = {

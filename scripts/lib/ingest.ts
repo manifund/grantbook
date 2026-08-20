@@ -197,9 +197,22 @@ export async function runIngest(
 
     const year = p.parsed.date ? Number(p.parsed.date.slice(0, 4)) : null
     const currency = p.parsed.currency ?? 'USD'
+    // Overrides may carry two non-column fields: `note` (documentation) and
+    // `recipient_name` (resolved like any source name, so it survives rebuilds).
+    const {
+      note: _note,
+      recipient_name: recipientNameOverride,
+      ...fieldOverrides
+    } = (OVERRIDES[`${sourceId}:${p.key}`] ?? {}) as Partial<GrantInsert> & {
+      note?: string
+      recipient_name?: string
+    }
     const base: GrantInsert = {
       funder_org_id: await resolver.resolve(p.parsed.funderName, p.parsed.funderType),
-      recipient_org_id: await resolver.resolve(p.parsed.recipientName, p.parsed.recipientType),
+      recipient_org_id: await resolver.resolve(
+        recipientNameOverride ?? p.parsed.recipientName,
+        recipientNameOverride ? 'organization' : p.parsed.recipientType
+      ),
       fiscal_sponsor_org_id: p.parsed.sponsorName
         ? await resolver.resolve(p.parsed.sponsorName)
         : null,
@@ -213,7 +226,7 @@ export async function runIngest(
       url: p.parsed.url ?? null,
       status: 'approved',
       updated_at: now,
-      ...(OVERRIDES[`${sourceId}:${p.key}`] ?? {}),
+      ...fieldOverrides,
     }
 
     // "Sponsored by itself" (name-variant noise in the source) is not
