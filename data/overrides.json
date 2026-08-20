@@ -89,6 +89,16 @@
       "note": "MATS program grant paid via Conjecture",
       "recipient_name": "MATS Research",
       "fiscal_sponsor_name": "Conjecture"
+    },
+    "jaan_online:4a953f5aec339cd3237e644ec35742b308a80f3cc86e723b95fc5e37725630cd": {
+      "note": "Donation earmarked for AI Impacts during its MIRI fiscal-sponsorship era",
+      "recipient_name": "AI Impacts",
+      "fiscal_sponsor_name": "Machine Intelligence Research Institute"
+    },
+    "jaan_online:69d947ed845687484ca104a3a114046e82743ac26e7268c0298044d7be759a47": {
+      "note": "Donation earmarked for AI Impacts during its MIRI fiscal-sponsorship era",
+      "recipient_name": "AI Impacts",
+      "fiscal_sponsor_name": "Machine Intelligence Research Institute"
     }
   }
 }

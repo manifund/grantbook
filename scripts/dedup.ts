@@ -23,6 +23,7 @@ const PRIORITY = [
   'uk_aisi',
   'irs_990',
   'ftx_future_fund',
+  'jaan_online',
   'vipul_donations',
 ]
 

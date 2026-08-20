@@ -80,6 +80,12 @@ const SOURCES = [
   { id: 'longview', name: 'Longview Philanthropy', url: 'https://www.longview.org/', tier: 2 },
   { id: 'jefftk', name: 'Jeff Kaufman', url: 'https://www.jefftk.com/donations', tier: 3 },
   {
+    id: 'jaan_online',
+    name: 'Jaan Tallinn donations',
+    url: 'https://jaan.online/philanthropy/donations.html',
+    tier: 2,
+  },
+  {
     id: 'ftx_future_fund',
     name: 'FTX Future Fund (archived site)',
     url: 'https://ftxfuturefund.org.cach3.com/index.html%3Fp=758.html',
