@@ -68,4 +68,4 @@ Hand-written SQL in `supabase/migrations/`, applied to the hosted project (no lo
 - **EA Funds**: one CSV GET; Airtable rec ids are stable keys. Rounds are "2026 Q2" (newer) or "Q1 2022" (older).
 - **SFF**: single index page has all rounds as a real `<table>`; amount cells may carry "+$X‡" speculation top-ups (both count). Bracketed `[Project]` suffixes are stripped from org names. Parse guard: fails if <400 rows.
 - **Vipul**: parses raw MySQL INSERT files from GitHub pinned to a SHA (`bun run ingest:vipul [sha]`); v1 keeps only the x-risk/EA cluster (KEEP regex in the script).
-- **Manifund**: public API returns only ~100 recent projects (pagination bug upstream); `--direct` reads their Supabase for full history and is the only mode that tombstones.
+- **Manifund**: public API paginates via `?before=` cursor (full history) but has no donor identities; `--direct` reads their Supabase for donor-level grants and is the only mode that tombstones.

@@ -3,10 +3,11 @@
 //   MANIFUND_SUPABASE_URL + MANIFUND_SUPABASE_ANON_KEY in .env.local) and
 //   create one grant per (project, donor) from 'project donation' txns —
 //   funder is the actual donor, via = Manifund.
-// * default API mode: https://manifund.org/api/v0/projects returns only the
-//   ~100 most recent projects and no donor identities, so it can only record
-//   a coarse aggregate grant (funder = Manifund). Use --direct for real runs;
-//   a later --direct run tombstones the coarse records automatically.
+// * default API mode: https://manifund.org/api/v0/projects (paginated via the
+//   ?before= cursor) covers full history but exposes no donor identities or
+//   txn types, so it can only record a coarse aggregate grant per project
+//   (funder = Manifund). Use --direct for real runs; a later --direct run
+//   tombstones the coarse records automatically.
 import { createClient } from '@supabase/supabase-js'
 import aliasesFile from '@/data/aliases.json'
 import { createAdminClient } from '@/db/supabase-admin'
@@ -36,9 +37,18 @@ type Project = {
 }
 
 async function fetchViaApi(): Promise<Project[]> {
-  const res = await fetch('https://manifund.org/api/v0/projects')
-  if (!res.ok) throw new Error(`Manifund API ${res.status}`)
-  return (await res.json()) as Project[]
+  const all: Project[] = []
+  let cursor: string | null = null
+  for (;;) {
+    const url = `https://manifund.org/api/v0/projects${cursor ? `?before=${encodeURIComponent(cursor)}` : ''}`
+    const res = await fetch(url)
+    if (!res.ok) throw new Error(`Manifund API ${res.status}`)
+    const batch = (await res.json()) as Project[]
+    if (batch.length === 0) break
+    all.push(...batch)
+    cursor = batch[batch.length - 1].created_at
+  }
+  return all
 }
 
 async function fetchDirect(): Promise<Project[]> {
