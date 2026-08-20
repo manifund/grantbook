@@ -20,7 +20,31 @@ function parseAmount(cell: string): number | null {
 // Round labels: SFF-2019-Q3, SFF-2020-H1, SFF-2024, SFF-2024-FlexHEGs,
 // Initiative Committee 2024, SFF-2025. Quarters/halves map to their final
 // month; plain years stay year-precision.
-function parseRound(round: string): { date: string | null; precision: 'month' | 'year' | null } {
+// Actual round dates per Caroline (announcement/decision dates). Rounds not
+// listed fall back to the label heuristic below. The 2025 "further
+// opportunities" round is expected ~Nov 2025 — add its label here when it
+// shows up in the table.
+const ROUND_DATES: Record<string, { date: string; precision: 'day' | 'month' }> = {
+  'SFF-2019-Q4': { date: '2019-12-01', precision: 'month' },
+  'SFF-2020-H1': { date: '2020-06-01', precision: 'month' },
+  'SFF-2020-H2': { date: '2020-12-01', precision: 'month' },
+  'SFF-2021-H1': { date: '2021-07-01', precision: 'month' },
+  'SFF-2021-H2': { date: '2021-11-20', precision: 'day' },
+  'SFF-2022-H1': { date: '2022-05-01', precision: 'month' },
+  'SFF-2022-H2': { date: '2022-12-01', precision: 'month' },
+  'SFF-2023-H1': { date: '2023-04-28', precision: 'day' },
+  'SFF-2023-H2': { date: '2023-10-26', precision: 'day' },
+  'SFF-2024': { date: '2024-10-30', precision: 'day' },
+  'SFF-2024-FlexHEGs': { date: '2024-12-01', precision: 'month' },
+  'SFF-2025': { date: '2025-09-01', precision: 'month' },
+}
+
+function parseRound(round: string): {
+  date: string | null
+  precision: 'day' | 'month' | 'year' | null
+} {
+  const known = ROUND_DATES[round.trim()]
+  if (known) return known
   const year = round.match(/(\d{4})/)?.[1]
   if (!year) return { date: null, precision: null }
   const quarter = round.match(/Q([1-4])/)?.[1]
