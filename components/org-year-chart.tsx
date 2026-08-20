@@ -3,7 +3,7 @@
 // Funding-by-year bars for an org profile. Shows one series per role the org
 // actually has (received / made / via), grouped side by side.
 import { useRef, useState } from 'react'
-import { fmtCompact } from '@/components/charts'
+import { fmtCompact, niceTicks } from '@/components/charts'
 
 type Series = { name: string; color: string; byYear: Record<number, number> }
 
@@ -24,7 +24,9 @@ export function OrgYearChart(props: { series: Series[] }) {
   const padL = 52
   const padB = 20
   const padT = 6
-  const max = Math.max(1, ...series.flatMap((s) => Object.values(s.byYear)))
+  const dataMax = Math.max(1, ...series.flatMap((s) => Object.values(s.byYear)))
+  const ticks = niceTicks(dataMax, 2)
+  const max = ticks[ticks.length - 1]
   const plotW = W - padL - 8
   const plotH = H - padT - padB
   const slot = plotW / years.length
@@ -34,7 +36,7 @@ export function OrgYearChart(props: { series: Series[] }) {
   return (
     <div ref={wrap} className="relative mb-6">
       <svg viewBox={`0 0 ${W} ${H}`} className="w-full" role="img" aria-label="Funding by year">
-        {[max / 2, max].map((t) => (
+        {ticks.filter((t) => t > 0).map((t) => (
           <g key={t}>
             <line x1={padL} x2={W - 8} y1={y(t)} y2={y(t)} stroke="var(--rule)" strokeWidth="1" />
             <text x={padL - 6} y={y(t) + 3} textAnchor="end" fontSize="10" fill="var(--ink-muted)">

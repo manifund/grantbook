@@ -15,7 +15,7 @@ export function fmtCompact(value: number): string {
   return `$${Math.round(value)}`
 }
 
-function niceTicks(max: number, count = 4): number[] {
+export function niceTicks(max: number, count = 4): number[] {
   if (max <= 0) return [0]
   const raw = max / count
   const mag = 10 ** Math.floor(Math.log10(raw))
