@@ -53,6 +53,33 @@ function useOrgOptions(grants: GrantRow[], side: 'funder' | 'recipient') {
 
 const inCause = (grant: GrantRow, cause: string) => cause === 'all' || grant.causes.includes(cause)
 
+// Which cause filter a grouping mode actually leaves open: grouping by cause
+// implies all causes, by subcause implies AI safety, by subsubcause narrows
+// within AI safety's branches.
+function effectiveCause(mode: GroupMode, cause: string, branch: string): string {
+  if (mode === 'cause') return 'all'
+  if (mode === 'subcause') return 'ai-safety'
+  if (mode === 'subsubcause') return branch
+  return cause
+}
+
+function BranchSelect(props: { value: string; onChange: (v: string) => void }) {
+  return (
+    <select
+      value={props.value}
+      onChange={(e) => props.onChange(e.target.value)}
+      className="rounded border border-rule bg-paper-alt px-2 py-1 text-sm"
+    >
+      <option value="ai-safety">AI safety</option>
+      {CAUSE_TREE.filter((node) => node.parent === 'ai-safety').map((node) => (
+        <option key={node.slug} value={node.slug}>
+          {node.name}
+        </option>
+      ))}
+    </select>
+  )
+}
+
 function byYear(grants: GrantRow[]): { year: number; value: number }[] {
   const map = new Map<number, number>()
   for (const grant of grants) {
@@ -81,7 +108,7 @@ function groupKeys(grant: GrantRow, mode: GroupMode): string[] | null {
   // subcause/subsubcause: AIS grants only
   if (!grant.causes.includes('ai-safety')) return null
   if (mode === 'subsubcause') {
-    // tier-3 tags; a grant tagged only to a tier-2 branch falls back to that branch
+    // tier-3 tags; grants without one land in a single Uncategorized bucket
     const keys = new Set<string>()
     for (const slug of grant.causes) {
       let cursor: string | undefined = slug
@@ -92,7 +119,7 @@ function groupKeys(grant: GrantRow, mode: GroupMode): string[] | null {
         keys.add(NAMES.get(cursor) ?? cursor)
       }
     }
-    if (keys.size > 0) return Array.from(keys)
+    return keys.size > 0 ? Array.from(keys) : ['Uncategorized']
   }
   const subs = new Set<string>()
   for (const slug of grant.causes) {
@@ -129,10 +156,11 @@ export function ChartsView(props: { grants: GrantRow[] }) {
   const [lineFunders, setLineFunders] = useState<string[]>([])
   const [lineCount, setLineCount] = useState(5)
   const [lineCumulative, setLineCumulative] = useState(false)
+  const [lineBranch, setLineBranch] = useState('ai-safety')
   const lineData = useMemo(() => {
+    const cause = effectiveCause(lineGroup, lineCause, lineBranch)
     const rows = props.grants.filter(
-      (g) =>
-        inCause(g, lineCause) && (lineFunders.length === 0 || lineFunders.includes(g.funderSlug))
+      (g) => inCause(g, cause) && (lineFunders.length === 0 || lineFunders.includes(g.funderSlug))
     )
     const totals = new Map<string, number>()
     const perYear = new Map<string, Map<number, number>>()
@@ -169,17 +197,19 @@ export function ChartsView(props: { grants: GrantRow[] }) {
       return { name, color: SERIES[i % SERIES.length], points }
     })
     return { series, years }
-  }, [props.grants, lineGroup, lineCause, lineFunders, lineCount, lineCumulative])
+  }, [props.grants, lineGroup, lineCause, lineBranch, lineFunders, lineCount, lineCumulative])
 
   // Chart 3: donut
   const [pieGroup, setPieGroup] = useState<Exclude<GroupMode, 'funder'> | 'funder'>('cause')
   const [pieCause, setPieCause] = useState('all')
   const [pieFunders, setPieFunders] = useState<string[]>([])
   const [pieRecipients, setPieRecipients] = useState<string[]>([])
+  const [pieBranch, setPieBranch] = useState('ai-safety')
   const pieData = useMemo(() => {
+    const cause = effectiveCause(pieGroup, pieCause, pieBranch)
     const rows = props.grants.filter(
       (g) =>
-        inCause(g, pieCause) &&
+        inCause(g, cause) &&
         (pieFunders.length === 0 || pieFunders.includes(g.funderSlug)) &&
         (pieRecipients.length === 0 || pieRecipients.includes(g.recipientSlug))
     )
@@ -198,7 +228,7 @@ export function ChartsView(props: { grants: GrantRow[] }) {
     const slices = head.map(([name, value], i) => ({ name, value, color: SERIES[i] }))
     if (rest > 0) slices.push({ name: 'All others', value: rest, color: SERIES_OTHER })
     return slices
-  }, [props.grants, pieGroup, pieCause, pieFunders, pieRecipients])
+  }, [props.grants, pieGroup, pieCause, pieBranch, pieFunders, pieRecipients])
 
   const barTotal = barData.reduce((sum, d) => sum + d.value, 0)
 
@@ -238,7 +268,10 @@ export function ChartsView(props: { grants: GrantRow[] }) {
             <option value="subcause">Lines: AI safety subcauses</option>
             <option value="subsubcause">Lines: AI safety subsubcauses</option>
           </select>
-          <CauseSelect value={lineCause} onChange={setLineCause} />
+          {lineGroup === 'funder' && <CauseSelect value={lineCause} onChange={setLineCause} />}
+          {lineGroup === 'subsubcause' && (
+            <BranchSelect value={lineBranch} onChange={setLineBranch} />
+          )}
           <MultiSelect
             label="Funder"
             options={funderOptions}
@@ -281,7 +314,8 @@ export function ChartsView(props: { grants: GrantRow[] }) {
             <option value="subsubcause">By AI safety subsubcause</option>
             <option value="funder">By funder</option>
           </select>
-          <CauseSelect value={pieCause} onChange={setPieCause} />
+          {pieGroup === 'funder' && <CauseSelect value={pieCause} onChange={setPieCause} />}
+          {pieGroup === 'subsubcause' && <BranchSelect value={pieBranch} onChange={setPieBranch} />}
           <MultiSelect
             label="Funder"
             options={funderOptions}
