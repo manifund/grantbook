@@ -93,7 +93,6 @@ const SOURCES = [
     license: 'public record',
     tier: 2,
   },
-  { id: 'nsf', name: 'NSF Awards', url: 'https://api.nsf.gov/', tier: 3 },
   { id: 'uk_aisi', name: 'UK AISI', url: 'https://www.aisi.gov.uk/', tier: 3 },
 ]
 

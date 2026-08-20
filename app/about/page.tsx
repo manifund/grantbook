@@ -12,7 +12,6 @@ export default async function Page() {
           <thead>
             <tr>
               <th>Source</th>
-              <th>License</th>
               <th>Last updated</th>
             </tr>
           </thead>
@@ -20,7 +19,6 @@ export default async function Page() {
             {sources.map((source) => (
               <tr key={source.id}>
                 <td>{source.url ? <a href={source.url}>{source.name}</a> : source.name}</td>
-                <td>{source.license ?? '—'}</td>
                 <td className="whitespace-nowrap">
                   {source.last_ingested_at ? source.last_ingested_at.slice(0, 10) : 'planned'}
                 </td>
