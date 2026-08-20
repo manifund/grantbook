@@ -13,8 +13,14 @@
           "valid_to": "2025-11-01",
           "note": "renamed Nov 2025"
         },
-        { "name": "Open Philanthropy Project", "kind": "former_name" },
-        { "name": "Open Phil", "kind": "abbreviation" }
+        {
+          "name": "Open Philanthropy Project",
+          "kind": "former_name"
+        },
+        {
+          "name": "Open Phil",
+          "kind": "abbreviation"
+        }
       ]
     },
     {
@@ -24,13 +30,34 @@
       "website": "https://funds.effectivealtruism.org/",
       "aliases": [
         {
-          "name": "Long-Term Future Fund",
-          "kind": "former_name",
-          "note": "LTFF closed and replaced by TAIF"
+          "name": "TAIF",
+          "kind": "abbreviation"
+        }
+      ],
+      "description": null
+    },
+    {
+      "slug": "ltff",
+      "name": "Long-Term Future Fund",
+      "org_type": "fund",
+      "website": "https://funds.effectivealtruism.org/funds/far-future",
+      "aliases": [
+        {
+          "name": "Long Term Future Fund",
+          "kind": "alias"
         },
-        { "name": "Long Term Future Fund", "kind": "former_name" },
-        { "name": "LTFF", "kind": "abbreviation" },
-        { "name": "TAIF", "kind": "abbreviation" }
+        {
+          "name": "LTFF",
+          "kind": "abbreviation"
+        },
+        {
+          "name": "EA Funds: Long-Term Future Fund",
+          "kind": "alias"
+        },
+        {
+          "name": "Effective Altruism Funds: Long-Term Future Fund",
+          "kind": "alias"
+        }
       ]
     },
     {
@@ -39,9 +66,18 @@
       "org_type": "fund",
       "website": "https://funds.effectivealtruism.org/",
       "aliases": [
-        { "name": "EA Meta Fund", "kind": "former_name" },
-        { "name": "EAIF", "kind": "abbreviation" },
-        { "name": "Effective Altruism Infrastructure Fund", "kind": "alias" }
+        {
+          "name": "EA Meta Fund",
+          "kind": "former_name"
+        },
+        {
+          "name": "EAIF",
+          "kind": "abbreviation"
+        },
+        {
+          "name": "Effective Altruism Infrastructure Fund",
+          "kind": "alias"
+        }
       ]
     },
     {
@@ -49,7 +85,12 @@
       "name": "Survival and Flourishing Fund",
       "org_type": "fund",
       "website": "https://survivalandflourishing.fund/",
-      "aliases": [{ "name": "SFF", "kind": "abbreviation" }]
+      "aliases": [
+        {
+          "name": "SFF",
+          "kind": "abbreviation"
+        }
+      ]
     },
     {
       "slug": "lightcone-commons",
@@ -69,14 +110,24 @@
       "name": "Lightcone Infrastructure",
       "org_type": "organization",
       "website": "https://www.lightconeinfrastructure.com/",
-      "aliases": [{ "name": "LessWrong", "kind": "alias" }]
+      "aliases": [
+        {
+          "name": "LessWrong",
+          "kind": "alias"
+        }
+      ]
     },
     {
       "slug": "ea-funds",
       "name": "EA Funds",
       "org_type": "fund",
       "website": "https://funds.effectivealtruism.org/",
-      "aliases": [{ "name": "Effective Altruism Funds", "kind": "alias" }]
+      "aliases": [
+        {
+          "name": "Effective Altruism Funds",
+          "kind": "alias"
+        }
+      ]
     },
     {
       "slug": "manifund",
@@ -90,7 +141,12 @@
       "name": "Longview Philanthropy",
       "org_type": "foundation",
       "website": "https://www.longview.org/",
-      "aliases": [{ "name": "Longview", "kind": "abbreviation" }]
+      "aliases": [
+        {
+          "name": "Longview",
+          "kind": "abbreviation"
+        }
+      ]
     },
     {
       "slug": "openai-foundation",
@@ -117,14 +173,24 @@
       "slug": "aistof",
       "name": "AI Safety Tactical Opportunities Fund",
       "org_type": "fund",
-      "aliases": [{ "name": "AISTOF", "kind": "abbreviation" }]
+      "aliases": [
+        {
+          "name": "AISTOF",
+          "kind": "abbreviation"
+        }
+      ]
     },
     {
       "slug": "bluedot-impact",
       "name": "BlueDot Impact",
       "org_type": "organization",
       "website": "https://bluedot.org/",
-      "aliases": [{ "name": "BlueDot", "kind": "abbreviation" }]
+      "aliases": [
+        {
+          "name": "BlueDot",
+          "kind": "abbreviation"
+        }
+      ]
     },
     {
       "slug": "jaan-tallinn",
@@ -138,14 +204,24 @@
       "name": "Future of Life Institute",
       "org_type": "organization",
       "website": "https://futureoflife.org/",
-      "aliases": [{ "name": "FLI", "kind": "abbreviation" }]
+      "aliases": [
+        {
+          "name": "FLI",
+          "kind": "abbreviation"
+        }
+      ]
     },
     {
       "slug": "acx-grants",
       "name": "ACX Grants",
       "org_type": "fund",
       "website": "https://www.astralcodexten.com/",
-      "aliases": [{ "name": "Astral Codex Ten Grants", "kind": "alias" }]
+      "aliases": [
+        {
+          "name": "Astral Codex Ten Grants",
+          "kind": "alias"
+        }
+      ]
     },
     {
       "slug": "foresight-institute",
@@ -159,7 +235,12 @@
       "name": "Cooperative AI Foundation",
       "org_type": "foundation",
       "website": "https://www.cooperativeai.com/",
-      "aliases": [{ "name": "CAIF", "kind": "abbreviation" }]
+      "aliases": [
+        {
+          "name": "CAIF",
+          "kind": "abbreviation"
+        }
+      ]
     },
     {
       "slug": "uk-aisi",
@@ -167,9 +248,18 @@
       "org_type": "government",
       "website": "https://www.aisi.gov.uk/",
       "aliases": [
-        { "name": "UK AI Safety Institute", "kind": "former_name" },
-        { "name": "AI Safety Institute", "kind": "former_name" },
-        { "name": "AISI", "kind": "abbreviation" }
+        {
+          "name": "UK AI Safety Institute",
+          "kind": "former_name"
+        },
+        {
+          "name": "AI Safety Institute",
+          "kind": "former_name"
+        },
+        {
+          "name": "AISI",
+          "kind": "abbreviation"
+        }
       ]
     },
     {
@@ -184,19 +274,34 @@
       "name": "Berkeley Existential Risk Initiative",
       "org_type": "organization",
       "website": "https://existence.org/",
-      "aliases": [{ "name": "BERI", "kind": "abbreviation" }]
+      "aliases": [
+        {
+          "name": "BERI",
+          "kind": "abbreviation"
+        }
+      ]
     },
     {
       "slug": "casey-and-family-foundation",
       "name": "Casey and Family Foundation",
       "org_type": "foundation",
-      "aliases": [{ "name": "The Casey and Family Foundation", "kind": "alias" }]
+      "aliases": [
+        {
+          "name": "The Casey and Family Foundation",
+          "kind": "alias"
+        }
+      ]
     },
     {
       "slug": "robert-and-virginia-shiller-foundation",
       "name": "Robert and Virginia Shiller Foundation",
       "org_type": "foundation",
-      "aliases": [{ "name": "Shiller Foundation", "kind": "abbreviation" }]
+      "aliases": [
+        {
+          "name": "Shiller Foundation",
+          "kind": "abbreviation"
+        }
+      ]
     },
     {
       "slug": "jed-mccaleb",
