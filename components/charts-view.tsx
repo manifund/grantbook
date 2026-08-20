@@ -128,14 +128,11 @@ export function ChartsView(props: { grants: GrantRow[] }) {
   const [lineCause, setLineCause] = useState('ai-safety')
   const [lineFunders, setLineFunders] = useState<string[]>([])
   const [lineCount, setLineCount] = useState(5)
+  const [lineCumulative, setLineCumulative] = useState(false)
   const lineData = useMemo(() => {
     const rows = props.grants.filter(
       (g) =>
-        inCause(
-          g,
-          lineGroup === 'subcause' || lineGroup === 'subsubcause' ? 'ai-safety' : lineCause
-        ) &&
-        (lineFunders.length === 0 || lineFunders.includes(g.funderSlug))
+        inCause(g, lineCause) && (lineFunders.length === 0 || lineFunders.includes(g.funderSlug))
     )
     const totals = new Map<string, number>()
     const perYear = new Map<string, Map<number, number>>()
@@ -163,11 +160,16 @@ export function ChartsView(props: { grants: GrantRow[] }) {
     if (minYear !== Infinity) for (let y = minYear; y <= maxYear; y++) years.push(y)
     const series = top.map((name, i) => {
       const points = new Map<number, number>()
-      for (const year of years) points.set(year, perYear.get(name)?.get(year) ?? 0)
+      let running = 0
+      for (const year of years) {
+        const value = perYear.get(name)?.get(year) ?? 0
+        running += value
+        points.set(year, lineCumulative ? running : value)
+      }
       return { name, color: SERIES[i % SERIES.length], points }
     })
     return { series, years }
-  }, [props.grants, lineGroup, lineCause, lineFunders, lineCount])
+  }, [props.grants, lineGroup, lineCause, lineFunders, lineCount, lineCumulative])
 
   // Chart 3: donut
   const [pieGroup, setPieGroup] = useState<Exclude<GroupMode, 'funder'> | 'funder'>('cause')
@@ -177,10 +179,7 @@ export function ChartsView(props: { grants: GrantRow[] }) {
   const pieData = useMemo(() => {
     const rows = props.grants.filter(
       (g) =>
-        inCause(
-          g,
-          pieGroup === 'subcause' || pieGroup === 'subsubcause' ? 'ai-safety' : pieCause
-        ) &&
+        inCause(g, pieCause) &&
         (pieFunders.length === 0 || pieFunders.includes(g.funderSlug)) &&
         (pieRecipients.length === 0 || pieRecipients.includes(g.recipientSlug))
     )
@@ -239,9 +238,7 @@ export function ChartsView(props: { grants: GrantRow[] }) {
             <option value="subcause">Lines: AI safety subcauses</option>
             <option value="subsubcause">Lines: AI safety subsubcauses</option>
           </select>
-          {lineGroup !== 'subcause' && lineGroup !== 'subsubcause' && (
-            <CauseSelect value={lineCause} onChange={setLineCause} />
-          )}
+          <CauseSelect value={lineCause} onChange={setLineCause} />
           <MultiSelect
             label="Funder"
             options={funderOptions}
@@ -258,6 +255,14 @@ export function ChartsView(props: { grants: GrantRow[] }) {
                 Top {n}
               </option>
             ))}
+          </select>
+          <select
+            value={lineCumulative ? 'cumulative' : 'annual'}
+            onChange={(e) => setLineCumulative(e.target.value === 'cumulative')}
+            className="rounded border border-rule bg-paper-alt px-2 py-1 text-sm"
+          >
+            <option value="annual">Annual</option>
+            <option value="cumulative">Cumulative</option>
           </select>
         </div>
         <YearLineChart series={lineData.series} years={lineData.years} />
@@ -276,9 +281,7 @@ export function ChartsView(props: { grants: GrantRow[] }) {
             <option value="subsubcause">By AI safety subsubcause</option>
             <option value="funder">By funder</option>
           </select>
-          {pieGroup !== 'subcause' && pieGroup !== 'subsubcause' && (
-            <CauseSelect value={pieCause} onChange={setPieCause} />
-          )}
+          <CauseSelect value={pieCause} onChange={setPieCause} />
           <MultiSelect
             label="Funder"
             options={funderOptions}
