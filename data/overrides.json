@@ -99,6 +99,35 @@
       "note": "Donation earmarked for AI Impacts during its MIRI fiscal-sponsorship era",
       "recipient_name": "AI Impacts",
       "fiscal_sponsor_name": "Machine Intelligence Research Institute"
+    },
+    "jaan_online:1b2b977a4bde9915941a0f7f7dd56730bdde63a0d3a6ab0a876dcddf26ec4bed": {
+      "note": "Paid to Social and Environmental Entrepreneurs; the grant was for Global Catastrophic Risk Institute (BERI-era regrant)",
+      "recipient_name": "Global Catastrophic Risk Institute",
+      "fiscal_sponsor_name": "Social and Environmental Entrepreneurs"
+    },
+    "jaan_online:37d072d4ccfd1c8df38297bf18e37b7cbae69d3aaddde018e52c4d43c9364855": {
+      "note": "Paid to Center for Applied Rationality; the grant was for Lightcone Infrastructure (BERI-era regrant)",
+      "recipient_name": "Lightcone Infrastructure",
+      "fiscal_sponsor_name": "Center for Applied Rationality"
+    },
+    "jaan_online:6a4750ea8a62a56e593afea965a730a27a499ce710767e710af8c6a0bb242ff4": {
+      "note": "Paid to Cambridge in America; the grant was for Centre for the Study of Existential Risk (BERI-era regrant)",
+      "recipient_name": "Centre for the Study of Existential Risk",
+      "fiscal_sponsor_name": "Cambridge in America"
+    },
+    "jaan_online:272169a8e07d2448c4b6bdd7e957129c65610cece4ba711568ea698b55a095ba": {
+      "note": "Paid to Center for Applied Rationality; the grant was for Lightcone Infrastructure (BERI-era regrant)",
+      "recipient_name": "Lightcone Infrastructure",
+      "fiscal_sponsor_name": "Center for Applied Rationality"
+    },
+    "jaan_online:4c61e1f18ec6e558be9703aaa51fcdefad73ec0fd14fb14a8cd3f161cca52051": {
+      "note": "Paid to Sarah D Spikes; the grant was for Berkeley REACH (BERI-era regrant)",
+      "recipient_name": "Berkeley REACH"
+    },
+    "jaan_online:6f0b5be4153bfe80bc8075a8e68fad65cf265dd19aea39553346e72336050409": {
+      "note": "Paid to Centre for Effective Altruism; the grant was for 80,000 Hours (BERI-era regrant)",
+      "recipient_name": "80,000 Hours",
+      "fiscal_sponsor_name": "Centre for Effective Altruism"
     }
   }
 }
