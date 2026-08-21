@@ -253,7 +253,8 @@ export async function runIngest(
     // prefix, so one entry can cover every donor to a project.
     const manualTags =
       MANUAL_TAGS[`${sourceId}:${p.key}`] ?? MANUAL_TAGS[`${sourceId}:${p.key.split(':')[0]}`]
-    grantCauses.set(grantId, manualTags ? withAncestors(manualTags) : p.parsed.causeSlugs)
+    // Always close tags over ancestors so filtering works at any level.
+    grantCauses.set(grantId, withAncestors(manualTags ?? p.parsed.causeSlugs))
 
     const viaIds: string[] = []
     for (const viaName of p.parsed.viaNames ?? []) {
