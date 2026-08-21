@@ -111,7 +111,11 @@ async function main() {
           key: n === 1 ? baseKey : `${baseKey}#${n}`,
           raw,
           parsed: {
-            funderName: donor,
+            // Vipul records the early SFF-DAF grants with SFF itself as the donor;
+            // same attribution call as the SFF ingester's "SFF DAF" rows.
+            funderName: donor === 'Survival and Flourishing Fund' ? 'Jaan Tallinn' : donor,
+            viaNames:
+              donor === 'Survival and Flourishing Fund' ? ['Survival and Flourishing Fund'] : [],
             recipientName: donee,
             amount,
             currency: 'USD',

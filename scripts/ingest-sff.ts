@@ -99,6 +99,10 @@ async function main() {
         : [{ name: source, amount: parseAmount(amountCell) }]
 
     for (const funder of funders) {
+      // Early rounds list "SFF DAF" as the source — the fund's own DAF pool,
+      // seeded by Jaan Tallinn's earlier BERI-era grants (his own donation
+      // log claims these disbursements). Attributed to him per Caroline.
+      if (funder.name.trim() === 'SFF DAF') funder.name = 'Jaan Tallinn'
       records.push({
         key: await sha256(
           [round, funder.name, organization, amountCell, receivingCharity, purpose].join('|')
