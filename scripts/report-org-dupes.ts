@@ -102,6 +102,11 @@ async function main() {
       if (x.stripped && x.stripped === y.stripped) {
         signal = 'paren'
         score = 1
+      } else if (x.norm && x.norm.replace(/\s/g, '') === y.norm.replace(/\s/g, '')) {
+        // spacing-only differences (1DaySooner vs 1Day Sooner) tokenize
+        // differently, so no other signal fires on them
+        signal = 'spaceless'
+        score = 1
       } else if (
         (x.inits.length >= 3 && x.inits === y.norm.replace(/\s/g, '')) ||
         (y.inits.length >= 3 && y.inits === x.norm.replace(/\s/g, ''))

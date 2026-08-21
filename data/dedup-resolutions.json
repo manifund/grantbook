@@ -1036,6 +1036,16 @@
     "jaan_online:4c61e1f18ec6e558be9703aaa51fcdefad73ec0fd14fb14a8cd3f161cca52051 || vipul_donations:f519c9c8146080dbe6a261c5894d7bbc3713b6a639cd67d852c4940def3400b6": "merged",
     "jaan_online:957007c239332b8c320aefa4950f0e04cb65f6b0f8deca88636b1723af690005 || vipul_donations:faa0e74d6ab850eeab24b8019870c8137abcb70aea05f2ec93260091d4282df6": "merged",
     "jaan_online:6f0b5be4153bfe80bc8075a8e68fad65cf265dd19aea39553346e72336050409 || vipul_donations:eb72d56dbc62ce36ee1255dd3900e9c4abe953995e948d66b98526cf9e8bc289": "merged",
-    "coefficient_giving:8504 || vipul_donations:65f5f436e6f8c958672f3b6de68a5617c14dc1b3ddaf71312d857d368eac2cea": "merged"
+    "coefficient_giving:8504 || vipul_donations:65f5f436e6f8c958672f3b6de68a5617c14dc1b3ddaf71312d857d368eac2cea": "merged",
+    "jaan_online:4c152b6b4338e55b6177ebcec0e952e264d87543eb625b4d59a8e7a588efd0d2 || sff:529f9d522b1c6f03ba94865e090185e36e01369d9b3dee901299b79471f05a9a": "merged",
+    "jaan_online:4fb132012b6e2d89683115b0e171816a7e1d7fc7fa9e48d44b46d1429565e43f || sff:b44f5a545fd8ff132e465aa4b7b435ff5c583934df36cabd6fac5de7102816c0": "merged",
+    "jaan_online:e136748653910f11e5ff4160c38b9a71bab3a1ebf4a04fff00c01417ef9b3537 || sff:a7d4cc8d8b745944a048f26557f2c68a3e5840f25252e87da7799ab093085ba7": "merged",
+    "acx_grants:3749bd1e1b94f878e6e5a951199edb91182a5d9d6d905e003b0e45fd3deeee4a || manifund:3642c4e9-558a-400a-bf22-68fdfeea5b36:acx-grants": "merged",
+    "acx_grants:72eb5bb31e2c56393d0392d19e51352e506668c291f83cae88976d907328c33d || manifund:32565b64-ba5b-44f1-af9e-8cacf79180aa:acx-grants": "merged",
+    "jaan_online:8c9452fef0806ba0b0f157be61d9c9133eb718115ea55f5265ffca74a4c594d4 || sff:53d46e7be071c691c7b96c958021bd8e82a17a93007cdc6f0639fc6bfb5bc7db": "merged",
+    "jaan_online:472ec5435d24e569b243ec1178203b9a657e7cb3ea6740f09591a5cbf06acfaa || sff:30051ac16d28915636eef54081c0c7ea87639cdc552fbdfbd13c1b61fa72e177": "merged",
+    "jaan_online:f1c660c12ee747e7f6e1babd6cb841a51896ca39f383eb179cf4b46ded49bb46 || sff:9dd4fd366ee469a9de0d1b91d458cc278e3a65db449321b3a22d16adf39a83e2": "merged",
+    "acx_grants:4982d0a7f61b9fff84fa3159260a26159b74c02b7589e150c9a93a48c10b9d99 || manifund:00e42405-930e-48e3-bf5f-20e6fe7ea959:acx-grants": "merged",
+    "acx_grants:869c801754e079c4d76369bc2404a23b1a61b4dd8f6c1353d0c36450ced2b81d || manifund:ae5dcf32-3897-40d8-af89-6cc018f092f3:acx-grants": "merged"
   }
 }
