@@ -1,30 +1,53 @@
 'use client'
 
-import { useEffect, useRef, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
+
+// [alias name, org slug, canonical org name]
+type NameRow = [string, string, string]
+
+let indexPromise: Promise<NameRow[]> | null = null
+function loadIndex(): Promise<NameRow[]> {
+  indexPromise ??= fetch('/org-names.json')
+    .then((res) => (res.ok ? res.json() : []))
+    .catch(() => [])
+  return indexPromise
+}
 
 export function OrgSearch() {
   const [query, setQuery] = useState('')
-  const [results, setResults] = useState<{ slug: string; name: string }[]>([])
+  const [index, setIndex] = useState<NameRow[] | null>(null)
   const [open, setOpen] = useState(false)
   const [active, setActive] = useState(-1)
   const wrap = useRef<HTMLDivElement>(null)
 
-  useEffect(() => {
-    const q = query.trim()
-    if (q.length < 2) {
-      setResults([])
-      return
-    }
-    const timer = setTimeout(async () => {
-      const res = await fetch(`/api/org-search?q=${encodeURIComponent(q)}`)
-      if (res.ok) {
-        setResults(await res.json())
-        setOpen(true)
-        setActive(-1)
+  const ensureIndex = () => {
+    if (index === null) loadIndex().then(setIndex)
+  }
+
+  const results = useMemo(() => {
+    const q = query.trim().toLowerCase()
+    if (q.length < 2 || !index) return []
+    const seen = new Set<string>()
+    const out: { slug: string; name: string }[] = []
+    for (const pass of [0, 1]) {
+      for (const [alias, slug, name] of index) {
+        const lower = alias.toLowerCase()
+        const isPrefix = lower.startsWith(q)
+        if ((pass === 0) !== isPrefix) continue
+        if (!isPrefix && !lower.includes(q)) continue
+        if (seen.has(slug)) continue
+        seen.add(slug)
+        out.push({ slug, name })
+        if (out.length >= 8) return out
       }
-    }, 200)
-    return () => clearTimeout(timer)
-  }, [query])
+    }
+    return out
+  }, [query, index])
+
+  useEffect(() => {
+    setActive(-1)
+    setOpen(results.length > 0)
+  }, [results])
 
   useEffect(() => {
     const onClick = (e: MouseEvent) => {
@@ -44,7 +67,10 @@ export function OrgSearch() {
         type="search"
         value={query}
         onChange={(e) => setQuery(e.target.value)}
-        onFocus={() => results.length > 0 && setOpen(true)}
+        onFocus={() => {
+          ensureIndex()
+          if (results.length > 0) setOpen(true)
+        }}
         onKeyDown={(e) => {
           if (e.key === 'ArrowDown') {
             e.preventDefault()
