@@ -1,0 +1,477 @@
+{
+  "_comment": "Manifund projects that belong to an organization even though the title doesn't name it. Keyed by project id; recipient becomes the org (replaces the creator). Built by an LLM read of all funded projects + hand review; extend by hand or re-run the classification.",
+  "projects": {
+    "03777728-545e-8dfc-8706-1842dc4f9adc": {
+      "org": "Hive",
+      "note": "Hive Slack - active community space for farmed animal advocates"
+    },
+    "069a1e9f-9aa8-6fc0-bfd6-77fae8b2715a": {
+      "org": "SaferAI",
+      "note": "General support for SaferAI's technical and governance research"
+    },
+    "06ea0d78-c04a-f094-0246-5985729a275c": {
+      "org": "Lyptus Research",
+      "note": "early-stage AI safety research group based in Sydney"
+    },
+    "0d732dba-68e8-73e9-d397-19d076358cbf": {
+      "org": "Coordinal Research",
+      "note": "Coordinal Research: funding for a new nonprofit"
+    },
+    "0e09e971-46eb-406a-aba9-b6ab0bb7c772": {
+      "org": "African School of Economics",
+      "note": "African School of Economics in Zanzibar charter city"
+    },
+    "12cff83d-4667-1b26-c416-fefe2b078e33": {
+      "org": "Journal of Animal Rights Law",
+      "note": "first and only open-access legal journal"
+    },
+    "14b86ad6-02e3-a9fb-7acf-978ec8d53f5b": {
+      "org": "Africa Urban Lab",
+      "note": "Support the AUL to bring a YIMBY movement"
+    },
+    "180f2c96-a7c3-b658-26c2-f485c7597a3a": {
+      "org": "Sentinel",
+      "note": "foresight and emergency response team seeking to react"
+    },
+    "184c814d-f419-ba99-ae75-8d3b4c6f390d": {
+      "org": "FarmKind",
+      "note": "FarmKind - A donation platform creating new donors"
+    },
+    "19283f9b-d18d-d3d9-03d1-ca283cf7cdde": {
+      "org": "SPARC",
+      "note": "Summer Program for Applied Rationality and Cognition"
+    },
+    "1c4e2f7a-b41e-8207-4145-f4e9c96c22cd": {
+      "org": "AI Safety Research Organization Incubator",
+      "note": "AI Safety Research Organization Incubator - Pilot Program"
+    },
+    "1c5beac2-7cf8-cdfa-5d04-bc2429bd2d52": {
+      "org": "Seldon",
+      "note": "through Seldon's second SF cohort"
+    },
+    "20d990fa-0a26-e449-d62b-c2128ab1914e": {
+      "org": "New Roots Institute",
+      "note": "New Roots Institute: Growing Advocacy Ecosystems"
+    },
+    "221c9366-a0c1-0130-6d6f-57f57e71b27d": {
+      "org": "Mox",
+      "note": "Mox, a coworking & events space in SF"
+    },
+    "226acbb5-1312-4c62-d147-41054feab53a": {
+      "org": "Evitable",
+      "note": "Evitable: a new public-facing AI risk non-profit"
+    },
+    "253a19b0-4a1f-23c9-8e6c-459c06f94502": {
+      "org": "Berkeley Genomics Project",
+      "note": "human intelligence amplification @ Berkeley Genomics Project"
+    },
+    "2556a215-1716-5f3f-049e-17c50b44ee24": {
+      "org": "AI Safety Camp",
+      "note": "10th edition of AI Safety Camp"
+    },
+    "26081b7c-cc1c-7a60-b33e-75df7fb347fc": {
+      "org": "CaML",
+      "note": "CaML - AGI alignment to nonhumans"
+    },
+    "28fddc7d-eae3-1953-7ff3-23efdd8d7026": {
+      "org": "Principles of Intelligent Behavior in Biological and Social Systems",
+      "note": "PIBBSS - General Programs funding"
+    },
+    "306d8ac0-a6dd-c080-40ca-7aa09e9c7463": {
+      "org": "Effective Altruism New Zealand",
+      "note": "Support EA NZ's operations"
+    },
+    "32565b64-ba5b-44f1-af9e-8cacf79180aa": {
+      "org": "1Day Sooner",
+      "note": "creator: 1Day Sooner Inc."
+    },
+    "36795daf-cdd7-4042-ab10-6c3747236c77": {
+      "org": "Apart Research",
+      "note": "Apart incubates and facilitates AI safety researchers"
+    },
+    "3a1cab63-ee88-21c3-8a6f-bfb95ffa12d5": {
+      "org": "Luthien",
+      "note": "Luthien: Developing AI Control for Real-World Use"
+    },
+    "4015f90d-f179-88f2-986a-b998318aa001": {
+      "org": "Asterisk Magazine",
+      "note": "creator: Asterisk Magazine"
+    },
+    "41b6111c-6e9d-4f9e-6840-405170d3ea83": {
+      "org": "Thrive Philanthropy",
+      "note": "Thrive Philanthropy: Catalyzing Global End to Factory Farming"
+    },
+    "43013ad4-8ba3-a101-0f84-05f8c6f562d8": {
+      "org": "Neuronpedia",
+      "note": "Neuronpedia - Open Interpretability Platform"
+    },
+    "43214f96-5fa7-c49a-f64a-cd8224939722": {
+      "org": "Integral Altruism",
+      "note": "leadership of Integral Altruism - a movement bridging"
+    },
+    "4522040d-919c-6184-5a1c-7df3fddffc3e": {
+      "org": "Georgia Tech Research Corporation",
+      "note": "creator: Georgia Tech Research Corporation"
+    },
+    "46869014-818f-4b70-4aa7-8f939efe6e05": {
+      "org": "Institute for AI Policy and Strategy",
+      "note": "AI Policy work @ IAPS"
+    },
+    "4b37a962-5734-bece-caf5-840ffc21c705": {
+      "org": "Center for AI Safety, Inc.",
+      "note": "creator: Center for AI Safety"
+    },
+    "4f8bf307-91b9-a3d5-6034-a1eaac66c1d5": {
+      "org": "LEAH Coworking Space",
+      "note": "LEAH Coworking Space supporting organisations and individuals"
+    },
+    "50bdac22-bba4-284d-349a-d27ad0277996": {
+      "org": "Center for Applied Rationality",
+      "note": "Revised CFAR workshops, same CFAR classics"
+    },
+    "517519bb-5827-9877-f9f3-3ff56c50934e": {
+      "org": "Black in AI Safety and Ethics (BASE)",
+      "note": "Black in AI Safety and Ethics (BASE)"
+    },
+    "527017a5-772a-e85f-8f20-37b6e1bbe3d0": {
+      "org": "AI Digest",
+      "note": "AI Digest, including the Agent Village"
+    },
+    "530916e7-cb62-4ced-2415-c1ba29e4d910": {
+      "org": "Effective Altruism Latvia",
+      "note": "latvian EAs have recently created an NGO"
+    },
+    "53771e72-69b6-60e8-6edb-1092690ffb6a": {
+      "org": "Connect For Animals",
+      "note": "Connect For Animals: a platform for ending factory farming"
+    },
+    "5bfc03ee-0881-d21f-c28a-7e96c68df227": {
+      "org": "Mox",
+      "note": "Mox: 2026 Fundraiser, incubator & community space"
+    },
+    "634964a7-d78a-4d06-f834-f7ddbf02e886": {
+      "org": "BAIS (AIS Hub Serbia)",
+      "note": "BAIS (ex-AIS Hub Serbia) Office Space for Researchers"
+    },
+    "65bddfa8-e487-cfdc-7ab7-6100371ac9a8": {
+      "org": "AI Governance Exchange",
+      "note": "AI Governance Exchange, Seed Funding, building bridges"
+    },
+    "66d545dc-e0c7-2df6-7b4c-cb9138056368": {
+      "org": "Transluce",
+      "note": "Transluce: Fund Scalable Democratic Oversight of AI"
+    },
+    "685adfe5-d959-f3b8-bb8f-c2a7af37aaa8": {
+      "org": "ILINA",
+      "note": "combines ILINA's spring seminar with mentored research"
+    },
+    "695ce53a-4054-2bac-4784-d3a44c165ca6": {
+      "org": "A Happier World",
+      "note": "A Happier World (YouTube channel promoting EA ideas)"
+    },
+    "6a9222ed-8caf-44b6-6436-6978ada27b9d": {
+      "org": "Good Ancestors",
+      "note": "title: Good Ancestors (Australia)"
+    },
+    "6ba99761-c108-30e0-8f7c-7c9726951fab": {
+      "org": "Timaeus",
+      "note": "Jesse Hoogland — Next Steps in Developmental Interpretability"
+    },
+    "6c6dfcf3-8d3f-d4c0-c849-7cfdb6de84e6": {
+      "org": "Apart Research",
+      "note": "Help Apart Expand Global AI Safety Research"
+    },
+    "6ce8dadb-1a56-f744-92ed-ef4256edce96": {
+      "org": "Aquatic Animal Alliance",
+      "note": "Aquatic Animal Alliance: A Global Movement for Neglected Species"
+    },
+    "6e868e09-8a5a-28b8-e77f-9a786a011837": {
+      "org": "Sapiens First",
+      "note": "Sapiens First organizes voters to fight concentration"
+    },
+    "6f64ffd5-b94d-e354-8c04-c97082c7d5df": {
+      "org": "CEEALAR",
+      "note": "CEEALAR (EA Hotel) Needs a New Roof"
+    },
+    "736259c0-0ac6-3e0a-2b1f-2b73b29bbe49": {
+      "org": "Cambridge Biosecurity Hub",
+      "note": "A Cambridge Biosecurity Hub and Symposium"
+    },
+    "74219c6f-ac7f-875b-00b8-b1ac50a0f4ff": {
+      "org": "Modeling Cooperation",
+      "note": "creator: Modeling Cooperation"
+    },
+    "784c6514-fe59-bc49-e6d1-79257aa12ff5": {
+      "org": "Apart Research",
+      "note": "international AI safety hackathons with Apart Research"
+    },
+    "7bc9a0c8-b747-e95b-5064-1e6a59ca2775": {
+      "org": "AI Safety Hong Kong",
+      "note": "AI Safety Hong Kong (AISHK)"
+    },
+    "7c7b4f70-6602-5f39-2592-6d7722980837": {
+      "org": "Apart Research",
+      "note": "Keep Apart Research Going"
+    },
+    "7ef865e7-f50d-ab28-9937-b81c11bafae4": {
+      "org": "Civitech Incubator",
+      "note": "Civitech Incubator"
+    },
+    "83226d2f-13f2-ee24-4085-500db25b9579": {
+      "org": "Safe AI Germany (SAIGE)",
+      "note": "title: Safe AI Germany (SAIGE)"
+    },
+    "833663e8-3edb-5a50-06e3-0418439e45bf": {
+      "org": "ChinaTalk",
+      "note": "Jordan Schneider — Deep Coverage of China and AI"
+    },
+    "84d9220f-ba30-0be3-cfac-969d4e257530": {
+      "org": "Dads Against AGI",
+      "note": "Dads Against AGI Inc."
+    },
+    "85f500aa-e45a-e069-3fbe-ec8bbf62b387": {
+      "org": "Kickstarting For Good",
+      "note": "Kickstarting For Good - High-Impact Nonprofit Incubation Program"
+    },
+    "860d9400-89d3-6e1b-e779-925fdaa6a366": {
+      "org": "Groundless Alignment Residency",
+      "note": "Groundless Alignment Residency 2025"
+    },
+    "8d961c45-85a2-95db-2122-6f34a330f4e2": {
+      "org": "AI Policy Institute",
+      "note": "Support the AI Policy Institute for AGI preparedness"
+    },
+    "8fb4e431-10f0-4da2-2672-122f32fa7ced": {
+      "org": "Amplify",
+      "note": "Amplify's funding ask to market EA & AI Safety"
+    },
+    "90a68194-7c05-98f0-c675-a7462896f745": {
+      "org": "Effective Altruism New Zealand",
+      "note": "creator: Effective Altruism New Zealand"
+    },
+    "91171fb1-eaa7-28fb-c1e9-c8ba8bddf405": {
+      "org": "The Metascience Observatory",
+      "note": "The Metascience Observatory"
+    },
+    "9261e458-fbd0-3135-0d50-9636b9fdeee2": {
+      "org": "VaccinateCA",
+      "note": "VaccinateCA website & infra"
+    },
+    "92c3a9eb-8698-4499-ed27-f332923f8497": {
+      "org": "Sydney AI Safety Hub (SASH)",
+      "note": "Bridge Funding for the Sydney AI Safety Hub (SASH)"
+    },
+    "961d9795-849a-a02e-76be-f6d0e41edf7d": {
+      "org": "Geodesic Research",
+      "note": "Seed Funding For Geodesic Research"
+    },
+    "98fce43f-d31e-3970-43a0-0c416670bc36": {
+      "org": "EA Philippines",
+      "note": "Your contribution makes a difference at EA Philippines"
+    },
+    "99d3a1ae-cb87-288d-47bc-ac350b2fd226": {
+      "org": "AI Safety Camp",
+      "note": "11th edition of AI Safety Camp"
+    },
+    "9d0944e1-df76-e2ed-9511-1d3f9138fc12": {
+      "org": "AI Safety Los Angeles (AISLA)",
+      "note": "Official AI Safety Community in Los Angeles"
+    },
+    "a102e8d2-7f54-cbf8-6f7b-6d9d9f359ebd": {
+      "org": "Screwworm Free Future",
+      "note": "creator/title: Screwworm Free Future"
+    },
+    "a13df19d-de74-47d1-6eb5-ebc710da4247": {
+      "org": "EffiSciences",
+      "note": "Biosecurity bootcamp by EffiSciences, from ML4Good organisers"
+    },
+    "a1d734b0-1b17-6f3c-98e5-df571478fa8c": {
+      "org": "Centre for Future Generations",
+      "note": "on behalf of Stichting Centre for Future Generations"
+    },
+    "a1dbc837-3852-a22c-26e9-bd7dccbd541f": {
+      "org": "Technical Alignment Research Accelerator (TARA)",
+      "note": "launch the Technical Alignment Research Accelerator (TARA)"
+    },
+    "a329c0c1-0a74-170f-8397-d3ddd0eb03fd": {
+      "org": "Teamwork",
+      "note": "maintain and manage Teamwork, co-working space Berlin"
+    },
+    "a674fb14-6e58-4237-4948-46a1a36e0022": {
+      "org": "Rethink Priorities",
+      "note": "creator Rethink Priorities, Animal Advocacy Strategy Forum"
+    },
+    "a729d958-3623-f07b-f3df-cfb8207eac09": {
+      "org": "Decode Research",
+      "note": "Support for SAELens and other Decode Research Projects"
+    },
+    "a86c6181-1b34-6f9b-0340-a98368f5784d": {
+      "org": "vibecamp",
+      "note": "annual unconference/community festival for thoughtful friendly people"
+    },
+    "aa9d541e-250b-7434-f9a0-5a8ec0ed0558": {
+      "org": "AI Safety and Governance Fund",
+      "note": "creator: AI Safety and Governance Fund"
+    },
+    "abdcee7f-1b2b-49db-80fe-60b9cf9e22a2": {
+      "org": "ALERT",
+      "note": "ALERT := Active Longtermist Emergency Response Team"
+    },
+    "acdbe850-65f6-dd67-0a5e-fd560c7061c3": {
+      "org": "The Mission Motor",
+      "note": "title: The Mission Motor"
+    },
+    "b03a744f-1f9d-7ba4-1ee9-6ad91384cf2b": {
+      "org": "Epoch AI",
+      "note": "Pilot for new benchmark by Epoch AI"
+    },
+    "b833762c-01d9-25f6-dfcf-334b760f2457": {
+      "org": "Christians for Impact",
+      "note": "Advertise Christians for Impact (EA for Christians)"
+    },
+    "ba06d4ae-d189-c03d-47bf-38deb0e7b840": {
+      "org": "Athena",
+      "note": "Athena - New Program for Women in AI Alignment"
+    },
+    "bc1cc7fe-a930-c57b-abfc-cb99dc6b8997": {
+      "org": "Flourishing Futures Fellowship",
+      "note": "Flourishing Futures Fellowship"
+    },
+    "c2c555d7-827e-4fe5-d87b-29f88a673c94": {
+      "org": "BAISH",
+      "note": "Support BAISH's growth, by providing funding for salaries"
+    },
+    "c3689a1a-e771-46db-ab69-bae7185746a5": {
+      "org": "HealthLearn",
+      "note": "creator HealthLearn, online training platform for health workers"
+    },
+    "c4b0517c-6d49-c29e-923b-de9f0385df57": {
+      "org": "Metaculus",
+      "note": "Metaculus' First Animal-Focused Forecasting Tournament"
+    },
+    "c703d81b-312e-5fb4-9f98-79b33e69d9d2": {
+      "org": "WhiteBox Research",
+      "note": "WhiteBox Research: Training Exclusively for Mechanistic Interpretability"
+    },
+    "c76614f2-7d71-ae49-c0e2-9d32d642ea3c": {
+      "org": "Timaeus",
+      "note": "Jesse Hoogland — Scoping Developmental Interpretability"
+    },
+    "c7c4cc74-779e-42b8-3788-4fb4ffabdfab": {
+      "org": "Forethought",
+      "note": "title: Forethought"
+    },
+    "c8246157-0ae4-116b-f935-ce4fc1b38766": {
+      "org": "BlueDot Impact",
+      "note": "translate BlueDot Impact's AI alignment curriculum into Portuguese"
+    },
+    "cacb5873-2b87-79f2-d754-60d6b6264427": {
+      "org": "CeSIA",
+      "note": "creator: Centre pour la Sécurité de l'IA"
+    },
+    "cb75cb76-1239-8da9-ae22-d95ffcccbe75": {
+      "org": "PauseAI US",
+      "note": "creator PauseAI US, 2025 through Q2"
+    },
+    "cca4580b-f66d-3c34-79dd-ea7ca59d2416": {
+      "org": "AISA",
+      "note": "creator: AISA"
+    },
+    "ccc92951-6113-180e-31a8-f227e3e5debf": {
+      "org": "AI-Plans.com",
+      "note": "AI-Plans.com Critique-a-Thon $500 Prize Fund"
+    },
+    "cd4f0114-896b-fac4-3ab0-59cec177737e": {
+      "org": "Riesgos Catastróficos Globales",
+      "note": "Support Riesgos Catastroficos Globales"
+    },
+    "cdbcc6b0-57f2-d798-2982-3164a40f14b6": {
+      "org": "Athena",
+      "note": "Athena 2.0, Program for Women in AI Alignment"
+    },
+    "cf57c3d7-b90f-015b-2f6d-c9b4f8c84475": {
+      "org": "AI Safety Nepal",
+      "note": "AI Safety Nepal fellowship + mentorship"
+    },
+    "d0cf0b02-fffa-d189-b7b7-f7fc59a5a359": {
+      "org": "IBBIS",
+      "note": "An outreach campaign from IBBIS to rapidly increase"
+    },
+    "d3060c60-beec-9c6a-6f69-ccf8cc10d603": {
+      "org": "Apollo Research",
+      "note": "Apollo Research: Scale up interpretability & behavioral evals"
+    },
+    "d9c345e1-7b8e-a72c-5a1a-40dad06625a7": {
+      "org": "AFFINE",
+      "note": "AFFINE Event-Prep; runway for the core staff"
+    },
+    "dd4b8095-84cf-41a2-016d-726932de725b": {
+      "org": "Humans in Control",
+      "note": "Humans in Control (HIC), a nonpartisan grassroots advocacy organization"
+    },
+    "e2b98b52-cff4-c6f7-2527-c6762a79b054": {
+      "org": "Sentient Futures",
+      "note": "Sentient Futures Project Incubator, funding compute/API costs"
+    },
+    "e30ee490-54fe-d774-4b9c-eecde3bcfc03": {
+      "org": "Make it Count",
+      "note": "Make it Count is an effective giving initiative"
+    },
+    "e396d7a4-d965-6177-a82a-fd3b6123fda6": {
+      "org": "AI-Plans.com",
+      "note": "AI-Plans.com"
+    },
+    "e4f87118-c287-225e-fc30-ac3a2abbd63b": {
+      "org": "Cooperative AI Research Fellowship",
+      "note": "Fund a Fellow for the Cooperative AI Research Fellowship"
+    },
+    "e63f99c4-39a6-95f9-97c5-8f8c4e644f05": {
+      "org": "Separatrix",
+      "note": "Separatrix: cooperative strategies among near-future AIs"
+    },
+    "e69f1204-41f9-9bd2-6b9f-25bb57dda354": {
+      "org": "AI Safety Camp",
+      "note": "12th Edition of AI Safety Camp"
+    },
+    "e98de7cb-76c4-23f8-859f-bca0e5bde788": {
+      "org": "Epoch AI",
+      "note": "creator Epoch AI"
+    },
+    "ea0fd746-40a8-53b6-f8a1-41ea9356d943": {
+      "org": "Good Ancestors Policy",
+      "note": "GAP is an Australian charity, working long-term future"
+    },
+    "ec0286f5-8098-85be-d7bd-bc80debd0461": {
+      "org": "Cadenza Labs",
+      "note": "Cadenza Labs: AI Safety research group working on"
+    },
+    "ed85ed60-bf17-3daf-c3af-64ff134e9fe9": {
+      "org": "AI Alignment Research Lab for Africa",
+      "note": "AI Safety lab focusing on alignment and governance, Africa"
+    },
+    "ede6f20b-2932-ebd3-64de-9575b8243175": {
+      "org": "PauseAI",
+      "note": "the largest AI activist group grow"
+    },
+    "ef7c07de-bf43-1c03-fc80-f1169c4e0351": {
+      "org": "Pro-Animal Future",
+      "note": "Pro-Animal Future"
+    },
+    "f63e8209-5ae6-c17e-8731-a873918db152": {
+      "org": "Inspect Evals",
+      "note": "Inspect Evals: cover our expenses"
+    },
+    "f872f53b-c07c-4c1c-7a3e-96bbe1473b6a": {
+      "org": "WhiteBox Research",
+      "note": "fund WhiteBox Research, mainly for the 2nd cohort"
+    },
+    "fcbdcadc-6509-8267-4e87-baab4d8a3be0": {
+      "org": "Sage",
+      "note": "Forecasting tools by Sage"
+    },
+    "fd096851-f5c9-9e3f-fadb-d699e187d209": {
+      "org": "High Impact Professionals",
+      "note": "run by High Impact Professionals (HIP)"
+    }
+  }
+}

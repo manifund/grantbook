@@ -9,6 +9,7 @@
 //   (funder = Manifund). Use --direct for real runs; a later --direct run
 //   tombstones the coarse records automatically.
 import { createClient } from '@supabase/supabase-js'
+import projectOrgsFile from '@/data/manifund-project-orgs.json'
 import aliasesFile from '@/data/aliases.json'
 import { createAdminClient } from '@/db/supabase-admin'
 import { classifyCauses } from './lib/causes'
@@ -80,6 +81,12 @@ async function fetchDirect(): Promise<Project[]> {
 
 // Normalized names of every org already known to grantbook (org_names rows
 // plus alias keys). Used to detect org-run projects by their title.
+const PROJECT_ORGS: Record<string, string> = Object.fromEntries(
+  Object.entries(
+    (projectOrgsFile as never as { projects: Record<string, { org: string }> }).projects
+  ).map(([id, entry]) => [id, entry.org])
+)
+
 async function fetchKnownOrgNames(): Promise<Set<string>> {
   const db = createAdminClient()
   const known = new Set<string>()
@@ -119,8 +126,13 @@ async function main() {
     // the person who posted it (e.g. Tarbell Center for AI Journalism).
     const normalizedTitle = normalizeName(project.title)
     const titleIsOrg = normalizedTitle.length >= 4 && knownOrgs.has(normalizedTitle)
+    // Hand-reviewed project-to-org map for founder-posted projects whose
+    // title doesn't name the org (ChinaTalk, Timaeus, ...).
+    const mapped = PROJECT_ORGS[project.id]
     const recipient =
-      RECIPIENT_OVERRIDES[creatorName] ?? (titleIsOrg ? project.title.trim() : creatorName)
+      RECIPIENT_OVERRIDES[creatorName] ??
+      mapped ??
+      (titleIsOrg ? project.title.trim() : creatorName)
     const causeSlugs = (project.causes ?? []).map((cause) => cause.slug)
     const causes = classifyCauses({
       labels: causeSlugs,
