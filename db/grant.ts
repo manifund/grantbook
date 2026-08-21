@@ -13,6 +13,8 @@ export type GrantRow = {
   amount: number | null
   currency: string
   amountUsd: number | null
+  amountEstimated: boolean
+  estimateNote: string | null
   description: string | null
   round: string | null
   url: string | null
@@ -29,7 +31,7 @@ export type GrantRow = {
 
 type JoinedOrg = { slug: string; name: string } | null
 
-const GRANT_SELECT_BASE = `id, amount, currency, amount_usd, grant_date, date_precision, description, round, url,
+const GRANT_SELECT_BASE = `id, amount, currency, amount_usd, amount_estimated, estimate_note, grant_date, date_precision, description, round, url,
   funder:orgs!grants_funder_org_id_fkey(slug, name),
   recipient:orgs!grants_recipient_org_id_fkey(slug, name),
   sponsor:orgs!grants_fiscal_sponsor_org_id_fkey(slug, name),
@@ -53,6 +55,8 @@ function mapGrantRow(grant: Record<string, unknown>): GrantRow {
     amount: grant.amount as number | null,
     currency: grant.currency as string,
     amountUsd: grant.amount_usd as number | null,
+    amountEstimated: Boolean(grant.amount_estimated),
+    estimateNote: (grant.estimate_note as string | null) ?? null,
     description: grant.description as string | null,
     round: grant.round as string | null,
     url: grant.url as string | null,

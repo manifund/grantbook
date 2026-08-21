@@ -14,6 +14,7 @@ const compact = (row: GrantRow) => ({
   recipient: row.recipientName,
   vias: row.vias.map((via) => via.name),
   amount_usd: row.amountUsd,
+  ...(row.amountEstimated ? { amount_estimated: true, estimate_note: row.estimateNote } : {}),
   causes: row.causes,
   purpose: row.description?.slice(0, 200) ?? null,
   source: row.sourceId,

@@ -60,6 +60,8 @@ type GrantRow = {
   amount: number | null
   currency: string
   amount_usd: number | null
+  amount_estimated: boolean
+  estimate_note: string | null
   grant_date: string | null
   date_precision: 'day' | 'month' | 'year' | null
   description: string | null

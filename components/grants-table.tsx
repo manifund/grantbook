@@ -188,7 +188,10 @@ export function GrantsTable(props: {
                 <td>
                   <a href={`/orgs/${row.recipientSlug}`}>{row.recipientName}</a>
                 </td>
-                <td className="gb-num whitespace-nowrap">{formatMoney(row.amountUsd)}</td>
+                <td className="gb-num whitespace-nowrap" title={row.estimateNote ?? undefined}>
+                  {formatMoney(row.amountUsd)}
+                  {row.amountEstimated && '*'}
+                </td>
                 <td className="max-w-44 text-xs text-ink-muted">
                   {displayCauses(row.causes).join(', ')}
                 </td>
@@ -207,6 +210,9 @@ export function GrantsTable(props: {
       <div className="mt-2 flex items-baseline gap-4 text-sm text-ink-muted">
         <span>
           {rows.length.toLocaleString()} grants · {formatMoney(totalUsd)}
+          {rows.some((row) => row.amountEstimated) && (
+            <span title="Includes estimated amounts (marked *)">*</span>
+          )}
         </span>
         {limit < rows.length && (
           <button className="text-accent" onClick={() => setLimit(limit + PAGE)}>

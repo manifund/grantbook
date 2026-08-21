@@ -18,6 +18,8 @@ export function serializeGrant(row: GrantRow) {
     amount: row.amount,
     currency: row.currency,
     amount_usd: row.amountUsd,
+    amount_estimated: row.amountEstimated,
+    estimate_note: row.estimateNote,
     funder: { slug: row.funderSlug, name: row.funderName },
     recipient: { slug: row.recipientSlug, name: row.recipientName },
     fiscal_sponsor:

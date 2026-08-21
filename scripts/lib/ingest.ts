@@ -31,6 +31,9 @@ export type ParsedGrant = {
   // (e.g. ['grantmaking.ai', 'Manifund']).
   viaNames?: string[]
   amount: number | null
+  // The amount is an estimate; note explains how it was derived.
+  amountEstimated?: boolean
+  estimateNote?: string | null
   currency?: string
   date?: string | null
   datePrecision?: 'day' | 'month' | 'year' | null
@@ -227,6 +230,8 @@ export async function runIngest(
       amount: p.parsed.amount,
       currency,
       amount_usd: p.parsed.amount === null ? null : toUsd(p.parsed.amount, currency, year),
+      amount_estimated: p.parsed.amountEstimated ?? false,
+      estimate_note: p.parsed.estimateNote ?? null,
       grant_date: p.parsed.date ?? null,
       date_precision: p.parsed.date ? (p.parsed.datePrecision ?? 'day') : null,
       description: p.parsed.description ?? null,

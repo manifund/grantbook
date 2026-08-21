@@ -84,6 +84,11 @@ async function main() {
         recipientName: recipient,
         viaNames: viaName ? [viaName] : [],
         amount: useFx ? amount : valueUsd > 0 ? valueUsd : null,
+        amountEstimated: !useFx && valueUsd > 0,
+        estimateNote:
+          !useFx && valueUsd > 0
+            ? `Original amount ${amountCell} ${currency}; USD figure taken from the donor's rounded value (${valueCell}).`
+            : null,
         currency: useFx ? currency : 'USD',
         date,
         datePrecision: 'day',

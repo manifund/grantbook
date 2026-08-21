@@ -231,6 +231,17 @@ export function ChartsView(props: { grants: GrantRow[] }) {
   }, [props.grants, pieGroup, pieCause, pieBranch, pieFunders, pieRecipients])
 
   const barTotal = barData.reduce((sum, d) => sum + d.value, 0)
+  const barHasEstimates = useMemo(
+    () =>
+      props.grants.some(
+        (g) =>
+          g.amountEstimated &&
+          inCause(g, barCause) &&
+          (barFunders.length === 0 || barFunders.includes(g.funderSlug)) &&
+          (barRecipients.length === 0 || barRecipients.includes(g.recipientSlug))
+      ),
+    [props.grants, barCause, barFunders, barRecipients]
+  )
 
   return (
     <div className="flex flex-col gap-10">
@@ -250,7 +261,10 @@ export function ChartsView(props: { grants: GrantRow[] }) {
             selected={barRecipients}
             onChange={setBarRecipients}
           />
-          <span className="ml-auto text-sm text-ink-muted">{fmtCompact(barTotal)} total</span>
+          <span className="ml-auto text-sm text-ink-muted">
+            {fmtCompact(barTotal)}
+            {barHasEstimates && '*'} total
+          </span>
         </div>
         <YearBarChart data={barData} />
       </section>
@@ -333,7 +347,7 @@ export function ChartsView(props: { grants: GrantRow[] }) {
       </section>
 
       <p className="text-xs text-ink-muted">
-        Dollar figures cover grants with disclosed amounts only.
+        Dollar figures cover grants with disclosed amounts only; * includes estimated amounts.
       </p>
     </div>
   )

@@ -22,6 +22,9 @@ function GrantList(props: {
         {props.title}{' '}
         <span className="text-sm font-normal text-ink-muted">
           {props.grants.length.toLocaleString()} · {formatMoney(total)}
+          {props.grants.some((grant) => grant.amountEstimated) && (
+            <span title="Includes estimated amounts (marked *)">*</span>
+          )}
           {avg !== null && <> · {formatMoney(Math.round(avg))} average</>}
         </span>
       </h2>
@@ -80,7 +83,10 @@ function GrantList(props: {
                         </span>
                       ))}
                   </td>
-                  <td className="gb-num whitespace-nowrap">{formatMoney(grant.amountUsd)}</td>
+                  <td className="gb-num whitespace-nowrap" title={grant.estimateNote ?? undefined}>
+                    {formatMoney(grant.amountUsd)}
+                    {grant.amountEstimated && '*'}
+                  </td>
                   <td className="max-w-44 text-xs text-ink-muted">
                     {displayCauses(grant.causes).join(', ')}
                   </td>
