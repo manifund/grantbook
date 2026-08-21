@@ -3,282 +3,336 @@
   "grants": [
     {
       "recipient": "Sanjeev Arora",
-      "amount": null,
+      "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
       "description": "Project: Tests of Compositional Generalization as an 'Upper Bound' on AI Safety Risks. One of 27 AI Safety Science awards totaling $10M+; per-project amount undisclosed (RFP cap ~$500K).",
-      "program": "Science of Trustworthy AI \u2014 AI Safety Science (Feb 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
+      "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
+      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Shlomo Zilberstein",
-      "amount": null,
+      "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
       "description": "Project: Unlocking Multi-Agent System Safety with Dynamic Islands of Trust. One of 27 AI Safety Science awards totaling $10M+; per-project amount undisclosed.",
-      "program": "Science of Trustworthy AI \u2014 AI Safety Science (Feb 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
+      "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
+      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Yoshua Bengio",
-      "amount": null,
+      "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
-      "description": "Mila \u2014 Quebec AI Institute. Project: LLM-Derived Guardrail for Frontier Models as a Step Towards a Cautious Scientist AI. One of 27 AI Safety Science awards totaling $10M+; per-project amount undisclosed.",
-      "program": "Science of Trustworthy AI \u2014 AI Safety Science (Feb 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/new-10-million-ai-safety-science-program-launched-for-foundational-research/"
+      "description": "Mila — Quebec AI Institute. Project: LLM-Derived Guardrail for Frontier Models as a Step Towards a Cautious Scientist AI. One of 27 AI Safety Science awards totaling $10M+; per-project amount undisclosed.",
+      "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
+      "sourceUrl": "https://www.schmidtsciences.org/new-10-million-ai-safety-science-program-launched-for-foundational-research/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Nicolas Flammarion",
-      "amount": null,
+      "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
       "description": "Project: Robust LLM-based Scoring of Agent Alignment. One of 27 AI Safety Science awards totaling $10M+; per-project amount undisclosed.",
-      "program": "Science of Trustworthy AI \u2014 AI Safety Science (Feb 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
+      "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
+      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Adam Gleave",
-      "amount": null,
+      "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
       "description": "FAR.AI. Project: Deception & Misinformation: Elicitation and Testing. One of 27 AI Safety Science awards totaling $10M+; per-project amount undisclosed.",
-      "program": "Science of Trustworthy AI \u2014 AI Safety Science (Feb 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
+      "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
+      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Tatsunori Hashimoto",
-      "amount": null,
+      "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
       "description": "Project: A Meta-analysis Approach to Understanding LM Capabilities. One of 27 AI Safety Science awards totaling $10M+; per-project amount undisclosed.",
-      "program": "Science of Trustworthy AI \u2014 AI Safety Science (Feb 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
+      "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
+      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Matthias Hein",
-      "amount": null,
+      "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
       "description": "Project: Long-Term Safety Behavior of Agents. Name abbreviated on project page ('M. Hein'); full name confirmed in Schmidt Sciences awardee directory. One of 27 AI Safety Science awards; per-project amount undisclosed.",
-      "program": "Science of Trustworthy AI \u2014 AI Safety Science (Feb 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
+      "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
+      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Zhijing Jin",
-      "amount": null,
+      "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
       "description": "Project: Mechanistic Interpretability to Detect Test Set Contamination. One of 27 AI Safety Science awards totaling $10M+; per-project amount undisclosed.",
-      "program": "Science of Trustworthy AI \u2014 AI Safety Science (Feb 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
+      "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
+      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Daniel Kang",
-      "amount": null,
+      "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
       "description": "University of Illinois Urbana-Champaign. Project: Benchmarks for AI Agents and Cybersecurity. One of 27 AI Safety Science awards; per-project amount undisclosed.",
-      "program": "Science of Trustworthy AI \u2014 AI Safety Science (Feb 2025 cohort)",
-      "sourceUrl": "https://siebelschool.illinois.edu/news/schmidt-sciences-AI-safety"
+      "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
+      "sourceUrl": "https://siebelschool.illinois.edu/news/schmidt-sciences-AI-safety",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Mykel Kochenderfer",
-      "amount": null,
+      "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
       "description": "Stanford University. Project: Adaptive Stress Testing for Automated Unsupervised Large Language Model Testing and Failure Classification. One of 27 AI Safety Science awards; per-project amount undisclosed.",
-      "program": "Science of Trustworthy AI \u2014 AI Safety Science (Feb 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
+      "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
+      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Zico Kolter",
-      "amount": null,
+      "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
       "description": "Carnegie Mellon University. Project: Understanding the Mechanism of Adversarial Transfer Across AI Models. One of 27 AI Safety Science awards; per-project amount undisclosed.",
-      "program": "Science of Trustworthy AI \u2014 AI Safety Science (Feb 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/new-10-million-ai-safety-science-program-launched-for-foundational-research/"
+      "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
+      "sourceUrl": "https://www.schmidtsciences.org/new-10-million-ai-safety-science-program-launched-for-foundational-research/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Sanmi Koyejo",
-      "amount": null,
+      "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
       "description": "Project: Beyond Simple Scaling: A Multi-Dimensional Family of Scaling Laws for Interventions in Pre-Training and Model Safety Optimization. One of 27 AI Safety Science awards; per-project amount undisclosed.",
-      "program": "Science of Trustworthy AI \u2014 AI Safety Science (Feb 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
+      "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
+      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "David Krueger",
-      "amount": null,
+      "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
       "description": "Project: What Counts as Contamination? How Generalization Could Confound Evaluation. One of 27 AI Safety Science awards; per-project amount undisclosed.",
-      "program": "Science of Trustworthy AI \u2014 AI Safety Science (Feb 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
+      "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
+      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "A. Leshinskaya (rendered 'Aleshinskaya' on source page)",
-      "amount": null,
+      "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
       "description": "Project: Mechanistic Cognitive Alignment for Morally Guided Decision-Making. PI name rendered ambiguously on page; verify before ingest. One of 27 AI Safety Science awards; per-project amount undisclosed.",
-      "program": "Science of Trustworthy AI \u2014 AI Safety Science (Feb 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
+      "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
+      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Bo Li",
-      "amount": null,
+      "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
       "description": "University of Illinois Urbana-Champaign. Project: Multiagent-Based T&E Environment Construction. One of 27 AI Safety Science awards; per-project amount undisclosed.",
-      "program": "Science of Trustworthy AI \u2014 AI Safety Science (Feb 2025 cohort)",
-      "sourceUrl": "https://siebelschool.illinois.edu/news/schmidt-sciences-AI-safety"
+      "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
+      "sourceUrl": "https://siebelschool.illinois.edu/news/schmidt-sciences-AI-safety",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Sharon Li",
-      "amount": null,
+      "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
       "description": "Project: A Conformal Safety Assurance Framework for Large Language Models. One of 27 AI Safety Science awards; per-project amount undisclosed.",
-      "program": "Science of Trustworthy AI \u2014 AI Safety Science (Feb 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
+      "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
+      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Evan Miyazono and Alexandre Rademaker",
-      "amount": null,
+      "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
       "description": "Atlas Computing. Project: Formal Verification of Software. One of 27 AI Safety Science awards; per-project amount undisclosed.",
-      "program": "Science of Trustworthy AI \u2014 AI Safety Science (Feb 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
+      "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
+      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Karthik Narasimhan",
-      "amount": null,
+      "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
       "description": "Project: Robustness and Controllability of Language Model-Based Agents Built for Automating Tasks in Software Engineering. One of 27 AI Safety Science awards; per-project amount undisclosed.",
-      "program": "Science of Trustworthy AI \u2014 AI Safety Science (Feb 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
+      "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
+      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Arvind Narayanan",
-      "amount": null,
+      "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
       "description": "Princeton University. Project: Five Nines of Reliability for AI Agents. One of 27 AI Safety Science awards; per-project amount undisclosed.",
-      "program": "Science of Trustworthy AI \u2014 AI Safety Science (Feb 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/new-10-million-ai-safety-science-program-launched-for-foundational-research/"
+      "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
+      "sourceUrl": "https://www.schmidtsciences.org/new-10-million-ai-safety-science-program-launched-for-foundational-research/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Raghunathan (first name not shown on source page)",
-      "amount": null,
+      "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
       "description": "Project: Multi-Agent AI Safety via Dynamic Games. PI surname only on page; verify before ingest. One of 27 AI Safety Science awards; per-project amount undisclosed.",
-      "program": "Science of Trustworthy AI \u2014 AI Safety Science (Feb 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
+      "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
+      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Maarten Sap",
-      "amount": null,
+      "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
       "description": "Project: OpenAgentSafety: Measuring and Mitigating Safety Harms of LLM-based AI Agent Interactions. One of 27 AI Safety Science awards; per-project amount undisclosed.",
-      "program": "Science of Trustworthy AI \u2014 AI Safety Science (Feb 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
+      "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
+      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "D. Song (first name not fully shown on source page)",
-      "amount": null,
+      "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
       "description": "Project: Exploring AI Safety in Free-Form, Evolutionary Multi-Agent Systems. PI initial only on page; verify before ingest. One of 27 AI Safety Science awards; per-project amount undisclosed.",
-      "program": "Science of Trustworthy AI \u2014 AI Safety Science (Feb 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
+      "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
+      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Xiao (first name not shown on source page)",
-      "amount": null,
+      "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
       "description": "Project: Evaluating and Defending Multimodal Computer-Use Agents under Adversarial Attacks with a Realistic Online Environment. PI surname only on page; verify before ingest. One of 27 AI Safety Science awards; per-project amount undisclosed.",
-      "program": "Science of Trustworthy AI \u2014 AI Safety Science (Feb 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
+      "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
+      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
-      "recipient": "Florian Tram\u00e8r",
-      "amount": null,
+      "recipient": "Florian Tramèr",
+      "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
       "description": "ETH Zurich. Project: Formalizing Prompt Injection Defenses. One of 27 AI Safety Science awards; per-project amount undisclosed.",
-      "program": "Science of Trustworthy AI \u2014 AI Safety Science (Feb 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
+      "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
+      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Ziang Xiao",
-      "amount": null,
+      "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
       "description": "Johns Hopkins University. Project: BenchCraft: An AI-powered Toolkit to Create Valid and Efficient Benchmarks with Measurement Theory and Human-AI Collaboration. One of 27 AI Safety Science awards; per-project amount undisclosed.",
-      "program": "Science of Trustworthy AI \u2014 AI Safety Science (Feb 2025 cohort)",
-      "sourceUrl": "https://www.cs.jhu.edu/news/ziang-xiao-joins-schmidt-sciences-ai-safety-science-program/"
+      "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
+      "sourceUrl": "https://www.cs.jhu.edu/news/ziang-xiao-joins-schmidt-sciences-ai-safety-science-program/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Diyi Yang",
-      "amount": null,
+      "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
       "description": "Project: Quantifying and Mitigating Privacy Risks in Multi-Agent Systems. One of 27 AI Safety Science awards; per-project amount undisclosed.",
-      "program": "Science of Trustworthy AI \u2014 AI Safety Science (Feb 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
+      "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
+      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Yarin Gal",
-      "amount": null,
+      "amount": 370000,
       "currency": "USD",
       "date": "2025-02-11",
       "datePrecision": "day",
       "description": "Project: Tracing and Eliminating Harmful Capabilities Across Model Generations. One of 27 AI Safety Science awards; per-project amount undisclosed.",
-      "program": "Science of Trustworthy AI \u2014 AI Safety Science (Feb 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
+      "program": "Science of Trustworthy AI — AI Safety Science (Feb 2025 cohort)",
+      "sourceUrl": "https://www.schmidtsciences.org/safetyscience/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
-      "recipient": "Hal Daum\u00e9 III",
+      "recipient": "Hal Daumé III",
       "amount": null,
       "currency": "USD",
       "date": "2025",
       "datePrecision": "year",
       "description": "Project: Causally Grounded Inference-Time Intervention for Robust Model Alignment. Inference-time compute safety cohort (RFP capped awards at $500K, 12-18 month projects, deadline 2025-04-30); per-project amount undisclosed.",
-      "program": "Science of Trustworthy AI \u2014 Inference-Time Compute (2025 cohort)",
+      "program": "Science of Trustworthy AI — Inference-Time Compute (2025 cohort)",
       "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
     },
     {
@@ -288,7 +342,7 @@
       "date": "2025",
       "datePrecision": "year",
       "description": "Project: Evaluating Preparedness via Model Organism Spectrum. Inference-time compute safety cohort; per-project amount undisclosed (RFP cap $500K).",
-      "program": "Science of Trustworthy AI \u2014 Inference-Time Compute (2025 cohort)",
+      "program": "Science of Trustworthy AI — Inference-Time Compute (2025 cohort)",
       "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
     },
     {
@@ -298,7 +352,7 @@
       "date": "2025",
       "datePrecision": "year",
       "description": "Project: Fundamental Limitations of the Test Time Compute Paradigm. Inference-time compute safety cohort; per-project amount undisclosed (RFP cap $500K).",
-      "program": "Science of Trustworthy AI \u2014 Inference-Time Compute (2025 cohort)",
+      "program": "Science of Trustworthy AI — Inference-Time Compute (2025 cohort)",
       "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
     },
     {
@@ -308,7 +362,7 @@
       "date": "2025",
       "datePrecision": "year",
       "description": "Project: Generalization and Hidden Tendencies in LLMs. Inference-time compute safety cohort; per-project amount undisclosed (RFP cap $500K).",
-      "program": "Science of Trustworthy AI \u2014 Inference-Time Compute (2025 cohort)",
+      "program": "Science of Trustworthy AI — Inference-Time Compute (2025 cohort)",
       "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
     },
     {
@@ -318,7 +372,7 @@
       "date": "2025",
       "datePrecision": "year",
       "description": "Project: Investigating Hawthorne Effects in Large Reasoning Models. Inference-time compute safety cohort; per-project amount undisclosed (RFP cap $500K).",
-      "program": "Science of Trustworthy AI \u2014 Inference-Time Compute (2025 cohort)",
+      "program": "Science of Trustworthy AI — Inference-Time Compute (2025 cohort)",
       "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
     },
     {
@@ -328,7 +382,7 @@
       "date": "2025",
       "datePrecision": "year",
       "description": "Project: Large Language Model Safety in Inference-Time Motivated Reasoning. Inference-time compute safety cohort; per-project amount undisclosed (RFP cap $500K).",
-      "program": "Science of Trustworthy AI \u2014 Inference-Time Compute (2025 cohort)",
+      "program": "Science of Trustworthy AI — Inference-Time Compute (2025 cohort)",
       "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
     },
     {
@@ -338,7 +392,7 @@
       "date": "2025",
       "datePrecision": "year",
       "description": "Project: Reasoning with Foresight: Safe Inference via Q-Value Guided Decoding. Inference-time compute safety cohort; per-project amount undisclosed (RFP cap $500K). Note: second Schmidt Sciences trustworthy-AI award to this PI.",
-      "program": "Science of Trustworthy AI \u2014 Inference-Time Compute (2025 cohort)",
+      "program": "Science of Trustworthy AI — Inference-Time Compute (2025 cohort)",
       "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
     },
     {
@@ -348,7 +402,7 @@
       "date": "2025",
       "datePrecision": "year",
       "description": "Project: Safety in RL-Enabled Goal-Directed Agents. Inference-time compute safety cohort; per-project amount undisclosed (RFP cap $500K).",
-      "program": "Science of Trustworthy AI \u2014 Inference-Time Compute (2025 cohort)",
+      "program": "Science of Trustworthy AI — Inference-Time Compute (2025 cohort)",
       "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
     },
     {
@@ -358,7 +412,7 @@
       "date": "2025",
       "datePrecision": "year",
       "description": "Project: Utility Engineering and Moral Scaffolding for Safer Reasoning Models. Inference-time compute safety cohort; per-project amount undisclosed (RFP cap $500K).",
-      "program": "Science of Trustworthy AI \u2014 Inference-Time Compute (2025 cohort)",
+      "program": "Science of Trustworthy AI — Inference-Time Compute (2025 cohort)",
       "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
     },
     {
@@ -368,7 +422,7 @@
       "date": "2025",
       "datePrecision": "year",
       "description": "Project: Will Chain-of-Thought Monitoring Significantly Improve Safety? Inference-time compute safety cohort; per-project amount undisclosed (RFP cap $500K).",
-      "program": "Science of Trustworthy AI \u2014 Inference-Time Compute (2025 cohort)",
+      "program": "Science of Trustworthy AI — Inference-Time Compute (2025 cohort)",
       "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
     },
     {
@@ -378,7 +432,7 @@
       "date": "2025",
       "datePrecision": "year",
       "description": "Inference-time compute safety cohort; PI name not extractable from page; per-project amount undisclosed (RFP cap $500K).",
-      "program": "Science of Trustworthy AI \u2014 Inference-Time Compute (2025 cohort)",
+      "program": "Science of Trustworthy AI — Inference-Time Compute (2025 cohort)",
       "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
     },
     {
@@ -388,7 +442,7 @@
       "date": "2025",
       "datePrecision": "year",
       "description": "Inference-time compute safety cohort; PI name not extractable from page; per-project amount undisclosed (RFP cap $500K).",
-      "program": "Science of Trustworthy AI \u2014 Inference-Time Compute (2025 cohort)",
+      "program": "Science of Trustworthy AI — Inference-Time Compute (2025 cohort)",
       "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
     },
     {
@@ -398,7 +452,7 @@
       "date": "2025",
       "datePrecision": "year",
       "description": "Inference-time compute safety cohort; PI name not extractable from page; per-project amount undisclosed (RFP cap $500K).",
-      "program": "Science of Trustworthy AI \u2014 Inference-Time Compute (2025 cohort)",
+      "program": "Science of Trustworthy AI — Inference-Time Compute (2025 cohort)",
       "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
     },
     {
@@ -408,7 +462,7 @@
       "date": "2025",
       "datePrecision": "year",
       "description": "Inference-time compute safety cohort; PI name not extractable from page; per-project amount undisclosed (RFP cap $500K).",
-      "program": "Science of Trustworthy AI \u2014 Inference-Time Compute (2025 cohort)",
+      "program": "Science of Trustworthy AI — Inference-Time Compute (2025 cohort)",
       "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
     },
     {
@@ -418,7 +472,7 @@
       "date": "2025",
       "datePrecision": "year",
       "description": "Inference-time compute safety cohort; PI name not extractable from page; per-project amount undisclosed (RFP cap $500K).",
-      "program": "Science of Trustworthy AI \u2014 Inference-Time Compute (2025 cohort)",
+      "program": "Science of Trustworthy AI — Inference-Time Compute (2025 cohort)",
       "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
     },
     {
@@ -428,7 +482,7 @@
       "date": "2025",
       "datePrecision": "year",
       "description": "Inference-time compute safety cohort; PI name not extractable from page; per-project amount undisclosed (RFP cap $500K).",
-      "program": "Science of Trustworthy AI \u2014 Inference-Time Compute (2025 cohort)",
+      "program": "Science of Trustworthy AI — Inference-Time Compute (2025 cohort)",
       "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
     },
     {
@@ -438,7 +492,7 @@
       "date": "2025",
       "datePrecision": "year",
       "description": "Inference-time compute safety cohort; PI name not extractable from page; per-project amount undisclosed (RFP cap $500K).",
-      "program": "Science of Trustworthy AI \u2014 Inference-Time Compute (2025 cohort)",
+      "program": "Science of Trustworthy AI — Inference-Time Compute (2025 cohort)",
       "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
     },
     {
@@ -448,7 +502,7 @@
       "date": "2025",
       "datePrecision": "year",
       "description": "Inference-time compute safety cohort; PI name not extractable from page; per-project amount undisclosed (RFP cap $500K).",
-      "program": "Science of Trustworthy AI \u2014 Inference-Time Compute (2025 cohort)",
+      "program": "Science of Trustworthy AI — Inference-Time Compute (2025 cohort)",
       "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
     },
     {
@@ -458,7 +512,7 @@
       "date": "2025",
       "datePrecision": "year",
       "description": "Inference-time compute safety cohort; PI name not extractable from page; per-project amount undisclosed (RFP cap $500K).",
-      "program": "Science of Trustworthy AI \u2014 Inference-Time Compute (2025 cohort)",
+      "program": "Science of Trustworthy AI — Inference-Time Compute (2025 cohort)",
       "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
     },
     {
@@ -468,7 +522,7 @@
       "date": "2025",
       "datePrecision": "year",
       "description": "Inference-time compute safety cohort; PI name not extractable from page; per-project amount undisclosed (RFP cap $500K).",
-      "program": "Science of Trustworthy AI \u2014 Inference-Time Compute (2025 cohort)",
+      "program": "Science of Trustworthy AI — Inference-Time Compute (2025 cohort)",
       "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
     },
     {
@@ -478,7 +532,7 @@
       "date": "2025",
       "datePrecision": "year",
       "description": "Inference-time compute safety cohort; PI name not reliably extractable from page; per-project amount undisclosed (RFP cap $500K).",
-      "program": "Science of Trustworthy AI \u2014 Inference-Time Compute (2025 cohort)",
+      "program": "Science of Trustworthy AI — Inference-Time Compute (2025 cohort)",
       "sourceUrl": "https://www.schmidtsciences.org/safetyscience/"
     },
     {
@@ -663,993 +717,1191 @@
     },
     {
       "recipient": "Erik Brynjolfsson",
-      "amount": null,
+      "amount": 1000000,
       "currency": "USD",
       "date": "2022",
       "datePrecision": "year",
       "description": "AI2050 Senior Fellow, 2022 (inaugural) cohort; Stanford University. Multi-year award; per-fellow amount undisclosed. AI2050 is a $125M five-year commitment by Eric and Wendy Schmidt.",
       "program": "AI2050 (Senior Fellow, 2022 cohort)",
-      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/"
+      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Percy Liang",
-      "amount": null,
+      "amount": 1000000,
       "currency": "USD",
       "date": "2022",
       "datePrecision": "year",
       "description": "AI2050 Senior Fellow, 2022 (inaugural) cohort; Stanford University. Per-fellow amount undisclosed.",
       "program": "AI2050 (Senior Fellow, 2022 cohort)",
-      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/"
+      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Daniela Rus",
-      "amount": null,
+      "amount": 1000000,
       "currency": "USD",
       "date": "2022",
       "datePrecision": "year",
       "description": "AI2050 Senior Fellow, 2022 (inaugural) cohort; MIT. Per-fellow amount undisclosed.",
       "program": "AI2050 (Senior Fellow, 2022 cohort)",
-      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/"
+      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Stuart Russell",
-      "amount": null,
+      "amount": 1000000,
       "currency": "USD",
       "date": "2022",
       "datePrecision": "year",
       "description": "AI2050 Senior Fellow, 2022 (inaugural) cohort; UC Berkeley. Per-fellow amount undisclosed.",
       "program": "AI2050 (Senior Fellow, 2022 cohort)",
-      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/"
+      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "John Tasioulas",
-      "amount": null,
+      "amount": 1000000,
       "currency": "USD",
       "date": "2022",
       "datePrecision": "year",
       "description": "AI2050 Senior Fellow, 2022 (inaugural) cohort; University of Oxford. Per-fellow amount undisclosed.",
       "program": "AI2050 (Senior Fellow, 2022 cohort)",
-      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/"
+      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Gissella Bejarano",
-      "amount": null,
+      "amount": 267000,
       "currency": "USD",
       "date": "2022",
       "datePrecision": "year",
       "description": "AI2050 Early Career Fellow, 2022 (inaugural) cohort; Marist University. Per-fellow amount undisclosed (program cap ~$300K over two years).",
       "program": "AI2050 (Early Career Fellow, 2022 cohort)",
-      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/"
+      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Connor Coley",
-      "amount": null,
+      "amount": 267000,
       "currency": "USD",
       "date": "2022",
       "datePrecision": "year",
       "description": "AI2050 Early Career Fellow, 2022 cohort; MIT. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2022 cohort)",
-      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/"
+      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Adji Bousso Dieng",
-      "amount": null,
+      "amount": 267000,
       "currency": "USD",
       "date": "2022",
       "datePrecision": "year",
       "description": "AI2050 Early Career Fellow, 2022 cohort; Princeton University. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2022 cohort)",
-      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/"
+      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Sina Fazelpour",
-      "amount": null,
+      "amount": 267000,
       "currency": "USD",
       "date": "2022",
       "datePrecision": "year",
       "description": "AI2050 Early Career Fellow, 2022 cohort; Northeastern University. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2022 cohort)",
-      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/"
+      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Dylan Hadfield-Menell",
-      "amount": null,
+      "amount": 267000,
       "currency": "USD",
       "date": "2022",
       "datePrecision": "year",
       "description": "AI2050 Early Career Fellow, 2022 cohort; MIT. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2022 cohort)",
-      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/"
+      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Sam Kriegman",
-      "amount": null,
+      "amount": 267000,
       "currency": "USD",
       "date": "2022",
       "datePrecision": "year",
       "description": "AI2050 Early Career Fellow, 2022 cohort; Northwestern University. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2022 cohort)",
-      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/"
+      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Jennifer Ngadiuba",
-      "amount": null,
+      "amount": 267000,
       "currency": "USD",
       "date": "2022",
       "datePrecision": "year",
       "description": "AI2050 Early Career Fellow, 2022 cohort; Fermi National Accelerator Laboratory. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2022 cohort)",
-      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/"
+      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Aditi Raghunathan",
-      "amount": null,
+      "amount": 267000,
       "currency": "USD",
       "date": "2022",
       "datePrecision": "year",
       "description": "AI2050 Early Career Fellow, 2022 cohort; Carnegie Mellon University. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2022 cohort)",
-      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/"
+      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Elizaveta Semenova",
-      "amount": null,
+      "amount": 267000,
       "currency": "USD",
       "date": "2022",
       "datePrecision": "year",
       "description": "AI2050 Early Career Fellow, 2022 cohort; Imperial College London. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2022 cohort)",
-      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/"
+      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Karina Vold",
-      "amount": null,
+      "amount": 267000,
       "currency": "USD",
       "date": "2022",
       "datePrecision": "year",
       "description": "AI2050 Early Career Fellow, 2022 cohort; University of Toronto. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2022 cohort)",
-      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/"
+      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Bryan Wilder",
-      "amount": null,
+      "amount": 267000,
       "currency": "USD",
       "date": "2022",
       "datePrecision": "year",
       "description": "AI2050 Early Career Fellow, 2022 cohort; Carnegie Mellon University. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2022 cohort)",
-      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/"
+      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Qian Yang",
-      "amount": null,
+      "amount": 267000,
       "currency": "USD",
       "date": "2022",
       "datePrecision": "year",
       "description": "AI2050 Early Career Fellow, 2022 cohort; Cornell University. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2022 cohort)",
-      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/"
+      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "John Zerilli",
-      "amount": null,
+      "amount": 267000,
       "currency": "USD",
       "date": "2022",
       "datePrecision": "year",
       "description": "AI2050 Early Career Fellow, 2022 cohort; King's College London. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2022 cohort)",
-      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/"
+      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Baobao Zhang",
-      "amount": null,
+      "amount": 267000,
       "currency": "USD",
       "date": "2022",
       "datePrecision": "year",
       "description": "AI2050 Early Career Fellow, 2022 cohort; Syracuse University. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2022 cohort)",
-      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/"
+      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Huan Zhang",
-      "amount": null,
+      "amount": 267000,
       "currency": "USD",
       "date": "2022",
       "datePrecision": "year",
       "description": "AI2050 Early Career Fellow, 2022 cohort; University of Illinois Urbana-Champaign. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2022 cohort)",
-      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/"
+      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Anima Anandkumar",
-      "amount": null,
+      "amount": 1000000,
       "currency": "USD",
       "date": "2023-10",
       "datePrecision": "month",
       "description": "AI2050 Senior Fellow, 2023 cohort; Caltech. Second senior cohort announced October 2023 (then under Schmidt Futures). Per-fellow amount undisclosed.",
       "program": "AI2050 (Senior Fellow, 2023 cohort)",
-      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/"
+      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Kelly Chibale",
-      "amount": null,
+      "amount": 1000000,
       "currency": "USD",
       "date": "2023-10",
       "datePrecision": "month",
       "description": "AI2050 Senior Fellow, 2023 cohort; University of Cape Town. Per-fellow amount undisclosed.",
       "program": "AI2050 (Senior Fellow, 2023 cohort)",
-      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/"
+      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Stephanie Dinkins",
-      "amount": null,
+      "amount": 1000000,
       "currency": "USD",
       "date": "2023-10",
       "datePrecision": "month",
       "description": "AI2050 Senior Fellow, 2023 cohort; Stony Brook University. Per-fellow amount undisclosed.",
       "program": "AI2050 (Senior Fellow, 2023 cohort)",
-      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/"
+      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Gillian Hadfield",
-      "amount": null,
+      "amount": 1000000,
       "currency": "USD",
       "date": "2023-10",
       "datePrecision": "month",
       "description": "AI2050 Senior Fellow, 2023 cohort; Johns Hopkins University (University of Toronto at time of award). Per-fellow amount undisclosed.",
       "program": "AI2050 (Senior Fellow, 2023 cohort)",
-      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/"
+      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Fei-Fei Li",
-      "amount": null,
+      "amount": 1000000,
       "currency": "USD",
       "date": "2023-10",
       "datePrecision": "month",
       "description": "AI2050 Senior Fellow, 2023 cohort; Stanford University. Per-fellow amount undisclosed.",
       "program": "AI2050 (Senior Fellow, 2023 cohort)",
-      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/"
+      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Tobias Rees",
-      "amount": null,
+      "amount": 1000000,
       "currency": "USD",
       "date": "2023-10",
       "datePrecision": "month",
       "description": "AI2050 Senior Fellow, 2023 cohort; Limn. Per-fellow amount undisclosed.",
       "program": "AI2050 (Senior Fellow, 2023 cohort)",
-      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/"
+      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Josh Tenenbaum",
-      "amount": null,
+      "amount": 1000000,
       "currency": "USD",
       "date": "2023-10",
       "datePrecision": "month",
       "description": "AI2050 Senior Fellow, 2023 cohort; MIT. Per-fellow amount undisclosed.",
       "program": "AI2050 (Senior Fellow, 2023 cohort)",
-      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/"
+      "sourceUrl": "https://ai2050.schmidtsciences.org/fellows/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Aditya Grover",
-      "amount": null,
+      "amount": 290000,
       "currency": "USD",
       "date": "2024-03-04",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2023 cohort; UCLA. Up to $300,000 over two years (cohort of 19 sharing up to $5.5M); exact amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2023 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/"
+      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Amanda Coston",
-      "amount": null,
+      "amount": 290000,
       "currency": "USD",
       "date": "2024-03-04",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2023 cohort; UC Berkeley. Up to $300,000 over two years; exact amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2023 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/"
+      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Atoosa Kasirzadeh",
-      "amount": null,
+      "amount": 290000,
       "currency": "USD",
       "date": "2024-03-04",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2023 cohort; Carnegie Mellon University. Up to $300,000 over two years; exact amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2023 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/"
+      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Chelsea Finn",
-      "amount": null,
+      "amount": 290000,
       "currency": "USD",
       "date": "2024-03-04",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2023 cohort; Stanford University. Up to $300,000 over two years; exact amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2023 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/"
+      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Dan Hendrycks",
-      "amount": null,
+      "amount": 290000,
       "currency": "USD",
       "date": "2024-03-04",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2023 cohort; Center for AI Safety. Up to $300,000 over two years; exact amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2023 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/"
+      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Daniel Rock",
-      "amount": null,
+      "amount": 290000,
       "currency": "USD",
       "date": "2024-03-04",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2023 cohort; University of Pennsylvania. Up to $300,000 over two years; exact amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2023 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/"
+      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Danish Pruthi",
-      "amount": null,
+      "amount": 290000,
       "currency": "USD",
       "date": "2024-03-04",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2023 cohort; Indian Institute of Science. Up to $300,000 over two years; exact amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2023 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/"
+      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Emma Pierson",
-      "amount": null,
+      "amount": 290000,
       "currency": "USD",
       "date": "2024-03-04",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2023 cohort; Cornell Tech. Up to $300,000 over two years; exact amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2023 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/"
+      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Gege Wen",
-      "amount": null,
+      "amount": 290000,
       "currency": "USD",
       "date": "2024-03-04",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2023 cohort; Imperial College London. Up to $300,000 over two years; exact amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2023 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/"
+      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Haifeng Xu",
-      "amount": null,
+      "amount": 290000,
       "currency": "USD",
       "date": "2024-03-04",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2023 cohort; University of Chicago. Up to $300,000 over two years; exact amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2023 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/"
+      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Himabindu Lakkaraju",
-      "amount": null,
+      "amount": 290000,
       "currency": "USD",
       "date": "2024-03-04",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2023 cohort; Harvard University. Up to $300,000 over two years; exact amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2023 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/"
+      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Jacob Steinhardt",
-      "amount": null,
+      "amount": 290000,
       "currency": "USD",
       "date": "2024-03-04",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2023 cohort; UC Berkeley. Up to $300,000 over two years; exact amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2023 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/"
+      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Jeffrey Ding",
-      "amount": null,
+      "amount": 290000,
       "currency": "USD",
       "date": "2024-03-04",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2023 cohort; George Washington University. Up to $300,000 over two years; exact amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2023 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/"
+      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Kai Wang",
-      "amount": null,
+      "amount": 290000,
       "currency": "USD",
       "date": "2024-03-04",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2023 cohort; Georgia Institute of Technology. Up to $300,000 over two years; exact amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2023 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/"
+      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
-      "recipient": "Katarzyna Nowaczyk-Basi\u0144ska",
-      "amount": null,
+      "recipient": "Katarzyna Nowaczyk-Basińska",
+      "amount": 290000,
       "currency": "USD",
       "date": "2024-03-04",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2023 cohort; University of Cambridge. Up to $300,000 over two years; exact amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2023 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/"
+      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Linda Eggert",
-      "amount": null,
+      "amount": 290000,
       "currency": "USD",
       "date": "2024-03-04",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2023 cohort; University of Oxford. Up to $300,000 over two years; exact amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2023 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/"
+      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Nicolas Papernot",
-      "amount": null,
+      "amount": 290000,
       "currency": "USD",
       "date": "2024-03-04",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2023 cohort; University of Toronto. Up to $300,000 over two years; exact amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2023 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/"
+      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Nika Haghtalab",
-      "amount": null,
+      "amount": 290000,
       "currency": "USD",
       "date": "2024-03-04",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2023 cohort; UC Berkeley. Up to $300,000 over two years; exact amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2023 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/"
+      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Priya Donti",
-      "amount": null,
+      "amount": 290000,
       "currency": "USD",
       "date": "2024-03-04",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2023 cohort; MIT. Up to $300,000 over two years; exact amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2023 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/"
+      "sourceUrl": "https://www.schmidtsciences.org/ai2050-early-career-fellows-2024/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "David Autor",
-      "amount": null,
+      "amount": 1200000,
       "currency": "USD",
       "date": "2024-12",
       "datePrecision": "month",
       "description": "AI2050 Senior Fellow, 2024 cohort; MIT. Third cohort of 25 fellows sharing $12M; per-fellow amount undisclosed.",
       "program": "AI2050 (Senior Fellow, 2024 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/"
+      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Yejin Choi",
-      "amount": null,
+      "amount": 1200000,
       "currency": "USD",
       "date": "2024-12",
       "datePrecision": "month",
       "description": "AI2050 Senior Fellow, 2024 cohort; Stanford University. Cohort of 25 sharing $12M; per-fellow amount undisclosed.",
       "program": "AI2050 (Senior Fellow, 2024 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/"
+      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Carla Gomes",
-      "amount": null,
+      "amount": 1200000,
       "currency": "USD",
       "date": "2024-12",
       "datePrecision": "month",
       "description": "AI2050 Senior Fellow, 2024 cohort; Cornell University. Cohort of 25 sharing $12M; per-fellow amount undisclosed.",
       "program": "AI2050 (Senior Fellow, 2024 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/"
+      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Roger Grosse",
-      "amount": null,
+      "amount": 1200000,
       "currency": "USD",
       "date": "2024-12",
       "datePrecision": "month",
       "description": "AI2050 Senior Fellow, 2024 cohort; University of Toronto. Cohort of 25 sharing $12M; per-fellow amount undisclosed.",
       "program": "AI2050 (Senior Fellow, 2024 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/"
+      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Michael Wooldridge",
-      "amount": null,
+      "amount": 1200000,
       "currency": "USD",
       "date": "2024-12",
       "datePrecision": "month",
       "description": "AI2050 Senior Fellow, 2024 cohort; University of Oxford. Cohort of 25 sharing $12M; per-fellow amount undisclosed.",
       "program": "AI2050 (Senior Fellow, 2024 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/"
+      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Sara Beery",
-      "amount": null,
+      "amount": 300000,
       "currency": "USD",
       "date": "2024-12",
       "datePrecision": "month",
       "description": "AI2050 Early Career Fellow, 2024 cohort; MIT. Cohort of 25 sharing $12M; per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2024 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/"
+      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Sarah Dean",
-      "amount": null,
+      "amount": 300000,
       "currency": "USD",
       "date": "2024-12",
       "datePrecision": "month",
       "description": "AI2050 Early Career Fellow, 2024 cohort; Cornell University. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2024 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/"
+      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Tim Dettmers",
-      "amount": null,
+      "amount": 300000,
       "currency": "USD",
       "date": "2024-12",
       "datePrecision": "month",
       "description": "AI2050 Early Career Fellow, 2024 cohort; Carnegie Mellon University. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2024 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/"
+      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Simon Du",
-      "amount": null,
+      "amount": 300000,
       "currency": "USD",
       "date": "2024-12",
       "datePrecision": "month",
       "description": "AI2050 Early Career Fellow, 2024 cohort; University of Washington. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2024 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/"
+      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Gabriele Farina",
-      "amount": null,
+      "amount": 300000,
       "currency": "USD",
       "date": "2024-12",
       "datePrecision": "month",
       "description": "AI2050 Early Career Fellow, 2024 cohort; MIT. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2024 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/"
+      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Anjalie Field",
-      "amount": null,
+      "amount": 300000,
       "currency": "USD",
       "date": "2024-12",
       "datePrecision": "month",
       "description": "AI2050 Early Career Fellow, 2024 cohort; Johns Hopkins University. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2024 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/"
+      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Marzyeh Ghassemi",
-      "amount": null,
+      "amount": 300000,
       "currency": "USD",
       "date": "2024-12",
       "datePrecision": "month",
       "description": "AI2050 Early Career Fellow, 2024 cohort; MIT. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2024 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/"
+      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Yoon Kim",
-      "amount": null,
+      "amount": 300000,
       "currency": "USD",
       "date": "2024-12",
       "datePrecision": "month",
       "description": "AI2050 Early Career Fellow, 2024 cohort; MIT. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2024 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/"
+      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Pang Wei Koh",
-      "amount": null,
+      "amount": 300000,
       "currency": "USD",
       "date": "2024-12",
       "datePrecision": "month",
       "description": "AI2050 Early Career Fellow, 2024 cohort; University of Washington. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2024 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/"
+      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Aviral Kumar",
-      "amount": null,
+      "amount": 300000,
       "currency": "USD",
       "date": "2024-12",
       "datePrecision": "month",
       "description": "AI2050 Early Career Fellow, 2024 cohort; Carnegie Mellon University. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2024 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/"
+      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
-      "recipient": "Rapha\u00ebl Milli\u00e8re",
-      "amount": null,
+      "recipient": "Raphaël Millière",
+      "amount": 300000,
       "currency": "USD",
       "date": "2024-12",
       "datePrecision": "month",
       "description": "AI2050 Early Career Fellow, 2024 cohort; University of Oxford. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2024 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/"
+      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Antonio Orvieto",
-      "amount": null,
+      "amount": 300000,
       "currency": "USD",
       "date": "2024-12",
       "datePrecision": "month",
       "description": "AI2050 Early Career Fellow, 2024 cohort; Max Planck Institute for Intelligent Systems. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2024 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/"
+      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Parthe Pandit",
-      "amount": null,
+      "amount": 300000,
       "currency": "USD",
       "date": "2024-12",
       "datePrecision": "month",
       "description": "AI2050 Early Career Fellow, 2024 cohort; Indian Institute of Technology Bombay. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2024 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/"
+      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "David Rolnick",
-      "amount": null,
+      "amount": 300000,
       "currency": "USD",
       "date": "2024-12",
       "datePrecision": "month",
       "description": "AI2050 Early Career Fellow, 2024 cohort; Mila Quebec AI Institute. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2024 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/"
+      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Yuanyuan Shi",
-      "amount": null,
+      "amount": 300000,
       "currency": "USD",
       "date": "2024-12",
       "datePrecision": "month",
       "description": "AI2050 Early Career Fellow, 2024 cohort; UC San Diego. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2024 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/"
+      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Florian Shkurti",
-      "amount": null,
+      "amount": 300000,
       "currency": "USD",
       "date": "2024-12",
       "datePrecision": "month",
       "description": "AI2050 Early Career Fellow, 2024 cohort; University of Toronto. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2024 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/"
+      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Bijun Tang",
-      "amount": null,
+      "amount": 300000,
       "currency": "USD",
       "date": "2024-12",
       "datePrecision": "month",
       "description": "AI2050 Early Career Fellow, 2024 cohort; Nanyang Technological University. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2024 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/"
+      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Ellen Vitercik",
-      "amount": null,
+      "amount": 300000,
       "currency": "USD",
       "date": "2024-12",
       "datePrecision": "month",
       "description": "AI2050 Early Career Fellow, 2024 cohort; Stanford University. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2024 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/"
+      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Eric Wong",
-      "amount": null,
+      "amount": 300000,
       "currency": "USD",
       "date": "2024-12",
       "datePrecision": "month",
       "description": "AI2050 Early Career Fellow, 2024 cohort; University of Pennsylvania. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2024 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/"
+      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Chaowei Xiao",
-      "amount": null,
+      "amount": 300000,
       "currency": "USD",
       "date": "2024-12",
       "datePrecision": "month",
       "description": "AI2050 Early Career Fellow, 2024 cohort; University of Wisconsin-Madison. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2024 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/"
+      "sourceUrl": "https://www.schmidtsciences.org/schmidt-sciences-to-award-12-million-to-advance-research-on-beneficial-ai-2/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
-      "recipient": "Al\u00e1n Aspuru-Guzik",
-      "amount": null,
+      "recipient": "Alán Aspuru-Guzik",
+      "amount": 1400000,
       "currency": "USD",
       "date": "2025-11-05",
       "datePrecision": "day",
       "description": "AI2050 Senior Fellow, 2025 cohort; University of Toronto. Fourth cohort of 28 fellows sharing $18M+ over three years; per-fellow amount undisclosed.",
       "program": "AI2050 (Senior Fellow, 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/"
+      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Surya Ganguli",
-      "amount": null,
+      "amount": 1400000,
       "currency": "USD",
       "date": "2025-11-05",
       "datePrecision": "day",
       "description": "AI2050 Senior Fellow, 2025 cohort; Stanford University. Cohort of 28 sharing $18M+; per-fellow amount undisclosed.",
       "program": "AI2050 (Senior Fellow, 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/"
+      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Shirley Ho",
-      "amount": null,
+      "amount": 1400000,
       "currency": "USD",
       "date": "2025-11-05",
       "datePrecision": "day",
       "description": "AI2050 Senior Fellow, 2025 cohort; Flatiron Institute & NYU. Per-fellow amount undisclosed.",
       "program": "AI2050 (Senior Fellow, 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/"
+      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Sheila McIlraith",
-      "amount": null,
+      "amount": 1400000,
       "currency": "USD",
       "date": "2025-11-05",
       "datePrecision": "day",
       "description": "AI2050 Senior Fellow, 2025 cohort; University of Toronto. Per-fellow amount undisclosed.",
       "program": "AI2050 (Senior Fellow, 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/"
+      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Dawn Song",
-      "amount": null,
+      "amount": 1400000,
       "currency": "USD",
       "date": "2025-11-05",
       "datePrecision": "day",
       "description": "AI2050 Senior Fellow, 2025 cohort; UC Berkeley. Per-fellow amount undisclosed.",
       "program": "AI2050 (Senior Fellow, 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/"
+      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Philip Torr",
-      "amount": null,
+      "amount": 1400000,
       "currency": "USD",
       "date": "2025-11-05",
       "datePrecision": "day",
       "description": "AI2050 Senior Fellow, 2025 cohort; University of Oxford. Per-fellow amount undisclosed.",
       "program": "AI2050 (Senior Fellow, 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/"
+      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Luke Zettlemoyer",
-      "amount": null,
+      "amount": 1400000,
       "currency": "USD",
       "date": "2025-11-05",
       "datePrecision": "day",
       "description": "AI2050 Senior Fellow, 2025 cohort; University of Washington. Per-fellow amount undisclosed.",
       "program": "AI2050 (Senior Fellow, 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/"
+      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "David Ifeoluwa Adelani",
-      "amount": null,
+      "amount": 400000,
       "currency": "USD",
       "date": "2025-11-05",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2025 cohort; Mila Quebec AI Institute. Three-year award; per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/"
+      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Michael Albergo",
-      "amount": null,
+      "amount": 400000,
       "currency": "USD",
       "date": "2025-11-05",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2025 cohort; Harvard University. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/"
+      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Antoine Bosselut",
-      "amount": null,
+      "amount": 400000,
       "currency": "USD",
       "date": "2025-11-05",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2025 cohort; EPFL. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/"
+      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Charlotte Bunne",
-      "amount": null,
+      "amount": 400000,
       "currency": "USD",
       "date": "2025-11-05",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2025 cohort; EPFL. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/"
+      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Miles Cranmer",
-      "amount": null,
+      "amount": 400000,
       "currency": "USD",
       "date": "2025-11-05",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2025 cohort; University of Cambridge. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/"
+      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Tri Dao",
-      "amount": null,
+      "amount": 400000,
       "currency": "USD",
       "date": "2025-11-05",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2025 cohort; Princeton University. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/"
+      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Adam Gleave",
-      "amount": null,
+      "amount": 400000,
       "currency": "USD",
       "date": "2025-11-05",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2025 cohort; FAR.AI. Per-fellow amount undisclosed. (Also holds a separate Science of Trustworthy AI award.)",
       "program": "AI2050 (Early Career Fellow, 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/"
+      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Surbhi Goel",
-      "amount": null,
+      "amount": 400000,
       "currency": "USD",
       "date": "2025-11-05",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2025 cohort; University of Pennsylvania. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/"
+      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Brian Hie",
-      "amount": null,
+      "amount": 400000,
       "currency": "USD",
       "date": "2025-11-05",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2025 cohort; Stanford University. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/"
+      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Natasha Jaques",
-      "amount": null,
+      "amount": 400000,
       "currency": "USD",
       "date": "2025-11-05",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2025 cohort; University of Washington. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/"
+      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Hannah Kerner",
-      "amount": null,
+      "amount": 400000,
       "currency": "USD",
       "date": "2025-11-05",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2025 cohort; Arizona State University. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/"
+      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Zongyi Li",
-      "amount": null,
+      "amount": 400000,
       "currency": "USD",
       "date": "2025-11-05",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2025 cohort; NYU. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/"
+      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Krishna Pillutla",
-      "amount": null,
+      "amount": 400000,
       "currency": "USD",
       "date": "2025-11-05",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2025 cohort; IIT Madras. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/"
+      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Lindsey Raymond",
-      "amount": null,
+      "amount": 400000,
       "currency": "USD",
       "date": "2025-11-05",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2025 cohort; MIT. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/"
+      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Martin Schrimpf",
-      "amount": null,
+      "amount": 400000,
       "currency": "USD",
       "date": "2025-11-05",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2025 cohort; EPFL. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/"
+      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Christian Schroeder de Witt",
-      "amount": null,
+      "amount": 400000,
       "currency": "USD",
       "date": "2025-11-05",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2025 cohort; University of Oxford. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/"
+      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Weiyan Shi",
-      "amount": null,
+      "amount": 400000,
       "currency": "USD",
       "date": "2025-11-05",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2025 cohort; Northeastern University. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/"
+      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Tess Smidt",
-      "amount": null,
+      "amount": 400000,
       "currency": "USD",
       "date": "2025-11-05",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2025 cohort; MIT. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/"
+      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Melanie Weber",
-      "amount": null,
+      "amount": 400000,
       "currency": "USD",
       "date": "2025-11-05",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2025 cohort; Harvard University. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/"
+      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Ellen Zhong",
-      "amount": null,
+      "amount": 400000,
       "currency": "USD",
       "date": "2025-11-05",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2025 cohort; Princeton University. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/"
+      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     },
     {
       "recipient": "Peichen Zhong",
-      "amount": null,
+      "amount": 400000,
       "currency": "USD",
       "date": "2025-11-05",
       "datePrecision": "day",
       "description": "AI2050 Early Career Fellow, 2025 cohort; National University of Singapore. Per-fellow amount undisclosed.",
       "program": "AI2050 (Early Career Fellow, 2025 cohort)",
-      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/"
+      "sourceUrl": "https://www.schmidtsciences.org/2025-ai2050-fellows-announcement/",
+      "amountEstimated": true,
+      "estimateNote": "Estimated from Schmidt Sciences' reporting of total given out in the funding round; grant-level amounts were not provided."
     }
   ]
 }
