@@ -240,12 +240,13 @@ export function GrantsTable(props: {
       )}
       <div className="mt-2 flex items-baseline gap-4 text-sm text-ink-muted">
         <span>
-          {rows.length.toLocaleString()} grants · {formatMoney(totalUsd)}
+          {rows.length.toLocaleString()} grants ·{' '}
           {rows.some((row) => row.amountEstimated) && (
             <a href="#amount-notes" title="Includes estimated amounts" className="text-accent">
               ~
             </a>
           )}
+          {formatMoney(totalUsd)}
         </span>
         {limit < rows.length && (
           <button className="text-accent" onClick={() => setLimit(limit + PAGE)}>

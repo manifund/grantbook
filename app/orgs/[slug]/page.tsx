@@ -29,12 +29,13 @@ function GrantList(props: {
       <h2 className="mb-2 font-serif text-lg font-bold">
         {props.title}{' '}
         <span className="text-sm font-normal text-ink-muted">
-          {props.grants.length.toLocaleString()} · {formatMoney(total)}
+          {props.grants.length.toLocaleString()} ·{' '}
           {props.grants.some((grant) => grant.amountEstimated) && (
             <a href={`#${noteId}`} title="Includes estimated amounts" className="text-accent">
               ~
             </a>
           )}
+          {formatMoney(total)}
           {avg !== null && <> · {formatMoney(Math.round(avg))} average</>}
         </span>
       </h2>
