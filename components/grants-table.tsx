@@ -4,7 +4,7 @@ import { usePathname, useRouter, useSearchParams } from 'next/navigation'
 import { useMemo, useState } from 'react'
 import { MultiSelect } from '@/components/multi-select'
 import type { GrantRow } from '@/db/grant'
-import { formatGrantDate, formatMoney } from '@/utils/format'
+import { ESTIMATE_SYMBOLS, formatGrantDate, formatMoney } from '@/utils/format'
 import { CAUSE_OPTIONS, displayCauses } from '@/utils/cause-tree'
 import {
   applyFilters,
@@ -200,6 +200,7 @@ export function GrantsTable(props: {
                   <a href={`/orgs/${row.recipientSlug}`}>{row.recipientName}</a>
                 </td>
                 <td className="gb-num whitespace-nowrap">
+                  {row.amountEstimated && '~'}
                   {formatMoney(row.amountUsd)}
                   {row.amountEstimated && (
                     <a
@@ -207,7 +208,9 @@ export function GrantsTable(props: {
                       title={row.estimateNote ?? undefined}
                       className="text-accent"
                     >
-                      *
+                      {ESTIMATE_SYMBOLS[
+                        Math.max(estimateNotes.indexOf(row.estimateNote ?? ''), 0)
+                      ] ?? '*'}
                     </a>
                   )}
                 </td>
@@ -227,20 +230,20 @@ export function GrantsTable(props: {
       </div>
 
       {estimateNotes.length > 0 && (
-        <p id="amount-notes" className="mt-1 text-xs text-ink-muted">
-          {estimateNotes.map((note) => `* ${note}`).join(' ')}
-        </p>
+        <div id="amount-notes" className="mt-1 text-xs text-ink-muted">
+          {estimateNotes.map((note, i) => (
+            <p key={note}>
+              {ESTIMATE_SYMBOLS[i] ?? '*'} {note}
+            </p>
+          ))}
+        </div>
       )}
       <div className="mt-2 flex items-baseline gap-4 text-sm text-ink-muted">
         <span>
           {rows.length.toLocaleString()} grants · {formatMoney(totalUsd)}
           {rows.some((row) => row.amountEstimated) && (
-            <a
-              href="#amount-notes"
-              title="Includes estimated amounts (marked *)"
-              className="text-accent"
-            >
-              *
+            <a href="#amount-notes" title="Includes estimated amounts" className="text-accent">
+              ~
             </a>
           )}
         </span>

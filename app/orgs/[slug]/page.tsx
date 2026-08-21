@@ -3,7 +3,7 @@ import { OrgYearChart } from '@/components/org-year-chart'
 import { listGrantsByOrg, listGrantsByVia, type GrantRow } from '@/db/grant'
 import { getOrgBySlug } from '@/db/org'
 import { displayCauses } from '@/utils/cause-tree'
-import { formatGrantDate, formatMoney } from '@/utils/format'
+import { ESTIMATE_SYMBOLS, formatGrantDate, formatMoney } from '@/utils/format'
 
 export const revalidate = 600
 
@@ -31,12 +31,8 @@ function GrantList(props: {
         <span className="text-sm font-normal text-ink-muted">
           {props.grants.length.toLocaleString()} · {formatMoney(total)}
           {props.grants.some((grant) => grant.amountEstimated) && (
-            <a
-              href={`#${noteId}`}
-              title="Includes estimated amounts (marked *)"
-              className="text-accent"
-            >
-              *
+            <a href={`#${noteId}`} title="Includes estimated amounts" className="text-accent">
+              ~
             </a>
           )}
           {avg !== null && <> · {formatMoney(Math.round(avg))} average</>}
@@ -98,6 +94,7 @@ function GrantList(props: {
                       ))}
                   </td>
                   <td className="gb-num whitespace-nowrap">
+                    {grant.amountEstimated && '~'}
                     {formatMoney(grant.amountUsd)}
                     {grant.amountEstimated && (
                       <a
@@ -105,7 +102,9 @@ function GrantList(props: {
                         title={grant.estimateNote ?? undefined}
                         className="text-accent"
                       >
-                        *
+                        {ESTIMATE_SYMBOLS[
+                          Math.max(estimateNotes.indexOf(grant.estimateNote ?? ''), 0)
+                        ] ?? '*'}
                       </a>
                     )}
                   </td>
@@ -125,9 +124,13 @@ function GrantList(props: {
         </table>
       </div>
       {estimateNotes.length > 0 && (
-        <p id={noteId} className="mt-1 text-xs text-ink-muted">
-          {estimateNotes.map((note) => `* ${note}`).join(' ')}
-        </p>
+        <div id={noteId} className="mt-1 text-xs text-ink-muted">
+          {estimateNotes.map((note, i) => (
+            <p key={note}>
+              {ESTIMATE_SYMBOLS[i] ?? '*'} {note}
+            </p>
+          ))}
+        </div>
       )}
     </section>
   )

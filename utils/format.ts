@@ -17,3 +17,6 @@ export function formatGrantDate(date: string | null, precision: 'day' | 'month' 
   if (precision === 'month') return `${MONTHS[month - 1]} ${year}`
   return `${MONTHS[month - 1]} ${day}, ${year}`
 }
+
+// Footnote markers for estimated amounts, in table order.
+export const ESTIMATE_SYMBOLS = ['*', '\u2020', '\u2021', '\u00a7', '\u00b6']
