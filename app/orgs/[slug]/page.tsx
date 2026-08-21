@@ -23,6 +23,7 @@ function GrantList(props: {
         .map((g) => g.estimateNote as string)
     )
   )
+  const noteId = `amount-notes-${props.title.toLowerCase().replace(/\W+/g, '-')}`
   return (
     <section className="mb-8">
       <h2 className="mb-2 font-serif text-lg font-bold">
@@ -30,7 +31,13 @@ function GrantList(props: {
         <span className="text-sm font-normal text-ink-muted">
           {props.grants.length.toLocaleString()} · {formatMoney(total)}
           {props.grants.some((grant) => grant.amountEstimated) && (
-            <span title="Includes estimated amounts (marked *)">*</span>
+            <a
+              href={`#${noteId}`}
+              title="Includes estimated amounts (marked *)"
+              className="text-accent"
+            >
+              *
+            </a>
           )}
           {avg !== null && <> · {formatMoney(Math.round(avg))} average</>}
         </span>
@@ -91,15 +98,15 @@ function GrantList(props: {
                       ))}
                   </td>
                   <td className="gb-num whitespace-nowrap">
-                    {grant.amountEstimated ? (
-                      <span
+                    {formatMoney(grant.amountUsd)}
+                    {grant.amountEstimated && (
+                      <a
+                        href={`#${noteId}`}
                         title={grant.estimateNote ?? undefined}
-                        className="cursor-help underline decoration-dotted underline-offset-2"
+                        className="text-accent"
                       >
-                        {formatMoney(grant.amountUsd)}*
-                      </span>
-                    ) : (
-                      formatMoney(grant.amountUsd)
+                        *
+                      </a>
                     )}
                   </td>
                   <td className="max-w-44 text-xs text-ink-muted">
@@ -118,7 +125,7 @@ function GrantList(props: {
         </table>
       </div>
       {estimateNotes.length > 0 && (
-        <p className="mt-1 text-xs text-ink-muted">
+        <p id={noteId} className="mt-1 text-xs text-ink-muted">
           {estimateNotes.map((note) => `* ${note}`).join(' ')}
         </p>
       )}

@@ -68,6 +68,17 @@ export function GrantsTable(props: {
   }, [causeRows])
 
   const rows = useMemo(() => applyFilters(causeRows, filters), [causeRows, filters])
+  const estimateNotes = useMemo(
+    () =>
+      Array.from(
+        new Set(
+          rows
+            .filter((r) => r.amountEstimated && r.estimateNote)
+            .map((r) => r.estimateNote as string)
+        )
+      ),
+    [rows]
+  )
   const totalUsd = useMemo(() => rows.reduce((sum, row) => sum + (row.amountUsd ?? 0), 0), [rows])
 
   const sortHeader = (key: GrantFilters['sort'], label: string, numeric = false) => (
@@ -189,15 +200,15 @@ export function GrantsTable(props: {
                   <a href={`/orgs/${row.recipientSlug}`}>{row.recipientName}</a>
                 </td>
                 <td className="gb-num whitespace-nowrap">
-                  {row.amountEstimated ? (
-                    <span
+                  {formatMoney(row.amountUsd)}
+                  {row.amountEstimated && (
+                    <a
+                      href="#amount-notes"
                       title={row.estimateNote ?? undefined}
-                      className="cursor-help underline decoration-dotted underline-offset-2"
+                      className="text-accent"
                     >
-                      {formatMoney(row.amountUsd)}*
-                    </span>
-                  ) : (
-                    formatMoney(row.amountUsd)
+                      *
+                    </a>
                   )}
                 </td>
                 <td className="max-w-44 text-xs text-ink-muted">
@@ -215,11 +226,22 @@ export function GrantsTable(props: {
         </table>
       </div>
 
+      {estimateNotes.length > 0 && (
+        <p id="amount-notes" className="mt-1 text-xs text-ink-muted">
+          {estimateNotes.map((note) => `* ${note}`).join(' ')}
+        </p>
+      )}
       <div className="mt-2 flex items-baseline gap-4 text-sm text-ink-muted">
         <span>
           {rows.length.toLocaleString()} grants · {formatMoney(totalUsd)}
           {rows.some((row) => row.amountEstimated) && (
-            <span title="Includes estimated amounts (marked *)">*</span>
+            <a
+              href="#amount-notes"
+              title="Includes estimated amounts (marked *)"
+              className="text-accent"
+            >
+              *
+            </a>
           )}
         </span>
         {limit < rows.length && (
