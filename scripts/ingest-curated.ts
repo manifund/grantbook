@@ -88,6 +88,13 @@ const SOURCES: CuratedSource[] = [
     programCauses: () => null,
   },
   {
+    sourceId: 'org_reported',
+    file: 'org-reported.json',
+    defaultFunder: 'Undisclosed',
+    funderType: 'organization',
+    programCauses: () => null,
+  },
+  {
     sourceId: 'ftx_future_fund',
     file: 'ftx-future-fund.json',
     defaultFunder: 'FTX Future Fund',
