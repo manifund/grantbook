@@ -16,6 +16,13 @@ function GrantList(props: {
   const priced = props.grants.filter((grant) => grant.amountUsd !== null)
   const total = priced.reduce((sum, grant) => sum + (grant.amountUsd ?? 0), 0)
   const avg = priced.length > 0 ? total / priced.length : null
+  const estimateNotes = Array.from(
+    new Set(
+      props.grants
+        .filter((g) => g.amountEstimated && g.estimateNote)
+        .map((g) => g.estimateNote as string)
+    )
+  )
   return (
     <section className="mb-8">
       <h2 className="mb-2 font-serif text-lg font-bold">
@@ -83,9 +90,17 @@ function GrantList(props: {
                         </span>
                       ))}
                   </td>
-                  <td className="gb-num whitespace-nowrap" title={grant.estimateNote ?? undefined}>
-                    {formatMoney(grant.amountUsd)}
-                    {grant.amountEstimated && '*'}
+                  <td className="gb-num whitespace-nowrap">
+                    {grant.amountEstimated ? (
+                      <span
+                        title={grant.estimateNote ?? undefined}
+                        className="cursor-help underline decoration-dotted underline-offset-2"
+                      >
+                        {formatMoney(grant.amountUsd)}*
+                      </span>
+                    ) : (
+                      formatMoney(grant.amountUsd)
+                    )}
                   </td>
                   <td className="max-w-44 text-xs text-ink-muted">
                     {displayCauses(grant.causes).join(', ')}
@@ -102,6 +117,11 @@ function GrantList(props: {
           </tbody>
         </table>
       </div>
+      {estimateNotes.length > 0 && (
+        <p className="mt-1 text-xs text-ink-muted">
+          {estimateNotes.map((note) => `* ${note}`).join(' ')}
+        </p>
+      )}
     </section>
   )
 }

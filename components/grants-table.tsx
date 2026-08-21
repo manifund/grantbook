@@ -188,9 +188,17 @@ export function GrantsTable(props: {
                 <td>
                   <a href={`/orgs/${row.recipientSlug}`}>{row.recipientName}</a>
                 </td>
-                <td className="gb-num whitespace-nowrap" title={row.estimateNote ?? undefined}>
-                  {formatMoney(row.amountUsd)}
-                  {row.amountEstimated && '*'}
+                <td className="gb-num whitespace-nowrap">
+                  {row.amountEstimated ? (
+                    <span
+                      title={row.estimateNote ?? undefined}
+                      className="cursor-help underline decoration-dotted underline-offset-2"
+                    >
+                      {formatMoney(row.amountUsd)}*
+                    </span>
+                  ) : (
+                    formatMoney(row.amountUsd)
+                  )}
                 </td>
                 <td className="max-w-44 text-xs text-ink-muted">
                   {displayCauses(row.causes).join(', ')}
