@@ -113,10 +113,6 @@ async function main() {
           parsed: {
             // Vipul records the early SFF-DAF grants with SFF itself as the donor;
             // same attribution call as the SFF ingester's "SFF DAF" rows.
-            amountEstimated: /amount (is )?approximate/i.test(str(row.notes)),
-            estimateNote: /amount (is )?approximate/i.test(str(row.notes))
-              ? 'The source marks this amount as approximate.'
-              : null,
             funderName: donor === 'Survival and Flourishing Fund' ? 'Jaan Tallinn' : donor,
             viaNames:
               donor === 'Survival and Flourishing Fund' ? ['Survival and Flourishing Fund'] : [],

@@ -16,6 +16,8 @@ type CuratedRow = {
   currency?: string | null
   date?: string | number | null
   datePrecision?: 'day' | 'month' | 'year' | null
+  amountEstimated?: boolean
+  estimateNote?: string | null
   description?: string | null
   program?: string | null
   sourceUrl?: string | null
@@ -163,6 +165,8 @@ async function ingestSource(source: CuratedSource) {
         funderType: source.funderType ?? 'foundation',
         recipientName: recipient,
         amount,
+        amountEstimated: row.amountEstimated ?? false,
+        estimateNote: row.estimateNote ?? null,
         currency: row.currency ?? 'USD',
         date,
         datePrecision: precision,
