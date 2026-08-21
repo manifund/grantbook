@@ -316,15 +316,13 @@
     {
       "recipient": "MATS Research",
       "funder": "Foresight Institute",
-      "amount": 100000,
+      "amount": 70000,
       "currency": "USD",
       "date": "2024-09",
       "datePrecision": "month",
-      "description": "ML Alignment & Theory Scholars (MATS) Program. Focus area: Safe Multipolar/Multi-Agent AI. First listed on foresight.org/ai-safety by Sep 2024.",
+      "description": "ML Alignment & Theory Scholars (MATS) Program. Focus area: Safe Multipolar/Multi-Agent AI. First listed on foresight.org/ai-safety by Sep 2024. Amount per MATS transparency page ($70,000 paid June 2024).",
       "program": "AI Safety Grants (Underexplored Approaches: Automation / Neurotech / Security / Multi-Agent)",
-      "sourceUrl": "https://web.archive.org/web/20240928050739/https://foresight.org/ai-safety/",
-      "estimateNote": "Foresight Institute planned to give $2.5-3.2m over 26 grants in 2023 and 2024; estimating each at roughly the average grant size.",
-      "amountEstimated": true
+      "sourceUrl": "https://web.archive.org/web/20240928050739/https://foresight.org/ai-safety/"
     },
     {
       "recipient": "Bradley Love (University College London)",
